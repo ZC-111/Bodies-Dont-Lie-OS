@@ -1,9 +1,7 @@
-# Bodies Don't Lie OS
+What is Bodies Don't Lie OS?
 
-Welcome to the official operating system for the Bodies Don't Lie project.
+Why does it exist?
 
-## Purpose
+What principles guide it?
 
-This repository contains all documentation, product plans, medical research, AI prompts, and development notes for the Bodies Don't Lie platform.
-
-This repository is our single source of truth.
+Where are we going?
