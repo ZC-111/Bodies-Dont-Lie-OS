@@ -1,18 +1,27 @@
 # BDL-000 Constitution
 
-## Purpose
+Version: 0.1
 
-Bodies Don't Lie exists to help people make healthier decisions by reducing complexity and providing personalized, evidence-informed guidance.
+Status: Draft
 
-## Core Principles
+Authors:
+- First Wayfinder
 
-1. People before products.
-2. Education before monetization.
-3. Progress over perfection.
-4. Reduce cognitive load.
-5. Build for the future me.
-6. Every recommendation should have an actionable next step.
+Approved:
+Pending
 
-## Version
+Last Updated:
+2026-07-31
 
-0.1
+# Bodies Don't Lie OS
+
+An open framework for discovering, organizing, and applying knowledge about resilient systems.
+
+## Start Here
+
+- 📜 BDL-000 Constitution
+- 🌱 First Principles
+- 🧭 Wayfinding Kernel
+- 🌳 Living Tree
+
+Welcome, Wayfinder.
