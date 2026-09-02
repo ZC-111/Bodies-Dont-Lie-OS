@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "version": "0.1",
+    "note": "Manual gap-fill for points the PDF extractor misses due to scrambled layout. Sourced from Deadman Manual 1e PDF text (same source as the Google Notebook). Notebook URL was not accessible without sign-in.",
+    "source": "deadman_manual_1e_pdf_manual_gap_fill",
+    "codes": [
+      "BL-28", "BL-44", "BL-61", "DU-5", "GB-21", "GB-29", "LI-2", "LI-6", "LI-19",
+      "SJ-15", "ST-17", "ST-19", "M-BW-1", "M-BW-12", "M-CA-18", "M-UE-9"
+    ]
+  },
+  "points": {
+    "BL-28": {
+      "header": "PANGGUANGSHU",
+      "name_en": "Bladder Shu",
+      "categories": "Back-Shu point of the Bladder",
+      "location_en": "1.5 cun lateral to the midline, at the level of the second posterior sacral foramen.",
+      "location_note_en": "i. As the inner line of the Bladder channel on the back descends towards the sacrum, it runs closer to the midline; the 1.5 cun measurement in this area, therefore, will be relatively shorter; ii. For guidance on locating the sacral foramen see page 69.",
+      "needling_en": "Perpendicular insertion 0.5 to 1 cun.",
+      "actions_en": "Regulates the Bladder Clears damp-heat from the lower jiao Dispels stagnation and resolves masses Benefits the lumbar region and legs",
+      "indications_en": "Difficult urination, dark urination with unsmooth flow, retention of urine, enuresis, turbid painful urinary dysfunction. Seminal emission, swelling and pain of the external genitals, genital ulceration, damp itching, swelling and pain of the vagina, deficiency swelling of the penis. Diarrhoea, diarrhoea with abdominal pain, difficult defecation, constipation, abdominal fullness, abdominal (jia ju) masses in women, hard abdominal (ji ju) masses, wasting and thirsting disorder, diminished qi. Stiffness and pain of the sacrum and coccyx, stiffness and pain of the lumbar spine that radiates to the hypogastrium, difficulty in bending, wind-taxation lumbar stiffness and pain, stiffness and pain of the lower spine and buttock, inability to sit for long, weakness of the leg and knee, cold and contraction of the lower leg, numbness of the leg, atrophy disorder and heaviness of the leg, sciatica.",
+      "commentary_en": "Pangguangshu BL-28 is the back-shu point of the Bladder fu, where the qi of the Bladder emanates from the interior to the body surface. Its principal action is to drain damp-heat excess from the Bladder and genital system.",
+      "page": 290
+    },
+    "BL-44": {
+      "header": "SHENTANG",
+      "name_en": "Hall of the Spirit",
+      "location_en": "3 cun lateral to the midline, level with the lower border of the spinous process of the fifth thoracic vertebra (T5) and level with Xinshu BL-15.",
+      "location_note_en": "When the shoulder is relaxed, the three cun line corresponds to the medial border of the scapula.",
+      "needling_en": "Oblique insertion 0.3 to 0.5 cun. Caution: deep perpendicular or deep oblique needling in a medial direction carries a substantial risk of causing a pneumothorax.",
+      "actions_en": "Unbinds the chest and regulates qi Activates the channel and alleviates pain",
+      "indications_en": "Cough, asthma, dyspnoea, fullness of the chest with rebellious qi. Stiffness and pain of the back, pain of the shoulder and back that radiates to the chest, oesophageal constriction.",
+      "commentary_en": "Despite the compelling name of this point (Hall of the Spirit) and the fact that Shentang BL-44 lies on the outer Bladder channel at the level of Xinshu BL-15, the back-shu point of the Heart, there are no apparent references in any of the important classics of acupuncture to the use of this point for the treatment of emotional or psychological disorders.",
+      "combinations_en": "Oesophageal constriction: Shentang BL-44 and Zhongfeng LIV-4 (Supplementing Life).",
+      "page": 304
+    },
+    "BL-61": {
+      "header": "PUCAN",
+      "name_en": "Servant's Respect",
+      "categories": "Meeting point of the Bladder channel with the Yang Motility vessel",
+      "location_en": "On the lateral side of the foot, 1.5 cun inferior to Kunlun BL-60, in a tender depression on the calcaneum.",
+      "location_note_en": "The distance between the prominence of the lateral malleolus and the sole of the foot is 3 cun; locate Pucan BL-61 directly below Kunlun BL-60 and midway between this point and the sole.",
+      "needling_en": "Transverse insertion 0.3 to 0.5 cun.",
+      "actions_en": "Relaxes the sinews, activates the channel and alleviates pain",
+      "indications_en": "Headache, heavy head, heaviness of the head like a stone. Mania, manic raving, seeing ghosts, loss of consciousness, childhood epilepsy, vomiting, turbid painful urinary dysfunction. Lumbar pain, atrophy disorder of the leg, leg qi, sudden turmoil disorder with cramps, swelling of the knee, heel pain.",
+      "page": 320
+    },
+    "DU-5": {
+      "header": "XUANSHU",
+      "name_en": "Suspended Pivot",
+      "location_en": "On the midline of the lower back, in the depression below the spinous process of the first lumbar vertebra.",
+      "needling_en": "Perpendicular insertion 0.5 to 1 cun. Caution: the spinal canal lies between 1.25 and 1.75 cun deep to the skin surface, varying according to body build.",
+      "actions_en": "Benefits the lumbar spine Benefits the lower jiao",
+      "indications_en": "Stiffness of the lumbar spine with inability to flex and extend. Undigested food (in the stool), diarrhoea, running piglet qi, shan disorder, retraction of the testicles. Abdominal fullness with no pleasure in eating, abdominal (ji ju) masses, jaundice, diarrhoea with inability to eat, blood in the stool, the five types of haemorrhoids, prolapse of the rectum in children. Stiffness of the lumbar spine, wind epilepsy, warm febrile disease.",
+      "combinations_en": "Undigested food (in the stool): Xuanshu DU-5, Zusanli ST-36, Dachangshu BL-25, Sanyinjiao SP-6, Xiawan REN-10, Sanjiaoshu BL-22 and Liangmen ST-21 (Supplementing Life).",
+      "page": 538
+    },
+    "GB-21": {
+      "header": "JIANJING",
+      "name_en": "Shoulder Well",
+      "categories": "Meeting point of the Gall Bladder, Sanjiao and Stomach channels with the Yang Linking vessel",
+      "location_en": "Midway between Dazhui DU-14 and the tip of the acromion, at the crest of the trapezius muscle.",
+      "location_note_en": "i. The crest refers to the highest point of the trapezius muscle on the sagittal (anterior-posterior) plane; ii. This point is normally located at the point of maximum tenderness.",
+      "needling_en": "Posterior oblique insertion, 0.5-1 cun. Caution: i. perpendicular insertion, especially in thin patients, carries a substantial risk of inducing a pneumothorax; ii. contraindicated in pregnancy.",
+      "actions_en": "Regulates qi, activates the channel and alleviates pain Transforms and lowers phlegm and dissipates nodules Benefits the breasts and expedites delivery",
+      "indications_en": "Stiffness and pain of the neck, pain of the shoulder and back, inability to raise the hand and arm, hemiplegia. Loss of speech following windstroke, windstroke, wind-taxation, the five taxations and the seven injuries, steaming bone disorder, Kidney deficiency lumbar pain. Cough and dyspnoea, rebellion of qi, mania-depression, redness of the face. Scrofula, goitre, leg qi ascending to attack the Heart, pain of the Spleen. Difficult or prolonged labour, inversion counterflow of the arms and legs following miscarriage, retention of the placenta, uterine bleeding. Breast pain, breast abscess, breast milk does not flow, furuncles and carbuncles.",
+      "page": 438
+    },
+    "GB-29": {
+      "header": "JULIAO",
+      "name_en": "Squatting Bone Hole",
+      "categories": "Meeting point of the Gall Bladder channel with the Yang Motility vessel",
+      "location_en": "On the lateral aspect of the hip joint, at the midpoint of a line drawn between the anterior superior iliac spine and the prominence of the greater trochanter.",
+      "location_note_en": "i. To locate the anterior superior iliac spine see Wushu GB-27; ii. To accurately palpate the prominence of the greater trochanter place one hand over the lateral aspect of the hip joint at the level of the perineum, and with the other hand rotate the foot in order to feel the movement of the prominence of the greater trochanter; iii. Alternatively, flex the hip joint and locate Juliao GB-29 at the lateral end of the crease thus formed.",
+      "needling_en": "Perpendicular insertion 1 to 2 cun, or oblique insertion inferiorly 2 to 3 cun.",
+      "actions_en": "Activates the channel and alleviates pain Benefits the hip joint",
+      "indications_en": "Pain of the back and leg, lumbar pain radiating to the lower abdomen, hip pain radiating to the groin, weakness and paralysis of the leg, sciatica, shan disorder, pain of the front of the shoulder radiating to the chest, inability to raise the arm. Oedema, vomiting, diarrhoea.",
+      "commentary_en": "Juliao GB-29 is very commonly used in clinical practice in the treatment of hip disorders, and is especially indicated when pain radiates from the hip to the groin and lower abdomen.",
+      "combinations_en": "Wind-damp leg pain: Juliao GB-29, Huantiao GB-30 and Weizhong BL-40 (Song of the Jade Dragon). Sciatica: Juliao GB-29, Huantiao GB-30, Ciliao BL-32 and Weizhong BL-40.",
+      "page": 446
+    },
+    "LI-2": {
+      "header": "ERJIAN",
+      "name_en": "Second Space",
+      "categories": "Ying-Spring and Water point of the Large Intestine channel",
+      "location_en": "On the radial border of the index finger, in a depression just distal to the metacarpo-phalangeal joint.",
+      "location_note_en": "This point will be easier to find if the index finger is relaxed in a slightly flexed position.",
+      "needling_en": "i. Oblique proximal or distal insertion 0.2 to 0.3 cun; ii. Perpendicular-oblique insertion towards the palm, 0.5 cun.",
+      "actions_en": "Expels wind, clears heat and reduces swelling Alleviates pain",
+      "indications_en": "Toothache, pain and swelling of the lower cheek, acute weeping eczema of the face, deviation of the mouth and eye, nosebleed, rhinitis, throat painful obstruction, dry mouth, cloudy vision, eye diseases, yellow eyes. Febrile disease, cold shivering, acute food stagnation. Injury by cold with water binding the chest and lateral costal region, propensity to fright, somnolence. Pain and stiffness of the shoulder and back, cold and pain at the point Jianyu LI-15.",
+      "page": 101
+    },
+    "LI-6": {
+      "header": "PIANLI",
+      "name_en": "Veering Passage",
+      "categories": "Luo-Connecting point of the Large Intestine channel",
+      "location_en": "3 cun proximal to Yangxi LI-5 on the line connecting Yangxi LI-5 with Quchi LI-11.",
+      "location_note_en": "i. Locate with the elbow flexed and with the radial side of the arm upwards; ii. Divide the distance between Yangxi LI-5 and Quchi LI-11 into half, and then halve the distance between this midpoint and Yangxi LI-5.",
+      "needling_en": "Transverse-oblique insertion, 0.5 to 1 cun.",
+      "actions_en": "Expels wind and clears heat Opens and regulates the water passages",
+      "indications_en": "Tinnitus, deafness, toothache, tooth decay, cold teeth, redness and pain of the eyes, dimness of vision, blurred vision, rhinitis, nosebleed, dry throat, throat painful obstruction, deviation of the mouth, swelling of the cheek. Difficult urination, oedema, ascites, obstruction of the diaphragm, borborygmus with oedema, attack by wind with absence of sweating. Malaria, manic raving. Pain of the wrist, elbow and upper arm.",
+      "page": 108
+    },
+    "LI-19": {
+      "header": "KOUHELIAO",
+      "name_en": "Mouth Grain Crevice",
+      "location_en": "Below the lateral margin of the nostril, 0.5 cun lateral to Renzhong DU-26.",
+      "location_note_en": "Renzhong DU-26 is located above the upper lip on the midline, at the junction of the upper third and lower two thirds of the philtrum.",
+      "needling_en": "Oblique insertion 0.3 to 0.5 cun. Note: according to some classical and modern texts, this point is contraindicated to moxibustion.",
+      "actions_en": "Eliminates wind and opens the nasal passages",
+      "indications_en": "Nasal congestion and discharge, loss of sense of smell, nasal sores, nasal polyps, rhinitis with nosebleed. Lockjaw, deviation of the mouth, loss of consciousness.",
+      "page": 119
+    },
+    "SJ-15": {
+      "header": "TIANLIAO",
+      "name_en": "Heavenly Crevice",
+      "categories": "Meeting point of the Sanjiao and Gall Bladder channels and the Yang Linking vessel",
+      "location_en": "In the suprascapular fossa, in the depression midway between Jianjing GB-21 and Quyuan SI-13 (at the medial end of the suprascapular fossa).",
+      "location_note_en": "This point may also be located midway between the lateral extremity of the acromion and Dazhui DU-14, and 1 cun posterior to Jianjing GB-21 (the highest point of the trapezius muscle).",
+      "needling_en": "Oblique insertion directed according to the clinical manifestations, 0.5 to 1 cun. Caution: perpendicular insertion, especially in thin patients, carries a substantial risk of inducing a pneumothorax.",
+      "actions_en": "Expels wind-damp, activates the channel and alleviates pain Unbinds the chest and regulates qi",
+      "indications_en": "Pain of the shoulder and arm, stiffness and pain of the neck, tension of the nape of the neck, pain in the supraclavicular fossa. Agitation and oppression of the chest, heat and fullness of the chest, oppression of the Heart with absence of sweating, heat in the body with absence of sweating, chills and fever, febrile disease.",
+      "combinations_en": "Pain and heaviness of the shoulder with inability to raise the arm: Tianliao SJ-15 and Quchi LI-11 (Supplementing Life).",
+      "page": 406
+    },
+    "ST-17": {
+      "header": "RUZHONG",
+      "name_en": "Breast Centre",
+      "location_en": "Directly below the nipple, in the fifth intercostal space.",
+      "location_note_en": "i. First locate the second intercostal space (see Wuyi ST-15 above), then find the fifth intercostal space, three spaces below it; ii. In males the nipple lies in the fourth intercostal space; iii. On a woman, this point lies at the root of the breast, inferior to the breast tissue itself; in females the nipple is unlikely to lie 4 cun lateral to the midline and should not be used as a reference point.",
+      "needling_en": "Transverse-oblique insertion laterally or medially along the intercostal space 0.5 to 1 cun, or transverse insertion superiorly or inferiorly along the channel. Caution: deep or perpendicular insertion carries a substantial risk of puncturing the lung.",
+      "actions_en": "Benefits the breasts and reduces swelling Unbinds the chest and alleviates cough and wheezing",
+      "indications_en": "Breast abscess, breast pain, scanty lactation, difficult labour. Cough, dyspnoea, oppression and pain below the chest, oppression of the diaphragm, oesophageal constriction with difficult ingestion, sudden turmoil disorder with cramps, inversion counterflow of the four limbs, swelling and pain of the arm.",
+      "page": 143
+    },
+    "ST-19": {
+      "header": "BURONG",
+      "name_en": "Not Contained",
+      "location_en": "On the abdomen, 2 cun lateral to the midline and 6 cun superior to the umbilicus, level with Juque REN-14.",
+      "location_note_en": "i. The 2 cun line is located halfway between the midline and the palpable lateral border of the rectus abdominis muscle; ii. In some patients with a narrow subcostal angle, this point may fall on the costal margin. The options then are to a. locate more medially, b. needle transversely on the costal margin, c. select a different point.",
+      "needling_en": "Perpendicular insertion 0.5 to 0.8 cun. Caution: deep insertion may injure the heart on the left or the liver on the right if either of these organs is enlarged.",
+      "actions_en": "Harmonises the middle jiao and lowers rebellion Descends qi and alleviates cough and wheezing",
+      "indications_en": "Abdominal distention, epigastric pain, vomiting, vomiting blood, poor appetite, abdominal deficiency borborygmus. Cough, dyspnoea, difficult breathing with raised shoulders, pain of the chest, back, shoulder and intercostal region, pain of the Heart, dry mouth.",
+      "commentary_en": "Because of its location, Burong ST-19 is sometimes selected for the treatment of hypochondriac pain, nausea and vomiting due to cholecystitis or cholelithiasis. Its name 'Not Contained' or 'Uncontainable' refers to the inability of the Stomach to retain its contents.",
+      "combinations_en": "Vomiting: Burong ST-19, Shangwan REN-13 and Daling P-7 (Supplementing Life). Stabbing pain of the Heart: Burong ST-19 and Qimen LIV-14 (Thousand Ducat Formulas).",
+      "page": 144
+    },
+    "M-BW-1": {
+      "header": "DINGCHUAN",
+      "name_en": "Calm Dyspnoea",
+      "location_en": "0.5 to 1 cun lateral to the depression below the spinous process of the seventh cervical vertebra (Dazhui DU-14).",
+      "needling_en": "Perpendicular-oblique insertion towards the spine, 0.5 to 1 cun.",
+      "actions_en": "Calms dyspnoea and wheezing and stops cough",
+      "indications_en": "Asthma, wheezing, cough, urticaria, pain of the upper back.",
+      "commentary_en": "Dingchuan (M-BW-1) is a modern addition to the extra points and is one of the primary points for the treatment of acute wheezing, dyspnoea and asthma.",
+      "combinations_en": "Acute asthma: Dingchuan (M-BW-1), Tiantu REN-22 and Kongzui LU-6.",
+      "page": 572
+    },
+    "M-BW-12": {
+      "header": "WEIGUANXIASHU",
+      "name_en": "Stomach Controller Lower Shu",
+      "location_en": "1.5 cun lateral to the lower border of the spinous process of the eighth thoracic vertebra (T8).",
+      "needling_en": "Oblique insertion towards the spine, 0.5 to 1 cun, or transverse-oblique insertion 1 to 1.5 cun. Caution: perpendicular needling or oblique needling away from the spine carries a substantial risk of causing a pneumothorax.",
+      "actions_en": "Clears heat and generates fluid",
+      "indications_en": "Wasting and thirsting disorder, dry throat, pain of the chest and lateral costal region, epigastric pain, vomiting.",
+      "commentary_en": "This point, nowadays known as Yishu (Pancreas Shu), was first mentioned in the Thousand Ducat Formulas. It was recommended by Sun Si-miao for wasting and thirsting disorder (i.e. diabetes mellitus) and the accompanying symptoms of dryness of the throat.",
+      "page": 573
+    },
+    "M-CA-18": {
+      "header": "ZIGONG",
+      "name_en": "Palace of the Child (Uterus)",
+      "location_en": "On the lower abdomen, 3 cun lateral to the midline, level with Zhongji REN-3.",
+      "location_note_en": "Zhongji REN-3 lies on the midline of the lower abdomen, 4 cun inferior to the umbilicus and 1 cun superior to the pubic symphysis. Zigong (M-CA-18) is located one hand-breadth lateral to this point.",
+      "needling_en": "i. Perpendicular insertion 0.8 to 1.2 cun; ii. For prolapse of the uterus, direct the needle from Zigong (M-CA-18) towards Qugu REN-2 through the muscular layer. Then rotate the needle until it wraps the muscle fibres, firmly pull it upwards and outwards, and tape it to the skin in this raised position for 20-30 minutes.",
+      "actions_en": "Raises and regulates qi Regulates menstruation and alleviates pain",
+      "indications_en": "Prolapse of the uterus, infertility, irregular menstruation, uterine bleeding.",
+      "commentary_en": "Zigong (M-CA-18) was first mentioned in the Great Compendium of Acupuncture and Moxibustion.",
+      "combinations_en": "Infertility: Zigong (M-CA-18) and Zhongji REN-3 (Great Compendium). Uterine bleeding: Zigong (M-CA-18) and Zhongji REN-3 (Great Compendium).",
+      "page": 576
+    },
+    "M-UE-9": {
+      "header": "SIFENG",
+      "name_en": "Four Seams",
+      "location_en": "On the palmar surface of the hand, at the midpoints of the transverse creases of the proximal interphalangeal joints of the index, middle, ring and little fingers.",
+      "location_note_en": "In most subjects two creases will be found at the proximal interphalangeal joints. In this case, Sifeng (M-UE-9) is located on the crease which is more prominent on flexion of these joints.",
+      "needling_en": "Prick to bleed, or prick and squeeze until a yellow-white liquid appears.",
+      "actions_en": "Fortifies the Spleen and dissipates accumulation",
+      "indications_en": "Childhood nutritional impairment, childhood accumulation disorder, childhood diarrhoea, whooping cough.",
+      "commentary_en": "Sifeng (M-UE-9) is an important and commonly used point grouping in the treatment of a wide range of childhood digestive disorders.",
+      "page": 578
+    }
+  }
+}

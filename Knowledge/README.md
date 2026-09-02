@@ -7,6 +7,7 @@ Store atomic knowledge objects — each file answers exactly one question about 
 ## What Belongs Here
 
 - Single-concept explanations (e.g. "What is inflammation?")
+- Subfolders by domain as branches emerge (see [BDL-002 Living Tree](../Constitution/BDL-002-Living-Tree.md))
 - Definitions that don't belong in the Constitution
 - Linked modules that compose into larger understanding
 

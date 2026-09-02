@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Track active work that applies the Wayfinding Cycle to real problems.
+Track active work that applies the [Wayfinding Cycle](../Constitution/BDL-001-Wayfinding-Kernel.md) to real problems.
 
 ## What Belongs Here
 
@@ -13,7 +13,8 @@ Track active work that applies the Wayfinding Cycle to real problems.
 ## Naming Rules
 
 - `BDL-5XX-Project-Name/` for numbered projects
-- Each project gets its own folder with a README answering the four standard questions
+- Each project gets its own folder with a README and eight stage files (`01-Observe.md` … `08-Learn.md`)
+- See [BDL-500-Seed-Living-Tree](BDL-500-Seed-Living-Tree/README.md) as the reference project
 
 ## Related Folders
 
