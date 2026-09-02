@@ -99,6 +99,8 @@ Every project follows the same cycle. No stage may be skipped intentionally.
 Observe → Measure → Understand → Model → Predict → Build → Validate → Learn ↺
 ```
 
+Full specification: [BDL-001 Wayfinding Kernel](BDL-001-Wayfinding-Kernel.md)
+
 ---
 
 ## Article VI — Evidence

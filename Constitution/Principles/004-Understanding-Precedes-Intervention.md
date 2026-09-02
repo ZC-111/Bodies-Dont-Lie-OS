@@ -20,4 +20,4 @@ Can you explain the mechanism before proposing the action?
 ## Related
 
 - [003-Observation-Precedes-Understanding.md](003-Observation-Precedes-Understanding.md)
-- [Article V — Wayfinding Cycle](../BDL-000-Constitution.md#article-v--the-wayfinding-cycle)
+- [BDL-001 Wayfinding Kernel](../BDL-001-Wayfinding-Kernel.md)
