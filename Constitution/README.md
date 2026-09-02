@@ -7,6 +7,8 @@ Define the foundational standards, principles, and vocabulary of Bodies Don't Li
 ## What Belongs Here
 
 - BDL-000 Constitution and its articles
+- BDL-001 Wayfinding Kernel and its stages
+- BDL-002 Living Tree and its layers
 - Foundational principles (001–007)
 - Design principles (008–014)
 - Core definitions shared across the entire OS
@@ -14,6 +16,8 @@ Define the foundational standards, principles, and vocabulary of Bodies Don't Li
 ## Naming Rules
 
 - Standards: `BDL-NNN-Title.md` (e.g. `BDL-000-Constitution.md`)
+- Wayfinding stages: `NN-Stage-Name.md` (e.g. `01-Observe.md`)
+- Living Tree layers: `NN-Layer-Name.md` (e.g. `01-Roots.md`)
 - Principles: `NNN-Kebab-Case.md` (e.g. `001-Reality-Leaves-Evidence.md`)
 - One idea per file. One page maximum.
 

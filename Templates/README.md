@@ -6,12 +6,12 @@ Provide starting patterns for new atomic documents — so every file begins with
 
 ## What Belongs Here
 
-- Document templates (principle, knowledge object, skill, project README)
+- Document templates (principle, knowledge object, folder README, project stage)
 - Blank scaffolds only — no domain content
 
 ## Naming Rules
 
-- `template-type.md` (e.g. `principle.md`, `knowledge-object.md`, `folder-readme.md`)
+- `template-type.md` (e.g. `principle.md`, `knowledge-object.md`, `folder-readme.md`, `project-stage.md`)
 
 ## Related Folders
 

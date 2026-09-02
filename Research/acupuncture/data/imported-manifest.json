@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "version": "0.2",
+    "imported_at": "2026-09-02",
+    "source_dir": "/Users/nuu/Downloads/Acupuncture resource",
+    "file_count": 26,
+    "total_bytes": 212176064
+  },
+  "files": [
+    {
+      "path": "sources/pdfs/A-manual-of-acupuncture-peter-deadman.pdf",
+      "bytes": 46757152,
+      "category": "sources"
+    },
+    {
+      "path": "sources/pdfs/Kikko Matsumoto & David Euler clinical-strategies-in-the-spirit-of-master-nagano-volume-2.pdf",
+      "bytes": 22472944,
+      "category": "sources"
+    },
+    {
+      "path": "sources/pdfs/ear_acupuncture_a_precise_pocket_atlas_based_on_the_works_of.pdf",
+      "bytes": 4237551,
+      "category": "sources"
+    },
+    {
+      "path": "sources/pdfs/hecker_hansulrich_peuker_elmar_steveling_angelika_microsyste.pdf",
+      "bytes": 16783173,
+      "category": "sources"
+    },
+    {
+      "path": "sources/pdfs/kiiko_matsumoto_david_euler_kiiko_matsumotos_clinical_strategy vol 1.pdf",
+      "bytes": 28197314,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/A Manual of Acupuncture_ Systemic Theory and Clinical Application - Google Docs.pdf",
+      "bytes": 122981,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/Acupuncture Point Protocols for Restoring Sleep and Spirit quick reference.rtf",
+      "bytes": 7299,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/Atlas of Extraordinary Acupuncture Points - Google Docs.pdf",
+      "bytes": 120491,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/Clinical Actions of Extraordinary Head and Face Points - Google Docs.pdf",
+      "bytes": 87723,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/Clinical Selection Framework_ Strategic Integration of Channel Theory and Point Functional Logic - Google Docs.pdf",
+      "bytes": 126474,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/Pathophysiological Reference Guide_ Mapping Channel Pathways to Clinical Manifestation - Google Docs.pdf",
+      "bytes": 109253,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/Strategic Clinical Selection Framework_ Integrating Classical Theory and Empirical Precision - Google Docs.pdf",
+      "bytes": 126369,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/Study Guide_ Foundations of Acupuncture and the Lung Channel - Google Docs.pdf",
+      "bytes": 121253,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/The Living Tree_ A Student’s Guide to the Human Channel System (Jingluo) - Google Docs.pdf",
+      "bytes": 115611,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/The Map Within_ 5 Surprising Truths About Acupuncture (That Aren’t on the Wall Chart) - Google Docs.pdf",
+      "bytes": 130972,
+      "category": "sources"
+    },
+    {
+      "path": "sources/notebook/The River of Qi_ A Functional Comparison of the Five Shu-Points - Google Docs.pdf",
+      "bytes": 124047,
+      "category": "sources"
+    },
+    {
+      "path": "assets/infographics/README.md",
+      "bytes": 928,
+      "category": "assets"
+    },
+    {
+      "path": "assets/infographics/back_extraordinary_points_atlas.png",
+      "bytes": 1329734,
+      "category": "assets"
+    },
+    {
+      "path": "assets/infographics/head_extraordinary_points_atlas.png",
+      "bytes": 1544898,
+      "category": "assets"
+    },
+    {
+      "path": "assets/infographics/insomnia_reference_guide.pdf",
+      "bytes": 85102,
+      "category": "assets"
+    },
+    {
+      "path": "assets/infographics/lower_extremity_extra_points_atlas.png",
+      "bytes": 220229,
+      "category": "assets"
+    },
+    {
+      "path": "assets/infographics/upper_extremity_extra_points_atlas.png",
+      "bytes": 402688,
+      "category": "assets"
+    },
+    {
+      "path": "assets/audio/The_hidden_geography_of_acupuncture_channels.m4a",
+      "bytes": 88834869,
+      "category": "assets"
+    },
+    {
+      "path": "data/spreadsheets/acupuncture_comparative_sheet-copy.xlsx",
+      "bytes": 38085,
+      "category": "data"
+    },
+    {
+      "path": "data/spreadsheets/acupuncture_comparative_sheet.xlsx",
+      "bytes": 38085,
+      "category": "data"
+    },
+    {
+      "path": "data/spreadsheets/acupuncture_points_atlas.xlsx",
+      "bytes": 40839,
+      "category": "data"
+    }
+  ]
+}

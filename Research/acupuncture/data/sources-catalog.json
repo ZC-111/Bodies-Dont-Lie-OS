@@ -1,0 +1,161 @@
+[
+  {
+    "id": "deadman_manual",
+    "title": "A Manual of Acupuncture",
+    "authors": "Peter Deadman, Mazin Al-Khafaji, Kevin Baker",
+    "local_path": "Research/acupuncture/sources/pdfs/A-manual-of-acupuncture-peter-deadman.pdf",
+    "role": "gold_standard",
+    "system": "classical_body",
+    "pages": 673,
+    "text_extractable": true,
+    "text_pages": 641,
+    "point_codes_found": 361,
+    "comparison_status": "extracted_v0.2",
+    "notes": "Primary gold standard for 361 classical body points."
+  },
+  {
+    "id": "matsumoto_clinical_vol1",
+    "title": "Kiiko Matsumoto's Clinical Strategies (Volume 1)",
+    "authors": "Kiiko Matsumoto, David Euler",
+    "local_path": "Research/acupuncture/sources/pdfs/kiiko_matsumoto_david_euler_kiiko_matsumotos_clinical_strategy vol 1.pdf",
+    "role": "clinical_strategy",
+    "system": "kiiko_palpatory",
+    "pages": 469,
+    "text_extractable": false,
+    "text_pages": 0,
+    "point_codes_found": 0,
+    "comparison_status": "needs_ocr",
+    "notes": "Image-only PDF. Requires OCR before extraction."
+  },
+  {
+    "id": "matsumoto_nagano_vol2",
+    "title": "Clinical Strategies in the Spirit of Master Nagano (Volume 2)",
+    "authors": "Kiiko Matsumoto, David Euler",
+    "local_path": "Research/acupuncture/sources/pdfs/Kikko Matsumoto & David Euler clinical-strategies-in-the-spirit-of-master-nagano-volume-2.pdf",
+    "role": "clinical_strategy",
+    "system": "nagano_kiiko",
+    "pages": 314,
+    "text_extractable": false,
+    "text_pages": 0,
+    "point_codes_found": 0,
+    "comparison_status": "needs_ocr",
+    "notes": "Image-only PDF. Requires OCR before extraction."
+  },
+  {
+    "id": "hecker_microsystems",
+    "title": "Microsystems Acupuncture: The Complete Guide (Ear–Scalp–Mouth–Hand)",
+    "authors": "Hans Ulrich Hecker, Elmar Peuker, Angelika Steveling",
+    "local_path": "Research/acupuncture/sources/pdfs/hecker_hansulrich_peuker_elmar_steveling_angelika_microsyste.pdf",
+    "role": "microsystems_reference",
+    "system": "auricular_scalp_hand_mouth",
+    "pages": 338,
+    "text_extractable": true,
+    "text_pages": 338,
+    "numbered_microsystem_points": 62,
+    "classical_point_codes_found": 121,
+    "comparison_status": "ready_to_extract",
+    "notes": "Fully text-extractable. Ear points use numbered nomenclature (e.g. 25—Brain Stem Point), not LU/LI codes."
+  },
+  {
+    "id": "strittmatter_ear_atlas",
+    "title": "Ear Acupuncture: A Precise Pocket Atlas (Nogier/Bahr)",
+    "authors": "Beate Strittmatter, Frank Bahr (based on Nogier)",
+    "local_path": "Research/acupuncture/sources/pdfs/ear_acupuncture_a_precise_pocket_atlas_based_on_the_works_of.pdf",
+    "role": "ear_atlas",
+    "system": "ear_nogier_bahr",
+    "pages": 439,
+    "text_extractable": true,
+    "text_pages": 434,
+    "classical_point_codes_found": 56,
+    "comparison_status": "ready_to_extract",
+    "notes": "Fully text-extractable. Ear microsystem atlas — separate namespace from classical body points."
+  },
+  {
+    "id": "bencaodian_json",
+    "title": "Bencaodian Acupoints JSON v1",
+    "authors": "Bencaodian Editorial",
+    "url": "https://bencaodian.org/data/v1/acupoints.json",
+    "local_path": "Research/acupuncture/data/bencaodian-acupoints.json",
+    "role": "open_comparison_dataset",
+    "system": "classical_body",
+    "points": 208,
+    "license": "CC BY-SA 4.0",
+    "comparison_status": "compared_v0.1",
+    "notes": "142 codes overlap with Deadman extract. Many entries cite deadman_manual_2e."
+  },
+  {
+    "id": "acupuncture_comparative_database",
+    "title": "Acupuncture Comparative Database (Notebook export)",
+    "local_path": "Research/acupuncture/data/acupuncture-comparative-database.json",
+    "role": "naming_cross_reference",
+    "system": "classical_body",
+    "points_ordinary": 321,
+    "points_extraordinary": 33,
+    "comparison_status": "imported",
+    "notes": "Chinese/pinyin/Korean/Vietnamese naming cross-reference. Extra points include abbreviated location and actions. SJ codes mapped via TE-* alias."
+  },
+  {
+    "id": "sleep_spirit_protocols",
+    "title": "Acupuncture Point Protocols for Restoring Sleep and Spirit",
+    "local_path": "Research/acupuncture/data/sleep-spirit-protocols-v0.1.json",
+    "source_rtf": "Research/acupuncture/sources/notebook/Acupuncture Point Protocols for Restoring Sleep and Spirit quick reference.rtf",
+    "role": "clinical_protocol",
+    "system": "clinical_protocol",
+    "topics": ["insomnia", "sleep", "spirit"],
+    "comparison_status": "parsed_v0.1",
+    "notes": "Quick-reference insomnia and shen-regulation protocols. 8 anchor points, 5 pattern combinations, 1 classic trio."
+  },
+  {
+    "id": "notebook_audio_geography",
+    "title": "The Hidden Geography of Acupuncture Channels (Audio Deep Dive)",
+    "local_path": "Research/acupuncture/assets/audio/The_hidden_geography_of_acupuncture_channels.m4a",
+    "role": "notebook_studio_audio",
+    "system": "classical_body",
+    "duration_minutes": 46,
+    "comparison_status": "imported",
+    "notes": "NotebookLM Audio Overview export."
+  },
+  {
+    "id": "extraordinary_atlas_pngs",
+    "title": "Extraordinary Point Atlas PNGs (Notebook generated)",
+    "local_path": "Research/acupuncture/assets/infographics/",
+    "role": "visual_reference",
+    "system": "classical_body",
+    "files": [
+      "head_extraordinary_points_atlas.png",
+      "back_extraordinary_points_atlas.png",
+      "upper_extremity_extra_points_atlas.png",
+      "lower_extremity_extra_points_atlas.png"
+    ],
+    "comparison_status": "imported",
+    "notes": "Visual atlases from Gemini Notebook chat. Not yet OCR'd to JSON."
+  },
+  {
+    "id": "insomnia_infographic",
+    "title": "Insomnia Reference Guide (Infographic PDF)",
+    "local_path": "Research/acupuncture/assets/infographics/insomnia_reference_guide.pdf",
+    "role": "clinical_infographic",
+    "system": "clinical_protocol",
+    "comparison_status": "imported",
+    "notes": "Notebook Studio Infographic export. Complements sleep-spirit-protocols JSON."
+  },
+  {
+    "id": "notebook_reports",
+    "title": "Gemini Notebook Report Exports (Google Docs PDFs)",
+    "local_path": "Research/acupuncture/sources/notebook/",
+    "role": "notebook_studio_reports",
+    "system": "mixed",
+    "comparison_status": "imported",
+    "notes": "Briefing doc, study guides, clinical frameworks, extraordinary point atlases (text). Exported from NotebookLM Studio."
+  },
+  {
+    "id": "acupuncture_spreadsheets",
+    "title": "Acupuncture Comparative Spreadsheets",
+    "local_path": "Research/acupuncture/data/spreadsheets/",
+    "role": "structured_reference",
+    "system": "classical_body",
+    "files": ["acupuncture_points_atlas.xlsx", "acupuncture_comparative_sheet.xlsx"],
+    "comparison_status": "imported",
+    "notes": "Notebook-generated comparative tables."
+  }
+]

@@ -9,6 +9,8 @@ An open framework for discovering, organizing, and applying knowledge about resi
 ## Start Here
 
 - [Constitution](Constitution/README.md) — Foundational standards and principles
+- [Wayfinding Kernel](Constitution/BDL-001-Wayfinding-Kernel.md) — How every project works
+- [Living Tree](Constitution/BDL-002-Living-Tree.md) — How knowledge is organized
 - [Knowledge](Knowledge/README.md) — Atomic knowledge objects
 - [Skills](Skills/README.md) — Reusable capabilities
 - [Projects](Projects/README.md) — Active work

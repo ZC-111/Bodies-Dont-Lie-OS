@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "version": "0.1",
+    "title": "Acupuncture Point Protocols for Restoring Sleep and Spirit",
+    "source_file": "/Users/nuu/Downloads/Acupuncture resource/Acupuncture Point Protocols for Restoring Sleep and Spirit quick reference.rtf",
+    "system": "clinical_protocol",
+    "topics": ["insomnia", "sleep", "spirit", "shen", "anxiety", "palpitations"],
+    "parsed_at": "2026-09-02",
+    "notes": "Quick-reference clinical protocol export. Point codes follow Deadman-style notation (HE, P, KID, REN). Anmian carries multiple extraordinary-point codes in source material."
+  },
+  "anchor_points": [
+    {
+      "code": "HE-7",
+      "header": "Shenmen",
+      "name_en": "Spirit Gate",
+      "role": "primary_anchor",
+      "indications": [
+        "insomnia",
+        "frequent talking during sleep",
+        "poor memory",
+        "anxiety"
+      ],
+      "notes": "Foremost point to calm and regulate the spirit. Acts as anchor whether disruption is deficiency (Heart blood or yin malnourishment) or excess (Heart fire, phlegm, phlegm-fire)."
+    },
+    {
+      "code": "SP-6",
+      "header": "Sanyinjiao",
+      "name_en": "Three Yin Intersection",
+      "role": "core_combination",
+      "indications": ["insomnia"],
+      "notes": "Classically combined with Shenmen HE-7 in many insomnia prescriptions. Tonifies qi and blood, nourishes Liver and Kidney yin, spreads Liver qi, harmonizes digestion."
+    },
+    {
+      "code": "M-HN-34",
+      "code_aliases": ["N-HN-54", "M-HN-54"],
+      "header": "Anmian",
+      "name_en": "Peaceful Sleep",
+      "role": "extraordinary_sleep",
+      "indications": ["insomnia", "agitation", "restlessness", "palpitations"],
+      "notes": "Extraordinary point behind the ear. Source lists N-HN-54 / M-HN-34; Deadman 1e extract uses M-HN-54 for Anmian."
+    },
+    {
+      "code": "M-HN-3",
+      "header": "Yintang",
+      "name_en": "Hall of Impression",
+      "role": "extraordinary_calming",
+      "indications": ["insomnia", "anxiety", "agitation"],
+      "notes": "Prominent glabella point to calm the spirit. Classic insomnia trio: Yintang M-HN-3, Shenmen HE-7, Sanyinjiao SP-6."
+    },
+    {
+      "code": "KID-1",
+      "header": "Yongquan",
+      "name_en": "Gushing Spring",
+      "role": "descending_anchor",
+      "indications": ["insomnia"],
+      "notes": "Lowest channel point. Clears excess from the head; draws ascending yang, Liver fire, or qi downward. Traditional adjunct: massage before sleep or foot soaking in hot water."
+    },
+    {
+      "code": "P-6",
+      "code_aliases": ["PC-6"],
+      "header": "Neiguan",
+      "name_en": "Inner Pass",
+      "role": "spirit_regulation",
+      "indications": ["insomnia", "poor memory", "apprehension"],
+      "notes": "Major point for regulating and calming the spirit."
+    },
+    {
+      "code": "BL-62",
+      "header": "Shenmai",
+      "name_en": "Extending Vessel",
+      "role": "yang_excess_insomnia",
+      "indications": ["insomnia", "inability to close the eyes"],
+      "notes": "Selected when defensive qi remains in yang channels ('excessive opening of the eyes'). Often paired with Zhaohai KID-6 to balance yin and yang."
+    },
+    {
+      "code": "KID-6",
+      "header": "Zhaohai",
+      "name_en": "Shining Sea",
+      "role": "paired_yin_regulator",
+      "indications": ["insomnia"],
+      "notes": "Coupled vessel point paired with Shenmai BL-62 for sleep regulation."
+    }
+  ],
+  "classic_combination": {
+    "name": "Insomnia trio",
+    "points": ["M-HN-3", "HE-7", "SP-6"],
+    "intent": "resolve insomnia by calming spirit and nourishing root"
+  },
+  "pattern_combinations": [
+    {
+      "pattern": "Heart and Spleen Deficiency (Qi and Blood Deficiency)",
+      "points": ["HE-7", "SP-6", "ST-36", "M-HN-3"],
+      "intent": "nourish blood and anchor the spirit"
+    },
+    {
+      "pattern": "Disharmony of Heart and Kidneys (Yin Deficiency)",
+      "points": ["HE-7", "SP-6", "KID-3", "KID-6"],
+      "intent": "nourish Kidney yin and cool deficiency fire"
+    },
+    {
+      "pattern": "Liver Fire",
+      "points": ["HE-7", "SP-6", "M-HN-34", "BL-18", "BL-19"],
+      "point_notes": {
+        "M-HN-34": "Anmian — source uses name only; code alias N-HN-54 / M-HN-34"
+      },
+      "intent": "drain excess fire and settle the Liver"
+    },
+    {
+      "pattern": "Agitation and Oppression with Inability to Sleep",
+      "points": ["SP-1", "ST-45", "LU-9", "SP-4", "BL-13", "SP-9"],
+      "intent": "resolve agitation and oppression; foot jing-well points SP-1 and ST-45 noted for nightmares/somnolence",
+      "notes": "Yinbai SP-1 and Lidui ST-45 are foot jing-well points highly suited for nightmares/somnolence."
+    },
+    {
+      "pattern": "Fright Palpitations and Insomnia",
+      "points": ["SP-6", "ST-27", "REN-6"],
+      "intent": "firm the lower jiao and settle fright"
+    }
+  ],
+  "point_index": [
+    "BL-13", "BL-18", "BL-19", "BL-62",
+    "HE-7", "KID-1", "KID-3", "KID-6",
+    "LU-9", "M-HN-3", "M-HN-34", "M-HN-54", "N-HN-54",
+    "P-6", "REN-6", "SP-1", "SP-4", "SP-6", "SP-9",
+    "ST-27", "ST-36", "ST-45"
+  ]
+}
