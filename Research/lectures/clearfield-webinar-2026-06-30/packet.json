@@ -1,0 +1,106 @@
+{
+  "id": "clearfield-webinar-2026-06-30",
+  "title": "Tuesday Integrative Health Webinar — June 30, 2026",
+  "speaker": "Bill Clearfield (host)",
+  "approx_date": "2026-06-30",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 106,
+  "otter_url": "https://otter.ai/u/H1Iomsee4ZUONKKezPDcMBYCvQ0",
+  "primary_branch": "integrative-medicine",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "cardiometabolic",
+    "lipid_management",
+    "pain_msk",
+    "pelvic_health",
+    "detox",
+    "ayurveda",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "pain_msk",
+    "detox",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "raw",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Lake Tahoe conference / BTL Sculpt Neo / medical devices",
+      "speakers": ["Bill Clearfield", "Speaker 2", "Speaker 3"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "pain_msk"]
+    },
+    {
+      "topic": "Dr. Nario — M bands / pelvic muscle strengthening",
+      "speakers": ["Dr. Nario", "Speaker 3"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk"]
+    },
+    {
+      "topic": "Tip of the week: Regressive vicariation / homotoxicology detox",
+      "speakers": ["Speaker 2"],
+      "branch": "integrative-medicine",
+      "terms": ["detox"]
+    },
+    {
+      "topic": "Dr. Collins — MP gun / regenerative injection",
+      "speakers": ["Dr. Collins"],
+      "branch": "integrative-medicine",
+      "terms": ["regenerative"]
+    },
+    {
+      "topic": "Stefan Hartman — Eliminating heart disease / ApoB / lipid-lowering",
+      "speakers": ["Stefan Hartman"],
+      "branch": "nutrition",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "ApoB below 65 / LDL below 60",
+        "Statins / ezetimibe / PCSK9i",
+        "Ezetimibe and cognitive protection",
+        "CT angiogram vs CAC for soft plaque"
+      ]
+    },
+    {
+      "topic": "Niacin debate — dosing, Lp(a), detox protocol",
+      "speakers": ["Dr. Collins", "Speaker 7", "Speaker 9"],
+      "branch": "nutrition",
+      "terms": ["cardio", "vitamin_supplement", "detox"]
+    },
+    {
+      "topic": "Ayurvedic approach to ApoB / integrative lipid management",
+      "speakers": ["Speaker 8"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical", "cardio"]
+    }
+  ],
+  "paths": {
+    "packet": "Research/lectures/clearfield-webinar-2026-06-30/",
+    "raw": "Research/lectures/clearfield-webinar-2026-06-30/raw/",
+    "slides": "Research/lectures/clearfield-webinar-2026-06-30/slides/",
+    "derived": "Research/lectures/clearfield-webinar-2026-06-30/derived/"
+  },
+  "otter": {
+    "transcript": "Research/lectures/clearfield-webinar-2026-06-30/raw/Tuesday Integrative Health Webinar 2026-06-30_transcript.txt",
+    "summary": "Research/lectures/clearfield-webinar-2026-06-30/raw/Tuesday Integrative Health Webinar 2026-06-30_summary.txt",
+    "screenshots": 98,
+    "audio": null
+  },
+  "slides": {
+    "status": "downloaded",
+    "screenshot_count": 98,
+    "filename_pattern": "slide-2026-06-30-{NNN}.jpeg",
+    "resolution": "1280x720",
+    "notes": "98 Otter meeting screenshots downloaded via Playwright. Sorted chronologically by capture timestamp. Includes Stefan Hartman 'Reformed Lipid Denialist' deck."
+  },
+  "derived": {
+    "gem_cleanup": false,
+    "study_guide": false,
+    "teach_outline": false
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Hartman lipid lecture (ApoB/statins/ezetimibe/niacin). First Otter-export lecture packet with Otter summary + transcript. Needs segmentation for Gem cleanup."
+}
