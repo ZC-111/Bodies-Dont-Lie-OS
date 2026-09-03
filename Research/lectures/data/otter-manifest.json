@@ -1431,10 +1431,11 @@
     "duration": "2 h 12 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2024-08-20"
+    "packet_dir": "Research/lectures/clearfield-webinar-2024-08-20",
+    "screenshot_count": 0
   },
   {
     "otter_id": "xg4V_A-L8_Ob1jKGBewDTtKzOWg",
@@ -1445,10 +1446,11 @@
     "duration": "2 h 46 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2024-08-13"
+    "packet_dir": "Research/lectures/clearfield-webinar-2024-08-13",
+    "screenshot_count": 0
   },
   {
     "otter_id": "CMNjlQbT2xu4NqL-9gu4VQSt0mo",
@@ -1459,9 +1461,10 @@
     "duration": "2 h 13 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2024-08-06"
+    "packet_dir": "Research/lectures/clearfield-webinar-2024-08-06",
+    "screenshot_count": 0
   }
 ]
