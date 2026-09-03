@@ -17,12 +17,13 @@
   "otter": {
     "transcript": "Research/lectures/clearfield-webinar-2026-06-09/raw/Tuesday Integrative Health Webinar_transcript 2026-06-09.txt",
     "summary": "Research/lectures/clearfield-webinar-2026-06-09/raw/Tuesday Integrative Health Webinar_summary 2026-06-09.txt",
-    "screenshots": 0,
+    "screenshots": 465,
     "audio": null
   },
   "slides": {
-    "status": "none",
-    "screenshot_count": 0
+    "status": "downloaded",
+    "screenshot_count": 465,
+    "filename_pattern": "slide-2026-06-09-{NNN}.jpeg"
   },
   "derived": {
     "gem_cleanup": false,

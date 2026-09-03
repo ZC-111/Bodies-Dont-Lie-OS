@@ -219,6 +219,17 @@ def phase_slides(page, ids=None):
                 print(f"  No screenshots found")
                 conv["slides_downloaded"] = True
                 conv["screenshot_count"] = 0
+                packet_rel = conv.get("packet_dir")
+                if packet_rel:
+                    packet_path = REPO_ROOT / packet_rel / "packet.json"
+                    if packet_path.exists():
+                        packet = json.loads(packet_path.read_text())
+                        packet.setdefault("slides", {})
+                        packet["slides"]["status"] = "none"
+                        packet["slides"]["screenshot_count"] = 0
+                        if "otter" in packet:
+                            packet["otter"]["screenshots"] = 0
+                        packet_path.write_text(json.dumps(packet, indent=2) + "\n")
                 MANIFEST_PATH.write_text(json.dumps(manifest, indent=2))
                 continue
 
@@ -249,6 +260,18 @@ def phase_slides(page, ids=None):
 
             conv["slides_downloaded"] = True
             conv["screenshot_count"] = downloaded
+            # Keep packet.json in sync
+            if packet_rel:
+                packet_path = REPO_ROOT / packet_rel / "packet.json"
+                if packet_path.exists():
+                    packet = json.loads(packet_path.read_text())
+                    packet.setdefault("slides", {})
+                    packet["slides"]["status"] = "downloaded" if downloaded else "none"
+                    packet["slides"]["screenshot_count"] = downloaded
+                    packet["slides"]["filename_pattern"] = f"slide-{date_tag}-{{NNN}}.jpeg"
+                    if "otter" in packet:
+                        packet["otter"]["screenshots"] = downloaded
+                    packet_path.write_text(json.dumps(packet, indent=2) + "\n")
             print(f"  ✓ {downloaded}/{len(urls)} screenshots → {slides_dir}")
 
         except Exception as e:
