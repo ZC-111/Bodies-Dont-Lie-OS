@@ -81,10 +81,11 @@
     "duration": "2 h 15 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2026-05-26"
+    "packet_dir": "Research/lectures/clearfield-webinar-2026-05-26",
+    "screenshot_count": 86
   },
   {
     "otter_id": "SiB7Ifahh4_dfJVERQgP60auXjw",
