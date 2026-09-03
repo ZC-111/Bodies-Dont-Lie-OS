@@ -1,0 +1,59 @@
+{
+  "id": "dpc-hartman-2026-05",
+  "title": "Stefan Hartman — starting a DPC practice (LLC / S-corp)",
+  "speaker": "Stefan Hartman",
+  "approx_date": "2026-05-12",
+  "primary_branch": "integrative-medicine",
+  "related_branches": [],
+  "branches": [
+    "Research/integrative-medicine/"
+  ],
+  "themes": [
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "ethics_systems"
+  ],
+  "research_priority": "low",
+  "sync": "screenshots_only",
+  "gem_status": "raw",
+  "local_downloads_id": "dpc-hartman-2026-05",
+  "paths": {
+    "packet": "Research/lectures/dpc-hartman-2026-05/",
+    "raw": "Research/lectures/dpc-hartman-2026-05/raw/",
+    "slides": "Research/lectures/dpc-hartman-2026-05/slides/",
+    "derived": "Research/lectures/dpc-hartman-2026-05/derived/",
+    "screenshot_manifest": "Research/lectures/dpc-hartman-2026-05/slides/screenshot-manifest.json"
+  },
+  "otter": {
+    "transcript": "/Users/nuu/Downloads/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC, S corporation 512 2026/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC S corporation 5 12 2026.txt",
+    "audio": null,
+    "source_root": "/Users/nuu/Downloads/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC, S corporation 512 2026"
+  },
+  "slides": {
+    "status": "screenshots_in_downloads",
+    "screenshot_count": 20,
+    "slides_root": "/Users/nuu/Downloads/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC, S corporation 512 2026",
+    "first": "/Users/nuu/Downloads/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC, S corporation 512 2026/Screenshot 2026-06-22 at 1.07.31 PM.png",
+    "last": "/Users/nuu/Downloads/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC, S corporation 512 2026/Screenshot 2026-06-22 at 1.11.59 PM.png",
+    "manifest": "Research/lectures/dpc-hartman-2026-05/slides/screenshot-manifest.json"
+  },
+  "documents": [
+    {
+      "filename": "Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC S corporation 5 12 2026.txt",
+      "relative_path": "Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC S corporation 5 12 2026.txt",
+      "source_path": "/Users/nuu/Downloads/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC, S corporation 512 2026/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC S corporation 5 12 2026.txt",
+      "size_bytes": 117886,
+      "format": "txt",
+      "kind": "transcript"
+    }
+  ],
+  "derived": {
+    "gem_cleanup": false,
+    "study_guide": false,
+    "teach_outline": false
+  },
+  "knowledge_leaves": [],
+  "notes": "Otter transcript + 20 slide screenshots. Practice/business — low clinical priority.",
+  "cataloged_at": "2026-09-03"
+}

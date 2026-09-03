@@ -23,4 +23,6 @@ Hold source material and inquiry for immune function — including autoimmunity,
 ## Related
 
 - [Knowledge/immune/](../../Knowledge/immune/README.md) — Confirmed leaves (future)
+- [integrative-medicine/local-downloads/](../integrative-medicine/local-downloads/) — Local packs tagged immune (Emily autoimmune, Hashimoto, mold/mycotoxins, Morgellons/Lyme, immuno-nutrition)
+- [lectures/mccullough-covid-early-tx-aosrd-2022/](../lectures/mccullough-covid-early-tx-aosrd-2022/) — AOSRD McCullough early COVID deck packet (slides extract)
 - [Constitution/Living-Tree/03-Branches.md](../../Constitution/Living-Tree/03-Branches.md)

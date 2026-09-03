@@ -807,7 +807,9 @@
       ],
       "branches": [
         "Research/immune/"
-      ]
+      ],
+      "lecture_packet": "Research/lectures/mccullough-covid-early-tx-aosrd-2022/",
+      "slide_count_extracted": 71
     },
     {
       "id": "saturday-9-james-forsythe-2022-forsythe-immune-protocol-update-march-2022",

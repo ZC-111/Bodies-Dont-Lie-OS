@@ -68,11 +68,12 @@ One file, one primary branch. Add `related_branches` + `medical_terms: []` when 
 
 | Location | Likely branch |
 |----------|----------------|
-| `Downloads/Lectures 2021/` | Tag into immune / nutrition / integrative |
-| `Desktop/Vitamin product research/` | nutrition |
-| `Desktop/client resources/` | nutrition |
+| `Downloads/Lectures 2021/` (external) | Tag into immune / nutrition / integrative |
+| `Desktop/Vitamin product research/` (external) | nutrition |
+| `Desktop/client resources/` (external) | nutrition |
 | AOSRD 2022 | integrative-medicine (cataloged) |
 | Harvard / Kiiko / charts | acupuncture (cataloged) |
+| `/Users/nuu/Downloads` medical packs | [local-downloads catalog](integrative-medicine/local-downloads/) (cataloged) |
 
 ## Next step
 

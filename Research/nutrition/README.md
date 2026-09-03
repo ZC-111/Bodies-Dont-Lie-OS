@@ -27,4 +27,5 @@ Hold source material for food, diet, fasting, and **nutritional supplements** (v
 ## Related
 
 - [Knowledge/nutrition/](../../Knowledge/nutrition/README.md)
+- [integrative-medicine/local-downloads/](../integrative-medicine/local-downloads/) — Local peptide / nutraceutical packs tagged nutrition
 - [Constitution/Living-Tree/03-Branches.md](../../Constitution/Living-Tree/03-Branches.md)

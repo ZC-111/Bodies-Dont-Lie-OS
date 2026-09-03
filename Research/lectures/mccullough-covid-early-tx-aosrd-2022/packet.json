@@ -1,0 +1,43 @@
+{
+  "id": "mccullough-covid-early-tx-aosrd-2022",
+  "title": "Pathophysiologic Rationale for Early Treatment of COVID-19",
+  "speaker": "Peter McCullough",
+  "approx_date": "2022-01-30",
+  "event": "AOSRD Congress of Medical Excellence 2022 — Saturday session 8",
+  "primary_branch": "immune",
+  "related_branches": ["integrative-medicine"],
+  "themes": ["infection_covid", "immune", "early_treatment"],
+  "medical_terms": ["infection_covid", "immune", "cardio"],
+  "sync": "slides_only",
+  "gem_status": "raw",
+  "research_priority": "normal",
+  "aosrd_catalog_id": "saturday-8-peter-mccullough-mccullough-presentation-pathophysiologic-rationale-for-early-treatment-of-covid-19-nd-jan-30",
+  "paths": {
+    "packet": "Research/lectures/mccullough-covid-early-tx-aosrd-2022/",
+    "raw": "Research/lectures/mccullough-covid-early-tx-aosrd-2022/raw/",
+    "slides": "Research/lectures/mccullough-covid-early-tx-aosrd-2022/slides/",
+    "derived": "Research/lectures/mccullough-covid-early-tx-aosrd-2022/derived/",
+    "slide_outline": "Research/lectures/mccullough-covid-early-tx-aosrd-2022/derived/slide-outline.md",
+    "slide_extract": "Research/lectures/mccullough-covid-early-tx-aosrd-2022/slides/slide-extract.json"
+  },
+  "otter": null,
+  "slides": {
+    "status": "external",
+    "slide_count": 71,
+    "primary_deck": "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx",
+    "alternate_deck": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx",
+    "size_bytes": 31099761,
+    "local_assets": [
+      "slides/mccullough-pa-mccullough-protocol-jan-14-2022.jpg"
+    ],
+    "notes": "PPTX stays on external drive (~31 MB). Text extract + protocol image in repo. Many mid-deck slides are image-only (empty text frames)."
+  },
+  "derived": {
+    "slide_outline": true,
+    "gem_cleanup": false,
+    "study_guide": false,
+    "teach_outline": false
+  },
+  "knowledge_leaves": [],
+  "notes": "First lecture-packet example: AOSRD slides without Otter transcript. Next: Gem cleanup from slide-outline.md + optional Otter if recording exists."
+}

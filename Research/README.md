@@ -15,6 +15,7 @@ See **[BRANCH-TAXONOMY.md](BRANCH-TAXONOMY.md)** for how to sort PPT/PDFs.
 | [nutrition/](nutrition/) | Food, diet, fasting, vitamins, supplements |
 | [materia-medica/](materia-medica/) | Herbals, oils, flower essences, tinctures, homeopathy |
 | [integrative-medicine/](integrative-medicine/) | Multi-domain conference archives |
+| [lectures/](lectures/) | Per-lecture packets (Otter + slides + Gem derived) |
 
 ## What Belongs Here
 

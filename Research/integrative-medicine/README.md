@@ -18,4 +18,5 @@ Hold multi-domain conference archives and integrative CME that span more than on
 ## Related
 
 - [aosrd-2022/](aosrd-2022/) — AOSRD Congress of Medical Excellence 2022
+- [local-downloads/](local-downloads/) — Medical lecture packs on this Mac (`/Users/nuu/Downloads`)
 - [Constitution/Living-Tree/03-Branches.md](../../Constitution/Living-Tree/03-Branches.md)

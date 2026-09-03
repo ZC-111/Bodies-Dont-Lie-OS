@@ -101,7 +101,11 @@
     "source_rtf": "Research/acupuncture/sources/notebook/Acupuncture Point Protocols for Restoring Sleep and Spirit quick reference.rtf",
     "role": "clinical_protocol",
     "system": "clinical_protocol",
-    "topics": ["insomnia", "sleep", "spirit"],
+    "topics": [
+      "insomnia",
+      "sleep",
+      "spirit"
+    ],
     "comparison_status": "parsed_v0.1",
     "notes": "Quick-reference insomnia and shen-regulation protocols. 8 anchor points, 5 pattern combinations, 1 classic trio."
   },
@@ -187,5 +191,64 @@
     "converted_rm_videos": 37,
     "comparison_status": "cataloged_v0.1_converted",
     "notes": "Catalog + RM→MP4 conversion complete. 37 RealMedia demos converted to Research/acupuncture/sources/harvard-ap101/videos/ (~1.6 GB). 5 source stubs skipped (Week 24 electro×3, Week 28 Kiiko×2). Legacy Flash (.swf) not converted. Regenerate catalog: build_harvard_ap101_catalog.py; convert: convert_harvard_rm_to_mp4.py."
+  },
+  {
+    "id": "local_downloads_lectures",
+    "title": "Local Mac Downloads — Medical Lecture Packs",
+    "local_path": "Research/integrative-medicine/local-downloads/data/local-downloads-catalog.json",
+    "external_archive": "/Users/nuu/Downloads/",
+    "role": "local_lecture_catalog",
+    "system": "integrative_medicine",
+    "packs": 19,
+    "comparison_status": "cataloged_v0.1",
+    "notes": "nuu Downloads packs (peptides, autoimmune cases, mold/mycotoxins, Hashimoto, DNA repair, acupuncture resource, etc.). Branch tags per pack. Regenerate via Research/integrative-medicine/local-downloads/scripts/build_local_downloads_catalog.py."
+  },
+  {
+    "id": "lecture_packet_mccullough_covid_aosrd_2022",
+    "title": "Lecture Packet — McCullough Early COVID Treatment (AOSRD 2022)",
+    "local_path": "Research/lectures/mccullough-covid-early-tx-aosrd-2022/",
+    "external_archive": "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/",
+    "role": "lecture_packet",
+    "system": "immune",
+    "slide_count": 71,
+    "sync": "slides_only",
+    "comparison_status": "packet_v0.1",
+    "notes": "First lecture-packet template: external PPTX + slide text extract + protocol JPG. No Otter yet. See Research/lectures/README.md."
+  },
+  {
+    "id": "lecture_packet_dpc_hartman_2026",
+    "title": "Lecture Packet — Stefan Hartman DPC Practice (slide screenshots)",
+    "local_path": "Research/lectures/dpc-hartman-2026-05/",
+    "external_archive": "/Users/nuu/Downloads/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC, S corporation 512 2026/",
+    "role": "lecture_packet",
+    "system": "integrative_medicine",
+    "screenshot_count": 20,
+    "sync": "screenshots_only",
+    "comparison_status": "packet_v0.1",
+    "notes": "Otter transcript + 20 slide screenshots. Low clinical priority (practice ops)."
+  },
+  {
+    "id": "lecture_packet_dna_repair_andrews_2026",
+    "title": "Lecture Packet — Bill Andrews DNA Repair (slide screenshots)",
+    "local_path": "Research/lectures/dna-repair-andrews-2026-04/",
+    "external_archive": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/",
+    "role": "lecture_packet",
+    "system": "integrative_medicine",
+    "screenshot_count": 90,
+    "sync": "screenshots_only",
+    "comparison_status": "packet_v0.1",
+    "notes": "Otter transcript + PDF + 90 slide screenshots coordinated with lecture."
+  },
+  {
+    "id": "lecture_packet_ivermectin_ayurveda_2026",
+    "title": "Lecture Packet — Ivermectin / Ayurveda (slide screenshots)",
+    "local_path": "Research/lectures/ivermectin-ayurveda-2026-05/",
+    "external_archive": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/",
+    "role": "lecture_packet",
+    "system": "integrative_medicine",
+    "screenshot_count": 99,
+    "sync": "screenshots_only",
+    "comparison_status": "packet_v0.1",
+    "notes": "Dedicated slides/ subfolder with 99 screenshots + Otter txt/mp3/zip."
   }
 ]

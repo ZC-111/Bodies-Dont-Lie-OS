@@ -1,0 +1,99 @@
+# DNA repair healing with Dr. Bill Andrews — slide screenshot index
+
+**Count:** 90  
+**Source slides folder:** `/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026`  
+
+Screenshots stay on disk; this index coordinates lecture ↔ slides.
+
+| # | File |
+|--:|------|
+| 1 | `Screenshot 2026-06-23 at 4.20.55 PM.png` |
+| 2 | `Screenshot 2026-06-23 at 4.20.58 PM.png` |
+| 3 | `Screenshot 2026-06-23 at 4.21.16 PM.png` |
+| 4 | `Screenshot 2026-06-23 at 4.21.33 PM.png` |
+| 5 | `Screenshot 2026-06-23 at 4.21.39 PM.png` |
+| 6 | `Screenshot 2026-06-23 at 4.21.44 PM.png` |
+| 7 | `Screenshot 2026-06-23 at 4.22.32 PM.png` |
+| 8 | `Screenshot 2026-06-23 at 4.22.37 PM.png` |
+| 9 | `Screenshot 2026-06-23 at 4.22.43 PM.png` |
+| 10 | `Screenshot 2026-06-23 at 4.22.48 PM.png` |
+| 11 | `Screenshot 2026-06-23 at 4.22.52 PM.png` |
+| 12 | `Screenshot 2026-06-23 at 4.22.55 PM.png` |
+| 13 | `Screenshot 2026-06-23 at 4.22.59 PM.png` |
+| 14 | `Screenshot 2026-06-23 at 4.23.03 PM.png` |
+| 15 | `Screenshot 2026-06-23 at 4.23.08 PM.png` |
+| 16 | `Screenshot 2026-06-23 at 4.23.12 PM.png` |
+| 17 | `Screenshot 2026-06-23 at 4.23.15 PM.png` |
+| 18 | `Screenshot 2026-06-23 at 4.23.19 PM.png` |
+| 19 | `Screenshot 2026-06-23 at 4.23.24 PM.png` |
+| 20 | `Screenshot 2026-06-23 at 4.23.31 PM.png` |
+| 21 | `Screenshot 2026-06-23 at 4.23.35 PM.png` |
+| 22 | `Screenshot 2026-06-23 at 4.23.38 PM.png` |
+| 23 | `Screenshot 2026-06-23 at 4.23.41 PM.png` |
+| 24 | `Screenshot 2026-06-23 at 4.23.44 PM.png` |
+| 25 | `Screenshot 2026-06-23 at 4.23.48 PM.png` |
+| 26 | `Screenshot 2026-06-23 at 4.23.51 PM.png` |
+| 27 | `Screenshot 2026-06-23 at 4.23.54 PM.png` |
+| 28 | `Screenshot 2026-06-23 at 4.24.03 PM.png` |
+| 29 | `Screenshot 2026-06-23 at 4.24.08 PM.png` |
+| 30 | `Screenshot 2026-06-23 at 4.24.12 PM.png` |
+| 31 | `Screenshot 2026-06-23 at 4.24.26 PM.png` |
+| 32 | `Screenshot 2026-06-23 at 4.24.29 PM.png` |
+| 33 | `Screenshot 2026-06-23 at 4.24.33 PM.png` |
+| 34 | `Screenshot 2026-06-23 at 4.24.36 PM.png` |
+| 35 | `Screenshot 2026-06-23 at 4.24.48 PM.png` |
+| 36 | `Screenshot 2026-06-23 at 4.24.52 PM.png` |
+| 37 | `Screenshot 2026-06-23 at 4.24.55 PM.png` |
+| 38 | `Screenshot 2026-06-23 at 4.24.58 PM.png` |
+| 39 | `Screenshot 2026-06-23 at 4.25.02 PM.png` |
+| 40 | `Screenshot 2026-06-23 at 4.25.05 PM.png` |
+| 41 | `Screenshot 2026-06-23 at 4.25.08 PM.png` |
+| 42 | `Screenshot 2026-06-23 at 4.25.11 PM.png` |
+| 43 | `Screenshot 2026-06-23 at 4.25.14 PM.png` |
+| 44 | `Screenshot 2026-06-23 at 4.25.18 PM.png` |
+| 45 | `Screenshot 2026-06-23 at 4.25.21 PM.png` |
+| 46 | `Screenshot 2026-06-23 at 4.25.24 PM.png` |
+| 47 | `Screenshot 2026-06-23 at 4.25.27 PM.png` |
+| 48 | `Screenshot 2026-06-23 at 4.25.33 PM.png` |
+| 49 | `Screenshot 2026-06-23 at 4.25.37 PM.png` |
+| 50 | `Screenshot 2026-06-23 at 4.25.41 PM.png` |
+| 51 | `Screenshot 2026-06-23 at 4.25.44 PM.png` |
+| 52 | `Screenshot 2026-06-23 at 4.25.47 PM.png` |
+| 53 | `Screenshot 2026-06-23 at 4.26.27 PM.png` |
+| 54 | `Screenshot 2026-06-23 at 4.26.31 PM.png` |
+| 55 | `Screenshot 2026-06-23 at 4.26.34 PM.png` |
+| 56 | `Screenshot 2026-06-23 at 4.26.50 PM.png` |
+| 57 | `Screenshot 2026-06-23 at 4.26.53 PM.png` |
+| 58 | `Screenshot 2026-06-23 at 4.26.58 PM.png` |
+| 59 | `Screenshot 2026-06-23 at 4.27.03 PM.png` |
+| 60 | `Screenshot 2026-06-23 at 4.27.07 PM.png` |
+| 61 | `Screenshot 2026-06-23 at 4.27.11 PM.png` |
+| 62 | `Screenshot 2026-06-23 at 4.27.21 PM.png` |
+| 63 | `Screenshot 2026-06-23 at 4.27.25 PM.png` |
+| 64 | `Screenshot 2026-06-23 at 4.27.30 PM.png` |
+| 65 | `Screenshot 2026-06-23 at 4.27.39 PM.png` |
+| 66 | `Screenshot 2026-06-23 at 4.27.43 PM.png` |
+| 67 | `Screenshot 2026-06-23 at 4.27.46 PM.png` |
+| 68 | `Screenshot 2026-06-23 at 4.27.54 PM.png` |
+| 69 | `Screenshot 2026-06-23 at 4.28.12 PM.png` |
+| 70 | `Screenshot 2026-06-23 at 4.28.22 PM.png` |
+| 71 | `Screenshot 2026-06-23 at 4.28.38 PM.png` |
+| 72 | `Screenshot 2026-06-23 at 4.28.44 PM.png` |
+| 73 | `Screenshot 2026-06-23 at 4.28.54 PM.png` |
+| 74 | `Screenshot 2026-06-23 at 4.28.57 PM.png` |
+| 75 | `Screenshot 2026-06-23 at 4.29.04 PM.png` |
+| 76 | `Screenshot 2026-06-23 at 4.29.09 PM.png` |
+| 77 | `Screenshot 2026-06-23 at 4.29.12 PM.png` |
+| 78 | `Screenshot 2026-06-23 at 4.29.23 PM.png` |
+| 79 | `Screenshot 2026-06-23 at 4.29.38 PM.png` |
+| 80 | `Screenshot 2026-06-23 at 4.29.47 PM.png` |
+| 81 | `Screenshot 2026-06-23 at 4.30.03 PM.png` |
+| 82 | `Screenshot 2026-06-23 at 4.30.15 PM.png` |
+| 83 | `Screenshot 2026-06-23 at 4.30.21 PM.png` |
+| 84 | `Screenshot 2026-06-23 at 4.30.30 PM.png` |
+| 85 | `Screenshot 2026-06-23 at 4.30.47 PM.png` |
+| 86 | `Screenshot 2026-06-23 at 4.30.57 PM.png` |
+| 87 | `Screenshot 2026-06-23 at 4.31.07 PM.png` |
+| 88 | `Screenshot 2026-06-23 at 4.31.15 PM.png` |
+| 89 | `Screenshot 2026-06-23 at 4.31.44 PM.png` |
+| 90 | `Screenshot 2026-06-23 at 4.31.55 PM.png` |

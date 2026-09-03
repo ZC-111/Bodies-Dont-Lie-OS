@@ -1,0 +1,88 @@
+{
+  "id": "ivermectin-ayurveda-2026-05",
+  "title": "Ivermectin for longevity, cancer, neurodegeneration & quantum Ayurveda",
+  "speaker": null,
+  "approx_date": "2026-05-19",
+  "primary_branch": "integrative-medicine",
+  "related_branches": [
+    "immune",
+    "materia-medica"
+  ],
+  "branches": [
+    "Research/integrative-medicine/",
+    "Research/immune/",
+    "Research/materia-medica/"
+  ],
+  "themes": [
+    "longevity",
+    "cancer_onco",
+    "neuro",
+    "infection",
+    "ayurveda"
+  ],
+  "medical_terms": [
+    "cancer_onco",
+    "neuro",
+    "infection_covid",
+    "herbal_botanical",
+    "longevity"
+  ],
+  "research_priority": "normal",
+  "sync": "screenshots_only",
+  "gem_status": "raw",
+  "local_downloads_id": "ivermectin-ayurveda-2026-05",
+  "paths": {
+    "packet": "Research/lectures/ivermectin-ayurveda-2026-05/",
+    "raw": "Research/lectures/ivermectin-ayurveda-2026-05/raw/",
+    "slides": "Research/lectures/ivermectin-ayurveda-2026-05/slides/",
+    "derived": "Research/lectures/ivermectin-ayurveda-2026-05/derived/",
+    "screenshot_manifest": "Research/lectures/ivermectin-ayurveda-2026-05/slides/screenshot-manifest.json"
+  },
+  "otter": {
+    "transcript": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.txt",
+    "audio": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.mp3",
+    "source_root": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026"
+  },
+  "slides": {
+    "status": "screenshots_in_downloads",
+    "screenshot_count": 99,
+    "slides_root": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026",
+    "first": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Screenshot 2026-06-21 at 8.59.09 PM.png",
+    "last": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Screenshot 2026-06-21 at 9.07.52 PM.png",
+    "manifest": "Research/lectures/ivermectin-ayurveda-2026-05/slides/screenshot-manifest.json"
+  },
+  "documents": [
+    {
+      "filename": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.zip",
+      "relative_path": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.zip",
+      "source_path": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.zip",
+      "size_bytes": 20423577,
+      "format": "zip",
+      "kind": "archive"
+    },
+    {
+      "filename": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.mp3",
+      "relative_path": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.mp3",
+      "source_path": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.mp3",
+      "size_bytes": 20317221,
+      "format": "mp3",
+      "kind": "audio"
+    },
+    {
+      "filename": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.txt",
+      "relative_path": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.txt",
+      "source_path": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology slides 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.txt",
+      "size_bytes": 106008,
+      "format": "txt",
+      "kind": "transcript"
+    }
+  ],
+  "derived": {
+    "gem_cleanup": false,
+    "study_guide": false,
+    "teach_outline": false
+  },
+  "knowledge_leaves": [],
+  "notes": "Dedicated slides/ subfolder with 99 screenshots + Otter txt/mp3/zip.",
+  "cataloged_at": "2026-09-03"
+}
