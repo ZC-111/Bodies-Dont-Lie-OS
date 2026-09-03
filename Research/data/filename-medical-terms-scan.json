@@ -1,0 +1,622 @@
+{
+  "meta": {
+    "scanned_roots": [
+      "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads",
+      "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop",
+      "/Volumes/Macintosh HD - Data/Users/chingchen/Documents",
+      "/Volumes/Macintosh HD - Data/Users/ching/Desktop",
+      "/Volumes/Macintosh HD - Data/Users/ching/Documents"
+    ],
+    "file_count": 2324,
+    "matched": 369,
+    "unique_matched_approx": 312,
+    "unmatched": 2012
+  },
+  "by_term": {
+    "pain_msk": {
+      "count": 51,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Arthritis Care   Research - 2020 - Kolasinski - 2019 American College of Rheumatology Arthritis Foundation Guideline for-2.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Safe and Effective Opioid Prescribing for Chronic Pain - Chronic Pain with Leonard Kamen.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Arthritis Care   Research - 2020 - Kolasinski - 2019 American College of Rheumatology Arthritis Foundation Guideline for.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/J Am Osteopath Assoc 2009 Aug 109(8) 409-13, Figure 2.ppt",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/6. Gersh/PCOS March 2022 Osteopathic Conference.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/5. Lozano/American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/CME/CME-certificate for NY annual pain society comference 2014.doc"
+      ]
+    },
+    "neuro": {
+      "count": 48,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Queenie Spine MRI Report Details5-30-24.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/AOCPMR Interventional Spine Casese w Dr Jenny Kendall DO 10 6 2021.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Goals of Regenerative Medicine (Fascial focus) with Dr Kathleen Smith 12 7 21.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/wetransfer_pa-osteo-slides-conf-aug-23_2023-08-05_1447/medalie-susan-headaches-handout.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/3. Harris/Stellate Ganglion Harris Final.pptx",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/client resources / Upper Motor Neuron Syndrome Botox injection Worksheet.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 20 AcuStrategies - Headache (Flash)_4015.doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 13 SciLecture 1 - AcuMyofascial II_5347.pdf"
+      ]
+    },
+    "ethics_systems": {
+      "count": 42,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOA CME 2012.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/7. Cruz/March 2022 Medical Ethics Presentation (1).pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/9. Stock/CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/CME/AOA CME 2013.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/CME/CME-certificate for NY annual pain society comference 2014.doc",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/CME/NYSOMS CME 2013 Ching Chen, DO.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/CME/Pain Society 16 CME 4 2012.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/CME/CME-certificate-nypainsociety 2014.doc"
+      ]
+    },
+    "acupuncture": {
+      "count": 33,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/1. Anwar/AP, Laser AP & Bio AP-Dr Anwar.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Kikko Acupuncture PPT/Wknd1_Oketsu Immune Adrenal.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Kikko Acupuncture PPT/Kiiko Matsumoto Clinical Strategy Textbook/kiiko_matsumoto_david_euler_kiiko_matsumotos_clinical_strate (2).pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Kikko Acupuncture PPT/Kiiko Matsumoto Clinical Strategy Textbook/kiiko_matsumoto_david_euler_kiiko_matsumotos_clinical_strate.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Kikko Acupuncture PPT/Kiiko Matsumoto Clinical Strategy Textbook/kiiko_matsumoto_birch_stephen_hara_diagnosis_reflection_on_t.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Documents/Superbill with acupuncture and OMM.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Misc/New License with Acupuncture Certification.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 24 AcuLecture 1 - Electricoacupuncture (Test) 1629.doc"
+      ]
+    },
+    "laser_light": {
+      "count": 23,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/1. Anwar/AP, Laser AP & Bio AP-Dr Anwar.pptx",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 16 Laser Handouts - Hip OA_9274.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 16 Laser Handouts - Foot Pain _5300.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 16 Laser Handouts -Tissue Repair _7964.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 16 Laser Handouts - Bone Graft Pain _6735.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 16 Laser Handouts - Neuropathy _4219.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 16 SciLecture 1 - Laser Basics _1351.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 16 Laser Handouts - PHN _2012.pdf"
+      ]
+    },
+    "derm": {
+      "count": 21,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/2013 NUSKIN AGELOC R2 preorder form.doc",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/MASTER_NuSkin-Order_Form-1_29_12 (1).pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/MASTER_NuSkin-Order_Form-1_29_12.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/2013 NUSKIN AGELOC TR90 preorder form.doc",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Documents/Nuskin Customer information form for legal 11 2014.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Documents/Enlightened Warrior 2014/Nuskin Order  11 2014 2 Details.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Documents/Enlightened Warrior 2014/Nuskin 2014-03-30 Order Details.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Documents/Enlightened Warrior 2014/nuskin 6 2014 2Order Details.pdf"
+      ]
+    },
+    "psych_behavioral": {
+      "count": 16,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Safe and Effective Opioid Prescribing for Chronic Pain - Chronic Pain with Leonard Kamen.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Books/IFS part 2.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/5. Lezkowitz/5. Opioid Use Disorder-D. Leszkovitz.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Sunday April 6 2014/2014 SAFE Opioid Prescribing sessions 1-3 4 2 14.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Sunday April 6 2014/2014 SAFE Opioid Prescribing sessions 4-6_  4 2 14.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Documents/NY Pain Society 2015 talks PPT/Salsitz-Ind.-Pain-Management-for-Addicted-Patient.pdf"
+      ]
+    },
+    "cardio": {
+      "count": 16,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/STROKE and cysteine Amino Acid.114.008022.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/1. Bryan/Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 12 AcuLecture1 - Heartology 4496.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 27 AcuLecture 1 - Cardiac (Test) 6096-.doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 12 AcuLecture 1 - Heartology (Test) _6489.doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 27 Aculecture 1 - Cardiac & Blood Pressure (pdf) 4830.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/  \tWeek 27 Aculecture 1 - Cardiac & Blood Pressure (pdf) .pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 27 AcuLecture 1 - Cardiac (Test) .doc"
+      ]
+    },
+    "endocrine_hormone": {
+      "count": 15,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Catherine McDermott Thyroid Biopsy 3 19 2013.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Catherine McDermott Thyroid biopsy pg 2.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Nanoparticles as carriers of proteins, peptides and other therapeutic molecules 10.1515_biol-2018-0035.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Peptide\u2013nanoparticle conjugates: a next generation of diagnostic and therapeutic platforms?.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/A Peptide-Nanoparticle System with Improved Efcacy against Multidrug Resistant Bacteria.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Dr Bill Clearfields Hormones & Peptide Lecture 7 1 2021.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Estrogen & Immune Function in Women 12 28 2021 w Dr Felice L. Gersh.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx"
+      ]
+    },
+    "nutrition_food": {
+      "count": 14,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/foods-12-00363.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Ching Chen food reaction and medication list updated June 21 2021 copy.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Taurine rich Foods from research paper.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Anti-aging integrative Medicine & Nutrition with Dr Parvin Zarrin PhD 12 21 21.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/CPT coding/medical-nutritional-therapy.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/CPT coding/Clinical nutrition CPT code.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/Vitamin product research/Magnesium absorption.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Documents/Recipes- Chinese/Fish balls food material introduction.pdf"
+      ]
+    },
+    "infection_covid": {
+      "count": 12,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/XXB.1.5 monovalent booster improves antibody binding and neutralization against emerging SARS CoV-2 Omicron variants.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/COVID Home Tests _ USPS oreder 1 21 2022.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Dr. Cheryl Ortel COVID Treatment update 6 24 2021.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Severe COVID case study using Integrative Treatment 2021-06-22 .pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Genetic Snips and Covid-19 Severity with Dr Cheryl Ortel 7 7 2021.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Effective Treatment for CFS persistent Post COVID with Dr Teitelbaum 3 15 2022.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/7. Yutani/7. Yutani COVID-19 pres 2-1.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt"
+      ]
+    },
+    "vitamin_supplement": {
+      "count": 11,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/\u03b1-Galactosidase Producing Probiotics Bacteria and Their Health Implications.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/9. Stock/CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/Vitamin product research/Ebook: How To Triple Your Antioxidant Absorption From Matcha.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/Vitamin product research/Magnesium absorption.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/client resources /Coral Calcium Supplements - Compare the leading brands.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/client resources /Water intake and EmergenC .pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/client resources /Order True Blue Coral Calcium and The Kitchen Sink Multivitamin.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/client resources /use of supplements to optimize health. doc.doc"
+      ]
+    },
+    "detox": {
+      "count": 11,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/client resources /Mercury Detoxification Protocol.odt",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 26 AcuLecture 1 - Allergy & Detox (Test)2618.doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 27 AcuStrategies - Detox_2804.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 26 SciLecture 1 - Acupuncture Detox (PDF) .pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 26 SciLecture 1 - Acupuncture Detox (Test )_9476.doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 27 AcuStrategies - Detox (Test) _6987.doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 26 AcuLecture 1 - Allergy & Detox (pdf) 6281.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 26 SciLecture 1 - Acupuncture Detox (PDF)_6312.pdf"
+      ]
+    },
+    "autoimmune": {
+      "count": 9,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Arthritis Care   Research - 2020 - Kolasinski - 2019 American College of Rheumatology Arthritis Foundation Guideline for-2.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Arthritis Care   Research - 2020 - Kolasinski - 2019 American College of Rheumatology Arthritis Foundation Guideline for.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Pediatric Metabolic-Autoimmune Case.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/6. Speer/looking at rheumatic diseases_1-Speer.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/3. Pertain/Brittany Partain CB-CAPs Presentation COME 4.0.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/7. Born/Autoimmune Diseases ASORD (1).pptx",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Freedom trader/updated screener codes ms word 97-2003.odt",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Windows Desktop/lexar mini/My ScanSnap/Rehabilitation of Multiple Sclerosis.pdf"
+      ]
+    },
+    "gi_metabolic": {
+      "count": 9,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Taurine rich Foods from research paper.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Pediatric Metabolic-Autoimmune Case.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/AMPK: A Cellular Metabolic & ReDOX Sensor Overview with Dr Michael Karlfeldt ND PhD.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 28 AcuLecture 1 - Part I GI Problems (Test) .doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 28 AcuLecture 1 - Part I GI Problems (Test).doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 09 AcuLecture 1 - GI Concepts (Test) _4857.doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 28 AcuLecture 1 - GI Problems (pdf).pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Windows Desktop/Acupuncture Videos estream/Week 30 AcuStrategies - GI (Test) 9300.doc"
+      ]
+    },
+    "immune": {
+      "count": 7,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Power of the Immune Therapy with Dr Halasa 10 26 21.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Estrogen & Immune Function in Women 12 28 2021 w Dr Felice L. Gersh.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/1. Halasa/1. Integrative Immuno Oncology-Halasa.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/9. James Forsythe/2022 Forsythe Immune Protocol Update March 2022.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Kikko Acupuncture PPT/Wknd1_Oketsu Immune Adrenal.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/Ching Health/LABS AND IMMUNOLOGY TITERS DEC 2007.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Windows Desktop/MEDICAL PRACTICE/LABS AND IMMUNOLOGY TITERS DEC 2007.pdf"
+      ]
+    },
+    "womens_gyn": {
+      "count": 6,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/6. Gersh/PCOS March 2022 Osteopathic Conference.pptx",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 23 AcuStrategies GYN _3169-1.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 22 AcuLecture 1 - GYN .pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Week 23 AcuStrategies - GYN (Test)_6337.doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Acupuncture Downloads/Week 22 AcuLecture 2 - GYN II Test .doc"
+      ]
+    },
+    "regenerative": {
+      "count": 5,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Nanoparticles as carriers of proteins, peptides and other therapeutic molecules 10.1515_biol-2018-0035.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Peptide\u2013nanoparticle conjugates: a next generation of diagnostic and therapeutic platforms?.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/A Peptide-Nanoparticle System with Improved Efcacy against Multidrug Resistant Bacteria.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Goals of Regenerative Medicine (Fascial focus) with Dr Kathleen Smith 12 7 21.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Dr Bill Clearfields Hormones & Peptide Lecture 7 1 2021.pdf"
+      ]
+    },
+    "pediatric": {
+      "count": 5,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Pediatric Metabolic-Autoimmune Case.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Windows Desktop/lexar mini/My ScanSnap/Pediatric Spondylolysthesis.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Windows Desktop/lexar mini/My ScanSnap/pediatric neuromuscular disease.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Windows Desktop/Acupuncture Videos estream/Week 31 AcuLecture 1 - Pediatric Acupuncture _4798.doc",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Windows Desktop/Acupuncture Videos estream/Week 31 AcuLecture 1 - Pediatric Acupuncture _9442.pdf"
+      ]
+    },
+    "cancer_onco": {
+      "count": 4,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Use of Nano-Particle & Dynamic Thermal Therapy in Cancer Patients.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/1. Halasa/1. Integrative Immuno Oncology-Halasa.pptx",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/Review of Acupunture Lit- Post op nausea & Chemo induces nausea & vomitting.pdf",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Windows Desktop/MEDICAL PRACTICE/MLMIC Malpractice/Cancer Rehabilitation articles.pdf"
+      ]
+    },
+    "injection_iv": {
+      "count": 3,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/neural therapy for aascp good def.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/2. Macheret/NAD Injection and IV Therapy-2.pptx",
+        "/Volumes/Macintosh HD - Data/Users/ching/Desktop/client resources / Upper Motor Neuron Syndrome Botox injection Worksheet.pdf"
+      ]
+    },
+    "fatigue_cfs": {
+      "count": 3,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Effective Treatment for CFS persistent Post COVID with Dr Teitelbaum 3 15 2022.pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/6. Patel/6. CHRONIC FATIGUE \u2013DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx"
+      ]
+    },
+    "herbal_botanical": {
+      "count": 2,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/reishimax.ppt",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Desktop/Vitamin product research/Ebook: How To Triple Your Antioxidant Absorption From Matcha.pdf"
+      ]
+    },
+    "mold_mycotoxin": {
+      "count": 2,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Mast Cells & Mycotoxins with Dr Andrew Campbell 12 14 21 .pdf",
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Notes from Dr Andrew Campbell MD on Mycology 12  2021.rtf"
+      ]
+    },
+    "mast_cell": {
+      "count": 1,
+      "examples": [
+        "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/Lectures 2021/Mast Cells & Mycotoxins with Dr Andrew Campbell 12 14 21 .pdf"
+      ]
+    }
+  },
+  "unmatched_token_candidates": [
+    [
+      "week",
+      76
+    ],
+    [
+      "signed",
+      40
+    ],
+    [
+      "test",
+      40
+    ],
+    [
+      "form",
+      39
+    ],
+    [
+      "about",
+      31
+    ],
+    [
+      "aculecture",
+      31
+    ],
+    [
+      "downloads",
+      30
+    ],
+    [
+      "kid-",
+      27
+    ],
+    [
+      "letter",
+      25
+    ],
+    [
+      "statement",
+      25
+    ],
+    [
+      "application",
+      24
+    ],
+    [
+      "ren-",
+      24
+    ],
+    [
+      "card",
+      22
+    ],
+    [
+      "agreement",
+      21
+    ],
+    [
+      "license",
+      21
+    ],
+    [
+      "scilecture",
+      19
+    ],
+    [
+      "comphealth",
+      19
+    ],
+    [
+      "weatherby",
+      19
+    ],
+    [
+      "assignment",
+      18
+    ],
+    [
+      "receipts",
+      18
+    ],
+    [
+      "bank",
+      16
+    ],
+    [
+      "timesheet",
+      16
+    ],
+    [
+      "remass",
+      16
+    ],
+    [
+      "label",
+      15
+    ],
+    [
+      "shipping",
+      14
+    ],
+    [
+      "invoice",
+      14
+    ],
+    [
+      "insurance",
+      14
+    ],
+    [
+      "ebay",
+      14
+    ],
+    [
+      "liv-",
+      14
+    ],
+    [
+      "initial",
+      13
+    ],
+    [
+      "template",
+      13
+    ],
+    [
+      "receipt",
+      13
+    ],
+    [
+      "previsit",
+      12
+    ],
+    [
+      "request",
+      12
+    ],
+    [
+      "registration",
+      12
+    ],
+    [
+      "mercy",
+      12
+    ],
+    [
+      "module",
+      12
+    ],
+    [
+      "ageloc",
+      11
+    ],
+    [
+      "warrior",
+      11
+    ],
+    [
+      "business",
+      11
+    ],
+    [
+      "acustrategies",
+      11
+    ],
+    [
+      "payment",
+      10
+    ],
+    [
+      "confirmation",
+      10
+    ],
+    [
+      "forms",
+      10
+    ],
+    [
+      "mlmic",
+      10
+    ],
+    [
+      "certificate",
+      10
+    ],
+    [
+      "m-hn-",
+      10
+    ],
+    [
+      "seattle",
+      10
+    ],
+    [
+      "nnmc",
+      10
+    ],
+    [
+      "enlightened",
+      9
+    ],
+    [
+      "lyle",
+      9
+    ],
+    [
+      "leadership",
+      9
+    ],
+    [
+      "bill",
+      9
+    ],
+    [
+      "change",
+      9
+    ],
+    [
+      "vamc",
+      9
+    ],
+    [
+      "completed",
+      9
+    ],
+    [
+      "privileged",
+      9
+    ],
+    [
+      "beyond",
+      9
+    ],
+    [
+      "chapter",
+      9
+    ],
+    [
+      "life",
+      8
+    ],
+    [
+      "contract",
+      8
+    ],
+    [
+      "usps",
+      8
+    ],
+    [
+      "abpmr",
+      8
+    ],
+    [
+      "feelings",
+      8
+    ],
+    [
+      "label-",
+      7
+    ],
+    [
+      "summary",
+      7
+    ],
+    [
+      "posecion",
+      7
+    ],
+    [
+      "plan",
+      7
+    ],
+    [
+      "manual",
+      7
+    ],
+    [
+      "purchase",
+      7
+    ],
+    [
+      "time",
+      7
+    ],
+    [
+      "sallie",
+      7
+    ],
+    [
+      "m-ue-",
+      7
+    ],
+    [
+      "acls",
+      7
+    ],
+    [
+      "print",
+      6
+    ],
+    [
+      "certification",
+      6
+    ],
+    [
+      "fifty",
+      6
+    ],
+    [
+      "adult-pre-initial-visit-forms",
+      6
+    ],
+    [
+      "report",
+      6
+    ],
+    [
+      "instructions",
+      6
+    ]
+  ]
+}

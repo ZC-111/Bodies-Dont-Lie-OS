@@ -149,13 +149,43 @@
     "notes": "Briefing doc, study guides, clinical frameworks, extraordinary point atlases (text). Exported from NotebookLM Studio."
   },
   {
-    "id": "acupuncture_spreadsheets",
-    "title": "Acupuncture Comparative Spreadsheets",
-    "local_path": "Research/acupuncture/data/spreadsheets/",
-    "role": "structured_reference",
-    "system": "classical_body",
-    "files": ["acupuncture_points_atlas.xlsx", "acupuncture_comparative_sheet.xlsx"],
-    "comparison_status": "imported",
-    "notes": "Notebook-generated comparative tables."
+    "id": "ching_library_catalog",
+    "title": "Ching External Drive — Acupuncture Library Catalog",
+    "local_path": "Research/acupuncture/data/ching-library-catalog.json",
+    "external_archive": "/Volumes/Macintosh HD - Data/Users/ching/",
+    "role": "drive_archive_catalog",
+    "system": "mixed",
+    "collections": 7,
+    "items": 246,
+    "comparison_status": "cataloged_v0.1",
+    "notes": "Targeted index beyond Harvard AP101: meridian charts, Kiiko materials, Deadman CD-ROM, eStream stubs, podcasts. Excludes credentials/CME (medical practice, certification). Regenerate via build_ching_library_catalog.py."
+  },
+  {
+    "id": "aosrd_catalog",
+    "title": "AOSRD Congress of Medical Excellence 2022 — Lecture Archive",
+    "local_path": "Research/integrative-medicine/aosrd-2022/data/aosrd-catalog.json",
+    "external_archive": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/",
+    "role": "conference_lecture_catalog",
+    "system": "integrative_medicine",
+    "year": 2022,
+    "lectures": 29,
+    "files": 37,
+    "comparison_status": "cataloged_v0.1",
+    "notes": "Multi-domain CME. Theme tags: autoimmune/mold → immune; diet/fasting → nutrition; Anwar AP → acupuncture cross-link. Regenerate via Research/integrative-medicine/aosrd-2022/scripts/build_aosrd_catalog.py."
+  },
+  {
+    "id": "harvard_ap101_catalog",
+    "title": "Harvard Medical School AP101 — Acupuncture Course Archive",
+    "local_path": "Research/acupuncture/data/harvard-ap101-catalog.json",
+    "external_archive": "/Volumes/Macintosh HD - Data/Users/ching/Desktop/Harvard acupuncture/",
+    "role": "lecture_archive_catalog",
+    "system": "clinical_education",
+    "course_year": "2009-2010",
+    "source_platform": "mycourses.med.harvard.edu",
+    "items": 408,
+    "playable_videos": 80,
+    "converted_rm_videos": 37,
+    "comparison_status": "cataloged_v0.1_converted",
+    "notes": "Catalog + RM→MP4 conversion complete. 37 RealMedia demos converted to Research/acupuncture/sources/harvard-ap101/videos/ (~1.6 GB). 5 source stubs skipped (Week 24 electro×3, Week 28 Kiiko×2). Legacy Flash (.swf) not converted. Regenerate catalog: build_harvard_ap101_catalog.py; convert: convert_harvard_rm_to_mp4.py."
   }
 ]

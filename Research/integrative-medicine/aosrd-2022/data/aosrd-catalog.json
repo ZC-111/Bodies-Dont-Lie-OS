@@ -1,0 +1,1857 @@
+{
+  "meta": {
+    "version": "0.1",
+    "cataloged_at": "2026-09-02",
+    "conference": "AOSRD — American Osteopathic Society Congress of Medical Excellence",
+    "year": 2022,
+    "event": "Las Vegas (virtual)",
+    "dates": "March 25–27, 2022",
+    "primary_archive": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022",
+    "catalog_script": "Research/integrative-medicine/aosrd-2022/scripts/build_aosrd_catalog.py",
+    "notes": "AOSRD 2022 multi-domain CME archive. Theme tags map to Living Tree branches: autoimmune → immune; food/diet/fasting → nutrition. Not an acupuncture catalog.",
+    "branch_taxonomy": {
+      "immune": "Includes autoimmunity, mold/mycotoxins/CIRS, rheumatology, immuno-oncology, infection/immune protocols",
+      "nutrition": "Includes food, dietary protocols, fasting, metabolic lifestyle",
+      "acupuncture": "Only explicitly AP/laser/bio-AP lectures (cross-link)",
+      "note": "Do not create separate autoimmune/ or mold/ branches — both live under immune. Food/diet/fasting live under nutrition."
+    },
+    "local_path": "Research/integrative-medicine/aosrd-2022/data/aosrd-catalog.json"
+  },
+  "summary": {
+    "lectures": 29,
+    "files": 37,
+    "by_day": {
+      "Friday": 9,
+      "Saturday": 9,
+      "Sunday": 9,
+      "Interstitial": 1
+    },
+    "by_kind": {
+      "audio": 1,
+      "document": 4,
+      "image": 1,
+      "slides": 27,
+      "video": 4
+    },
+    "with_video": 4,
+    "with_audio": 1,
+    "slides_only": 21,
+    "by_theme": {
+      "acupuncture": 1,
+      "behavioral": 2,
+      "cardiometabolic": 2,
+      "ethics": 1,
+      "immune": 11,
+      "integrative-medicine": 13,
+      "lifestyle": 1,
+      "longevity": 1,
+      "nutrition": 3,
+      "osteopathic": 2,
+      "systems": 1
+    },
+    "mold_tagged": 1
+  },
+  "lectures": [
+    {
+      "id": "friday-1-anwar-ap-laser-ap-bio-ap-dr-anwar",
+      "day": "Friday",
+      "session": 1,
+      "speaker": "Anwar",
+      "topic": "AP, Laser AP & Bio AP-Dr Anwar",
+      "primary_file": "Friday/1. Anwar/AP, Laser AP & Bio AP-Dr Anwar.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "AP, Laser AP & Bio AP-Dr Anwar.pptx",
+          "relative_path": "Friday/1. Anwar/AP, Laser AP & Bio AP-Dr Anwar.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/1. Anwar/AP, Laser AP & Bio AP-Dr Anwar.pptx",
+          "size_bytes": 14409741,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Friday",
+          "session": 1,
+          "speaker": "Anwar",
+          "topic": "AP, Laser AP & Bio AP-Dr Anwar",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/1. Anwar/AP, Laser AP & Bio AP-Dr Anwar.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "acupuncture",
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/acupuncture/",
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "friday-2-macheret-nad-injection-and-iv-therapy-2",
+      "day": "Friday",
+      "session": 2,
+      "speaker": "Macheret",
+      "topic": "NAD Injection and IV Therapy-2",
+      "primary_file": "Friday/2. Macheret/NAD Injection and IV Therapy-2.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "NAD Injection and IV Therapy-2.pptx",
+          "relative_path": "Friday/2. Macheret/NAD Injection and IV Therapy-2.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/2. Macheret/NAD Injection and IV Therapy-2.pptx",
+          "size_bytes": 5276424,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Friday",
+          "session": 2,
+          "speaker": "Macheret",
+          "topic": "NAD Injection and IV Therapy-2",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/2. Macheret/NAD Injection and IV Therapy-2.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "integrative-medicine",
+        "longevity"
+      ],
+      "branches": [
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "friday-3-lillio-lillo-coronary-artery-calcium-scoring-ppt-for-jll-of",
+      "day": "Friday",
+      "session": 3,
+      "speaker": "Lillio",
+      "topic": "Lillo-Coronary Artery Calcium Scoring PPT for JLL of",
+      "primary_file": "Friday/3. Lillio/3. Lillo-Coronary Artery Calcium Scoring PPT for JLL of.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "3. Lillo-Coronary Artery Calcium Scoring PPT for JLL of.pptx",
+          "relative_path": "Friday/3. Lillio/3. Lillo-Coronary Artery Calcium Scoring PPT for JLL of.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/3. Lillio/3. Lillo-Coronary Artery Calcium Scoring PPT for JLL of.pptx",
+          "size_bytes": 3843297,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Friday",
+          "session": 3,
+          "speaker": "Lillio",
+          "topic": "Lillo-Coronary Artery Calcium Scoring PPT for JLL of",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/3. Lillio/3. Lillo-Coronary Artery Calcium Scoring PPT for JLL of.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "cardiometabolic"
+      ],
+      "branches": []
+    },
+    {
+      "id": "friday-4-sundermann-lifestyle-medicine-transforming-primary-care",
+      "day": "Friday",
+      "session": 4,
+      "speaker": "Sundermann",
+      "topic": "LIFESTYLE MEDICINE-Transforming Primary Care",
+      "primary_file": "Friday/4. Sundermann/4. Sundermann-LIFESTYLE MEDICINE-Transforming Primary Care.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "4. Sundermann-LIFESTYLE MEDICINE-Transforming Primary Care.pptx",
+          "relative_path": "Friday/4. Sundermann/4. Sundermann-LIFESTYLE MEDICINE-Transforming Primary Care.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/4. Sundermann/4. Sundermann-LIFESTYLE MEDICINE-Transforming Primary Care.pptx",
+          "size_bytes": 41502342,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Friday",
+          "session": 4,
+          "speaker": "Sundermann",
+          "topic": "LIFESTYLE MEDICINE-Transforming Primary Care",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/4. Sundermann/4. Sundermann-LIFESTYLE MEDICINE-Transforming Primary Care.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "nutrition",
+        "lifestyle"
+      ],
+      "branches": [
+        "Research/nutrition/"
+      ]
+    },
+    {
+      "id": "friday-5-lezkowitz-opioid-use-disorder-d-leszkovitz",
+      "day": "Friday",
+      "session": 5,
+      "speaker": "Lezkowitz",
+      "topic": "Opioid Use Disorder-D. Leszkovitz",
+      "primary_file": "Friday/5. Lezkowitz/5. Opioid Use Disorder-D. Leszkovitz.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "5. Opioid Use Disorder-D. Leszkovitz.pptx",
+          "relative_path": "Friday/5. Lezkowitz/5. Opioid Use Disorder-D. Leszkovitz.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/5. Lezkowitz/5. Opioid Use Disorder-D. Leszkovitz.pptx",
+          "size_bytes": 93588124,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Friday",
+          "session": 5,
+          "speaker": "Lezkowitz",
+          "topic": "Opioid Use Disorder-D. Leszkovitz",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/5. Lezkowitz/5. Opioid Use Disorder-D. Leszkovitz.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "behavioral"
+      ],
+      "branches": []
+    },
+    {
+      "id": "friday-6-speer-looking-at-rheumatic-diseases-1-speer",
+      "day": "Friday",
+      "session": 6,
+      "speaker": "Speer",
+      "topic": "looking at rheumatic diseases_1-Speer",
+      "primary_file": "Friday/6. Speer/looking at rheumatic diseases_1-Speer.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "looking at rheumatic diseases_1-Speer.pptx",
+          "relative_path": "Friday/6. Speer/looking at rheumatic diseases_1-Speer.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/6. Speer/looking at rheumatic diseases_1-Speer.pptx",
+          "size_bytes": 2325030,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Friday",
+          "session": 6,
+          "speaker": "Speer",
+          "topic": "looking at rheumatic diseases_1-Speer",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/6. Speer/looking at rheumatic diseases_1-Speer.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "immune"
+      ],
+      "branches": [
+        "Research/immune/"
+      ]
+    },
+    {
+      "id": "friday-7-yutani-covid-19-pres-2-1",
+      "day": "Friday",
+      "session": 7,
+      "speaker": "Yutani",
+      "topic": "COVID-19 pres 2-1",
+      "primary_file": "Friday/7. Yutani/7. Yutani COVID-19 pres 2-1.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "7. Yutani COVID-19 pres 2-1.pptx",
+          "relative_path": "Friday/7. Yutani/7. Yutani COVID-19 pres 2-1.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/7. Yutani/7. Yutani COVID-19 pres 2-1.pptx",
+          "size_bytes": 12847882,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Friday",
+          "session": 7,
+          "speaker": "Yutani",
+          "topic": "COVID-19 pres 2-1",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/7. Yutani/7. Yutani COVID-19 pres 2-1.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "immune"
+      ],
+      "branches": [
+        "Research/immune/"
+      ]
+    },
+    {
+      "id": "friday-8-o-neil-smith-kos-slide-show",
+      "day": "Friday",
+      "session": 8,
+      "speaker": "O'Neil Smith",
+      "topic": "KOS-Slide Show",
+      "primary_file": "Friday/8. O'Neil Smith/KOS-Slide Show.pdf",
+      "formats": [
+        "pdf"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "KOS-Slide Show.pdf",
+          "relative_path": "Friday/8. O'Neil Smith/KOS-Slide Show.pdf",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/8. O'Neil Smith/KOS-Slide Show.pdf",
+          "size_bytes": 8356042,
+          "format": "pdf",
+          "kind": "document",
+          "day": "Friday",
+          "session": 8,
+          "speaker": "O'Neil Smith",
+          "topic": "KOS-Slide Show",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/8. O'Neil Smith/KOS-Slide Show.pdf"
+          ]
+        }
+      ],
+      "themes": [
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "friday-9-marsh-insulin-resistance-effects-on-fertility-aosrd-mar-25-2022",
+      "day": "Friday",
+      "session": 9,
+      "speaker": "Marsh",
+      "topic": "Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022",
+      "primary_file": "Friday/9. Marsh/Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx",
+      "formats": [
+        "mp4",
+        "pptx"
+      ],
+      "kinds": [
+        "slides",
+        "video"
+      ],
+      "file_count": 2,
+      "files": [
+        {
+          "filename": "Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx",
+          "relative_path": "Friday/9. Marsh/Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx",
+          "size_bytes": 7518076,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Friday",
+          "session": 9,
+          "speaker": "Marsh",
+          "topic": "Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx"
+          ]
+        },
+        {
+          "filename": "Insulin Resistance and Effects on Fertility.mp4",
+          "relative_path": "Friday/9. Marsh/Insulin Resistance and Effects on Fertility.mp4",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance and Effects on Fertility.mp4",
+          "size_bytes": 553118469,
+          "format": "mp4",
+          "kind": "video",
+          "day": "Friday",
+          "session": 9,
+          "speaker": "Marsh",
+          "topic": "Insulin Resistance and Effects on Fertility",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance and Effects on Fertility.mp4"
+          ]
+        }
+      ],
+      "themes": [
+        "nutrition",
+        "cardiometabolic"
+      ],
+      "branches": [
+        "Research/nutrition/"
+      ]
+    },
+    {
+      "id": "saturday-1-bryan-nitric-oxide-for-the-prevention-and-treatment-of-cardiovascular-disease-with-a-splash-of-covid",
+      "day": "Saturday",
+      "session": 1,
+      "speaker": "Bryan",
+      "topic": "Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid",
+      "primary_file": "Saturday/1. Bryan/Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx",
+      "formats": [
+        "pdf",
+        "pptx"
+      ],
+      "kinds": [
+        "document",
+        "slides"
+      ],
+      "file_count": 2,
+      "files": [
+        {
+          "filename": "NSBryan Congress of Medical Excellence March 2022.pdf",
+          "relative_path": "Saturday/1. Bryan/NSBryan Congress of Medical Excellence March 2022.pdf",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/1. Bryan/NSBryan Congress of Medical Excellence March 2022.pdf",
+          "size_bytes": 6575352,
+          "format": "pdf",
+          "kind": "document",
+          "day": "Saturday",
+          "session": 1,
+          "speaker": "Bryan",
+          "topic": "NSBryan Congress of Medical Excellence March 2022",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/1. Bryan/NSBryan Congress of Medical Excellence March 2022.pdf"
+          ]
+        },
+        {
+          "filename": "Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx",
+          "relative_path": "Saturday/1. Bryan/Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/1. Bryan/Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx",
+          "size_bytes": 16855085,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 1,
+          "speaker": "Bryan",
+          "topic": "Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/1. Bryan/Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "immune"
+      ],
+      "branches": [
+        "Research/immune/"
+      ]
+    },
+    {
+      "id": "saturday-2-campbell-2022-congress-of-medical-excellence2",
+      "day": "Saturday",
+      "session": 2,
+      "speaker": "Campbell",
+      "topic": "2022 Congress of Medical Excellence2",
+      "primary_file": "Saturday/2. Campbell/2022 Congress of Medical Excellence2.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 2,
+      "files": [
+        {
+          "filename": "2022 Congress of Medical Excellence.pptx",
+          "relative_path": "Saturday/2. Campbell/2022 Congress of Medical Excellence.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/2. Campbell/2022 Congress of Medical Excellence.pptx",
+          "size_bytes": 42870090,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 2,
+          "speaker": "Campbell",
+          "topic": "2022 Congress of Medical Excellence",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/2. Campbell/2022 Congress of Medical Excellence.pptx"
+          ]
+        },
+        {
+          "filename": "2022 Congress of Medical Excellence2.pptx",
+          "relative_path": "Saturday/2. Campbell/2022 Congress of Medical Excellence2.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/2. Campbell/2022 Congress of Medical Excellence2.pptx",
+          "size_bytes": 42894401,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 2,
+          "speaker": "Campbell",
+          "topic": "2022 Congress of Medical Excellence2",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/2. Campbell/2022 Congress of Medical Excellence2.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "integrative-medicine",
+        "immune"
+      ],
+      "branches": [
+        "Research/immune/",
+        "Research/integrative-medicine/"
+      ],
+      "topics": [
+        "mold",
+        "mycotoxins"
+      ],
+      "primary_branch": "immune"
+    },
+    {
+      "id": "saturday-3-harris-stellate-ganglion-harris-final",
+      "day": "Saturday",
+      "session": 3,
+      "speaker": "Harris",
+      "topic": "Stellate Ganglion Harris Final",
+      "primary_file": "Saturday/3. Harris/Stellate Ganglion Harris Final.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "Stellate Ganglion Harris Final.pptx",
+          "relative_path": "Saturday/3. Harris/Stellate Ganglion Harris Final.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/3. Harris/Stellate Ganglion Harris Final.pptx",
+          "size_bytes": 6250885,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 3,
+          "speaker": "Harris",
+          "topic": "Stellate Ganglion Harris Final",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/3. Harris/Stellate Ganglion Harris Final.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "osteopathic",
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "saturday-4-levy-lecture-hidden-epidemic-las-vegas-virtual-3-26-2022-levy",
+      "day": "Saturday",
+      "session": 4,
+      "speaker": "Levy",
+      "topic": "Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy",
+      "primary_file": "Saturday/4. Levy/Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy.pptx",
+          "relative_path": "Saturday/4. Levy/Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/4. Levy/Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy.pptx",
+          "size_bytes": 1331128,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 4,
+          "speaker": "Levy",
+          "topic": "Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/4. Levy/Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "saturday-5-lozano-american-osteopathic-society-congress-of-medical-excellence-3-25-22-lozano",
+      "day": "Saturday",
+      "session": 5,
+      "speaker": "Lozano",
+      "topic": "American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano",
+      "primary_file": "Saturday/5. Lozano/American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx",
+          "relative_path": "Saturday/5. Lozano/American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/5. Lozano/American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx",
+          "size_bytes": 8504781,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 5,
+          "speaker": "Lozano",
+          "topic": "American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/5. Lozano/American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "saturday-6-patel-chronic-fatigue-dyshomeostasis-dr-k-patel-march-2022-meeting",
+      "day": "Saturday",
+      "session": 6,
+      "speaker": "Patel",
+      "topic": "CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March 2022 Meeting",
+      "primary_file": "Saturday/6. Patel/6. CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx",
+      "formats": [
+        "m4a",
+        "pptx"
+      ],
+      "kinds": [
+        "audio",
+        "slides"
+      ],
+      "file_count": 2,
+      "files": [
+        {
+          "filename": "6. CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx",
+          "relative_path": "Saturday/6. Patel/6. CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/6. Patel/6. CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx",
+          "size_bytes": 11695206,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 6,
+          "speaker": "Patel",
+          "topic": "CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March 2022 Meeting",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/6. Patel/6. CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx"
+          ]
+        },
+        {
+          "filename": "Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction.m4a",
+          "relative_path": "Saturday/6. Patel/Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction.m4a",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/6. Patel/Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction.m4a",
+          "size_bytes": 54808777,
+          "format": "m4a",
+          "kind": "audio",
+          "day": "Saturday",
+          "session": 6,
+          "speaker": "Patel",
+          "topic": "Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/6. Patel/Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction.m4a"
+          ]
+        }
+      ],
+      "themes": [
+        "immune",
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/immune/",
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "saturday-7-born-autoimmune-diseases-asord-1",
+      "day": "Saturday",
+      "session": 7,
+      "speaker": "Born",
+      "topic": "Autoimmune Diseases ASORD (1)",
+      "primary_file": "Saturday/7. Born/Autoimmune Diseases ASORD (1).pptx",
+      "formats": [
+        "mp4",
+        "pptx"
+      ],
+      "kinds": [
+        "slides",
+        "video"
+      ],
+      "file_count": 2,
+      "files": [
+        {
+          "filename": "Autoimmune Diseases ASORD (1).pptx",
+          "relative_path": "Saturday/7. Born/Autoimmune Diseases ASORD (1).pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/7. Born/Autoimmune Diseases ASORD (1).pptx",
+          "size_bytes": 37473200,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 7,
+          "speaker": "Born",
+          "topic": "Autoimmune Diseases ASORD (1)",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/7. Born/Autoimmune Diseases ASORD (1).pptx"
+          ]
+        },
+        {
+          "filename": "Born 2022 ASORD a.i. presentation.mp4",
+          "relative_path": "Saturday/7. Born/Born 2022 ASORD a.i. presentation.mp4",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/7. Born/Born 2022 ASORD a.i. presentation.mp4",
+          "size_bytes": 222470018,
+          "format": "mp4",
+          "kind": "video",
+          "day": "Saturday",
+          "session": 7,
+          "speaker": "Born",
+          "topic": "2022 ASORD a.i. presentation",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/7. Born/Born 2022 ASORD a.i. presentation.mp4"
+          ]
+        }
+      ],
+      "themes": [
+        "immune"
+      ],
+      "branches": [
+        "Research/immune/"
+      ]
+    },
+    {
+      "id": "saturday-8-peter-mccullough-mccullough-presentation-pathophysiologic-rationale-for-early-treatment-of-covid-19-nd-jan-30",
+      "day": "Saturday",
+      "session": 8,
+      "speaker": "Peter McCullough",
+      "topic": "McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022",
+      "primary_file": "Saturday/8. Peter McCullough/McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx",
+      "formats": [
+        "jpg",
+        "pptx"
+      ],
+      "kinds": [
+        "image",
+        "slides"
+      ],
+      "file_count": 2,
+      "files": [
+        {
+          "filename": "McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx",
+          "relative_path": "Saturday/8. Peter McCullough/McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx",
+          "size_bytes": 31099761,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 8,
+          "speaker": "Peter McCullough",
+          "topic": "McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx"
+          ]
+        },
+        {
+          "filename": "mccullough-pa-mccullough-protocol-jan-14-2022.jpg",
+          "relative_path": "Saturday/8. Peter McCullough/mccullough-pa-mccullough-protocol-jan-14-2022.jpg",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/mccullough-pa-mccullough-protocol-jan-14-2022.jpg",
+          "size_bytes": 106874,
+          "format": "jpg",
+          "kind": "image",
+          "day": "Saturday",
+          "session": 8,
+          "speaker": "Peter McCullough",
+          "topic": "mccullough-pa-mccullough-protocol-jan-14-2022",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/mccullough-pa-mccullough-protocol-jan-14-2022.jpg"
+          ]
+        }
+      ],
+      "themes": [
+        "immune"
+      ],
+      "branches": [
+        "Research/immune/"
+      ]
+    },
+    {
+      "id": "saturday-9-james-forsythe-2022-forsythe-immune-protocol-update-march-2022",
+      "day": "Saturday",
+      "session": 9,
+      "speaker": "James Forsythe",
+      "topic": "2022 Forsythe Immune Protocol Update March 2022",
+      "primary_file": "Saturday/9. James Forsythe/2022 Forsythe Immune Protocol Update March 2022.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "2022 Forsythe Immune Protocol Update March 2022.pptx",
+          "relative_path": "Saturday/9. James Forsythe/2022 Forsythe Immune Protocol Update March 2022.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/9. James Forsythe/2022 Forsythe Immune Protocol Update March 2022.pptx",
+          "size_bytes": 11829145,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Saturday",
+          "session": 9,
+          "speaker": "James Forsythe",
+          "topic": "2022 Forsythe Immune Protocol Update March 2022",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/9. James Forsythe/2022 Forsythe Immune Protocol Update March 2022.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "immune"
+      ],
+      "branches": [
+        "Research/immune/"
+      ]
+    },
+    {
+      "id": "sunday-1-halasa-integrative-immuno-oncology-halasa",
+      "day": "Sunday",
+      "session": 1,
+      "speaker": "Halasa",
+      "topic": "Integrative Immuno Oncology-Halasa",
+      "primary_file": "Sunday/1. Halasa/1. Integrative Immuno Oncology-Halasa.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "1. Integrative Immuno Oncology-Halasa.pptx",
+          "relative_path": "Sunday/1. Halasa/1. Integrative Immuno Oncology-Halasa.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/1. Halasa/1. Integrative Immuno Oncology-Halasa.pptx",
+          "size_bytes": 54824486,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Sunday",
+          "session": 1,
+          "speaker": "Halasa",
+          "topic": "Integrative Immuno Oncology-Halasa",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/1. Halasa/1. Integrative Immuno Oncology-Halasa.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "immune",
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/immune/",
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "sunday-2-farshchian-dr-aj-farshchian-powerpoit",
+      "day": "Sunday",
+      "session": 2,
+      "speaker": "Farshchian",
+      "topic": "Dr AJ. Farshchian Powerpoit",
+      "primary_file": "Sunday/2. Farshchian/Dr AJ. Farshchian Powerpoit.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "Dr AJ. Farshchian Powerpoit.pptx",
+          "relative_path": "Sunday/2. Farshchian/Dr AJ. Farshchian Powerpoit.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/2. Farshchian/Dr AJ. Farshchian Powerpoit.pptx",
+          "size_bytes": 1527597188,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Sunday",
+          "session": 2,
+          "speaker": "Farshchian",
+          "topic": "Dr AJ. Farshchian Powerpoit",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/2. Farshchian/Dr AJ. Farshchian Powerpoit.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "sunday-3-pertain-brittany-partain-cb-caps-presentation-come-4-0",
+      "day": "Sunday",
+      "session": 3,
+      "speaker": "Pertain",
+      "topic": "Brittany Partain CB-CAPs Presentation COME 4.0",
+      "primary_file": "Sunday/3. Pertain/Brittany Partain CB-CAPs Presentation COME 4.0.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "Brittany Partain CB-CAPs Presentation COME 4.0.pptx",
+          "relative_path": "Sunday/3. Pertain/Brittany Partain CB-CAPs Presentation COME 4.0.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/3. Pertain/Brittany Partain CB-CAPs Presentation COME 4.0.pptx",
+          "size_bytes": 6991659,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Sunday",
+          "session": 3,
+          "speaker": "Pertain",
+          "topic": "Brittany Partain CB-CAPs Presentation COME 4.0",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/3. Pertain/Brittany Partain CB-CAPs Presentation COME 4.0.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "immune"
+      ],
+      "branches": [
+        "Research/immune/"
+      ]
+    },
+    {
+      "id": "sunday-4-badal-ultrasound-in-integrative-medicine-dr-r-badal",
+      "day": "Sunday",
+      "session": 4,
+      "speaker": "Badal",
+      "topic": "Ultrasound in Integrative Medicine-Dr. R. Badal",
+      "primary_file": "Sunday/4. Badal/4. Ultrasound in Integrative Medicine-Dr. R. Badal.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "4. Ultrasound in Integrative Medicine-Dr. R. Badal.pptx",
+          "relative_path": "Sunday/4. Badal/4. Ultrasound in Integrative Medicine-Dr. R. Badal.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/4. Badal/4. Ultrasound in Integrative Medicine-Dr. R. Badal.pptx",
+          "size_bytes": 6669819,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Sunday",
+          "session": 4,
+          "speaker": "Badal",
+          "topic": "Ultrasound in Integrative Medicine-Dr. R. Badal",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/4. Badal/4. Ultrasound in Integrative Medicine-Dr. R. Badal.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "sunday-5-teitelbaum-fibromyalgia-and-post-covid-cfs-rx-practitioners-osteopathy-group-jacob-teitelbaum",
+      "day": "Sunday",
+      "session": 5,
+      "speaker": "Teitelbaum",
+      "topic": "Fibromyalgia and Post covid CFS Rx -Practitioners- Osteopathy group-Jacob Teitelbaum",
+      "primary_file": "Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt",
+      "formats": [
+        "ppt"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt",
+          "relative_path": "Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt",
+          "size_bytes": 6550016,
+          "format": "ppt",
+          "kind": "slides",
+          "day": "Sunday",
+          "session": 5,
+          "speaker": "Teitelbaum",
+          "topic": "Fibromyalgia and Post covid CFS Rx -Practitioners- Osteopathy group-Jacob Teitelbaum",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt"
+          ]
+        }
+      ],
+      "themes": [
+        "immune"
+      ],
+      "branches": [
+        "Research/immune/"
+      ]
+    },
+    {
+      "id": "sunday-6-gersh-pcos-march-2022-osteopathic-conference",
+      "day": "Sunday",
+      "session": 6,
+      "speaker": "Gersh",
+      "topic": "PCOS March 2022 Osteopathic Conference",
+      "primary_file": "Sunday/6. Gersh/PCOS March 2022 Osteopathic Conference.pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "PCOS March 2022 Osteopathic Conference.pptx",
+          "relative_path": "Sunday/6. Gersh/PCOS March 2022 Osteopathic Conference.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/6. Gersh/PCOS March 2022 Osteopathic Conference.pptx",
+          "size_bytes": 36156880,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Sunday",
+          "session": 6,
+          "speaker": "Gersh",
+          "topic": "PCOS March 2022 Osteopathic Conference",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/6. Gersh/PCOS March 2022 Osteopathic Conference.pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "nutrition",
+        "osteopathic"
+      ],
+      "branches": [
+        "Research/nutrition/"
+      ]
+    },
+    {
+      "id": "sunday-7-cruz-march-2022-medical-ethics-presentation-1",
+      "day": "Sunday",
+      "session": 7,
+      "speaker": "Cruz",
+      "topic": "March 2022 Medical Ethics Presentation (1)",
+      "primary_file": "Sunday/7. Cruz/March 2022 Medical Ethics Presentation (1).pptx",
+      "formats": [
+        "pptx"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "March 2022 Medical Ethics Presentation (1).pptx",
+          "relative_path": "Sunday/7. Cruz/March 2022 Medical Ethics Presentation (1).pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/7. Cruz/March 2022 Medical Ethics Presentation (1).pptx",
+          "size_bytes": 2948147,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Sunday",
+          "session": 7,
+          "speaker": "Cruz",
+          "topic": "March 2022 Medical Ethics Presentation (1)",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/7. Cruz/March 2022 Medical Ethics Presentation (1).pptx"
+          ]
+        }
+      ],
+      "themes": [
+        "ethics"
+      ],
+      "branches": []
+    },
+    {
+      "id": "sunday-8-burgess-suicide-prevention-john-burgess-do-aosrd-4-0",
+      "day": "Sunday",
+      "session": 8,
+      "speaker": "Burgess",
+      "topic": "Suicide Prevention John Burgess DO AOSRD 4.0",
+      "primary_file": "Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pptx",
+      "formats": [
+        "mp4",
+        "pdf",
+        "pptx"
+      ],
+      "kinds": [
+        "document",
+        "slides",
+        "video"
+      ],
+      "file_count": 3,
+      "files": [
+        {
+          "filename": "Suicide Prevention John Burgess DO AOSRD 4.0.pdf",
+          "relative_path": "Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pdf",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pdf",
+          "size_bytes": 959355,
+          "format": "pdf",
+          "kind": "document",
+          "day": "Sunday",
+          "session": 8,
+          "speaker": "Burgess",
+          "topic": "Suicide Prevention John Burgess DO AOSRD 4.0",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pdf"
+          ]
+        },
+        {
+          "filename": "Suicide Prevention John Burgess DO AOSRD 4.0.pptx",
+          "relative_path": "Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pptx",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pptx",
+          "size_bytes": 1397588,
+          "format": "pptx",
+          "kind": "slides",
+          "day": "Sunday",
+          "session": 8,
+          "speaker": "Burgess",
+          "topic": "Suicide Prevention John Burgess DO AOSRD 4.0",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pptx"
+          ]
+        },
+        {
+          "filename": "aosrd vegas suicide 4.0.mp4",
+          "relative_path": "Sunday/8. Burgess/aosrd vegas suicide 4.0.mp4",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/aosrd vegas suicide 4.0.mp4",
+          "size_bytes": 77044933,
+          "format": "mp4",
+          "kind": "video",
+          "day": "Sunday",
+          "session": 8,
+          "speaker": "Burgess",
+          "topic": "aosrd vegas suicide 4.0",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/aosrd vegas suicide 4.0.mp4"
+          ]
+        }
+      ],
+      "themes": [
+        "behavioral"
+      ],
+      "branches": []
+    },
+    {
+      "id": "sunday-9-stock-cme-federal-emergency-healthcare-response-daniel-stock-md",
+      "day": "Sunday",
+      "session": 9,
+      "speaker": "Stock",
+      "topic": "CME Federal Emergency Healthcare Response-Daniel Stock MD",
+      "primary_file": "Sunday/9. Stock/CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt",
+      "formats": [
+        "ppt"
+      ],
+      "kinds": [
+        "slides"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt",
+          "relative_path": "Sunday/9. Stock/CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/9. Stock/CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt",
+          "size_bytes": 244736,
+          "format": "ppt",
+          "kind": "slides",
+          "day": "Sunday",
+          "session": 9,
+          "speaker": "Stock",
+          "topic": "CME Federal Emergency Healthcare Response-Daniel Stock MD",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/9. Stock/CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt"
+          ]
+        }
+      ],
+      "themes": [
+        "systems"
+      ],
+      "branches": []
+    },
+    {
+      "id": "interstitial-faculty-slide-show2",
+      "day": "Interstitial",
+      "session": 0,
+      "speaker": "Faculty",
+      "topic": "slide show2",
+      "primary_file": "AOSRD Between Lecture Slide Show/faculty slide show2.mp4",
+      "formats": [
+        "mp4"
+      ],
+      "kinds": [
+        "video"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "faculty slide show2.mp4",
+          "relative_path": "AOSRD Between Lecture Slide Show/faculty slide show2.mp4",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/AOSRD Between Lecture Slide Show/faculty slide show2.mp4",
+          "size_bytes": 117293782,
+          "format": "mp4",
+          "kind": "video",
+          "day": "Interstitial",
+          "session": 0,
+          "speaker": "Faculty",
+          "topic": "slide show2",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/AOSRD Between Lecture Slide Show/faculty slide show2.mp4"
+          ]
+        }
+      ],
+      "themes": [
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/integrative-medicine/"
+      ]
+    },
+    {
+      "id": "meta-conference-aosrd-2022-catalog-notes",
+      "day": null,
+      "session": null,
+      "speaker": "Conference",
+      "topic": "AOSRD 2022 catalog notes",
+      "primary_file": "AOSRSD 2022 Cat notes.pdf",
+      "formats": [
+        "pdf"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "file_count": 1,
+      "files": [
+        {
+          "filename": "AOSRSD 2022 Cat notes.pdf",
+          "relative_path": "AOSRSD 2022 Cat notes.pdf",
+          "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/AOSRSD 2022 Cat notes.pdf",
+          "size_bytes": 10188623,
+          "format": "pdf",
+          "kind": "document",
+          "day": null,
+          "session": null,
+          "speaker": null,
+          "topic": "AOSRSD 2022 Cat notes",
+          "alternate_paths": [
+            "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/AOSRSD 2022 Cat notes.pdf"
+          ]
+        }
+      ],
+      "themes": [
+        "integrative-medicine"
+      ],
+      "branches": [
+        "Research/integrative-medicine/"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "filename": "AOSRSD 2022 Cat notes.pdf",
+      "relative_path": "AOSRSD 2022 Cat notes.pdf",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/AOSRSD 2022 Cat notes.pdf",
+      "size_bytes": 10188623,
+      "format": "pdf",
+      "kind": "document",
+      "day": null,
+      "session": null,
+      "speaker": null,
+      "topic": "AOSRSD 2022 Cat notes",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/AOSRSD 2022 Cat notes.pdf"
+      ]
+    },
+    {
+      "filename": "AP, Laser AP & Bio AP-Dr Anwar.pptx",
+      "relative_path": "Friday/1. Anwar/AP, Laser AP & Bio AP-Dr Anwar.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/1. Anwar/AP, Laser AP & Bio AP-Dr Anwar.pptx",
+      "size_bytes": 14409741,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Friday",
+      "session": 1,
+      "speaker": "Anwar",
+      "topic": "AP, Laser AP & Bio AP-Dr Anwar",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/1. Anwar/AP, Laser AP & Bio AP-Dr Anwar.pptx"
+      ]
+    },
+    {
+      "filename": "NAD Injection and IV Therapy-2.pptx",
+      "relative_path": "Friday/2. Macheret/NAD Injection and IV Therapy-2.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/2. Macheret/NAD Injection and IV Therapy-2.pptx",
+      "size_bytes": 5276424,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Friday",
+      "session": 2,
+      "speaker": "Macheret",
+      "topic": "NAD Injection and IV Therapy-2",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/2. Macheret/NAD Injection and IV Therapy-2.pptx"
+      ]
+    },
+    {
+      "filename": "3. Lillo-Coronary Artery Calcium Scoring PPT for JLL of.pptx",
+      "relative_path": "Friday/3. Lillio/3. Lillo-Coronary Artery Calcium Scoring PPT for JLL of.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/3. Lillio/3. Lillo-Coronary Artery Calcium Scoring PPT for JLL of.pptx",
+      "size_bytes": 3843297,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Friday",
+      "session": 3,
+      "speaker": "Lillio",
+      "topic": "Lillo-Coronary Artery Calcium Scoring PPT for JLL of",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/3. Lillio/3. Lillo-Coronary Artery Calcium Scoring PPT for JLL of.pptx"
+      ]
+    },
+    {
+      "filename": "4. Sundermann-LIFESTYLE MEDICINE-Transforming Primary Care.pptx",
+      "relative_path": "Friday/4. Sundermann/4. Sundermann-LIFESTYLE MEDICINE-Transforming Primary Care.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/4. Sundermann/4. Sundermann-LIFESTYLE MEDICINE-Transforming Primary Care.pptx",
+      "size_bytes": 41502342,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Friday",
+      "session": 4,
+      "speaker": "Sundermann",
+      "topic": "LIFESTYLE MEDICINE-Transforming Primary Care",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/4. Sundermann/4. Sundermann-LIFESTYLE MEDICINE-Transforming Primary Care.pptx"
+      ]
+    },
+    {
+      "filename": "5. Opioid Use Disorder-D. Leszkovitz.pptx",
+      "relative_path": "Friday/5. Lezkowitz/5. Opioid Use Disorder-D. Leszkovitz.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/5. Lezkowitz/5. Opioid Use Disorder-D. Leszkovitz.pptx",
+      "size_bytes": 93588124,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Friday",
+      "session": 5,
+      "speaker": "Lezkowitz",
+      "topic": "Opioid Use Disorder-D. Leszkovitz",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/5. Lezkowitz/5. Opioid Use Disorder-D. Leszkovitz.pptx"
+      ]
+    },
+    {
+      "filename": "looking at rheumatic diseases_1-Speer.pptx",
+      "relative_path": "Friday/6. Speer/looking at rheumatic diseases_1-Speer.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/6. Speer/looking at rheumatic diseases_1-Speer.pptx",
+      "size_bytes": 2325030,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Friday",
+      "session": 6,
+      "speaker": "Speer",
+      "topic": "looking at rheumatic diseases_1-Speer",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/6. Speer/looking at rheumatic diseases_1-Speer.pptx"
+      ]
+    },
+    {
+      "filename": "7. Yutani COVID-19 pres 2-1.pptx",
+      "relative_path": "Friday/7. Yutani/7. Yutani COVID-19 pres 2-1.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/7. Yutani/7. Yutani COVID-19 pres 2-1.pptx",
+      "size_bytes": 12847882,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Friday",
+      "session": 7,
+      "speaker": "Yutani",
+      "topic": "COVID-19 pres 2-1",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/7. Yutani/7. Yutani COVID-19 pres 2-1.pptx"
+      ]
+    },
+    {
+      "filename": "KOS-Slide Show.pdf",
+      "relative_path": "Friday/8. O'Neil Smith/KOS-Slide Show.pdf",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/8. O'Neil Smith/KOS-Slide Show.pdf",
+      "size_bytes": 8356042,
+      "format": "pdf",
+      "kind": "document",
+      "day": "Friday",
+      "session": 8,
+      "speaker": "O'Neil Smith",
+      "topic": "KOS-Slide Show",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/8. O'Neil Smith/KOS-Slide Show.pdf"
+      ]
+    },
+    {
+      "filename": "Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx",
+      "relative_path": "Friday/9. Marsh/Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx",
+      "size_bytes": 7518076,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Friday",
+      "session": 9,
+      "speaker": "Marsh",
+      "topic": "Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance & Effects on Fertility AOSRD Mar 25 2022.pptx"
+      ]
+    },
+    {
+      "filename": "Insulin Resistance and Effects on Fertility.mp4",
+      "relative_path": "Friday/9. Marsh/Insulin Resistance and Effects on Fertility.mp4",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance and Effects on Fertility.mp4",
+      "size_bytes": 553118469,
+      "format": "mp4",
+      "kind": "video",
+      "day": "Friday",
+      "session": 9,
+      "speaker": "Marsh",
+      "topic": "Insulin Resistance and Effects on Fertility",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Friday/9. Marsh/Insulin Resistance and Effects on Fertility.mp4"
+      ]
+    },
+    {
+      "filename": "faculty slide show2.mp4",
+      "relative_path": "AOSRD Between Lecture Slide Show/faculty slide show2.mp4",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/AOSRD Between Lecture Slide Show/faculty slide show2.mp4",
+      "size_bytes": 117293782,
+      "format": "mp4",
+      "kind": "video",
+      "day": "Interstitial",
+      "session": 0,
+      "speaker": "Faculty",
+      "topic": "slide show2",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/AOSRD Between Lecture Slide Show/faculty slide show2.mp4"
+      ]
+    },
+    {
+      "filename": "NSBryan Congress of Medical Excellence March 2022.pdf",
+      "relative_path": "Saturday/1. Bryan/NSBryan Congress of Medical Excellence March 2022.pdf",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/1. Bryan/NSBryan Congress of Medical Excellence March 2022.pdf",
+      "size_bytes": 6575352,
+      "format": "pdf",
+      "kind": "document",
+      "day": "Saturday",
+      "session": 1,
+      "speaker": "Bryan",
+      "topic": "NSBryan Congress of Medical Excellence March 2022",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/1. Bryan/NSBryan Congress of Medical Excellence March 2022.pdf"
+      ]
+    },
+    {
+      "filename": "Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx",
+      "relative_path": "Saturday/1. Bryan/Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/1. Bryan/Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx",
+      "size_bytes": 16855085,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 1,
+      "speaker": "Bryan",
+      "topic": "Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/1. Bryan/Nitric Oxide for the Prevention and Treatment of Cardiovascular DIsease with a Splash of Covid.pptx"
+      ]
+    },
+    {
+      "filename": "2022 Congress of Medical Excellence.pptx",
+      "relative_path": "Saturday/2. Campbell/2022 Congress of Medical Excellence.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/2. Campbell/2022 Congress of Medical Excellence.pptx",
+      "size_bytes": 42870090,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 2,
+      "speaker": "Campbell",
+      "topic": "2022 Congress of Medical Excellence",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/2. Campbell/2022 Congress of Medical Excellence.pptx"
+      ]
+    },
+    {
+      "filename": "2022 Congress of Medical Excellence2.pptx",
+      "relative_path": "Saturday/2. Campbell/2022 Congress of Medical Excellence2.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/2. Campbell/2022 Congress of Medical Excellence2.pptx",
+      "size_bytes": 42894401,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 2,
+      "speaker": "Campbell",
+      "topic": "2022 Congress of Medical Excellence2",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/2. Campbell/2022 Congress of Medical Excellence2.pptx"
+      ]
+    },
+    {
+      "filename": "Stellate Ganglion Harris Final.pptx",
+      "relative_path": "Saturday/3. Harris/Stellate Ganglion Harris Final.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/3. Harris/Stellate Ganglion Harris Final.pptx",
+      "size_bytes": 6250885,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 3,
+      "speaker": "Harris",
+      "topic": "Stellate Ganglion Harris Final",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/3. Harris/Stellate Ganglion Harris Final.pptx"
+      ]
+    },
+    {
+      "filename": "Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy.pptx",
+      "relative_path": "Saturday/4. Levy/Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/4. Levy/Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy.pptx",
+      "size_bytes": 1331128,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 4,
+      "speaker": "Levy",
+      "topic": "Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/4. Levy/Lecture, Hidden Epidemic, Las Vegas virtual, 3.26.2022-Levy.pptx"
+      ]
+    },
+    {
+      "filename": "American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx",
+      "relative_path": "Saturday/5. Lozano/American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/5. Lozano/American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx",
+      "size_bytes": 8504781,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 5,
+      "speaker": "Lozano",
+      "topic": "American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/5. Lozano/American Osteopathic Society Congress of Medical Excellence 3-25-22-Lozano.pptx"
+      ]
+    },
+    {
+      "filename": "6. CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx",
+      "relative_path": "Saturday/6. Patel/6. CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/6. Patel/6. CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx",
+      "size_bytes": 11695206,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 6,
+      "speaker": "Patel",
+      "topic": "CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March 2022 Meeting",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/6. Patel/6. CHRONIC FATIGUE –DYSHOMEOSTASIS--Dr. K. Patel March  2022 Meeting.pptx"
+      ]
+    },
+    {
+      "filename": "Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction.m4a",
+      "relative_path": "Saturday/6. Patel/Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction.m4a",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/6. Patel/Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction.m4a",
+      "size_bytes": 54808777,
+      "format": "m4a",
+      "kind": "audio",
+      "day": "Saturday",
+      "session": 6,
+      "speaker": "Patel",
+      "topic": "Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/6. Patel/Chronic Fatigue, Dyshomeostasis-Mitchondrila Dysfunction.m4a"
+      ]
+    },
+    {
+      "filename": "Autoimmune Diseases ASORD (1).pptx",
+      "relative_path": "Saturday/7. Born/Autoimmune Diseases ASORD (1).pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/7. Born/Autoimmune Diseases ASORD (1).pptx",
+      "size_bytes": 37473200,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 7,
+      "speaker": "Born",
+      "topic": "Autoimmune Diseases ASORD (1)",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/7. Born/Autoimmune Diseases ASORD (1).pptx"
+      ]
+    },
+    {
+      "filename": "Born 2022 ASORD a.i. presentation.mp4",
+      "relative_path": "Saturday/7. Born/Born 2022 ASORD a.i. presentation.mp4",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/7. Born/Born 2022 ASORD a.i. presentation.mp4",
+      "size_bytes": 222470018,
+      "format": "mp4",
+      "kind": "video",
+      "day": "Saturday",
+      "session": 7,
+      "speaker": "Born",
+      "topic": "2022 ASORD a.i. presentation",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/7. Born/Born 2022 ASORD a.i. presentation.mp4"
+      ]
+    },
+    {
+      "filename": "McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx",
+      "relative_path": "Saturday/8. Peter McCullough/McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx",
+      "size_bytes": 31099761,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 8,
+      "speaker": "Peter McCullough",
+      "topic": "McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/McCullough Presentation Pathophysiologic Rationale for Early Treatment of COVID-19 ND Jan 30 2022.pptx"
+      ]
+    },
+    {
+      "filename": "mccullough-pa-mccullough-protocol-jan-14-2022.jpg",
+      "relative_path": "Saturday/8. Peter McCullough/mccullough-pa-mccullough-protocol-jan-14-2022.jpg",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/mccullough-pa-mccullough-protocol-jan-14-2022.jpg",
+      "size_bytes": 106874,
+      "format": "jpg",
+      "kind": "image",
+      "day": "Saturday",
+      "session": 8,
+      "speaker": "Peter McCullough",
+      "topic": "mccullough-pa-mccullough-protocol-jan-14-2022",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/8. Peter McCullough/mccullough-pa-mccullough-protocol-jan-14-2022.jpg"
+      ]
+    },
+    {
+      "filename": "2022 Forsythe Immune Protocol Update March 2022.pptx",
+      "relative_path": "Saturday/9. James Forsythe/2022 Forsythe Immune Protocol Update March 2022.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/9. James Forsythe/2022 Forsythe Immune Protocol Update March 2022.pptx",
+      "size_bytes": 11829145,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Saturday",
+      "session": 9,
+      "speaker": "James Forsythe",
+      "topic": "2022 Forsythe Immune Protocol Update March 2022",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Saturday/9. James Forsythe/2022 Forsythe Immune Protocol Update March 2022.pptx"
+      ]
+    },
+    {
+      "filename": "1. Integrative Immuno Oncology-Halasa.pptx",
+      "relative_path": "Sunday/1. Halasa/1. Integrative Immuno Oncology-Halasa.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/1. Halasa/1. Integrative Immuno Oncology-Halasa.pptx",
+      "size_bytes": 54824486,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Sunday",
+      "session": 1,
+      "speaker": "Halasa",
+      "topic": "Integrative Immuno Oncology-Halasa",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/1. Halasa/1. Integrative Immuno Oncology-Halasa.pptx"
+      ]
+    },
+    {
+      "filename": "Dr AJ. Farshchian Powerpoit.pptx",
+      "relative_path": "Sunday/2. Farshchian/Dr AJ. Farshchian Powerpoit.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/2. Farshchian/Dr AJ. Farshchian Powerpoit.pptx",
+      "size_bytes": 1527597188,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Sunday",
+      "session": 2,
+      "speaker": "Farshchian",
+      "topic": "Dr AJ. Farshchian Powerpoit",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/2. Farshchian/Dr AJ. Farshchian Powerpoit.pptx"
+      ]
+    },
+    {
+      "filename": "Brittany Partain CB-CAPs Presentation COME 4.0.pptx",
+      "relative_path": "Sunday/3. Pertain/Brittany Partain CB-CAPs Presentation COME 4.0.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/3. Pertain/Brittany Partain CB-CAPs Presentation COME 4.0.pptx",
+      "size_bytes": 6991659,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Sunday",
+      "session": 3,
+      "speaker": "Pertain",
+      "topic": "Brittany Partain CB-CAPs Presentation COME 4.0",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/3. Pertain/Brittany Partain CB-CAPs Presentation COME 4.0.pptx"
+      ]
+    },
+    {
+      "filename": "4. Ultrasound in Integrative Medicine-Dr. R. Badal.pptx",
+      "relative_path": "Sunday/4. Badal/4. Ultrasound in Integrative Medicine-Dr. R. Badal.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/4. Badal/4. Ultrasound in Integrative Medicine-Dr. R. Badal.pptx",
+      "size_bytes": 6669819,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Sunday",
+      "session": 4,
+      "speaker": "Badal",
+      "topic": "Ultrasound in Integrative Medicine-Dr. R. Badal",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/4. Badal/4. Ultrasound in Integrative Medicine-Dr. R. Badal.pptx"
+      ]
+    },
+    {
+      "filename": "5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt",
+      "relative_path": "Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt",
+      "size_bytes": 6550016,
+      "format": "ppt",
+      "kind": "slides",
+      "day": "Sunday",
+      "session": 5,
+      "speaker": "Teitelbaum",
+      "topic": "Fibromyalgia and Post covid CFS Rx -Practitioners- Osteopathy group-Jacob Teitelbaum",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/5. Teitelbaum/5. Fibromyalgia and Post covid CFS Rx -Practitioners-  Osteopathy group-Jacob Teitelbaum.ppt"
+      ]
+    },
+    {
+      "filename": "PCOS March 2022 Osteopathic Conference.pptx",
+      "relative_path": "Sunday/6. Gersh/PCOS March 2022 Osteopathic Conference.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/6. Gersh/PCOS March 2022 Osteopathic Conference.pptx",
+      "size_bytes": 36156880,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Sunday",
+      "session": 6,
+      "speaker": "Gersh",
+      "topic": "PCOS March 2022 Osteopathic Conference",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/6. Gersh/PCOS March 2022 Osteopathic Conference.pptx"
+      ]
+    },
+    {
+      "filename": "March 2022 Medical Ethics Presentation (1).pptx",
+      "relative_path": "Sunday/7. Cruz/March 2022 Medical Ethics Presentation (1).pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/7. Cruz/March 2022 Medical Ethics Presentation (1).pptx",
+      "size_bytes": 2948147,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Sunday",
+      "session": 7,
+      "speaker": "Cruz",
+      "topic": "March 2022 Medical Ethics Presentation (1)",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/7. Cruz/March 2022 Medical Ethics Presentation (1).pptx"
+      ]
+    },
+    {
+      "filename": "Suicide Prevention John Burgess DO AOSRD 4.0.pdf",
+      "relative_path": "Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pdf",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pdf",
+      "size_bytes": 959355,
+      "format": "pdf",
+      "kind": "document",
+      "day": "Sunday",
+      "session": 8,
+      "speaker": "Burgess",
+      "topic": "Suicide Prevention John Burgess DO AOSRD 4.0",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pdf"
+      ]
+    },
+    {
+      "filename": "Suicide Prevention John Burgess DO AOSRD 4.0.pptx",
+      "relative_path": "Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pptx",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pptx",
+      "size_bytes": 1397588,
+      "format": "pptx",
+      "kind": "slides",
+      "day": "Sunday",
+      "session": 8,
+      "speaker": "Burgess",
+      "topic": "Suicide Prevention John Burgess DO AOSRD 4.0",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/Suicide Prevention John Burgess DO AOSRD 4.0.pptx"
+      ]
+    },
+    {
+      "filename": "aosrd vegas suicide 4.0.mp4",
+      "relative_path": "Sunday/8. Burgess/aosrd vegas suicide 4.0.mp4",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/aosrd vegas suicide 4.0.mp4",
+      "size_bytes": 77044933,
+      "format": "mp4",
+      "kind": "video",
+      "day": "Sunday",
+      "session": 8,
+      "speaker": "Burgess",
+      "topic": "aosrd vegas suicide 4.0",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/8. Burgess/aosrd vegas suicide 4.0.mp4"
+      ]
+    },
+    {
+      "filename": "CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt",
+      "relative_path": "Sunday/9. Stock/CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt",
+      "source_path": "/Volumes/Macintosh HD - Data/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/9. Stock/CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt",
+      "size_bytes": 244736,
+      "format": "ppt",
+      "kind": "slides",
+      "day": "Sunday",
+      "session": 9,
+      "speaker": "Stock",
+      "topic": "CME Federal Emergency Healthcare Response-Daniel Stock MD",
+      "alternate_paths": [
+        "/Volumes/Macintosh HD 1/Users/chingchen/Downloads/AOSRd Slide Show 2022/Sunday/9. Stock/CME Federal Emergency Healthcare Response-Daniel Stock MD.ppt"
+      ]
+    }
+  ]
+}

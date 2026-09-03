@@ -4,6 +4,17 @@
 
 Store atomic knowledge objects — each file answers exactly one question about a domain.
 
+## Branches
+
+| Branch | Domain |
+|--------|--------|
+| [acupuncture/](acupuncture/) | Points, meridians |
+| [immune/](immune/) | Autoimmune, mold/mycotoxins |
+| [nutrition/](nutrition/) | Food, diet, fasting, vitamins, supplements |
+| [materia-medica/](materia-medica/) | Herbals, oils, flower essences, tinctures, homeopathy |
+
+Sorting rules for sources: [Research/BRANCH-TAXONOMY.md](../Research/BRANCH-TAXONOMY.md)
+
 ## What Belongs Here
 
 - Single-concept explanations (e.g. "What is inflammation?")
