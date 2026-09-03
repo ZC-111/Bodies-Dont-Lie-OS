@@ -30,6 +30,12 @@ Research/lectures/<id>/
 | [ivermectin-ayurveda-2026-05](ivermectin-ayurveda-2026-05/) | integrative-medicine | screenshots_only (99) | Otter + slide screenshots |
 
 
+## Otter batch inventory
+
+98 Clearfield Tuesday webinars listed in [data/otter-manifest.json](data/otter-manifest.json) (2024-08-20 → 2026-06-30). One fully processed: [clearfield-webinar-2026-06-30](clearfield-webinar-2026-06-30/).
+
+Pipeline: `scripts/otter_batch_pipeline.py` (`list` · `export` · `slides` · `packet`).
+
 ## Related
 
 - [BRANCH-TAXONOMY.md](../BRANCH-TAXONOMY.md)

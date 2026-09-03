@@ -1,0 +1,159 @@
+Tuesday Integrative Health Webinar
+June 09, 2026
+
+Overview
+
+The Tuesday Integrative Health Webinar covered various topics, including the use of AI in medicine. Dr. Benoit Tano demonstrated his AI program, which provides comprehensive information on conditions like Hashimoto's thyroiditis, including diagnosis, treatment options, and patient education materials. The program also offers features for managing medications, generating protocols, and creating IRBs for research. Participants discussed the importance of integrating traditional medicine approaches and the potential for using the platform for patient education and research. The session also included a detailed demonstration of the AI's capabilities, including generating case studies and patient handouts. Benoit Tano introduced the Taya Pro Med AI platform, designed for providers and patients to search conditions and treatments. The platform offers a $99 monthly subscription for basic features and $397 for a clinical suite. Tano emphasized its affordability compared to other AI scribes, which can cost $9,900-$15,000 monthly. The platform includes a desktop version and plans for an iOS app. Tano also discussed the potential for generating courses and books, with a focus on integrative medicine and functional medicine. The platform aims to provide credible, practitioner-driven information, and Tano highlighted ongoing research and educational initiatives.
+
+Action Items
+
+- Upload the webinar recording video(s) and post them to the group site so meeting attendees can view them (aim to have videos up by the end of the week). (Bill Clearfield)
+- Share the contact information for Joseph Krieger (CME provider) with Benoit Tano so he can pursue CME accreditation partnerships. (Bill Clearfield)
+- Follow up offline with Benoit Tano to plan and price a paid workshop teaching sublingual immunotherapy and allergy protocols for practitioners. (Bill Clearfield)
+- Investigate the Hashimoto's MCQ discrepancy (different answer outputs among users), identify the cause, and update the question/logic in the platform accordingly.
+- Post the Tayapro/Tayapromed sign-up link and contact details in the meeting chat (provide trial/access instructions to participants).
+- Review user feedback and update the platform content (AI outputs for conditions/protocols) based on practitioner suggestions (implement additions/edits and push periodic updates).
+
+Outline
+
+Starting the Meeting and Initial Conversations
+
+- Speaker 1 and Bill Clearfield exchange greetings and discuss their availability for the meeting.
+- Benoit Tano and Bill Clearfield discuss their attire, with Benoit Tano mentioning he wore white.
+- Bill Clearfield mentions he has to leave by 7 PM if the meeting continues.
+- Speaker 4 shares plans to attend a wedding in Maryland and discusses travel logistics.
+
+Discussions on Travel and Work
+
+- Bill Clearfield talks about his experience with overnight flights to Miami and how it saves time and money.
+- Speaker 4 inquires about Bill Clearfield's frequent flyer miles and how he uses them for travel.
+- Bill Clearfield mentions his upcoming trip to Detroit and the costs involved.
+- Speaker 4 and Bill Clearfield discuss the benefits of upgrading to first class and the costs associated with it.
+
+Medical Lectures and Conferences
+
+- Bill Clearfield shares his experience with lectures and workshops, including a recent one on functional laboratories.
+- Speaker 4 and Bill Clearfield discuss the challenges of giving lectures and dealing with feedback from doctors.
+- Benoit Tano and Bill Clearfield talk about the disconnect between endocrinologists and their training.
+- Bill Clearfield mentions his students in endocrinology residencies and their frustrations with their training.
+
+Introduction to Dr. Benoit Tano
+
+- Bill Clearfield introduces Dr. Benoit Tano, highlighting his extensive clinical experience and educational background.
+- Dr. Benoit Tano thanks Bill Clearfield and the participants for joining the meeting.
+- Dr. Benoit Tano begins discussing the history of AI in medicine, starting with the Y2K problem in 2000.
+- Participants share their experiences with computer programs and electronic medical records during their residencies.
+
+AI in Medicine: Historical Context and Practical Applications
+
+- Dr. Benoit Tano discusses the early use of AI in medicine, including the MYCIN program for detecting infectious diseases.
+- Participants express interest in using AI for diagnostic purposes and managing patient data.
+- Dr. Benoit Tano introduces the Betapromed platform and demonstrates its features, including AI scribes and patient kiosks.
+- Participants explore the platform, asking questions about its functionality and potential uses in their practices.
+
+AI-Driven Diagnosis and Treatment Recommendations
+
+- Dr. Benoit Tano demonstrates how the platform can provide detailed information on conditions like CMV colitis and Hashimoto's thyroiditis.
+- Participants discuss the platform's ability to generate comprehensive reports and treatment recommendations.
+- Dr. Benoit Tano explains the importance of integrating traditional medicine approaches into the platform.
+- Participants express interest in using the platform for patient education and case studies.
+
+Generating Case Studies and Research Protocols
+
+- Dr. Benoit Tano shows how the platform can generate case studies, patient booklets, and research protocols.
+- Participants discuss the potential benefits of using the platform for clinical trials and research.
+- Dr. Benoit Tano explains the process of creating and submitting IRB applications through the platform.
+- Participants ask questions about the platform's capabilities and express interest in using it for their research projects.
+
+Supplements and Medication Management
+
+- Dr. Benoit Tano discusses the platform's features for managing supplements and medications, including dosing and interactions.
+- Participants explore the platform's database of medications, including ivermectin, and its off-label uses.
+- Dr. Benoit Tano explains the importance of understanding medication coverage and insurance plans.
+- Participants ask questions about the platform's ability to handle complex medication regimens and patient histories.
+
+Patient Education and Communication
+
+- Dr. Benoit Tano demonstrates how the platform can generate patient handouts and educational materials.
+- Participants discuss the potential benefits of using the platform for patient education and communication.
+- Dr. Benoit Tano explains the platform's ability to integrate patient photos and before-and-after images.
+- Participants express interest in using the platform for marketing and community outreach.
+
+Future Developments and Participant Feedback
+
+- Dr. Benoit Tano discusses future developments for the platform, including additional features and integrations.
+- Participants provide feedback on the platform's current capabilities and suggest improvements.
+- Dr. Benoit Tano thanks the participants for their input and encourages them to continue using the platform.
+- The meeting concludes with participants expressing interest in further exploring the platform's features and potential uses.
+
+AI Search and Supplement Information
+
+- Benoit Tano explains the process of using AI search for supplements, emphasizing the importance of clicking on "buy supplement" for detailed information.
+- Speaker 5 and Speaker 13 confirm they used the AI search, and Benoit Tano reassures them about the accuracy of the information provided.
+- Benoit Tano mentions the ability to print out the information and use it as needed.
+- Speaker 5 thanks Benoit Tano for clarifying the search process, indicating a better understanding of the system.
+
+Introduction to AI for Providers and Patients
+
+- David Kahn asks about the customized AI version, and Benoit Tano explains its use for providers and patients to search conditions and treatments.
+- Benoit Tano discusses the subscription pricing: $99 per month for the pro version and $397 for the clinical suite, highlighting its affordability compared to other AI scribes.
+- David Kahn praises the AI's potential to assist doctors in making informed decisions for their patients.
+- Benoit Tano mentions the flexibility of the subscription, allowing users to cancel anytime but emphasizing the benefits of continued use.
+
+App Availability and Contact Information
+
+- Benoit Tano clarifies that the AI is currently available on desktop but plans to create an iOS app in the future.
+- Speaker 6 inquires about contacting Benoit Tano, and he provides his phone number for direct communication.
+- Speaker 5 shares that a group has been working with Benoit Tano since the idea's inception, contributing to the app's development and providing feedback.
+- Benoit Tano confirms the responsiveness to feedback and the continuous updates based on user suggestions.
+
+Podcast and Epigenetics Discussion
+
+- Benoit Tano introduces a podcast on epigenetics, featuring an interview with Dr. Anya Sharma, a distinguished professor of molecular biology and epigenetics.
+- The podcast discusses the concept of epigenetics, its impact on health, inheritance, and free will.
+- Benoit Tano explains the integration of podcasts into the AI platform, allowing users to access educational content on various topics.
+- The conversation touches on the potential of using AI to generate voice clones for podcasts, enhancing the user experience.
+
+Battlefield Acupuncture and Advanced Certification
+
+- Speaker 5 thanks Benoit Tano for inspiring them to pursue advanced battlefield acupuncture certification.
+- Bill Clearfield mentions the need for a speaker for an upcoming event and suggests Speaker 5 as a potential candidate.
+- The discussion highlights the versatility of battlefield acupuncture, which can be performed using various modalities like needles, lasers, seeds, and magnets.
+- Benoit Tano offers to teach practitioners how to incorporate battlefield acupuncture into their practices, emphasizing the potential for generating additional income.
+
+Book Publishing and Course Creation
+
+- Benoit Tano introduces Tia Pro Publishing, a software for writing and formatting books, which is available as an add-on to the $99 subscription.
+- The platform allows users to write and publish their books, with options for training on prompting to create high-quality content.
+- Bill Clearfield inquires about the cost of the book publishing service, and Benoit Tano explains the pricing structure and the benefits of using the software.
+- The conversation also covers the potential for generating courses and selling them on the marketplace, sharing the revenue with the platform.
+
+Newsletter and Research Updates
+
+- Benoit Tano discusses the weekly newsletter included in the $99 subscription, covering various topics such as heat stroke, multidrug-resistant bacteria, and environmental contamination.
+- The newsletter provides valuable information for practitioners, helping them stay updated on the latest research and trends.
+- Benoit Tano mentions the importance of subscribing to the newsletter to access the full range of educational content and updates.
+- The conversation touches on the potential for creating courses on specific topics and making them available to the public through the platform.
+
+Telemedicine and Platform Integration
+
+- Speaker 7 shares information about a telemedicine platform where doctors can perform consultations and bill patients directly.
+- Benoit Tano emphasizes the importance of having a reliable platform that supports practitioners and allows them to generate income.
+- The discussion highlights the potential for creating a marketplace where practitioners can sell their courses and share the revenue with the platform.
+- Benoit Tano explains the benefits of using the platform to generate courses and make them available to the public, fostering a community of lifelong learners.
+
+AI Capabilities and Future Development
+
+- The conversation explores the capabilities of the AI platform, including its ability to generate courses, podcasts, and other educational content.
+- Benoit Tano discusses the potential for integrating AI with other platforms, such as Amazon, to create audiobooks and summaries of books.
+- The discussion touches on the importance of using AI to filter credible information and provide practitioners with the tools they need to make informed decisions.
+- Benoit Tano emphasizes the need for continuous development and improvement of the platform to meet the evolving needs of practitioners and patients.
+
+Research Group and Community Engagement
+
+- The meeting concludes with a discussion about the research group and its activities, including the Saturday meetings and the Brain Trust.
+- Benoit Tano highlights the progress made in various research areas, such as nutritional epigenetics and traditional American Indian medicine.
+- The conversation encourages participants to join the research group and contribute to the ongoing efforts to advance the field of integrative health.
+- The meeting ends with a commitment to continue supporting the development of the AI platform and the broader integrative health community.
+
+Generated by https://otter.ai

@@ -1,0 +1,137 @@
+Tuesday Integrative Health Webinar
+September 16, 2025
+Attendees: William Clearfield, William Clearfield
+
+Overview
+
+The Tuesday Integrative Health Webinar discussed the logistics and planning for an upcoming conference, including the need for speaker bios, CVs, and financial disclosures. Fee schedules were set at $695 for in-house CME physicians, $595 for virtual physicians, $395 for various medical professionals, and $200 for students. The conference aims to attract 10,000 attendees, with room blocks at $179 per night. The meeting also covered the benefits of oil pulling for oral health, the limitations of AI in integrating traditional and indigenous medicine, and the importance of understanding patient contexts to avoid AI biases. The Tuesday Integrative Health Webinar discussed the importance of practitioners understanding diseases before using AI, emphasizing the need for regulatory oversight and informed consent regarding AI scribes. AI's potential for generative hallucinations and bias, particularly in diagnosing dark-skinned individuals, was highlighted. A 2019 study showed AI underestimated healthcare needs for Black patients. The conversation underscored the necessity of practitioners' knowledge and experience to effectively use AI, avoiding reliance on AI without proper understanding. The meeting also touched on the upcoming conference, including speaker requirements and fee schedules.
+
+Action Items
+
+- Send the PDF lecture material to Bill Clearfield.
+- Review and follow up on the email sent to Bill Clearfield about a possible presenter.
+- Provide Bill Clearfield with the contact information for the yogi instructor mentioned.
+- Get the speaker list, including bios, CVs, pictures, and financial disclosures, to Bill Clearfield ASAP.
+
+Outline
+
+Webinar Planning and Logistics
+
+- Bill Clearfield discusses the need for a portrait of Dr. Tanner for the conference brochure.
+- Bill mentions a meeting with the web guy to finalize the logo, schedule, and fee schedule.
+- Bill outlines the fee schedule for different groups: $695 for CME physicians, $595 for virtual physicians, $395 for retired PAs, medical assistants, and homeopaths, $200 for students and residents, and $95 for day pass attendees.
+- Bill shares financial concerns, noting a past loss of $2,000 due to hotel costs and the need to charge a small fee to cover internet costs.
+- Bill requests speaker lists, bios, CVs, pictures, and financial disclosures from Drs. Tano, Quinn, and James.
+
+Promoting the Conference and Logistics
+
+- Bill emphasizes the importance of using email contacts to promote the conference, aiming for a 10,000-person turnout.
+- Bill mentions the challenges of hosting the conference in Reno, including the need for room blocks and the cost of hotel rooms.
+- Bill discusses the benefits of virtual attendance, including lower costs and easier logistics.
+- Bill highlights the proximity of the hotel to the Reno marketplace and the cold weather during the conference.
+- Bill and other speakers discuss the historical significance of Reno as a conference location and the challenges of hosting large events.
+
+Introduction of Speakers and Topics
+
+- Bill introduces Dr. Tano, a specialist in integrative immunity, and Dr. James, a director of education and clinical services.
+- Dr. Tano begins a discussion on Ayurveda, specifically oil pulling, and its benefits for oral health.
+- Dr. Tano explains the traditional practice of oil pulling and its modern scientific backing, including its anti-inflammatory and detoxifying effects.
+- Dr. Tano provides data from studies showing the effectiveness of oil pulling in reducing plaque and gingivitis.
+- Dr. Tano discusses the mechanisms of action of oil pulling, including its anti-microbial and anti-inflammatory properties.
+
+Ayurvedic Practices and Health Benefits
+
+- Dr. Tano continues to discuss the benefits of Ayurvedic practices, including oil pulling, for overall health.
+- Dr. Tano explains the traditional use of sesame oil and the modern preference for coconut oil.
+- Dr. Tano provides instructions for practicing oil pulling, including the amount of oil to use and the duration of swishing.
+- Dr. Tano discusses the importance of spitting out the oil and brushing teeth afterward to remove toxins.
+- Dr. Tano highlights the potential benefits of oil pulling for reducing systemic inflammation and protecting heart, brain, and metabolism health.
+
+Challenges and Limitations of AI in Medicine
+
+- Dr. James discusses the limitations of AI in medicine, particularly in considering traditional and indigenous medical practices.
+- Dr. James explains the bias of AI towards Western medical practices and the need for more inclusive databases.
+- Dr. James highlights the importance of understanding the cultural and traditional context of patients to provide effective care.
+- Dr. James discusses the challenges of integrating AI with traditional medical practices and the need for human oversight.
+- Dr. James emphasizes the importance of clinical experience and judgment in using AI for medical diagnoses and treatments.
+
+Ethical Considerations in Using AI in Medicine
+
+- Dr. Nario raises a question about the ethical use of AI in medicine and minimizing harm.
+- Dr. James and Dr. Tano discuss the importance of clinicians understanding the limitations and biases of AI.
+- Dr. James emphasizes the need for clinicians to have a deep understanding of their field and the ability to recognize errors in AI-generated diagnoses.
+- Dr. James discusses the potential dangers of relying solely on AI for medical decisions and the importance of human oversight.
+- Dr. James highlights the need for ongoing research and development to improve the accuracy and inclusivity of AI in medicine.
+
+Practical Applications and Future Directions
+
+- Dr. James and Dr. Tano discuss the practical applications of AI in medicine and the need for continuous improvement.
+- Dr. James emphasizes the importance of learning the language of AI medical prompts to get accurate and useful results.
+- Dr. James discusses the potential for AI to assist in medical research and the need for collaboration between AI developers and medical practitioners.
+- Dr. James highlights the importance of ongoing education and training for clinicians to effectively use AI in their practice.
+- Dr. James and Dr. Tano conclude with a discussion on the future directions of AI in medicine and the need for ethical and effective integration.
+
+Responsibility and Liability in AI-Assisted Healthcare
+
+- Speaker 5 emphasizes the importance of understanding the disease or condition before using AI, warning against trusting AI results blindly.
+- Speaker 4 stresses that practitioners must take full responsibility for patient outcomes, regardless of AI input.
+- Speaker 5 and Speaker 4 discuss the issue of practitioners deferring to AI, which can lead to misjudgments.
+- Speaker 1 suggests the need for regulatory audits of AI systems to ensure accurate information.
+
+Regulatory Oversight and Informed Consent
+
+- Speaker 4 mentions the need for third-party actors with human moderators to oversee AI systems.
+- Speaker 1 highlights the importance of informed consent for patients regarding AI scribes and recordings.
+- Speaker 5 shares personal experience with AI scribes, noting the potential for errors and the need for careful review of transcripts.
+- Bill Clearfield and Speaker 4 discuss the issue of generative hallucinations in AI transcriptions, where AI makes up references that do not exist.
+
+AI Bias in Healthcare Diagnosis
+
+- Speaker 5 provides an example of AI bias in skin cancer diagnosis, where AI struggles to diagnose cancers in dark-skinned individuals.
+- Speaker 4 references a study showing a higher misdiagnosis rate in Africa compared to Western latitudes.
+- Speaker 1 shares a 2019 study where an AI tool underestimated the needs of black patients in US hospitals.
+- The discussion highlights the need for caution and continuous improvement in AI technology to avoid bias.
+
+Knowledge, Experience, and AI in Medicine
+
+- Speaker 6 emphasizes the importance of human creativity, intuition, and knowledge in medicine.
+- Speaker 5 explains that AI should be used as a tool to complement human expertise, not replace it.
+- Speaker 6 and Speaker 5 discuss the need for specific prompts to ensure AI provides accurate information.
+- The conversation touches on the dangers of relying solely on AI without proper medical training.
+
+AI in Individualized Diet and Lifestyle
+
+- Speaker 6 inquires about AI's ability to provide individualized diet and lifestyle protocols.
+- Speaker 5 explains that AI can provide dosing and protocols if prompted correctly, but practitioners must have the necessary knowledge.
+- The discussion includes the potential for AI to treat allergies sublingually with the right prompts.
+- Speaker 5 warns against using AI without proper training, as it can lead to incorrect protocols and harm patients.
+
+AI as a Tool vs. Art Form
+
+- Speaker 6 compares AI to a recipe, questioning its health benefits.
+- Speaker 5 and Speaker 6 discuss the need for human creativity and experience in medicine.
+- The conversation highlights the importance of practitioners having both knowledge and experience to use AI effectively.
+- Speaker 5 shares personal experiences of using AI in writing books and ensuring accuracy.
+
+Final Thoughts and Future Plans
+
+- Speaker 4 asks participants if they learned anything new or surprising from the discussion.
+- Speaker 5 notes that many participants have left, indicating the late hour of the meeting.
+- Bill Clearfield thanks the participants and mentions the upcoming webinar with Dr. Derek de Silva on the glycocalyx.
+- Bill Clearfield discusses the conference website and fee schedule, emphasizing the importance of timely speaker submissions.
+
+Additional Resources and Suggestions
+
+- Speaker 7 shares information about a yogi doctor who provides lectures on various health topics, including stem cells and peptide treatments.
+- Bill Clearfield suggests getting the doctor's contact information to potentially include him in future webinars.
+- Speaker 7 also mentions a DNA coach who provides genetic and epigenetic coaching.
+- Speaker 4 informs Bill Clearfield about a possible presenter for future webinars, suggesting they run it down.
+
+Closing Remarks and Next Steps
+
+- Bill Clearfield provides the CME credit number and mentions sending the participant list and video once ready.
+- The meeting concludes with participants expressing their appreciation and readiness to attend future webinars.
+- Bill Clearfield notes his preference for hosting the webinars on the West Coast due to the time difference.
+- The participants thank each other and end the meeting on a positive note.
+
+Generated by https://otter.ai

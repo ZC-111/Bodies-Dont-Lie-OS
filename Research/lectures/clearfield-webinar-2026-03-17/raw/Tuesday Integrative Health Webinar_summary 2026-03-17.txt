@@ -1,0 +1,132 @@
+Tuesday Integrative Health Webinar
+March 17, 2026
+Attendees: William Clearfield
+
+Overview
+
+The Tuesday Integrative Health Webinar discussed various topics, including Dr. Tanno's new app, hormone optimization, and vaccine concerns. Bill Clearfield mentioned his work on a lecture for AMMG, focusing on thyroid, cortisol, insulin, and environmental disruptors. The conversation shifted to vaccine safety, with concerns about mercury adjuvants and the impact of frequent vaccinations on children. Dr. Tanno introduced his AI-powered app, TayaproMed, which integrates AI clinical intelligence, practice management, and educational tools. The app offers features like a Polypharmacy checker, AI scribe, and CME accreditation, aiming to streamline medical practices and enhance patient care. Benoit Tano discussed the integration of AI in healthcare, highlighting its ability to manage polypharmacy, provide cost comparisons, and generate personalized supplement plans. The system includes templates for integrative and conventional treatments, AI scribes for detailed patient notes, and a comprehensive database covering various medical conditions and treatments. It also offers educational tools, book writing, and the capacity to create webinars. The AI can generate detailed information on conditions like myocarditis, lung cancer, and autoimmune diseases, and it can assist in creating protocols and case studies. The system aims to enhance patient care by providing comprehensive, cost-effective, and personalized medical solutions.
+
+Action Items
+
+- Plan and lead a roundtable webinar around April 7 focused on estrogen replacement therapy versus other hormones, using the 10 million–woman Medicare study and key supporting literature as the framework. (Bill Clearfield)
+- Draft and send a promotional email next week including the 20% discount coupon link for the upcoming AMMG conference in Miami. (Bill Clearfield)
+- Prepare and deliver the previously requested presentation on essential energy at the Integrative Health Webinar on June 9.
+- Create a simplified version of the TayaproMed platform with core functionality for this group and distribute access details so they can test it within the next couple of weeks.
+- Begin developing a fertility-decline-focused educational program or webinar that can be presented later as part of the integrative health series.
+- Send a curated set of high-quality studies and clinical evidence on estrogen and related therapies to the organizer of the April 7 hormone roundtable to use as a shared reference framework.
+
+Outline
+
+Discussion on Dr. Tanno's New App and Personal Updates
+
+- Bill Clearfield mentions Dr. Tanno's new app and expresses interest in it.
+- Bill Clearfield shares personal updates about his workload and upcoming lectures.
+- Benoit Tano jokes about the low turnout for the webinar and mentions his lack of invitation to certain groups.
+- Bill Clearfield humorously introduces Dr. Nario and discusses Stefan's political aspirations.
+
+Concerns About Vaccines and Their Impact
+
+- Bill Clearfield and Benoit Tano discuss the negative impact of modern vaccines compared to older ones.
+- Benoit Tano expresses concerns about the toxins in vaccines and their effects on children with existing toxins.
+- Bill Clearfield recalls his experiences with vaccines and the adverse effects observed in children.
+- The conversation touches on the lack of studies on the cumulative effects of toxins in vaccines.
+
+Experiences with Military Vaccinations
+
+- Speaker 2 shares his experiences with multiple vaccinations during military service, including passing out from the injections.
+- Bill Clearfield and Benoit Tano discuss the lack of transparency and understanding about the vaccinations given.
+- Speaker 3 adds his experience with the MMR vaccine and the potential for regression in children after receiving a second dose.
+- The conversation highlights the lack of comprehensive studies on the long-term effects of vaccines.
+
+Introduction to the Webinar's Main Topic
+
+- Speaker 1 introduces the main topic of the webinar, focusing on the removal of black box warnings on menopausal hormone therapy.
+- The discussion covers the historical context of the WHI study and its impact on hormone therapy usage.
+- Speaker 1 explains the recent FDA decision to remove black box warnings and the implications for integrative doctors.
+- The conversation emphasizes the importance of reclaiming confidence in hormone therapy and the potential benefits for patients.
+
+Debate on Hormone Replacement Therapy (HRT)
+
+- Bill Clearfield and Speaker 1 discuss the ongoing debate about the safety and efficacy of estrogen-only HRT.
+- Benoit Tano expresses skepticism about the need for additional estrogen in postmenopausal women due to environmental estrogens.
+- Speaker 5 argues for the importance of bioidentical estradiol and progesterone in treating menopausal symptoms.
+- The conversation highlights the need for personalized approaches to hormone replacement therapy.
+
+Safety Testing for Hormone Replacement Therapy
+
+- Speaker 4 inquires about the safety testing procedures for starting patients on HRT.
+- Bill Clearfield lists the various tests he conducts, including prolactin, pregnenolone, vitamin D, and thyroid antibodies.
+- Benoit Tano shares his approach to monitoring urine metabolites and the limitations of current testing methods.
+- The discussion underscores the importance of comprehensive testing to ensure patient safety.
+
+Introduction to Dr. Tano's AI App
+
+- Benoit Tano introduces his new AI app, TayaproMed, designed to help practitioners manage their practices more efficiently.
+- The app includes features for AI clinical intelligence, practice management, and medical education.
+- Benoit Tano demonstrates the app's capabilities, including the creation of webinars and the generation of medical lessons.
+- The conversation highlights the potential benefits of integrating AI into medical practice.
+
+Demonstration of TayaproMed's Features
+
+- Benoit Tano demonstrates the Polypharmacy checker feature, showing how it identifies potential drug interactions.
+- The app also includes a lab interpreter that flags abnormalities and provides clinical recommendations.
+- Benoit Tano explains the benefits of the AI scribe and the comprehensive patient management system.
+- The demonstration emphasizes the app's ability to streamline administrative tasks and improve patient care.
+
+Discussion on the Value of TayaproMed
+
+- Benoit Tano explains the value of the TayaproMed app, comparing it to the cost of purchasing individual tools and services.
+- The app includes a range of features, from AI clinical intelligence to marketing automation, all in one platform.
+- Benoit Tano highlights the benefits of the app's built-in CME tracking and the potential for integrating digital prescriptions.
+- The conversation underscores the app's potential to transform medical practices and improve patient outcomes.
+
+Q&A Session and Final Remarks
+
+- Participants ask questions about the app's features, including its HIPAA compliance and the ability to incorporate digital prescriptions.
+- Benoit Tano addresses concerns about the app's repetitive nature and its ability to learn from users.
+- The conversation concludes with a discussion on the benefits of the app's educational and marketing tools.
+- Benoit Tano encourages participants to try the app's free trial and experience its capabilities firsthand.
+
+Polypharmacy and Supplementation in Integrative Health
+
+- Benoit Tano discusses the impact of conventional medications on patients, highlighting issues like neurological problems and gastrointestinal issues.
+- The system provides cost comparisons between generic and brand-name medications and allows patients to download GoodRx coupons.
+- Speaker 8 inquires about printing lists for patients and creating supplement plans based on their needs.
+- Benoit Tano confirms the ability to print lists and create supplement plans, emphasizing the importance of integrating these tools into the patient's journey.
+
+AI Scribe and Patient Management
+
+- Benoit Tano explains the AI Scribe feature, which gathers patient information in a SOAP note format and provides assessments and plans based on the discussion.
+- Speaker 8 asks about integrating patient interfaces for pre-visit information gathering, and Benoit Tano confirms the system's capability to share information with patients.
+- Discussion on the availability of templates for integrative and conventional treatments, with Benoit Tano confirming the presence of templates for various needs.
+- Benoit Tano elaborates on the AI's ability to provide explanations for diagnoses and prescriptions, including both pharmaceutical and nutraceutical options.
+
+AI's Capabilities and Limitations
+
+- Speaker 8 questions the AI's ability to handle complex cases, and Benoit Tano demonstrates the AI's capacity to provide detailed information on specific conditions like exposure to electric fire fumes.
+- Discussion on the AI's limitations in providing comprehensive information, with Benoit Tano acknowledging the need for human input to tailor treatments to individual patients.
+- Benoit Tano emphasizes the importance of integrating AI with existing EHR systems to ensure seamless patient care.
+- The conversation touches on the AI's ability to generate patient booklets and the potential for advertising and marketing integrative health services.
+
+Functional Medicine and Pharmacoeconomics
+
+- Benoit Tano highlights the system's ability to provide comprehensive information on functional medicine treatments, including diet, exercise, and supplements.
+- Discussion on the cost-effectiveness analysis of medications, with Benoit Tano explaining the importance of understanding the value of treatments.
+- Speaker 7 inquires about handling multiple medications, and Benoit Tano explains the system's ability to manage complex polypharmacy cases.
+- Benoit Tano discusses the integration of traditional medicine modalities like Ayurvedic and Chinese medicine into the system.
+
+Educational Tools and Book Writing
+
+- Benoit Tano introduces the educational tools available in the system, including the ability to create webinars, courses, and books.
+- Discussion on the AI's capability to generate comprehensive books on specific conditions, with Benoit Tano explaining the process of inputting information and generating content.
+- The conversation touches on the importance of human input in editing AI-generated content to ensure accuracy and quality.
+- Benoit Tano emphasizes the potential for using AI to enhance educational materials and make them more accessible to a wider audience.
+
+AI's Role in Healthcare and Future Developments
+
+- The discussion shifts to the broader implications of AI in healthcare, with Benoit Tano emphasizing the need for healthcare professionals to embrace AI to improve patient care.
+- Speaker 7 raises concerns about AI's limitations in replacing human expertise, and Benoit Tano agrees that while AI can assist, human input is crucial.
+- Benoit Tano discusses the potential for AI to revolutionize telemedicine and make healthcare more accessible to patients.
+- The conversation concludes with Benoit Tano expressing his commitment to continuing to develop and improve the AI tools to better serve the healthcare community.
+
+Generated by https://otter.ai

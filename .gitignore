@@ -3,3 +3,4 @@ Research/acupuncture/sources/harvard-ap101/videos/
 Research/acupuncture/tools/ffmpeg
 # Otter meeting screenshots (binary, stay local)
 Research/lectures/*/slides/*.jpeg
+Research/lectures/_staging/

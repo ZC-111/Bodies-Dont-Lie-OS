@@ -1,0 +1,32 @@
+{
+  "id": "clearfield-webinar-2025-04-01",
+  "title": "Tuesday Integrative Health Webinar",
+  "approx_date": "2025-04-01",
+  "duration": "1 h 4 min",
+  "channel": "Clearfield Training Program",
+  "otter_url": "https://otter.ai/u/jZM7WB_BG5YwNdBn2EQBHQM-aNc",
+  "otter_id": "jZM7WB_BG5YwNdBn2EQBHQM-aNc",
+  "primary_branch": "integrative-medicine",
+  "gem_status": "raw",
+  "paths": {
+    "packet": "Research/lectures/clearfield-webinar-2025-04-01/",
+    "raw": "Research/lectures/clearfield-webinar-2025-04-01/raw/",
+    "slides": "Research/lectures/clearfield-webinar-2025-04-01/slides/",
+    "derived": "Research/lectures/clearfield-webinar-2025-04-01/derived/"
+  },
+  "otter": {
+    "transcript": "Research/lectures/clearfield-webinar-2025-04-01/raw/Tuesday Integrative Health Webinar_transcript 2025-04-01.txt",
+    "summary": "Research/lectures/clearfield-webinar-2025-04-01/raw/Tuesday Integrative Health Webinar_summary 2025-04-01.txt",
+    "screenshots": 0,
+    "audio": null
+  },
+  "slides": {
+    "status": "none",
+    "screenshot_count": 0
+  },
+  "derived": {
+    "gem_cleanup": false,
+    "study_guide": false,
+    "teach_outline": false
+  }
+}
