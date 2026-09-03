@@ -5,7 +5,8 @@ Source: **Clearfield Training Program** channel on Otter.ai.
 | Field | Value |
 |---|---|
 | Conversations listed | 98 |
-| Date range | 2024-08-20 → 2026-06-30 |
+| Date range ingested | 2024-08-06 → 2026-06-30 |
+| Reported series start | 2022-01-11 (older Otter conversations not yet listed) |
 | Cadence | Weekly Tuesday Integrative Health Webinar |
 | Transcripts exported | 98 |
 | Packets created | 98 |
