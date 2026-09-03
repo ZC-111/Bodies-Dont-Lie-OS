@@ -25,7 +25,7 @@
     "herbal_botanical"
   ],
   "sync": "transcript_only",
-  "gem_status": "raw",
+  "gem_status": "processed",
   "research_priority": "normal",
   "segments": [
     {
@@ -97,9 +97,15 @@
     "notes": "98 Otter meeting screenshots downloaded via Playwright. Sorted chronologically by capture timestamp. Includes Stefan Hartman 'Reformed Lipid Denialist' deck."
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-06-30/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-06-30/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-06-30/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-06-30/derived/key-takeaways.md"
+    }
   },
   "knowledge_leaves": [],
   "notes": "Multi-topic webinar. Key segment: Hartman lipid lecture (ApoB/statins/ezetimibe/niacin). First Otter-export lecture packet with Otter summary + transcript. Needs segmentation for Gem cleanup."
