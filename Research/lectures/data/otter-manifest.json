@@ -1026,10 +1026,11 @@
     "duration": "2 h 3 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2025-03-11"
+    "packet_dir": "Research/lectures/clearfield-webinar-2025-03-11",
+    "screenshot_count": 73
   },
   {
     "otter_id": "0pIRZSR5hLU8vZNbqCJ9pLpRE9M",
@@ -1040,10 +1041,11 @@
     "duration": "1 h 52 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2025-03-05"
+    "packet_dir": "Research/lectures/clearfield-webinar-2025-03-05",
+    "screenshot_count": 111
   },
   {
     "otter_id": "tAtmhIMa7fmRXEWqsjZP4Gl7vkM",
@@ -1054,10 +1056,11 @@
     "duration": "2 h 20 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2025-02-26"
+    "packet_dir": "Research/lectures/clearfield-webinar-2025-02-26",
+    "screenshot_count": 78
   },
   {
     "otter_id": "lnZUNAyEcVNSN0i3JOEbuJcc15A",
@@ -1068,10 +1071,11 @@
     "duration": "1 h 10 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2025-02-19"
+    "packet_dir": "Research/lectures/clearfield-webinar-2025-02-19",
+    "screenshot_count": 49
   },
   {
     "otter_id": "wcHy9pPXoWy5S62-GJbpasQtw2o",
@@ -1082,10 +1086,11 @@
     "duration": "1 h 55 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2025-02-12"
+    "packet_dir": "Research/lectures/clearfield-webinar-2025-02-12",
+    "screenshot_count": 17
   },
   {
     "otter_id": "JAhRYbDDwDsC4em3dazDKyDw4gM",
@@ -1096,10 +1101,11 @@
     "duration": "2 h 1 min",
     "status": "exported",
     "exported": true,
-    "slides_downloaded": false,
+    "slides_downloaded": true,
     "packet_created": true,
     "processed": false,
-    "packet_dir": "Research/lectures/clearfield-webinar-2025-02-05"
+    "packet_dir": "Research/lectures/clearfield-webinar-2025-02-05",
+    "screenshot_count": 75
   },
   {
     "otter_id": "Ts2MMXvFk3VIGcyQs8K33dvV7lk",
