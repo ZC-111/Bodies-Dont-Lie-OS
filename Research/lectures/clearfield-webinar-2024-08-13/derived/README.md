@@ -10,6 +10,7 @@ Processed via MedNote pipeline (transcript → structure → supplemental conten
 | `quiz.md` | 20-question clinical quiz (MCQ + short answer) with answer keys |
 | `infographic-data.md` | 8 visual data cards ready for Canva/Figma design |
 | `key-takeaways.md` | Top 10 clinical pearls, detox/immune comparison table, action items |
+| `protocol-pathway.md` | Lecture-derived CDPM four-pillar pathway (slides pending) |
 
 ## Processing Notes
 
