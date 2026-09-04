@@ -1,13 +1,126 @@
 {
   "id": "clearfield-webinar-2025-07-08",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — July 8, 2025: Photobiomodulation & PCOS Tribulus Tip",
+  "speaker": "Jordan Hamlin (Neuronic / tPBM); Melvin Nario (PCOS tip); Bill Clearfield (host)",
   "approx_date": "2025-07-08",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 126,
   "duration": "2 h 6 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/hQzjA4-OBAL6Qn7OOOywEISWs3I",
   "otter_id": "hQzjA4-OBAL6Qn7OOOywEISWs3I",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "photobiomodulation",
+    "neurocognitive",
+    "mental_health",
+    "womens_health",
+    "pain_msk",
+    "thyroid",
+    "sleep",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "neuro",
+    "vitamin_supplement",
+    "herbal_botanical",
+    "pain_msk",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Housekeeping / group history / micro-immunotherapy aside",
+      "speakers": ["Bill Clearfield", "Dr. Burgess", "Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "immune"]
+    },
+    {
+      "topic": "Tip of the week — PCOS supplements / Tribulus terrestris",
+      "speakers": ["Melvin Nario", "Bill Clearfield"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical", "vitamin_supplement"],
+      "subtopics": [
+        "750 mg/day × 2–3 months ovulation data",
+        "LH/FSH modulation without significant T rise",
+        "Pair with inositol + berberine",
+        "SHBG note from Clearfield"
+      ]
+    },
+    {
+      "topic": "Jordan Hamlin — PBM foundations, mechanisms, device parameters",
+      "speakers": ["Jordan Hamlin"],
+      "branch": "integrative-medicine",
+      "terms": ["neuro", "pain_msk"],
+      "subtopics": [
+        "PBM vs phototherapy definitions",
+        "Cytochrome c oxidase / ATP / BDNF",
+        "Irradiance, distance, LEDs vs lasers",
+        "Hormetic dosing"
+      ]
+    },
+    {
+      "topic": "Transcranial PBM applications — stroke, long COVID, TBI, autism, MCI, sleep",
+      "speakers": ["Jordan Hamlin"],
+      "branch": "integrative-medicine",
+      "terms": ["neuro"],
+      "subtopics": [
+        "Gray Maynard TBI case / EEG",
+        "Peak alpha 9–11 Hz",
+        "Hydration before sessions",
+        "40 Hz vs 10 Hz pulse rates"
+      ]
+    },
+    {
+      "topic": "Contraindications, wavelength bands, future combos (TMS/ultrasound/pain)",
+      "speakers": ["Jordan Hamlin"],
+      "branch": "integrative-medicine",
+      "terms": ["neuro", "pain_msk"],
+      "subtopics": [
+        "Cancer / cranial metal / titanium exception",
+        "Epilepsy not a contraindication",
+        "Far-IR vs NIR distinction"
+      ]
+    },
+    {
+      "topic": "Q&A — Hashimoto’s 830 nm, small vessel disease, dry eye, cleaning, SSRIs",
+      "speakers": ["Jordan Hamlin", "Bill Clearfield", "Melvin Nario", "Stefan Hartman", "Dr. Halasa"],
+      "branch": "integrative-medicine",
+      "terms": ["neuro", "pain_msk"],
+      "subtopics": [
+        "2013 Hashimoto laser study 47% off/down levo",
+        "TMS vs PBM complementarity",
+        "Michael Hamblin education resource",
+        "Home device spec discernment"
+      ]
+    },
+    {
+      "topic": "Neuronic 1070 nm helmets — pricing, presets, protocols",
+      "speakers": ["Jordan Hamlin", "Dr. Halasa"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "neuro"],
+      "subtopics": [
+        "~$3400 clinical / ~$1795 home",
+        "Constant / 10 / 40 Hz presets",
+        "Long COVID 12-session month protocol",
+        "30 min heat ceiling; titrate"
+      ]
+    },
+    {
+      "topic": "Closing — multimodal stacks, VA PTSD next week, AI bias book",
+      "speakers": ["Bill Clearfield", "Speaker 7", "Speaker 9", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Mike Hartford VA PTSD next week",
+        "Decoding AI Bias in Medicine",
+        "Dr. James speaker scheduling"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-07-08/",
     "raw": "Research/lectures/clearfield-webinar-2025-07-08/raw/",
@@ -26,8 +139,16 @@
     "filename_pattern": "slide-2025-07-08-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-07-08/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-07-08/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-07-08/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-07-08/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Jordan Hamlin photobiomodulation / Neuronic tPBM. Secondary: Nario PCOS Tribulus tip. Extended Q&A on Hashimoto’s, small vessel disease, dry eye, device selection."
 }

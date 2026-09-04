@@ -1,13 +1,93 @@
 {
   "id": "clearfield-webinar-2025-12-24",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — December 24, 2025: Biotransformation, Detoxification & Creatine Pearls",
+  "speaker": "Anna Hurst (key); Melvin Nario (creatine tip); Stefan Hartman (cystatin C); Bill Clearfield (host)",
   "approx_date": "2025-12-24",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 112,
   "duration": "1 h 52 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/CQjlfnZLZ-CY25UUEq35pSQ0lug",
   "otter_id": "CQjlfnZLZ-CY25UUEq35pSQ0lug",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "materia-medica"],
+  "themes": [
+    "biotransformation",
+    "detoxification",
+    "creatine",
+    "heavy_metals",
+    "mold_mycotoxins",
+    "modified_citrus_pectin",
+    "glutathione",
+    "genomics_epigenetics",
+    "pfas_plastics",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "detox",
+    "vitamin_supplement",
+    "immune",
+    "hormone",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — conference finances, pricing pushback, holiday attendance",
+      "speakers": ["Bill Clearfield", "Speaker 2", "Speaker 3", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — Creatine monohydrate vs pyruvate; cystatin C pearl",
+      "speakers": ["Melvin Nario", "Stefan Hartman", "Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Monohydrate first-line vs pyruvate marketing",
+        "Muscle 3–5 g vs brain 10–20 g dosing",
+        "Creatinine rise ≠ renal injury myth",
+        "Cystatin C for creatine users (~$40)"
+      ]
+    },
+    {
+      "topic": "Anna Hurst — A Cleaner Better You: biotransformation & detoxification",
+      "speakers": ["Anna Hurst"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "vitamin_supplement", "immune"],
+      "subtopics": [
+        "Phase 1–2–3 clearance highway metaphor",
+        "Mitochondrial nutrient prep before detox",
+        "Detox genomics (NQO1, GST/GPX, EPHX1, ALDH1, GC)",
+        "Mycotoxins vs mold allergy; plastics/PFAS; MCP evidence"
+      ]
+    },
+    {
+      "topic": "Case — 27yo F fertility quest: SIBO, mold, PFAS, MCP, MSQ 89→20",
+      "speakers": ["Anna Hurst"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "hormone", "immune"],
+      "subtopics": [
+        "SIBO H2 87; β-glucuronidase; reverse T3 parking brake",
+        "Phased gut/thyroid/adrenal then MCP + remediation move",
+        "Genomics delayed: mold, CoQ recycle, glutathione, GC"
+      ]
+    },
+    {
+      "topic": "Q&A — chelation/uranium, ApoE4 epigenetics, mold protocols, GSH, migraines, CBG",
+      "speakers": ["Anna Hurst", "Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "vitamin_supplement", "herbal_botanical"],
+      "subtopics": [
+        "EDTA IV>rectal; oral absorption questionable",
+        "Shoemaker/Nathan hodgepodge mold protocol",
+        "GSH 100–200 mg maintenance vs 500–1500+ treatment",
+        "DIO2/adrenal support with T3; CBD+CBG for headaches"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-12-24/",
     "raw": "Research/lectures/clearfield-webinar-2025-12-24/raw/",
@@ -26,8 +106,16 @@
     "filename_pattern": "slide-2025-12-24-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-12-24/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-12-24/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-12-24/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-12-24/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic Christmas-week webinar. Tip: Nario creatine monohydrate vs pyruvate + Hartman cystatin C. Key segment: Hurst biotransformation/detox with 27yo fertility case (MSQ 89→20). Q&A covers EDTA/uranium, mold protocols, GSH dosing, migraines/CBG. Anecdotal chelation and plasmapheresis claims speaker-attributed."
 }

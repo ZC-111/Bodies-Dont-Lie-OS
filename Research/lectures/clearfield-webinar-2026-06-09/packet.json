@@ -1,13 +1,91 @@
 {
   "id": "clearfield-webinar-2026-06-09",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — June 9, 2026: Taya Pro Med AI (Benoit Tano)",
+  "speaker": "Benoit Tano (primary); Bill Clearfield (host); Melvin Nario (tip)",
   "approx_date": "2026-06-09",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 153,
   "duration": "2 h 33 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/81vgkJ55QnsvesXbnyxCMQPr6Rc",
   "otter_id": "81vgkJ55QnsvesXbnyxCMQPr6Rc",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "clinical_ai",
+    "practice_systems",
+    "polypharmacy",
+    "thyroid_autoimmune",
+    "gh_optimization",
+    "patient_education",
+    "research_irb"
+  ],
+  "medical_terms": [
+    "practice_systems",
+    "vitamin_supplement",
+    "immune",
+    "cardio",
+    "detox"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Tip of the week — arginine / melatonin / GABA for GH axis support",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement"]
+    },
+    {
+      "topic": "History of computing & MYCIN-era AI in medicine",
+      "speakers": ["Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Taya Pro Med demo — SOAP scribe, conditions (CMV colitis), traditional medicine layers",
+      "speakers": ["Benoit Tano", "Anthony James"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "immune"]
+    },
+    {
+      "topic": "Polypharmacy checker — triple whammy, nutrient depletions, CBD interactions",
+      "speakers": ["Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "vitamin_supplement"]
+    },
+    {
+      "topic": "Hashimoto’s AI search — cases, MCQs, protocols, patient booklet, tribal IRB",
+      "speakers": ["Benoit Tano", "Bill Clearfield", "Anthony James"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "vitamin_supplement"],
+      "subtopics": [
+        "TPO/Tg pathophysiology narration",
+        "Myo-inositol / Hashimoto supplement stack",
+        "MCQ answer discrepancy across users",
+        "IRB generator for research group"
+      ]
+    },
+    {
+      "topic": "Medication monograph (ivermectin) + berberine UX path",
+      "speakers": ["Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "vitamin_supplement"]
+    },
+    {
+      "topic": "Pricing, marketplace, CME, allergy/SLIT workshop, education suite",
+      "speakers": ["Benoit Tano", "David Kahn", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Research group update — nutritional epigenetics, First Nation training pathways",
+      "speakers": ["Benoit Tano", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-06-09/",
     "raw": "Research/lectures/clearfield-webinar-2026-06-09/raw/",
@@ -26,8 +104,16 @@
     "filename_pattern": "slide-2026-06-09-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-06-09/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-06-09/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-06-09/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-06-09/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary session: Benoit Tano live demo of Taya Pro Med AI (clinical AI, polypharmacy, Hashimoto’s education/research outputs). Tip: Nario GH-axis nutrients. Local MedNote (Gem recreation). Next-week tease in room: Bob Agresca / C60."
 }

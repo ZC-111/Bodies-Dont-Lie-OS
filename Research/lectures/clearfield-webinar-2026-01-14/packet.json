@@ -1,13 +1,120 @@
 {
   "id": "clearfield-webinar-2026-01-14",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — January 14, 2026: Humanin Tip & Cannabis for Dementia (Sulak)",
+  "speaker": "Melvin Nario (humanin tip); Dustin Sulak (cannabis/dementia); Bill Clearfield (host)",
   "approx_date": "2026-01-14",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 132,
   "duration": "2 h 12 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/lBEx4QEhjOy2jlQIxmXZmxIj5BM",
   "otter_id": "lBEx4QEhjOy2jlQIxmXZmxIj5BM",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "cannabis_ecs",
+    "dementia_bpsd",
+    "peptides_mitochondrial",
+    "neuroprotection",
+    "geriatrics_deprescribing",
+    "practice_systems",
+    "regulatory_hemp"
+  ],
+  "medical_terms": [
+    "cannabis",
+    "peptide",
+    "neuro",
+    "pain_msk",
+    "vitamin_supplement"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — weather, NOMA/Pepper Mill logistics, Eagles banter",
+      "speakers": ["Bill Clearfield", "Speaker 1", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — humanin (mtDNA peptide, MOTS-c distinction, lifestyle upregulation)",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["peptide", "neuro"],
+      "subtopics": [
+        "24-aa mitochondrial peptide; discovered 2001",
+        "Anti-stress apoptosis / metabolic resilience / ↓ ox-inflam",
+        "Conte/Yen human aging & centenarian offspring data",
+        "Exercise, fasting/CR, NAD, sleep — not injectables"
+      ]
+    },
+    {
+      "topic": "Sulak intro — osteopathy, Maine cannabis practice, Healer disclosure",
+      "speakers": ["Dustin Sulak", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["cannabis", "practice_systems"]
+    },
+    {
+      "topic": "Cannabis in older adults — HRQoL, ADLs, opioid/benzo deprescribing, ECS",
+      "speakers": ["Dustin Sulak", "Dr. Quinn"],
+      "branch": "integrative-medicine",
+      "terms": ["cannabis", "pain_msk"],
+      "subtopics": [
+        "UCLA/Israel older-adult use & outcomes",
+        "53% stop ≥1 med; Beers-list substitution",
+        "Full vs broad spectrum vs isolate",
+        "THC ≈ anandamide partial agonist; CB1/CB2"
+      ]
+    },
+    {
+      "topic": "Dementia burden — ChEI/memantine limits, amyloid Abs critique, antipsychotic BPSD harms",
+      "speakers": ["Dustin Sulak"],
+      "branch": "integrative-medicine",
+      "terms": ["neuro"],
+      "subtopics": [
+        "~7M AD; ~80% BPSD",
+        "Rexulti / brexpiprazole boxed mortality",
+        "ARIA risk vs tiny cognitive deltas"
+      ]
+    },
+    {
+      "topic": "Preclinical + clinical cannabinoids for dementia/agitation/cognition",
+      "speakers": ["Dustin Sulak"],
+      "branch": "integrative-medicine",
+      "terms": ["cannabis", "neuro"],
+      "subtopics": [
+        "Ultra-low THC mouse cognition remodeling",
+        "Geneva/Israel/Italy NPI–CMAI series",
+        "2025 ultra-low-dose MMSE RCT (NNT≈3)",
+        "≤40 mg total cannabinoids/day CYP framing"
+      ]
+    },
+    {
+      "topic": "Practical hemp gummy protocol — night prime, CBG/CBD flip, Farm Bill cliff",
+      "speakers": ["Dustin Sulak"],
+      "branch": "integrative-medicine",
+      "terms": ["cannabis", "practice_systems"],
+      "subtopics": [
+        "6–15 mg THC/day TID stages; 0.5 mg neuroprotection start",
+        "CBG α2 agonism; paradoxical AE management",
+        "0.3% by weight vs ≤0.4 mg/package threat",
+        "Schedule III EO + CMS CBD pilot uncertainty"
+      ]
+    },
+    {
+      "topic": "Q&A — CBDa/CBGa, dosing motto, tea start, high-dose CBD, Amen SPECT",
+      "speakers": ["Dustin Sulak", "Melvin Nario", "Speaker 8", "Doug", "Speaker 1"],
+      "branch": "integrative-medicine",
+      "terms": ["cannabis", "neuro", "peptide"]
+    },
+    {
+      "topic": "Close — dementia research partnership, paid speakers/podcasts, CME logistics",
+      "speakers": ["Bill Clearfield", "Speaker 5", "Dustin Sulak"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-01-14/",
     "raw": "Research/lectures/clearfield-webinar-2026-01-14/raw/",
@@ -26,8 +133,16 @@
     "filename_pattern": "slide-2026-01-14-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-01-14/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-01-14/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-01-14/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-01-14/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Tip: Nario humanin (mtDNA peptide vs MOTS-c). Core: Sulak cannabis for dementia/BPSD (ECS, deprescribing, ultra-low THC cognition signal, hemp gummy protocol, Farm Bill regulatory risk). Local MedNote (Gem recreation)."
 }

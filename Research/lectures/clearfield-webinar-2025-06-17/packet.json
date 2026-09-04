@@ -1,13 +1,101 @@
 {
   "id": "clearfield-webinar-2025-06-17",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — June 17, 2025: Mitochondrial Health, CoQ10 Depletion & Cellular Energy",
+  "speaker": "Bill Clearfield (host); Derek de Silva (primary); Dr. Nario (grape seed tip); panel (Carol/Quicksilver, Gerber, MitoQ)",
   "approx_date": "2025-06-17",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 140,
   "duration": "2 h 20 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/GoRuWgRFUBHzZE--rF7qmxgBIOc",
   "otter_id": "GoRuWgRFUBHzZE--rF7qmxgBIOc",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "mitochondrial_health",
+    "coq10_depletion",
+    "cellular_energy",
+    "vitamin_k2",
+    "pqq_biogenesis",
+    "grape_seed_extract",
+    "long_covid",
+    "nattokinase",
+    "tinnitus_tms",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "cardio",
+    "hormone",
+    "detox",
+    "herbal_botanical",
+    "regenerative"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Tip of the week — grape seed extract / OPCs / BP & endothelial function",
+      "speakers": ["Dr. Nario", "Derek de Silva", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["herbal_botanical", "cardio", "vitamin_supplement"],
+      "subtopics": [
+        "GSE 100–300 mg; meta-analysis ~5/2 mmHg BP drop",
+        "NO duration + oxLDL ↓ + ACE-inhibitor–like effect",
+        "No CYP450 interaction vs grapefruit",
+        "OPC tier: GSE + Pycnogenol > berries/resveratrol"
+      ]
+    },
+    {
+      "topic": "Derek de Silva — mitochondrial dysfunction / CoQ10 / K2 / PQQ",
+      "speakers": ["Derek de Silva"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio", "hormone"],
+      "subtopics": [
+        "Four CoQ10 depleters: statins, beta blockers, oral hypoglycemics, SSRIs",
+        "CoQ10 dose ladder by age/risk; 500–600 mg personal high-load dose",
+        "Vitamin K2 gatekeeper; D:K2 10:1; MK-4/MK-7; K1 ≠ K2 clotting",
+        "PQQ biogenesis + CoQ10 fuel; NAD/NADH; R-ALA neuropathy dosing",
+        "AMPK fasting cascade; exercise #1; maternal mito inheritance",
+        "Long COVID = mitochondrial failure; Cell Energy stack logic"
+      ]
+    },
+    {
+      "topic": "Common Sense Supplements / Cell Energy product brief (CME-off)",
+      "speakers": ["Derek de Silva"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "practice_systems"],
+      "subtopics": [
+        "cssupplements.com doctor channel",
+        "Cell Energy: CoQ10/NADH/NAC/ALA/methyl-Bs",
+        "A+D+K2 5000 IU / 500 mcg ratio product"
+      ]
+    },
+    {
+      "topic": "MitoQ panel + sleep apnea / polycythemia phenotype",
+      "speakers": ["Dr. Nario", "Speaker 5", "Derek de Silva", "Speaker 4"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio"],
+      "subtopics": [
+        "MitoQ + CoQ10 complementary (Houston fellowship frame)",
+        "Sleep apnea ≠ beneficial hypoxia; fix first",
+        "High Hct/Hb + negative JAK2 → consider apnea"
+      ]
+    },
+    {
+      "topic": "Practice updates — Androgen Society, tinnitus/TMS, peptides, nattokinase",
+      "speakers": ["Bill Clearfield", "Carol", "Speaker 4", "Dr. Gerber", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "regenerative", "cardio", "vitamin_supplement"],
+      "subtopics": [
+        "Androgen Society 5-min T-for-women rebuttal (236 refs)",
+        "TMS + battlefield acupuncture + mushrooms + BPC/TB-500 tinnitus stack",
+        "Nattokinase ~10,800 FU study ± K2/aspirin; natto food source",
+        "FDA disodium EDTA marketplace removal; Quicksilver GHK-Cu toenail pearl"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-06-17/",
     "raw": "Research/lectures/clearfield-webinar-2025-06-17/raw/",
@@ -26,8 +114,16 @@
     "filename_pattern": "slide-2025-06-17-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-06-17/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-06-17/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-06-17/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-06-17/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Derek de Silva on mitochondrial aging, CoQ10 depletion (statins/beta blockers/OHAs/SSRIs), K2 calcium routing, PQQ biogenesis, AMPK/exercise. Secondary: Nario GSE tip; Cell Energy/long COVID stack; MitoQ; Clearfield tinnitus/TMS + Androgen Society; nattokinase atherosclerosis dosing debate. Local MedNote (Gem recreation)."
 }

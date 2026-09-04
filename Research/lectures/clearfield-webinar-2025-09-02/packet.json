@@ -1,13 +1,86 @@
 {
   "id": "clearfield-webinar-2025-09-02",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — September 2, 2025: Spermidine, Autophagy & Longevity",
+  "speaker": "Melissa Cano (spermidine/autophagy); Melvin Nario (Chinese body clock tip); Bill Clearfield (host)",
   "approx_date": "2025-09-02",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 122,
   "duration": "2 h 2 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/YvYB4xEevY7Hh6A_aHUPcm8PMJ4",
   "otter_id": "YvYB4xEevY7Hh6A_aHUPcm8PMJ4",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "longevity",
+    "autophagy",
+    "polyamines",
+    "musculoskeletal",
+    "cardiometabolic",
+    "tcm_chronobiology",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "cardio",
+    "pain_msk",
+    "detox",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — conferences, Reno logistics, dual formulary apothecary",
+      "speakers": ["Bill Clearfield", "Speaker 1", "Speaker 3"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — Chinese body clock / TCM organ Qi peaks",
+      "speakers": ["Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["herbal_botanical", "detox"],
+      "subtopics": [
+        "12 two-hour organ shifts",
+        "Lung peak 3–5 AM treatment tradition",
+        "Spleen mistranslation ≈ pancreas"
+      ]
+    },
+    {
+      "topic": "Melissa Cano — spermidine, autophagy, mitophagy, MSK & longevity",
+      "speakers": ["Melissa Cano"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio", "pain_msk"],
+      "subtopics": [
+        "Polyamine thirds: diet / synthesis / microbiome",
+        "eIF5A hypusination → TFEB autophagy",
+        "Fasting–spermidine–autophagy link",
+        "6 mg/day clinical / EFSA dosing",
+        "Menopause mouse estrogen-mimetic CV protection",
+        "Advanced cancer caution"
+      ]
+    },
+    {
+      "topic": "Q&A — dosing, GMO wheat germ, rapamycin, hormones, natto, products",
+      "speakers": ["Melissa Cano", "Melvin Nario", "Bill Clearfield", "Speaker 5", "Speaker 7"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio"],
+      "subtopics": [
+        "Organic EU wheat germ vs Roundup US germ",
+        "Rapamycin requires spermidine",
+        "Hormone effects (E2 / T / cortisol)",
+        "SpermidineLIFE SKUs + NAM combo"
+      ]
+    },
+    {
+      "topic": "Closers — Reno sponsorship invite; next week Andrew Campbell mold",
+      "speakers": ["Bill Clearfield", "Melissa Cano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-09-02/",
     "raw": "Research/lectures/clearfield-webinar-2025-09-02/raw/",
@@ -26,8 +99,16 @@
     "filename_pattern": "slide-2025-09-02-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-09-02/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-09-02/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-09-02/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-09-02/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary segment: Melissa Cano (Longevity Labs) on spermidine as autophagy inducer — dosing ~6 mg/day, MSK/CV/neuro signals, advanced-cancer caution. Tip: Nario Chinese body clock. Q&A covers rapamycin dependence, hormones, natto, organic wheat germ. Next: Andrew Campbell mold."
 }

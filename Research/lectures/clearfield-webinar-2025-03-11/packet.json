@@ -1,13 +1,133 @@
 {
   "id": "clearfield-webinar-2025-03-11",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — March 11, 2025: SIBO Relapse Prevention & Three-Phase Care",
+  "speaker": "Bill Clearfield (host); Arlen Hill (primary); Melvin Nario (nutrient-synergy tip); panel Q&A (Acevedo, Quinn, Tano, others)",
   "approx_date": "2025-03-11",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 123,
   "duration": "2 h 3 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/ClN5CZe78b8lp6a0nf44-DzCDCo",
   "otter_id": "ClN5CZe78b8lp6a0nf44-DzCDCo",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "sibo",
+    "dysbiosis",
+    "h_pylori",
+    "breath_testing_limits",
+    "hypochlorhydria",
+    "motility_mmc",
+    "botanical_antimicrobials",
+    "probiotics_targeted",
+    "fodmap_critique",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "gut_microbiome",
+    "herbal_botanical",
+    "vitamin_supplement",
+    "detox",
+    "immune"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — webinar continuity / Hill telemedicine background",
+      "speakers": ["Bill Clearfield", "Arlen Hill", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Tuesday webinars since 2020",
+        "Hill Biotics clinical education role",
+        "Telemedicine practice since 2016"
+      ]
+    },
+    {
+      "topic": "Tip of the week — synergistic nutrient pairing",
+      "speakers": ["Melvin Nario", "Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Iron + vitamin C (erythropoiesis / ferritin)",
+        "B6 + magnesium (autism behavioral data)",
+        "Vitamin E + A immune/antioxidant recycle",
+        "Iron + A testosterone ~8% IFM pearl"
+      ]
+    },
+    {
+      "topic": "SIBO landscape — prevalence, relapse, definition",
+      "speakers": ["Arlen Hill"],
+      "branch": "integrative-medicine",
+      "terms": ["gut_microbiome"],
+      "subtopics": [
+        "~20% prevalence; ~44% relapse / 9 months",
+        ">10^5 CFU + colonic-type / gram-negative shift",
+        "~75% IBS overlap; PPI- and opioid-related risk"
+      ]
+    },
+    {
+      "topic": "Diagnostics — breath test limits, aspirate, stool patterns",
+      "speakers": ["Arlen Hill"],
+      "branch": "integrative-medicine",
+      "terms": ["gut_microbiome"],
+      "subtopics": [
+        "Glucose ~54% / lactulose ~42% sensitivity",
+        "19-ft small bowel sampling problem",
+        "Methane focus; IMO vs classic SIBO B12 clue",
+        "Empiric antimicrobial trial as common assessment"
+      ]
+    },
+    {
+      "topic": "Mechanisms — hypochlorhydria, H. pylori, stress, three-phase model",
+      "speakers": ["Arlen Hill"],
+      "branch": "integrative-medicine",
+      "terms": ["gut_microbiome", "immune", "detox"],
+      "subtopics": [
+        "MMC / meal spacing; HCl–CCK–pancreatic cascade",
+        "H. pylori + SIBO co-travel; oral niche",
+        "Nutrient theft & ≥6-month repletion",
+        "Extra-intestinal links (liver, Parkinson’s, RLS)"
+      ]
+    },
+    {
+      "topic": "Probiotics & antimicrobial strategy",
+      "speakers": ["Arlen Hill"],
+      "branch": "nutrition",
+      "terms": ["gut_microbiome", "herbal_botanical"],
+      "subtopics": [
+        "L. plantarum + S. boulardii preferred",
+        "Low-dose targeted > high-CFU shotgun",
+        "Combination botanicals > monotherapy"
+      ]
+    },
+    {
+      "topic": "Q&A — FODMAP critique, diet, ileocecal valve, sIgA",
+      "speakers": ["Arlen Hill", "Melvin Nario", "Bill Clearfield", "Dr. Acevedo"],
+      "branch": "nutrition",
+      "terms": ["gut_microbiome", "herbal_botanical"],
+      "subtopics": [
+        "Strong opposition to FODMAP for SIBO",
+        "Carnivore short-term caveats",
+        "30-day multi-botanical (~18 agents) for H. pylori + SIBO",
+        "Butyrate postbiotic; ICV massage literature note"
+      ]
+    },
+    {
+      "topic": "Biotics SBO kit / Phase-2 preview / conference housekeeping",
+      "speakers": ["Arlen Hill", "Bill Clearfield", "Dr. Quinn", "Dr. Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["herbal_botanical", "practice_systems"],
+      "subtopics": [
+        "Johns Hopkins 2014 botanical vs rifaximin backdrop",
+        "SBO kit 30-day compliance (ADP / FC-Cidal / Dysbiocide)",
+        "Hydrozyme + Beta Plus + Motilityzyme Phase 2",
+        "June 1 East Coast / NCTC conference exploration"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-03-11/",
     "raw": "Research/lectures/clearfield-webinar-2025-03-11/raw/",
@@ -26,8 +146,16 @@
     "filename_pattern": "slide-2025-03-11-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-03-11/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-03-11/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-03-11/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-03-11/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Arlen Hill on SIBO relapse prevention (breath-test limits, three-phase care, botanicals, targeted probiotics, FODMAP critique). Secondary: Nario nutrient-synergy tip, Biotics SBO/Phase-2 kit preview, practice/conference housekeeping. Local MedNote (Gem recreation)."
 }

@@ -1,13 +1,110 @@
 {
   "id": "clearfield-webinar-2026-04-07",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — April 7, 2026: Estrogen Sisters, PT-141 & Xenoestrogen HRT Debate",
+  "speaker": "Jeanette Serna (estrogen teaching); Benoit Tano (xenoestrogens); Lindsay Berkson (HRT/breast); Melvin Nario (tip); Bill Clearfield (host)",
   "approx_date": "2026-04-07",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 172,
   "duration": "2 h 52 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/OlXuXl73V1RAQ4bVYXoakDZMRnU",
   "otter_id": "OlXuXl73V1RAQ4bVYXoakDZMRnU",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "hormones_hrt",
+    "estrogen_metabolism",
+    "xenoestrogens",
+    "breast_cancer",
+    "sexual_medicine",
+    "peptides",
+    "detox",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "vitamin_supplement",
+    "detox",
+    "immune",
+    "peptide"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — Everything Breast Cancer CME / Tip-of-the-Week course plan",
+      "speakers": ["Bill Clearfield", "Lindsay Berkson", "Jeanette Serna"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "hormone"]
+    },
+    {
+      "topic": "Tip of the week — PT-141 / bremelanotide (MC4, PDE5 salvage, GLP-1 link)",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["peptide", "hormone"],
+      "subtopics": [
+        "Central MC4 / dopamine arousal",
+        "Vyleesi premenopausal HSDD label",
+        "PDE5 combination / priapism caution",
+        "Motivational vs vascular ED"
+      ]
+    },
+    {
+      "topic": "Jeanette Serna — Four sisters of estrogen (E1–E4) / ERα vs ERβ",
+      "speakers": ["Jeanette Serna"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Estrone reservoir postmenopausal",
+        "Estriol one-way metabolite / vaginal atrophy",
+        "Estetrol OC pairing FDA 2021",
+        "Patient paper education model"
+      ]
+    },
+    {
+      "topic": "Bioidentical receptor coverage dosing panel",
+      "speakers": ["Panel clinician", "Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "detox"],
+      "subtopics": [
+        "E2 0.3–0.5 mg/day heuristic",
+        "E2/E3 + progesterone + testosterone stack",
+        "Xenoestrogen wrong-geometry receptors"
+      ]
+    },
+    {
+      "topic": "Lindsay Berkson — WHI press release / hormones protect breast & brain",
+      "speakers": ["Lindsay Berkson", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "NIH large-study Premarin vs estradiol claim",
+        "June 28 2002 WHI messaging",
+        "FSH / Ki-67 / HER2 teaching",
+        "Post–breast-cancer HRT advocacy"
+      ]
+    },
+    {
+      "topic": "Benoit Tano — Xenoestrogens, glyphosate, 2-OH vs 16α-OH, minimal estrogen",
+      "speakers": ["Benoit Tano", "Jeanette Serna", "Melvin Nario", "Carol Peterson"],
+      "branch": "nutrition",
+      "terms": ["hormone", "detox", "immune"],
+      "subtopics": [
+        "CDC biomonitoring / pesticide-obesity maps",
+        "Glyphosate GMO inflection ~1994–96",
+        "DIM/I3C 2:16 ratio paradox",
+        "Progesterone-first hot flashes / BiEst 20/80 rescue",
+        "Blood vs urine metabolites"
+      ]
+    },
+    {
+      "topic": "Cases & logistics — autoimmune panel, PCOS follow-up, Barbie BHRT invite",
+      "speakers": ["Bill Clearfield", "Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-04-07/",
     "raw": "Research/lectures/clearfield-webinar-2026-04-07/raw/",
@@ -26,8 +123,16 @@
     "filename_pattern": "slide-2026-04-07-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-04-07/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-04-07/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-04-07/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-04-07/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic HRT roundtable. Tip: Nario PT-141/bremelanotide. Teaching: Serna four estrogen sisters. Debate: Berkson (hormones protective / WHI) vs Tano (xenoestrogens/glyphosate → minimal added estrogen). Local MedNote (Gem recreation)."
 }

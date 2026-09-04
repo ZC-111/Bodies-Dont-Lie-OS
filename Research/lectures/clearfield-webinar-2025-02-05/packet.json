@@ -1,13 +1,97 @@
 {
   "id": "clearfield-webinar-2025-02-05",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — February 5, 2025: Uveal Melanoma Molecular Vulnerabilities",
+  "speaker": "Evangelica Papasterio (uveal melanoma / CRISPR translational targets); Bill Clearfield (host); panel: Halasa, Joseph James, Patel, Nario, Tano, Quinn",
   "approx_date": "2025-02-05",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 121,
   "duration": "2 h 1 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/JAhRYbDDwDsC4em3dazDKyDw4gM",
   "otter_id": "JAhRYbDDwDsC4em3dazDKyDw4gM",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["immune", "nutrition"],
+  "themes": [
+    "ocular_oncology",
+    "uveal_melanoma",
+    "rare_disease",
+    "crispr_screens",
+    "drug_repurposing",
+    "integrative_oncology",
+    "biotech_entrepreneurship",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cancer_oncology",
+    "immune",
+    "vitamin_supplement",
+    "herbal_botanical",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — Paris guest intro; research-group NAIC / First Nations Medical Board update",
+      "speakers": ["Bill Clearfield", "Evangelica Papasterio", "Dr. Quinn", "Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Papasterio — uveal melanoma foundations (epidemiology, GNAQ/GNA11, BAP1, DecisionDx-UM, tebentafusp)",
+      "speakers": ["Evangelica Papasterio"],
+      "branch": "integrative-medicine",
+      "terms": ["cancer_oncology", "immune"],
+      "subtopics": [
+        "Uveal vs cutaneous melanoma biology",
+        "Choroidal predominance ~90%",
+        "Monosomy 3 + BAP1 high metastatic risk",
+        "Tebentafusp/Kimmtrak HLA-restricted (~9%)"
+      ]
+    },
+    {
+      "topic": "CRISPR kinome screen — LKB1–SIK2–SLC8A1–mitoROS cascade; MitoQ + KB-R7943 preclinical combo",
+      "speakers": ["Evangelica Papasterio"],
+      "branch": "integrative-medicine",
+      "terms": ["cancer_oncology", "vitamin_supplement"],
+      "subtopics": [
+        "Dropout CRISPR-Cas9 kinome screen (~760 kinases)",
+        "LKB1 tumor-suppressor loss drives proliferation",
+        "SLC8A1 calcium addiction + mitochondrial ROS",
+        "EMBO Molecular Medicine 2023 lab paper"
+      ]
+    },
+    {
+      "topic": "Rare-cancer biotech entrepreneurship — orphan incentives; Roca Therapeutics case",
+      "speakers": ["Evangelica Papasterio"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "cancer_oncology"],
+      "subtopics": [
+        "Scientific vs funding barriers",
+        "Orphan drug designation FDA/EMA",
+        "RCT-001 angiogenesis/inflammation inhibitor"
+      ]
+    },
+    {
+      "topic": "Live UM case + Q&A — Halasa/James/Patel integrative plan; nano-IO; Ca-blocker repurposing; CTCs",
+      "speakers": ["Dr. Halasa", "Dr. Joseph James", "Dr. Patel", "Melvin Nario", "Evangelica Papasterio", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["cancer_oncology", "immune", "vitamin_supplement"],
+      "subtopics": [
+        "HLA-matched tebentafusp discussion",
+        "Photodynamic therapy ICG + methylene blue",
+        "Clinical picture over CTC/CEA alone",
+        "MitoQ synergy interest; nifedipine/verapamil hypothesis"
+      ]
+    },
+    {
+      "topic": "Closers — LinkedIn collab; next week Allison Beasley light therapy",
+      "speakers": ["Bill Clearfield", "Evangelica Papasterio"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-02-05/",
     "raw": "Research/lectures/clearfield-webinar-2025-02-05/raw/",
@@ -26,8 +110,16 @@
     "filename_pattern": "slide-2025-02-05-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-02-05/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-02-05/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-02-05/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-02-05/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary segment: Evangelica Papasterio PhD on uveal melanoma — GNAQ/GNA11/BAP1 biology, DecisionDx-UM, tebentafusp HLA limits, CRISPR LKB1–SIK2–SLC8A1–ROS axis, rare-disease biotech. Secondary: live integrative UM case + MitoQ/Ca-blocker/nanotech discussion. Next: Allison Beasley light therapy."
 }

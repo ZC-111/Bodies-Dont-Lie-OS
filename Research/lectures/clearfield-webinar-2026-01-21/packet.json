@@ -1,13 +1,100 @@
 {
   "id": "clearfield-webinar-2026-01-21",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — January 21, 2026: Telomeres, Telomerase & How Not to Age (Bill Andrews)",
+  "speaker": "Bill Andrews, PhD (Sierra Sciences; primary); Melvin Nario, DO (melatonin tip); Bill Clearfield (host)",
   "approx_date": "2026-01-21",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 155,
   "duration": "2 h 35 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/l416W8yP4i7dv3Jhd5H2F74zMnU",
   "otter_id": "l416W8yP4i7dv3Jhd5H2F74zMnU",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "telomeres",
+    "telomerase",
+    "anti_aging",
+    "hayflick_limit",
+    "nutraceuticals",
+    "sleep_melatonin",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "cardio",
+    "detox",
+    "pain_msk",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — schedule & battlefield acupuncture",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Speaker 1"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — melatonin & heart-failure observational headlines",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "AHA 2025 abstract / ~130k insomnia cohort",
+        "Confounding by indication & reverse causation",
+        "Melatonin as risk marker not proven driver"
+      ]
+    },
+    {
+      "topic": "Bill Andrews — research funding pitch & aging framework",
+      "speakers": ["Bill Andrews", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Publish-or-perish vs investor exit vs celebrity science",
+        "UHNW discreet funding via physicians",
+        "Health as tug-of-war; gemish biochemistry"
+      ]
+    },
+    {
+      "topic": "What / why / how of aging — Hayflick limit & telomere shortening",
+      "speakers": ["Bill Andrews"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Betty White / QQ phenotypic test",
+        "Evolutionary cull of the longer-lived",
+        "15k→10k→5k bases; ~125-year ceiling",
+        "Telomeropathies; rodents poor human models"
+      ]
+    },
+    {
+      "topic": "How not to age — telomerase, measurement artifacts, lifestyle",
+      "speakers": ["Bill Andrews"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "detox"],
+      "subtopics": [
+        "Gene induction vs gene therapy",
+        "FISH / % short telomeres / Life Length",
+        "Fake lengthening via toxicity or immune redistribution",
+        "Slow accelerators; HeLa-level expression bar"
+      ]
+    },
+    {
+      "topic": "Q&A — Televital, TA-65, Alzheimer’s, pets, senolytics, HRT",
+      "speakers": ["Bill Andrews", "Bill Clearfield", "Melvin Nario", "attendees"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "cardio"],
+      "subtopics": [
+        "Televital / Telo Dash / Glucose Control",
+        "Cancer myth; Rytelo inhibitor caveats",
+        "Senolytics caution; NAD OK; rapamycin opposed"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-01-21/",
     "raw": "Research/lectures/clearfield-webinar-2026-01-21/raw/",
@@ -26,8 +113,16 @@
     "filename_pattern": "slide-2026-01-21-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-01-21/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-01-21/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-01-21/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-01-21/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Bill Andrews telomere/telomerase lecture (Hayflick, measurement artifacts, Televital). Tip: Nario melatonin–HF observational appraisal. Local MedNote (Gem recreation)."
 }

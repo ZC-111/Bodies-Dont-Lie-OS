@@ -1,13 +1,143 @@
 {
   "id": "clearfield-webinar-2025-02-19",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar \u2014 February 19, 2025: Thymosin Alpha-1 & Thymogen Immune Peptides",
+  "speaker": "Bill Clearfield (host); Stefan Hartman (primary); Melvin Nario (Knox gelatin tip + thymulin Q&A); panel",
   "approx_date": "2025-02-19",
+  "event": "Clearfield Training Program \u2014 Tuesday Integrative Health Webinar",
+  "duration_min": 70,
   "duration": "1 h 10 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/lnZUNAyEcVNSN0i3JOEbuJcc15A",
   "otter_id": "lnZUNAyEcVNSN0i3JOEbuJcc15A",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "immune",
+    "nutrition"
+  ],
+  "themes": [
+    "thymosin_alpha_1",
+    "thymogen",
+    "thymulin",
+    "thymic_involution",
+    "dendritic_cell_training",
+    "long_covid",
+    "mold_biotoxin",
+    "cancer_adjunct",
+    "peptide_therapy",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "immune",
+    "vitamin_supplement",
+    "detox",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening \u2014 tennis/GH banter, new attendees, IFM/practice updates",
+      "speakers": [
+        "Bill Clearfield",
+        "Stefan Hartman",
+        "Janet Brown"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Hartman GH experiment and tennis weight",
+        "Meditation-group guests (Janet, Christy)",
+        "Nurse Sarah injector intro"
+      ]
+    },
+    {
+      "topic": "Tip of the week \u2014 Knox gelatin for underserved collagen support",
+      "speakers": [
+        "Melvin Nario",
+        "Bill Clearfield"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "vitamin_supplement"
+      ],
+      "subtopics": [
+        "Arizona fellowship serving the underserved",
+        "10\u201315 g/day Knox + vitamin C (~$1/day)",
+        "Gelatin for collagen vs glucosamine for cartilage"
+      ]
+    },
+    {
+      "topic": "Stefan Hartman \u2014 thymosin alpha-1 mechanisms, evidence, cases",
+      "speakers": [
+        "Stefan Hartman"
+      ],
+      "branch": "immune",
+      "terms": [
+        "immune"
+      ],
+      "subtopics": [
+        "Thymic involution and T-cell recognition failure",
+        "Zadaxin / 28-aa peptide / dendritic-cell training",
+        "Oncology, sepsis, HIV, mold, long-COVID case series",
+        "Default dosing 1.5 mg SQ q3 days"
+      ]
+    },
+    {
+      "topic": "Oral thymogen \u2014 Russian bioregulator data and practice responders",
+      "speakers": [
+        "Stefan Hartman"
+      ],
+      "branch": "immune",
+      "terms": [
+        "immune",
+        "vitamin_supplement"
+      ],
+      "subtopics": [
+        "Synthetic oral peptide vs injectable TA1",
+        "Elderly bioregulator outcomes narrative",
+        "1\u20132\u00d7 daily empty-stomach titration"
+      ]
+    },
+    {
+      "topic": "Q&A \u2014 thymulin family, zinc, safety, labs, cancer prevention",
+      "speakers": [
+        "Melvin Nario",
+        "Stefan Hartman",
+        "Bill Clearfield"
+      ],
+      "branch": "immune",
+      "terms": [
+        "immune",
+        "detox"
+      ],
+      "subtopics": [
+        "Thymogen < thymulin < TA1 heuristic",
+        "Thymulin zinc dependence",
+        "Cyrex Lymphocyte Map + Array 12",
+        "Peds/pregnancy caution; transient ALT"
+      ]
+    },
+    {
+      "topic": "Closing \u2014 access, cost, Holtorf injectables, next week cannabis",
+      "speakers": [
+        "Bill Clearfield",
+        "Stefan Hartman",
+        "Melvin Nario"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Jillian injectable accounts; ~$170/10 mg vial",
+        "Integrative Peptides oral channel",
+        "Next week: Quinn on cannabis"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-02-19/",
     "raw": "Research/lectures/clearfield-webinar-2025-02-19/raw/",
@@ -26,8 +156,16 @@
     "filename_pattern": "slide-2025-02-19-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-02-19/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-02-19/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-02-19/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-02-19/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Stefan Hartman on thymosin alpha-1 and oral thymogen (mechanisms, oncology/infection evidence framing, long-COVID/mold/fatigue cases). Secondary: Nario Knox gelatin tip and thymulin/zinc heuristic; access via Jillian / Integrative Peptides; next week Quinn cannabis. Local MedNote (Gem recreation)."
 }

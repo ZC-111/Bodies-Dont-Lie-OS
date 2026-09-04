@@ -1,13 +1,209 @@
 {
   "id": "clearfield-webinar-2024-08-13",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — CDPM Four Pillars / Redox & Immune Modulation",
+  "speaker": "Dr. Halasa (keynote); Bill Clearfield (host); Dr. Joseph James; Heather Hall Asad",
   "approx_date": "2024-08-13",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
   "duration": "2 h 46 min",
+  "duration_min": 166,
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/xg4V_A-L8_Ob1jKGBewDTtKzOWg",
   "otter_id": "xg4V_A-L8_Ob1jKGBewDTtKzOWg",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "immune",
+    "nutrition",
+    "detox"
+  ],
+  "themes": [
+    "chronic_disease_prevention",
+    "oxidative_stress",
+    "immune_modulation",
+    "endothelial_function",
+    "cyclodextrin_detox",
+    "hormone_balance",
+    "homocysteine_methylation",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "detox",
+    "immune",
+    "hormone",
+    "cardio",
+    "vitamin_supplement",
+    "neuro"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Open — Philippines clinic/EWOT tour, awards, Heather intro",
+      "speakers": [
+        "Bill Clearfield",
+        "Dr. Ketapang",
+        "Heather Hall Asad"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    },
+    {
+      "topic": "Hormone testing timing / TBI quarter-dose titration lessons",
+      "speakers": [
+        "Bill Clearfield"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "hormone",
+        "neuro"
+      ],
+      "subtopics": [
+        "Serum days 19–21",
+        "28-day saliva map",
+        "3–6 month expectation",
+        "90–95% improvement claim"
+      ]
+    },
+    {
+      "topic": "Metabolic case — NuMedica Synergy + Paleo HOMA-IR improvement",
+      "speakers": [
+        "Bill Clearfield"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "vitamin_supplement",
+        "cardio"
+      ],
+      "subtopics": [
+        "HOMA-IR (G×I)/405 goal <1.9",
+        "Insulin 13→6 / HOMA 3.3→0.99"
+      ]
+    },
+    {
+      "topic": "Dr. Halasa — CDPM four pillars (redox / immune / metabolic / regenerative)",
+      "speakers": [
+        "Dr. Halasa",
+        "Dr. Joseph James",
+        "Bill Clearfield"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "detox",
+        "immune",
+        "hormone"
+      ],
+      "subtopics": [
+        "360 HP multi-system H&P",
+        "Prioritize by primary pillar",
+        "Publishable shared language"
+      ]
+    },
+    {
+      "topic": "Redox assessment — endothelial OS scoring, toxins, cyclodextrin",
+      "speakers": [
+        "Dr. Halasa"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "detox",
+        "cardio"
+      ],
+      "subtopics": [
+        "Fat- vs water-soluble toxins",
+        "Cyclodextrin chelation + drug delivery",
+        "Mycotoxin / spike protein",
+        "GLP-1 weight-loss toxin dump"
+      ]
+    },
+    {
+      "topic": "ANS / sudomotor / ABI as treatment monitors",
+      "speakers": [
+        "Dr. Halasa"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "cardio",
+        "neuro"
+      ],
+      "subtopics": [
+        "Subclinical OS scores",
+        "HRV orthostatic / sleep switch",
+        "Small-fiber neuropathy link"
+      ]
+    },
+    {
+      "topic": "Immune mapping — Th1/Th2/Th17 modulation vs suppression",
+      "speakers": [
+        "Dr. Halasa",
+        "Dr. Joseph James"
+      ],
+      "branch": "immune",
+      "terms": [
+        "immune"
+      ],
+      "subtopics": [
+        "LDN / ivermectin / methylene blue",
+        "Thymosin α-1 vs β in cancer",
+        "CBC differential clues",
+        "Spike fools Th17 polarity"
+      ]
+    },
+    {
+      "topic": "Metabolic deep-dive — iodine, estrogen ratios, oxidized LDL, IL-11",
+      "speakers": [
+        "Dr. Halasa"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "hormone",
+        "vitamin_supplement",
+        "cardio"
+      ],
+      "subtopics": [
+        "Iodine 5–10 mg + selenium",
+        "E1/E2/E3 ratios",
+        "Nutrigenomic vitamin dosing"
+      ]
+    },
+    {
+      "topic": "Case workshop — aluminum exposure, estrogen crash, Hashimoto Abs",
+      "speakers": [
+        "Bill Clearfield",
+        "Dr. Halasa"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "hormone",
+        "detox",
+        "immune"
+      ],
+      "subtopics": [
+        "Homocysteine 13.4",
+        "Hold vs push thyroid Rx",
+        "Plant sterols / LDN for TPO"
+      ]
+    },
+    {
+      "topic": "Homocysteine quartet, cyclodextrin cost, upcoming speakers",
+      "speakers": [
+        "Speaker 9",
+        "Dr. Halasa",
+        "Bill Clearfield",
+        "Stefan"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "vitamin_supplement",
+        "detox"
+      ],
+      "subtopics": [
+        "P5P + betaine + folate + MeB12",
+        "Gnustats / Talati HBOT / Heather next"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-08-13/",
     "raw": "Research/lectures/clearfield-webinar-2024-08-13/raw/",
@@ -25,8 +221,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-08-13/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-08-13/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-08-13/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-08-13/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic marathon webinar. Key segment: Dr. Halasa CDPM four-pillar framework (redox/immune/metabolic/regenerative), cyclodextrin fat-soluble detox, endothelial/ANS monitoring, Th1/Th2/Th17 modulation. Secondary: Clearfield hormone/TBI dosing + Synergy insulin-resistance case + aluminum/Hashimoto workshop. Local MedNote processed. No slides."
 }

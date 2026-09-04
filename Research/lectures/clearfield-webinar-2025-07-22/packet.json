@@ -1,13 +1,114 @@
 {
   "id": "clearfield-webinar-2025-07-22",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — July 22, 2025: Membrane Lipid Replacement (Ross Pelton)",
+  "speaker": "Bill Clearfield (host); Ross Pelton, RPh, CCN (primary lecturer); Dr. Nario (lipid timing tip); Dr. Sammons / panel (iodine case)",
   "approx_date": "2025-07-22",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 107,
   "duration": "1 h 47 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/N9yVVPBjdwE0_VQF5vNgb-MVTSQ",
   "otter_id": "N9yVVPBjdwE0_VQF5vNgb-MVTSQ",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "detox", "immune"],
+  "themes": [
+    "membrane_lipid_replacement",
+    "mitochondria",
+    "fatigue",
+    "cardiometabolic",
+    "lipid_timing",
+    "coq10",
+    "selenium",
+    "rapamycin",
+    "stem_cells",
+    "iodine_thyroid",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "mitochondria",
+    "vitamin_supplement",
+    "cardio",
+    "detox",
+    "thyroid",
+    "regenerative"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Housekeeping — Radfest, rapamycin tariffs/access, Androgen Society",
+      "speakers": ["Bill Clearfield", "Ross Pelton"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "rapamycin"]
+    },
+    {
+      "topic": "Tip of the week — do not test lipids during/after acute illness (4–6 weeks)",
+      "speakers": ["Dr. Nario"],
+      "branch": "nutrition",
+      "terms": ["cardio", "immune"],
+      "subtopics": [
+        "Acute illness: LDL/HDL ↓ 10–30%, TG ↑ 10–50%",
+        "IL-6 acute-phase shift vs lipids",
+        "Post-COVID persistent dyslipidemia",
+        "Stubborn lipids → hunt inflammation"
+      ]
+    },
+    {
+      "topic": "Ross Pelton intro — selenium mouse legacy, drug-nutrient depletion resources",
+      "speakers": ["Bill Clearfield", "Ross Pelton"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"]
+    },
+    {
+      "topic": "Ross Pelton — membrane lipid replacement / mitochondrial membranes / NT Factor",
+      "speakers": ["Ross Pelton"],
+      "branch": "integrative-medicine",
+      "terms": ["mitochondria", "vitamin_supplement", "detox", "cardio"],
+      "subtopics": [
+        "Mitochondrial free radical theory of aging",
+        "Phospholipid bilayer damage at unsaturated tails",
+        "Garth Nicholson fluid mosaic / MLR publications",
+        "8-week mito energy rebound; fatigue; Hcy/insulin",
+        "Gulf War 6 g/day protocol; hearing (rat) data"
+      ]
+    },
+    {
+      "topic": "Q&A — Plaquex, soy phospholipids, CoQ10 crystal-free, Chan stem cells",
+      "speakers": ["Ross Pelton", "Bill Clearfield", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["mitochondria", "regenerative", "vitamin_supplement"],
+      "subtopics": [
+        "IV Plaquex + oral MLR",
+        "Purified soy lipids vs soy protein allergy",
+        "Pharma Nord crystal-free CoQ10 100 mg BID",
+        "Organ-specific rabbit stem cells (Michael Chan)"
+      ]
+    },
+    {
+      "topic": "Practice systems — tribal apothecary (MNBM), degree curriculum",
+      "speakers": ["Dr. Quinn", "Dr. Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "detox"]
+    },
+    {
+      "topic": "Case conference — serum iodine 1245 / Tri-Iodine / thyroid Abs",
+      "speakers": ["Bill Clearfield", "Dr. Nario", "Dr. Sammons"],
+      "branch": "integrative-medicine",
+      "terms": ["thyroid", "vitamin_supplement"],
+      "subtopics": [
+        "Prefer urine over serum iodine",
+        "Vitamin D inverse with TPO",
+        "Brownstein consult / webinar invite"
+      ]
+    },
+    {
+      "topic": "Preview — Sammons sexual health; estrogen metabolite testing options",
+      "speakers": ["Dr. Sammons", "Bill Clearfield", "Dr. Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-07-22/",
     "raw": "Research/lectures/clearfield-webinar-2025-07-22/raw/",
@@ -26,8 +127,16 @@
     "filename_pattern": "slide-2025-07-22-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-07-22/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-07-22/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-07-22/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-07-22/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Ross Pelton on membrane lipid replacement (NT Factor) for mitochondrial membrane repair, fatigue, detox, and longevity. Secondary: Nario lipid-timing tip; iodine overdose case; Chan stem-cell discussion."
 }

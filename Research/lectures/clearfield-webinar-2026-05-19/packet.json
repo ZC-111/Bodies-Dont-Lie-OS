@@ -1,13 +1,74 @@
 {
   "id": "clearfield-webinar-2026-05-19",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — May 19, 2026: Quantum Ayurveda & Acoustic-Resonance Bioavailability (Meletis / Varanasi)",
+  "speaker": "Chris Meletis, ND; Swathi Varanasi, PharmD (primary); Bill Clearfield (host); Melvin Nario (tip)",
   "approx_date": "2026-05-19",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 112,
   "duration": "1 h 52 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/SiB7Ifahh4_dfJVERQgP60auXjw",
   "otter_id": "SiB7Ifahh4_dfJVERQgP60auXjw",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["materia-medica", "nutrition"],
+  "themes": [
+    "quantum_ayurveda",
+    "botanical_bioavailability",
+    "pharmacokinetics",
+    "acoustic_resonance",
+    "ashwagandha",
+    "berberine",
+    "curcumin",
+    "ivermectin_evidence"
+  ],
+  "medical_terms": [
+    "herbal_botanical",
+    "vitamin_supplement",
+    "practice_systems",
+    "detox",
+    "immune"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Tip of the week — Ivermectin mechanisms vs evidence (longevity, cancer, Alzheimer models, BOHEMIA malaria)",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "immune"]
+    },
+    {
+      "topic": "Chris Meletis — Quantum Ayurveda / acoustic resonance overview; ashwagandha flagship PK; formulation implications",
+      "speakers": ["Chris Meletis"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical", "vitamin_supplement"],
+      "subtopics": [
+        "Acoustic resonance without piperine/phytosome",
+        "~18× ashwagandha systemic exposure",
+        "Nerve QA and Female QA combo trials",
+        "Piperine clearance-pathway critique"
+      ]
+    },
+    {
+      "topic": "Swathi Varanasi — Pharmacist lens, tri-dosha bridge, berberine/ashwagandha/curcumin QA PK deep dive",
+      "speakers": ["Swathi Varanasi"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical"],
+      "subtopics": [
+        "Berberine QA ~18× Cmax / ~4× AUC",
+        "Ashwagandha QA ~5.6× Cmax / ~18× AUC",
+        "Curcumin QA ~20× AUC / ~22× Cmax (fed)",
+        "Raman + AI molecular modeling framework"
+      ]
+    },
+    {
+      "topic": "Q&A — dose toxicity, side-effect amplification, outcome trials, dosha personalization, research collaborations",
+      "speakers": ["Bill Clearfield", "Chris Meletis", "Swathi Varanasi", "Melvin Nario", "Josh", "Dutch"],
+      "branch": "integrative-medicine",
+      "terms": ["herbal_botanical", "practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-05-19/",
     "raw": "Research/lectures/clearfield-webinar-2026-05-19/raw/",
@@ -26,8 +87,16 @@
     "filename_pattern": "slide-2026-05-19-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-05-19/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-05-19/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-05-19/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-05-19/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Meletis + Varanasi on Greenspace Quantum Ayurveda (acoustic-resonance bioavailability for ashwagandha/berberine/curcumin). Secondary: Nario ivermectin evidence-calibration tip. Local MedNote (Gem recreation)."
 }

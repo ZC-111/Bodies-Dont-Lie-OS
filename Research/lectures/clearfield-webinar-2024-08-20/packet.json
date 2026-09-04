@@ -1,13 +1,117 @@
 {
   "id": "clearfield-webinar-2024-08-20",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — August 20, 2024: Cancer Treatment–Induced Osteoporosis & Fracture-First Bone Care (Dr. John Newstead)",
+  "speaker": "John Newstead (key); Melvin/Janelle Nario (Philippines); Bill Clearfield (host)",
   "approx_date": "2024-08-20",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 132,
   "duration": "2 h 12 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/y59a2fEx8UgOiThJHr1w-HcQc1U",
   "otter_id": "y59a2fEx8UgOiThJHr1w-HcQc1U",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "hormones", "immune", "longevity"],
+  "themes": [
+    "osteoporosis",
+    "cancer_survivorship",
+    "fracture_prevention",
+    "bone_density_dexa",
+    "vitamin_k2_mk4",
+    "aromatase_inhibitors",
+    "androgen_deprivation",
+    "glucocorticoid_bone_loss",
+    "mediterranean_diet_protein",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "hormone",
+    "pain_msk",
+    "immune",
+    "cardio"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Eye health / carnosine peptides / vitamin A genetics case",
+      "speakers": ["Bill Clearfield", "Speaker 2"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Pierre Cukier eyesight protocol / carnosine drops",
+        "Ocular BPC-157 / TB4 compounding limits",
+        "Vitamin A + assimilation mutations case"
+      ]
+    },
+    {
+      "topic": "Filipino alternative medicine conference update",
+      "speakers": ["Dr. Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "regenerative"],
+      "subtopics": [
+        "Manila conference peptides / homeopathics access",
+        "Fat-derived stem cells under regulatory pressure",
+        "Medical-travel destination discussion"
+      ]
+    },
+    {
+      "topic": "John Newstead — cancer treatment–induced osteoporosis framing",
+      "speakers": ["John Newstead"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "immune", "hormone"],
+      "subtopics": [
+        "Fractures and OS over surrogate markers",
+        "AI / ADT / glucocorticoid / SSRI / PPI risk",
+        "ASCO survivorship near-epidemic bone loss"
+      ]
+    },
+    {
+      "topic": "Screening gaps, exam pearls, DEXA/FRAX/BTM limits",
+      "speakers": ["John Newstead"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "immune"],
+      "subtopics": [
+        "Abysmal DEXA screening rates",
+        "FRAX not validated in cancer",
+        "NLR and bone turnover marker caveats; MK-7 vs MK-4"
+      ]
+    },
+    {
+      "topic": "Lifestyle foundations — diet, protein, sleep, falls, nutrients",
+      "speakers": ["John Newstead"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "pain_msk"],
+      "subtopics": [
+        "Mediterranean diet ~21% ↓ hip fracture",
+        "Protein ~1.3 g/kg; Ca right-sizing; D 30–44 ng/mL",
+        "MK-4 45 mg evidence bar; strontium caveats"
+      ]
+    },
+    {
+      "topic": "Pharmacotherapy by scenario — AI, ADT, GIO, SREs",
+      "speakers": ["John Newstead"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "immune", "vitamin_supplement"],
+      "subtopics": [
+        "Denosumab vs zoledronic acid for SREs",
+        "BP + PPI fracture paradox",
+        "Anabolics preference; rebound after denosumab stop"
+      ]
+    },
+    {
+      "topic": "Q&A — calcium forms, DIM/E2, Osteo-K, intake strategy",
+      "speakers": ["John Newstead", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "vitamin_supplement"],
+      "subtopics": [
+        "Calcium citrate preference",
+        "Male OP from DIM / keep E2 on TRT",
+        "Lisa Tamati next week; Heather Hollis after"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-08-20/",
     "raw": "Research/lectures/clearfield-webinar-2024-08-20/raw/",
@@ -25,8 +129,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-08-20/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-08-20/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-08-20/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-08-20/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Key segment: Newstead cancer treatment–induced osteoporosis (fracture-first care, MK-4 45 mg, AI/ADT/GIO pharmacology). Secondary: Nario Philippines conference; eye-nutrient opener; hormone/DIM Q&A."
 }

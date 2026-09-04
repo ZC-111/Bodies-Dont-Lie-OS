@@ -1,13 +1,85 @@
 {
   "id": "clearfield-webinar-2025-12-31",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — December 31, 2025: Vitamin C & Hormones + Microbiome/FMT Q&A (Piper Dobner)",
+  "speaker": "Bill Clearfield (host + vitamin C/hormones); Melvin Nario (bioregulators tip); Piper Dobner (microbiome/FMT)",
   "approx_date": "2025-12-31",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 140,
   "duration": "2 h 20 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/zXf2JR4NKM7KxvOGrUxYJnH-ld8",
   "otter_id": "zXf2JR4NKM7KxvOGrUxYJnH-ld8",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "hormones"],
+  "themes": [
+    "vitamin_c_endocrine",
+    "microbiome",
+    "fmt",
+    "bioregulators",
+    "probiotics",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "hormone",
+    "immune",
+    "detox",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — holidays, AI books, practice/education logistics",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Speaker 3"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — Bioregulators (Epitalon, Thymalin) vs peptides",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "immune"],
+      "subtopics": [
+        "2–4 AA epigenetic normalizers",
+        "Telomerase / Hayflick (Khavinson)",
+        "Immunosenescence vs immunostimulation"
+      ]
+    },
+    {
+      "topic": "Bill Clearfield — Vitamin C effects on hormones (VCICI material)",
+      "speakers": ["Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "hormone"],
+      "subtopics": [
+        "Ascorbate vs ascorbic acid",
+        "Testosterone / estrogen / progesterone",
+        "GH–IGF-1 / thyroid / insulin / cortisol–DHEA",
+        "5α-reductase / GABA / finasteride caution",
+        "4 g oral adequate + IV 20–50 g"
+      ]
+    },
+    {
+      "topic": "Piper Dobner — Microbiome ecosystem & FMT Q&A",
+      "speakers": ["Piper Dobner", "Melvin Nario", "Bill Clearfield"],
+      "branch": "immune",
+      "terms": ["immune", "detox", "vitamin_supplement"],
+      "subtopics": [
+        "Diversity over single-bug thinking",
+        "Restoration vs antimicrobial suppression",
+        "FMT delivery / C. diff dosing",
+        "Horizontal gene transfer / probiotics",
+        "Donor screening / Biome Basics"
+      ]
+    },
+    {
+      "topic": "Closing — New Year recap; Piper follow-up April 21; Neustadt next week",
+      "speakers": ["Bill Clearfield", "Piper Dobner", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-12-31/",
     "raw": "Research/lectures/clearfield-webinar-2025-12-31/raw/",
@@ -26,8 +98,16 @@
     "filename_pattern": "slide-2025-12-31-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-12-31/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-12-31/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-12-31/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-12-31/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Dual clinical focus: Clearfield vitamin C–endocrine lecture (filler while Piper late) + Piper Dobner microbiome/FMT Q&A. Tip: Nario bioregulators. Local MedNote (Gem recreation). Follow-up Piper Q&A booked April 21 5pm PT."
 }

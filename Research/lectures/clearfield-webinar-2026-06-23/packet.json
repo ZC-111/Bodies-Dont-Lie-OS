@@ -1,13 +1,60 @@
 {
   "id": "clearfield-webinar-2026-06-23",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — June 23, 2026: Ancient Wisdom & Modern Healing (Anthony James)",
+  "speaker": "Anthony James (primary); Bill Clearfield (host); Melvin Nario (tip)",
   "approx_date": "2026-06-23",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 131,
   "duration": "2 h 11 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/_hvt0S73NBfd8f2aXgml8x70oYI",
   "otter_id": "_hvt0S73NBfd8f2aXgml8x70oYI",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["materia-medica", "acupuncture"],
+  "themes": [
+    "ayurveda",
+    "thai_medicine",
+    "tobin_protocol",
+    "osteopathy_integration",
+    "terrain_medicine",
+    "legal_advocacy"
+  ],
+  "medical_terms": [
+    "herbal_botanical",
+    "detox",
+    "immune",
+    "pain_msk",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Tip of the week — Traumeel RCTs / homeopathy evidence for legislators",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "herbal_botanical"]
+    },
+    {
+      "topic": "Anthony James — Ayurveda, Thai medicine, ahimsa, Native American medicine",
+      "speakers": ["Anthony James"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical", "practice_systems"]
+    },
+    {
+      "topic": "TOBIN protocol as bridge filter; prakriti/vikriti; sen/nadi anatomy",
+      "speakers": ["Anthony James", "Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "immune"]
+    },
+    {
+      "topic": "Legal risks of practicing natural medicine; consent & sovereignty",
+      "speakers": ["John", "Ben", "Bill Clearfield", "Anthony James"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-06-23/",
     "raw": "Research/lectures/clearfield-webinar-2026-06-23/raw/",
@@ -26,8 +73,16 @@
     "filename_pattern": "slide-2026-06-23-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-06-23/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-06-23/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-06-23/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-06-23/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Anthony James on integrating Ayurveda/Thai medicine with osteopathy via TOBIN. Local MedNote (Gem recreation). Next week teaser was Hartman lipids (2026-06-30)."
 }

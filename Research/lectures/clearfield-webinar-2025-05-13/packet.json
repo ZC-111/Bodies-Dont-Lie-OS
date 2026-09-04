@@ -1,13 +1,99 @@
 {
   "id": "clearfield-webinar-2025-05-13",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — May 13, 2025: Dynamic Hormone Tracking & Precision Vitamin C",
+  "speaker": "Bill Clearfield (host); Rose McKenzie (primary); Leor Shear (VCI); Dr. Nario (Q&A + saffron tip); Dr. Quinn (research)",
   "approx_date": "2025-05-13",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 120,
   "duration": "2 h",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/BRyWDM9ITTExatqTCXuEeElOOlI",
   "otter_id": "BRyWDM9ITTExatqTCXuEeElOOlI",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "hormone_optimization",
+    "fertility",
+    "perimenopause",
+    "urine_metabolites",
+    "metabolic_health",
+    "vitamin_c",
+    "sleep",
+    "practice_systems",
+    "native_medicine"
+  ],
+  "medical_terms": [
+    "hormone",
+    "vitamin_supplement",
+    "herbal_botanical",
+    "detox",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Leor Shear — Vitamin C Institute / precision vitamin C education",
+      "speakers": ["Leor Shear", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "VCI certification 16h live webinars",
+        "SEAM Clearwater Oct 24–25 2025",
+        "Precision PK/PD vs formula dosing",
+        "The C Word book / newsletter"
+      ]
+    },
+    {
+      "topic": "Rose McKenzie — dynamic urine metabolite hormone tracking",
+      "speakers": ["Rose McKenzie"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "E3G / PDG / LH / FSH cycle mapping",
+        "Fertility & suboptimal ovulation cases",
+        "Clomid vs letrozole chart fingerprints",
+        "CGM × cycle-phase insulin sensitivity",
+        "Perimenopause patterns & cooperative HRT"
+      ]
+    },
+    {
+      "topic": "Q&A — GLP-1, saliva/serum/urine, DIM, Mira product",
+      "speakers": ["Dr. Nario", "Rose McKenzie"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "vitamin_supplement"],
+      "subtopics": [
+        "Urine complements serum bone thresholds",
+        "GLP-1 + fertility-awareness guidance",
+        "DIM → 2-OH protective metabolites",
+        "Mira immunofluorescent pricing $175"
+      ]
+    },
+    {
+      "topic": "Research updates — tribal education / First Nations practice pathway",
+      "speakers": ["Dr. Quinn", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Anthony James FL accredited tribal system",
+        "NFIAM.org / native apothecaries",
+        "First Nations Medical Board transition case",
+        "NV–AZ homeopathic board reciprocity"
+      ]
+    },
+    {
+      "topic": "Tip of the week — saffron for insomnia",
+      "speakers": ["Dr. Nario"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical", "vitamin_supplement"],
+      "subtopics": [
+        "20–30 mg × 4 weeks DBPCT 2025",
+        "14 mg BID × 28 days ISI improvement",
+        "Crocin/safranal → serotonin melatonin GABA"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-05-13/",
     "raw": "Research/lectures/clearfield-webinar-2025-05-13/raw/",
@@ -26,8 +112,16 @@
     "filename_pattern": "slide-2025-05-13-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-05-13/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-05-13/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-05-13/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-05-13/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Rose McKenzie on dynamic urine metabolite hormone tracking (fertility, metabolic CGM×cycle, perimenopause) and Mira device. Secondary: Leor Shear VCI precision vitamin C intro; Quinn/Nario tribal & homeopathic practice pathways; Nario saffron insomnia tip. Local MedNote (Gem recreation)."
 }

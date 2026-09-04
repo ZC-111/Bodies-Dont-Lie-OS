@@ -1,13 +1,116 @@
 {
   "id": "clearfield-webinar-2024-12-18",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — December 18, 2024: Urinary Hormone Monitors & Women's Care (McKenzie / Mira)",
+  "speaker": "Rosemary McKenzie (urinary hormone monitoring); Bill Clearfield (host); Nario / Borja panel",
   "approx_date": "2024-12-18",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 131,
   "duration": "2 h 11 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/teTBikykKpBtvemVFqClxhmIVaQ",
   "otter_id": "teTBikykKpBtvemVFqClxhmIVaQ",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "womens_hormones",
+    "urinary_metabolites",
+    "fertility_ttc",
+    "pcos",
+    "perimenopause",
+    "cooperative_hrt",
+    "mira_device",
+    "cycle_mapping",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "fertility",
+    "vitamin_supplement",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — conference/vendor recap, cycle-map teaser",
+      "speakers": ["Bill Clearfield", "Speaker 1", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Rosemary McKenzie intro — NFP/NaPro bio, disclosures, learning objectives",
+      "speakers": ["Bill Clearfield", "Rosemary McKenzie"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"]
+    },
+    {
+      "topic": "Clinical settings for urinary hormone tracking + serum correlation",
+      "speakers": ["Rosemary McKenzie"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "fertility"],
+      "subtopics": [
+        "PCOS / PMS / PMDD / endometriosis",
+        "Off OCP, postpartum, ablation/hysterectomy-with-ovaries",
+        "E3G / PDG / LH / FSH vs snapshot serum",
+        "CGM-like lifestyle feedback; Toronto CGM+Fitbit pilot"
+      ]
+    },
+    {
+      "topic": "Fertility pilot outcomes + LH/E/PDG/FSH pattern interpretation",
+      "speakers": ["Rosemary McKenzie"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "fertility"],
+      "subtopics": [
+        "44% pregnant in 2 months; 77% ovulating",
+        "Coordinated vs uncoordinated charts",
+        "LH surge 1–3 days; reverse estrogen pattern",
+        "Luteal 11–16 days; short luteal risk"
+      ]
+    },
+    {
+      "topic": "PCOS / postpartum / perimenopause cases — cooperative HRT",
+      "speakers": ["Rosemary McKenzie"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Non-ovulatory LH surge timing trap",
+        "STRAW limits; FSH + estradiol together",
+        "Post-LH progesterone timing (~3 days)",
+        "Age ≠ pattern (42 / 49 / 52 examples)"
+      ]
+    },
+    {
+      "topic": "Q&A — postmenopause limits, cost vs cycle map, post-OCP amenorrhea case",
+      "speakers": ["Rosemary McKenzie", "Bill Clearfield", "Dr. Nario", "Dr. Borja"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "practice_systems"],
+      "subtopics": [
+        "Oral/vaginal P ceilings PDG; transdermal slight change",
+        "~3 months monitoring ≈ one cycle map",
+        "28yo amenorrhea 10 months post-OCP",
+        "PCOS urinary phenotypes; no T wand yet"
+      ]
+    },
+    {
+      "topic": "Mira product deep-dive — immunofluorescence, partnerships, DUTCH head-to-head",
+      "speakers": ["Rosemary McKenzie"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "practice_systems"],
+      "subtopics": [
+        "~$330 analyzer + 3 wand boxes",
+        "Affiliate up to 17%; sample devices",
+        "DUTCH early-ovulation indexing miss",
+        "50yo peri case: transdermal P for fluctuating E"
+      ]
+    },
+    {
+      "topic": "Announcements + panel utility (athletes, irregular cycles, male data gap)",
+      "speakers": ["Bill Clearfield", "Dr. Nario", "Dr. Borja", "Dr. Quinn", "Dr. Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "hormone"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-12-18/",
     "raw": "Research/lectures/clearfield-webinar-2024-12-18/raw/",
@@ -26,8 +129,16 @@
     "filename_pattern": "slide-2024-12-18-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-12-18/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-12-18/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-12-18/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-12-18/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Rosemary McKenzie on at-home urinary hormone metabolite monitoring (Mira) — pattern interpretation, fertility pilot, perimenopause cooperative HRT, vs DUTCH cycle mapping. Local MedNote processed."
 }

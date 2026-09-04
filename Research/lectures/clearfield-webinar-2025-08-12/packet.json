@@ -1,13 +1,79 @@
 {
   "id": "clearfield-webinar-2025-08-12",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — August 12, 2025: Gut–Bone Axis, MK-4 & Enteropathic Osteoporosis",
+  "speaker": "John Neustadt (gut–bone/osteoporosis); Melvin Nario (adaptogen tip); Bill Clearfield (host)",
   "approx_date": "2025-08-12",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 141,
   "duration": "2 h 21 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/O2HiQSKr_hQgWkE4iY8ItSEYg4Y",
   "otter_id": "O2HiQSKr_hQgWkE4iY8ItSEYg4Y",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "bone_health",
+    "osteoporosis",
+    "gut_bone_axis",
+    "vitamin_k2_mk4",
+    "ppi_fracture_risk",
+    "adaptogens",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "gi_gut",
+    "pain_msk",
+    "herbal_botanical",
+    "hormone"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Reno Dec 4–6 conference logistics; FDA natural desiccated thyroid ban alert",
+      "speakers": ["Bill Clearfield", "Speaker 1", "Speaker 3"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "hormone"]
+    },
+    {
+      "topic": "Tip of the week — adaptogens by energy profile (ashwagandha / rhodiola / Siberian ginseng)",
+      "speakers": ["Melvin Nario"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical"],
+      "subtopics": [
+        "Ashwagandha calming restorer 300–600 mg",
+        "Rhodiola mental energizer 200–400 mg",
+        "Siberian ginseng stamina 300–1200 mg"
+      ]
+    },
+    {
+      "topic": "John Neustadt — gut–bone interaction / enteropathic osteoporosis",
+      "speakers": ["John Neustadt"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "gi_gut", "pain_msk"],
+      "subtopics": [
+        "DEXA predicts only ~44% women / ~21% men who fracture",
+        "PPI / SSRI / steroid / celiac / IBD / bariatric fracture risk",
+        "MK-4 45 mg vs MK-7 surrogates",
+        "PPI + bisphosphonate ↑ fracture risk ~52%",
+        "Mediterranean diet / protein / SCFA / microbiome"
+      ]
+    },
+    {
+      "topic": "Q&A — MK-4+D3, BPC-157, BTMs, estrogen, calcium citrate, GLP-1, strontium",
+      "speakers": ["John Neustadt", "Bill Clearfield", "Speaker 3", "Speaker 4"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "hormone", "gi_gut"]
+    },
+    {
+      "topic": "Closers — networking, NDT petitions, conference CME follow-up",
+      "speakers": ["Bill Clearfield", "Speaker 6"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-08-12/",
     "raw": "Research/lectures/clearfield-webinar-2025-08-12/raw/",
@@ -26,8 +92,16 @@
     "filename_pattern": "slide-2025-08-12-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-08-12/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-08-12/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-08-12/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-08-12/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Neustadt gut–bone / enteropathic osteoporosis (PPI/SSRI/steroid risks; MK-4 45 mg; Mediterranean/protein). Secondary: Nario adaptogen matching tip; FDA NDT ban discussion; Reno Dec 4–6 conference planning."
 }

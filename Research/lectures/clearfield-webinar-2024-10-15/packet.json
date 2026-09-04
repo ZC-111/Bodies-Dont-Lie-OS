@@ -1,13 +1,111 @@
 {
   "id": "clearfield-webinar-2024-10-15",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — Rojan Kavash Intro / Recording Logistics",
+  "speaker": "Rojan Kavash (guest); Bill Clearfield (host); Bud Harris (gallery consultant)",
   "approx_date": "2024-10-15",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
   "duration": "10 min",
+  "duration_min": 10,
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/o1l0-NkpGtaNkGUULd_nBUbyoLs",
   "otter_id": "o1l0-NkpGtaNkGUULd_nBUbyoLs",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "practice_systems"
+  ],
+  "themes": [
+    "practice_systems",
+    "webinar_operations",
+    "recording_policy",
+    "vendor_guest_logistics",
+    "medical_affairs",
+    "gallery_consultant",
+    "international_audience"
+  ],
+  "medical_terms": [
+    "practice_systems"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "low",
+  "segments": [
+    {
+      "topic": "Open — informal check-in / co-host setup",
+      "speakers": [
+        "Bill Clearfield",
+        "Unknown Speaker"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    },
+    {
+      "topic": "Speaker intro — Rojan Kavash name / Persian origin",
+      "speakers": [
+        "Bill Clearfield",
+        "Rojan Kavash"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    },
+    {
+      "topic": "Recording declined — marketing team approval lag; round-two offer",
+      "speakers": [
+        "Rojan Kavash",
+        "Bill Clearfield"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "No archival tonight",
+        "Future recorded make-up Tuesday"
+      ]
+    },
+    {
+      "topic": "Series continuity — Oct 2020 start / 40–70 attendance / attendee list share",
+      "speakers": [
+        "Bill Clearfield"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    },
+    {
+      "topic": "Bud Harris — Reno gallery consultant / accounts / pricing; US-only availability",
+      "speakers": [
+        "Rojan Kavash",
+        "Bud Harris",
+        "Bill Clearfield"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Bay Area + Nevada medical affairs territory",
+        "Philippine cohort weekly (20–30)"
+      ]
+    },
+    {
+      "topic": "Faculty intros / field visit list / recording-indicator confusion",
+      "speakers": [
+        "Bill Clearfield",
+        "Rojan Kavash",
+        "Dr. Nario",
+        "Speaker 5"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-10-15/",
     "raw": "Research/lectures/clearfield-webinar-2024-10-15/raw/",
@@ -25,8 +123,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-10-15/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-10-15/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-10-15/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-10-15/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Logistics preamble only (~10 min). Guest Dr. Rojan Kavash (medical affairs, SF/Bay Area/NV) declined recording pending marketing approval; offered future recorded round two. Bud Harris (Reno gallery consultant) for accounts/pricing. Clinical lecture body not in Otter export. Local MedNote processed."
 }

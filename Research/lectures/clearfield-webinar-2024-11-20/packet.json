@@ -1,13 +1,142 @@
 {
   "id": "clearfield-webinar-2024-11-20",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — November 20, 2024: Longevity Biomarkers (NAD, Klotho, Inflammation)",
+  "speaker": "Bill Clearfield (host); Dr. Shea / Dr. Shi (keynote); Dr. Nario (panel)",
   "approx_date": "2024-11-20",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 117,
   "duration": "1 h 57 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/qwUT3cyV7gYvn34XQtrA84mAbiI",
   "otter_id": "qwUT3cyV7gYvn34XQtrA84mAbiI",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "detox"],
+  "themes": [
+    "longevity_biomarkers",
+    "nad_optimization",
+    "klotho",
+    "oxidative_stress",
+    "cellular_senescence",
+    "inflammation",
+    "precision_medicine",
+    "mitochondria",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "detox",
+    "hormone",
+    "immune"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — pellets, Diagnostic Solutions GI-MAP OAT, CLEARLY AI CTA",
+      "speakers": ["Bill Clearfield", "Dr. Nario", "Speaker 3"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "cardio"],
+      "subtopics": [
+        "Five pellets that day; Philippines supply/sterility limits",
+        "Diagnostic Solutions organic acid test webinar (~Jan 2026)",
+        "CLEARLY AI plaque risk stratification when CAC >100"
+      ]
+    },
+    {
+      "topic": "Guest intro — biomarker philosophy & rapamycin caution",
+      "speakers": ["Bill Clearfield", "Dr. Shea"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Identify deficiencies / define optimal / prove efficacy",
+        "Optimal ≠ conventional normal",
+        "Rapamycin: cautious; no group data to opine"
+      ]
+    },
+    {
+      "topic": "Conventional longevity markers — hsCRP, HbA1c/GSP, uric acid, vitamin D",
+      "speakers": ["Dr. Shea"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "hsCRP toward zero; <0.5 better than ~1",
+        "U-shaped mortality for most markers including HbA1c",
+        "Uric acid >9 ≈ 10 years lower life expectancy",
+        "Vitamin D target >50 ng/mL"
+      ]
+    },
+    {
+      "topic": "Cellular senescence — SASP, naive T cells, β-gal",
+      "speakers": ["Dr. Shea"],
+      "branch": "immune",
+      "terms": ["immune"],
+      "subtopics": [
+        "SASP harms local and distant tissues",
+        "Immune senescence via naive T-cell proportion",
+        "Higher senescence ↔ worse chemo response in cervical cancer cohort"
+      ]
+    },
+    {
+      "topic": "Klotho longevity protein — dynamics, testing, raising strategies",
+      "speakers": ["Dr. Shea", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "detox"],
+      "subtopics": [
+        "Kidney-secreted; illness-responsive like CRP",
+        "COVID case ~5+ → 2.8 → recovered >6",
+        "Two US labs; BioViva gene therapy; no validated pill yet",
+        "Best lever: improve overall health / ↓ inflammation & oxidative stress"
+      ]
+    },
+    {
+      "topic": "Oxidative stress & NAD / mitochondrial optimization",
+      "speakers": ["Dr. Shea"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio"],
+      "subtopics": [
+        "~70% US vs ~10% Europe high oxidative stress",
+        "NAD for 500+ enzymes; early age-related decline",
+        "NMN/NR best precursors; NAD amplifies other Rx response",
+        "Target 40–100 μM (ideal 50–75); avoid >100"
+      ]
+    },
+    {
+      "topic": "Personalization heat map & athlete/patient cases",
+      "speakers": ["Dr. Shea"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Prioritize top 3 killers per patient",
+        "Boxing champ NAD 18→65 μM in 15 days",
+        "Test to titrate — products can overshoot"
+      ]
+    },
+    {
+      "topic": "Q&A — NAD routes, niacin risk, kids, FDA NMN, creatine/kidney labs",
+      "speakers": ["Dr. Shea", "Bill Clearfield", "Dr. Nario", "Benoit Tano"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio"],
+      "subtopics": [
+        "IV NAD does not raise intracellular NAD",
+        "Niacin can push NAD to harmful range (2PY/4PY)",
+        "NMN start 1000 mg; retest 3–4 weeks",
+        "Creatine → interpret creatinine with cystatin C/ACR"
+      ]
+    },
+    {
+      "topic": "Closing — five-domain panel $650, 4AM conference, holiday break",
+      "speakers": ["Bill Clearfield", "Dr. Shea", "Dr. Nario", "Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "NAD + Klotho + oxidative stress + senescence + inflammation",
+        "Klotho return lecture after New Year",
+        "Christmas/New Year two-week webinar break"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-11-20/",
     "raw": "Research/lectures/clearfield-webinar-2024-11-20/raw/",
@@ -26,8 +155,16 @@
     "filename_pattern": "slide-2024-11-20-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-11-20/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-11-20/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-11-20/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-11-20/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Last-minute fill for Stefan Hartman. Key segment: Dr. Shea longevity biomarkers (NAD window 40–100 μM, Klotho dynamics, oxidative stress prevalence, hsCRP toward zero). Provider five-domain panel ~$650. Local MedNote processed."
 }

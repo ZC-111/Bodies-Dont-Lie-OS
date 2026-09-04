@@ -1,13 +1,86 @@
 {
   "id": "clearfield-webinar-2026-04-21",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — April 21, 2026: Microbiome Restoration (Piper Dobner)",
+  "speaker": "Piper Dobner (primary); Bill Clearfield (host); Melvin Nario; Carol (hormone open)",
   "approx_date": "2026-04-21",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 136,
   "duration": "2 h 16 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/W7XqKXZ-lIxJJAd2BNF0czu408k",
   "otter_id": "W7XqKXZ-lIxJJAd2BNF0czu408k",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["immune", "nutrition", "hormone"],
+  "themes": [
+    "microbiome_restoration",
+    "fecal_transplant",
+    "helminthic_therapy",
+    "mold_mycotoxin",
+    "fermented_foods",
+    "hormone_progesterone_testosterone",
+    "neurodegeneration_gut"
+  ],
+  "medical_terms": [
+    "immune",
+    "detox",
+    "vitamin_supplement",
+    "herbal_botanical",
+    "hormone",
+    "practice_systems"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Open — oral vs cream progesterone; continuous postmenopausal bleeding protocols",
+      "speakers": ["Bill Clearfield", "Carol", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "practice_systems"]
+    },
+    {
+      "topic": "Male TRT / estradiol — A4M young-male T controversy; AI indications",
+      "speakers": ["Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"]
+    },
+    {
+      "topic": "Piper Dobner — microbiome as immune educator; TMAO; testing limits",
+      "speakers": ["Piper Dobner"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "vitamin_supplement"],
+      "subtopics": [
+        "Function over taxonomy",
+        "OAT before stool",
+        "No universal healthy microbiome",
+        "Diversity & autoimmunity"
+      ]
+    },
+    {
+      "topic": "Helminths, Blastocystis, dysbiosis vs SIBO, Stanford ferments",
+      "speakers": ["Piper Dobner", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "herbal_botanical"]
+    },
+    {
+      "topic": "Q&A — oxalates, mold Crohn’s case, vitamin C, histamine/MCAS, probiotics",
+      "speakers": ["Piper Dobner", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "vitamin_supplement", "immune"]
+    },
+    {
+      "topic": "Neurodegeneration, sleep, constipation foundations, simplified actions",
+      "speakers": ["Piper Dobner", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "practice_systems"]
+    },
+    {
+      "topic": "Resources / close — books, dandelion bitters, IFM calendar",
+      "speakers": ["Piper Dobner", "Bill Clearfield", "Melvin Nario", "panel"],
+      "branch": "integrative-medicine",
+      "terms": ["herbal_botanical", "practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-04-21/",
     "raw": "Research/lectures/clearfield-webinar-2026-04-21/raw/",
@@ -25,8 +98,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-04-21/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-04-21/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-04-21/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-04-21/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Piper Dobner ND microbiome Q&A (diversity, FMT, helminths, mold/Crohn’s, ferments). Secondary: progesterone delivery debate; male TRT/E2 management. Local MedNote (Gem recreation). Transcript-only (0 screenshots)."
 }

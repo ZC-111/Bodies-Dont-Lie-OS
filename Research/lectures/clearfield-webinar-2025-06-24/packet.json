@@ -1,13 +1,111 @@
 {
   "id": "clearfield-webinar-2025-06-24",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — June 24, 2025: Ivermectin & Mebendazole for Cancer Stem Cells & Fibrosis",
+  "speaker": "Salaheldin Halasa (ivermectin/mebendazole CDPM); Melvin Nario (aspirin tip); Bill Clearfield (host)",
   "approx_date": "2025-06-24",
-  "duration": "13 h 13 min",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 214,
+  "duration": "3 h 34 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/b2H7gyjRNmbN0l62XtCzeLPovDE",
   "otter_id": "b2H7gyjRNmbN0l62XtCzeLPovDE",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["immune", "detox", "nutrition"],
+  "themes": [
+    "integrative_oncology",
+    "cancer_stem_cells",
+    "cancer_associated_fibrosis",
+    "drug_repurposing",
+    "ivermectin",
+    "mebendazole",
+    "pharmacogenetics",
+    "redox_mitochondria",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "immune",
+    "detox",
+    "vitamin_supplement",
+    "herbal_botanical",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — Shallenberger ozone postponed / AOA history / lecture framing",
+      "speakers": ["Bill Clearfield", "Salaheldin Halasa", "Michael"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — aspirin beyond cardiology (depression, oncology, OB)",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "immune", "vitamin_supplement"],
+      "subtopics": [
+        "Low-dose 81–100 mg CV staple",
+        "Aspirin + NAC bipolar depression RCT ~67%",
+        "40–50% GI cancer risk reduction signal",
+        "Folate / vitamin C / iron depletion caution"
+      ]
+    },
+    {
+      "topic": "Halasa — why chemo/RT fail: CSC + cancer-associated fibrosis / CDPM pillars",
+      "speakers": ["Salaheldin Halasa"],
+      "branch": "immune",
+      "terms": ["immune", "detox"],
+      "subtopics": [
+        "Warburg / acidosis / cold TME",
+        "Redox–immune–metabolic–regenerative pillars",
+        "Cyclodextrin + platelet nanoparticle delivery",
+        "RGCC pharmacogenetic personalization"
+      ]
+    },
+    {
+      "topic": "Ivermectin mechanisms — WNT, mitochondria, importin/STAT3-NFkB, TGF-β fibrosis",
+      "speakers": ["Salaheldin Halasa"],
+      "branch": "immune",
+      "terms": ["immune", "detox"],
+      "subtopics": [
+        "CD44 / ALDH1 monitoring",
+        "p53-independent ROS apoptosis",
+        "Tumor density vs size on imaging",
+        "Nattokinase / losartan / shockwave / PDT stack"
+      ]
+    },
+    {
+      "topic": "Mebendazole mechanisms — microtubules, Hedgehog/WNT, VEGF, dosing & alternatives",
+      "speakers": ["Salaheldin Halasa"],
+      "branch": "immune",
+      "terms": ["immune", "vitamin_supplement"],
+      "subtopics": [
+        "Ki-67 / stemness marker monitoring",
+        "Ivermectin 12–26 mg or 200–400 µg/kg",
+        "Mebendazole 100 mg BID–TID × 3–6 months",
+        "Albendazole / fenbendazole / niclosamide alternatives"
+      ]
+    },
+    {
+      "topic": "Q&A — chemo integration, prevention, BBB, Signature ctDNA, detox/apheresis",
+      "speakers": ["Salaheldin Halasa", "Melvin Nario", "Speaker 2", "Speaker 8"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "detox", "practice_systems"],
+      "subtopics": [
+        "Low-dose photo-activated chemo + don’t ditch conventional tools",
+        "Ivermectin not for primary prevention",
+        "Mebendazole/albendazole for brain; ivermectin BBB limits",
+        "Signature ctDNA ~95% PPV; ASEA adjuvant-only; chelation hierarchy"
+      ]
+    },
+    {
+      "topic": "Closing — Shallenberger next week / Reno conference / CME",
+      "speakers": ["Melvin Nario", "Salaheldin Halasa", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-06-24/",
     "raw": "Research/lectures/clearfield-webinar-2025-06-24/raw/",
@@ -26,8 +124,16 @@
     "filename_pattern": "slide-2025-06-24-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-06-24/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-06-24/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-06-24/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-06-24/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Tip: Nario aspirin beyond CV. Key segment: Halasa CDPM lecture on ivermectin + mebendazole for cancer stem cells and cancer-associated fibrosis (mechanisms, dosing, nanoparticle/cyclodextrin delivery, RGCC personalization). Long Q&A: prevention vs treatment, BBB, Signature ctDNA, fenbendazole, ASEA, detox/apheresis. Next: Shallenberger ozone. Local MedNote (Gem recreation)."
 }

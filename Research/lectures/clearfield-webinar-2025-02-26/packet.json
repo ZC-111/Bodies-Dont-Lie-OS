@@ -1,13 +1,132 @@
 {
   "id": "clearfield-webinar-2025-02-26",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar \u2014 February 26, 2025: Cannabis Therapeutics, ECS & Product Literacy (Robert Quinn)",
+  "speaker": "Bill Clearfield (host); Robert Quinn (primary); Melvin Nario (VCO tip); Jeffrey Block (panel); Dr. John (lipids/prostatitis)",
   "approx_date": "2025-02-26",
+  "event": "Clearfield Training Program \u2014 Tuesday Integrative Health Webinar",
+  "duration_min": 140,
   "duration": "2 h 20 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/tAtmhIMa7fmRXEWqsjZP4Gl7vkM",
   "otter_id": "tAtmhIMa7fmRXEWqsjZP4Gl7vkM",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "nutrition",
+    "immune",
+    "pain"
+  ],
+  "themes": [
+    "cannabis_therapeutics",
+    "endocannabinoid_system",
+    "entourage_effect",
+    "pain_management",
+    "epilepsy",
+    "oncology_adjunct",
+    "ptsd",
+    "lipid_particles",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "herbal_botanical",
+    "pain_msk",
+    "cardio",
+    "immune"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening \u2014 mics, recovering-pharmacist banter, lifelong learning",
+      "speakers": [
+        "Bill Clearfield",
+        "Robert Quinn"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    },
+    {
+      "topic": "Tip of the week \u2014 virgin coconut oil + LDL particle nuance",
+      "speakers": [
+        "Melvin Nario",
+        "Dr. John"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "cardio",
+        "vitamin_supplement"
+      ],
+      "subtopics": [
+        "VCO vs refined / lauric acid",
+        "HDL\u2191 and LDL\u2191 controversy",
+        "African paradox / large vs small dense LDL",
+        "Cholesterol Decoded book"
+      ]
+    },
+    {
+      "topic": "Case \u2014 fungal prostatitis / itraconazole response",
+      "speakers": [
+        "Speaker 4",
+        "Dr. John"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "immune"
+      ],
+      "subtopics": [
+        "57yo long-drive pain relief on itraconazole",
+        "Multi-month course + LFT monitoring",
+        "Ivermectin \u2192 antifungal hypothesis"
+      ]
+    },
+    {
+      "topic": "Robert Quinn \u2014 cannabis therapeutics / ECS / entourage & orchestral / COA",
+      "speakers": [
+        "Robert Quinn"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "herbal_botanical",
+        "pain_msk",
+        "immune",
+        "vitamin_supplement"
+      ],
+      "subtopics": [
+        "Myths (CBD psychoactive, CHS, ratios, isolates)",
+        "ECS triad + endocannabinoid deficiency + FAAH",
+        "THC vs CBD cancer distinction",
+        "Entourage vs orchestral stacks (PEA, BioPerine, MSM)",
+        "Pain / sleep / anxiety / epilepsy / PTSD / cancer",
+        "Drug interactions + COA / extraction literacy"
+      ]
+    },
+    {
+      "topic": "Panel Q&A \u2014 Block, RSO/rectal THC, opioid weaning, chemovars",
+      "speakers": [
+        "Robert Quinn",
+        "Jeffrey Block",
+        "Melvin Nario",
+        "Bill Clearfield",
+        "Speaker 6"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "pain_msk",
+        "herbal_botanical",
+        "immune"
+      ],
+      "subtopics": [
+        "FAAH microdeletion longevity correction",
+        "CBD + cyclodextrin \u00b1 pregnenolone delivery idea",
+        "11-hydroxy-THC oral kinetics",
+        "RSO / rectal delivery \u2193 psychoactivity",
+        "Mississippi cannabis meeting / heirloom 1:1 chemovars"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-02-26/",
     "raw": "Research/lectures/clearfield-webinar-2025-02-26/raw/",
@@ -26,8 +145,16 @@
     "filename_pattern": "slide-2025-02-26-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-02-26/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-02-26/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-02-26/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-02-26/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Robert Quinn cannabis deep dive \u2014 ECS, myths, entourage/orchestral effects, clinical domains (pain/anxiety/epilepsy/PTSD/cancer), COA literacy, interactions. Secondary: Nario VCO tip + LDL particle discussion; fungal prostatitis case; Jeffrey Block panel (FAAH, Mississippi meeting, chemovars). Local MedNote (Gem recreation)."
 }

@@ -1,13 +1,133 @@
 {
   "id": "clearfield-webinar-2025-02-12",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — February 12, 2025: Red Light Method & Photobiomodulation",
+  "speaker": "Bill Clearfield (host); Allison Beardsley (primary — Red Light Method); Melvin Nario (Lp(a)/ApoB tip); Benoit Tano; panel Q&A (Burgess, Gerber, Quinn)",
   "approx_date": "2025-02-12",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 115,
   "duration": "1 h 55 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/wcHy9pPXoWy5S62-GJbpasQtw2o",
   "otter_id": "wcHy9pPXoWy5S62-GJbpasQtw2o",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "pain_msk"],
+  "themes": [
+    "photobiomodulation",
+    "red_light_therapy",
+    "mitochondrial_health",
+    "body_contouring",
+    "lipoprotein_a",
+    "apoB",
+    "boutique_fitness",
+    "practice_systems",
+    "methylene_blue"
+  ],
+  "medical_terms": [
+    "pain_msk",
+    "cardio",
+    "vitamin_supplement",
+    "detox",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — AI books / acupuncture for hormone optimization / March 25 Tano slot",
+      "speakers": ["Bill Clearfield", "Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "AAMA Pittsburgh hormone-acupuncture talk",
+        "TCM language / ~60–70 clinical points",
+        "Upcoming guests: Lisa Tamati, Ross Pelton, John Burgess"
+      ]
+    },
+    {
+      "topic": "Tip of the week — Lp(a) management & ApoB primacy",
+      "speakers": ["Melvin Nario", "Speaker 4", "Benoit Tano"],
+      "branch": "nutrition",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "~20% prevalence / ~90% hereditary",
+        "Statins may raise Lp(a)",
+        "Aspirin, fibrates, niacin 1–3g, carnitine, CoQ10",
+        "ApoB over NMR / standard panel; CAC debate"
+      ]
+    },
+    {
+      "topic": "Allison Beardsley — Red Light Method origin & Club Pilates arc",
+      "speakers": ["Allison Beardsley", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "pain_msk"],
+      "subtopics": [
+        "Club Pilates founder → Red Light Method franchise",
+        "Long-COVID-like fatigue personal response to PBM",
+        "Hybrid: Contour Light + Power Plate + Pilates + far-IR",
+        "Non-clinician disclaimer / no cure language"
+      ]
+    },
+    {
+      "topic": "PBM science — wavelengths, mitochondria, session protocol",
+      "speakers": ["Allison Beardsley", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk"],
+      "subtopics": [
+        "635 nm contouring + 880 nm NIR pain",
+        "Cytochrome c oxidase → ATP",
+        "25 min wraps / WBV / Pilates stack",
+        "Glucose ~28% drop citation; athlete pre-load data"
+      ]
+    },
+    {
+      "topic": "Safety — eyes, clearance flags, FDA-cleared devices",
+      "speakers": ["Allison Beardsley", "Melvin Nario", "Bill Clearfield", "Speaker 7"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "practice_systems"],
+      "subtopics": [
+        "Optional goggles + informed consent",
+        "Pregnancy / pacemaker notes; HTN & liver caution",
+        "Lipodystrophy / HIV ART avoid",
+        "Contour Light Reno FDA Class II; face panel distance"
+      ]
+    },
+    {
+      "topic": "Clinical Q&A — neuropathy, TBI, Hashimoto’s, methylene blue",
+      "speakers": ["Allison Beardsley", "Melvin Nario", "Bill Clearfield", "Benoit Tano", "Dr. Burgess"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "vitamin_supplement"],
+      "subtopics": [
+        "Diabetic neuropathy foot wraps",
+        "TBI / early cognition literature",
+        "Hashimoto’s + selenium + vitamin D",
+        "Methylene blue @ 660 nm; pancreatitis research ask"
+      ]
+    },
+    {
+      "topic": "Franchise economics & boutique fitness model",
+      "speakers": ["Allison Beardsley", "Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "$199/mo unlimited; $50k fee; 6% + 2% royalty",
+        "$500k equipment → ~$200k wholesale",
+        "51 territories; Reno/Tucson/Nashville pipeline",
+        "Inside-out wellness ethos / Get Lit"
+      ]
+    },
+    {
+      "topic": "Closing — research group, WV June 1, Hartman next week",
+      "speakers": ["Dr. Quinn", "Benoit Tano", "Bill Clearfield", "Allison Beardsley"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "detox"],
+      "subtopics": [
+        "Chelation / apothecary / First Nations framing",
+        "West Virginia meeting June 1",
+        "Postmenopausal bleeding caution vs HRT confounders"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-02-12/",
     "raw": "Research/lectures/clearfield-webinar-2025-02-12/raw/",
@@ -26,8 +146,16 @@
     "filename_pattern": "slide-2025-02-12-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-02-12/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-02-12/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-02-12/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-02-12/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Allison Beardsley on Red Light Method (Contour Light 635/880 nm PBM + Power Plate + Pilates). Secondary: Nario Lp(a)/ApoB tip, franchise economics, research-network close. Local MedNote (Gem recreation)."
 }

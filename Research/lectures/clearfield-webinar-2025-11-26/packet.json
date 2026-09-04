@@ -1,13 +1,99 @@
 {
   "id": "clearfield-webinar-2025-11-26",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — November 26, 2025: Vitamin D CYP Induction, Omega-3 Longevity & HRT Lifestyle Protocol",
+  "speaker": "Stefan Hartman + Mom (key); Melvin Nario (vitamin D tip); Bill Clearfield (host)",
   "approx_date": "2025-11-26",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 107,
   "duration": "1 h 47 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/HY-sCmihzh3EJ69WWVwlTT0Ri6s",
   "otter_id": "HY-sCmihzh3EJ69WWVwlTT0Ri6s",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "hormones", "longevity"],
+  "themes": [
+    "vitamin_d_cyp450",
+    "omega3_nutrition",
+    "visceral_fat",
+    "cold_plunge",
+    "sauna_redlight",
+    "hrt_nandrolone",
+    "progesterone_sleep",
+    "dhea_feedback",
+    "behavior_change",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "hormone",
+    "cardio",
+    "pain_msk",
+    "detox"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — conference sponsors, breakfast vendors, studio setup",
+      "speakers": ["Bill Clearfield", "Dr. Burgess", "Melvin Nario", "Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — Vitamin D as CYP450 inducer",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "VDR → CYP3A4 / 2C9 / 2B6 upregulation",
+        "Statins, CCBs, benzos, steroids, AEDs, warfarin, OCPs",
+        "Re-titrate narrow-TI drugs above ~40–50 ng/mL 25-OH-D",
+        "Coimbra protocol flagged for future talk"
+      ]
+    },
+    {
+      "topic": "Congress of Medical Excellence 5.0 promo",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Stefan Hartman + Mom — longevity: diet, omega-3 fish, visceral fat",
+      "speakers": ["Stefan Hartman", "Mom"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio"],
+      "subtopics": [
+        "Macrobiotic → Gerson → high–omega-3 fish journey",
+        "Fresh Spanish mackerel vs pills / frozen / farmed / canned TSP",
+        "Omega-3:6 ratio and mental health",
+        "Visceral fat missed on 'normal' imaging"
+      ]
+    },
+    {
+      "topic": "HPA stack — ice plunge, sauna, red light, HBOT, resistance / dead hangs",
+      "speakers": ["Stefan Hartman", "Mom"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "hormone"],
+      "subtopics": [
+        "35–38°F × ~3 min plunge; dopamine / NE / cortisol / vagal training",
+        "Diet > exercise for balled-up brain",
+        "Boot-camp vision for sick doctors/patients"
+      ]
+    },
+    {
+      "topic": "HRT Q&A — nandrolone, testosterone, progesterone, estradiol, DHEA",
+      "speakers": ["Mom", "Stefan Hartman", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Low-dose nandrolone for bone density + joint comfort",
+        "Progesterone titration for sleep",
+        "Clearfield DHEA negative-feedback observation",
+        "HRT sabotaged by inflammatory carb binges"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-11-26/",
     "raw": "Research/lectures/clearfield-webinar-2025-11-26/raw/",
@@ -26,8 +112,16 @@
     "filename_pattern": "slide-2025-11-26-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-11-26/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-11-26/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-11-26/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-11-26/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic pre-conference webinar. Tip: Nario vitamin D as CYP450 inducer. Key segment: Stefan Hartman + Mom longevity protocol (Spanish mackerel omega-3, ice plunge/sauna/red light/HBOT, resistance training, low-dose nandrolone/HRT). Panel pearls on DHEA feedback and HRT non-response. Lived n-of-1 claims speaker-attributed."
 }

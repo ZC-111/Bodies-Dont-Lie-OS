@@ -1,13 +1,80 @@
 {
   "id": "clearfield-webinar-2025-10-21",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — October 21, 2025",
+  "speaker": "Bill Clearfield (host); Kent Crowley (keynote)",
   "approx_date": "2025-10-21",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 120,
   "duration": "2 h",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/KPtFIYDuvg1p0CbfNkYIuOVkwIE",
   "otter_id": "KPtFIYDuvg1p0CbfNkYIuOVkwIE",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "cardio"],
+  "themes": [
+    "cardiometabolic",
+    "endothelial_glycocalyx",
+    "vascular_support",
+    "detox",
+    "nitric_oxide",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "detox",
+    "herbal_botanical",
+    "pain_msk"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers / DPC practice & Reno conference logistics",
+      "speakers": ["Bill Clearfield", "Speaker 1", "Speaker 2", "Speaker 4"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week: Natural chelators (MCP, chlorella, ALA, GSH, NAC)",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "vitamin_supplement"]
+    },
+    {
+      "topic": "Kent Crowley — Endothelial glycocalyx & rhamnan sulfate (Monostroma nitidum)",
+      "speakers": ["Kent Crowley"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "EGX damage precedes endothelial dysfunction",
+        "NO release / vascular permeability",
+        "Hyperglycemia challenge & EGX volume",
+        "Microfluidic restoration ~103%",
+        "CIMT plaque reduction case series (5.55 mm)",
+        "Diabetic neuropathy pilot"
+      ]
+    },
+    {
+      "topic": "Q&A — ArterialCell dosing, NO stacking, CIMT/CCTA, Lp-PLA2/MPO",
+      "speakers": ["Kent Crowley", "Melvin Nario", "Bill Clearfield", "Speaker 1", "Speaker 5"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "vitamin_supplement"]
+    },
+    {
+      "topic": "Genomics digression — SNP platforms & Sterling Hill resource",
+      "speakers": ["Kent Crowley", "Speaker 6", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Reno Congress Dec 4–6 promo & speaking calendar",
+      "speakers": ["Bill Clearfield", "panel"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-10-21/",
     "raw": "Research/lectures/clearfield-webinar-2025-10-21/raw/",
@@ -23,11 +90,20 @@
   "slides": {
     "status": "downloaded",
     "screenshot_count": 86,
-    "filename_pattern": "slide-2025-10-21-{NNN}.jpeg"
+    "filename_pattern": "slide-2025-10-21-{NNN}.jpeg",
+    "notes": "86 Otter meeting screenshots. Primary deck: Crowley glycocalyx / rhamnan sulfate vascular support."
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-10-21/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-10-21/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-10-21/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-10-21/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Crowley endothelial glycocalyx + rhamnan sulfate (ArterialCell), with Nario natural-chelator tip and extended NO/CIMT Q&A. Otter summary + transcript present."
 }

@@ -1,13 +1,111 @@
 {
   "id": "clearfield-webinar-2025-10-14",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — October 14, 2025: Estrogen Timing, Progesterone After Hysterectomy & Hormone Testing",
+  "speaker": "Bill Clearfield (estrogen/progesterone); Melvin Nario (tip + hormone testing); Carol (panel)",
   "approx_date": "2025-10-14",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 105,
   "duration": "1 h 45 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/j3HjVUuBV5gnR4KrCUuXOZEnPm0",
   "otter_id": "j3HjVUuBV5gnR4KrCUuXOZEnPm0",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "womens_hormones",
+    "hrt_timing",
+    "progesterone",
+    "estrogen",
+    "hormone_testing",
+    "neurosteroids",
+    "menopause",
+    "religion_health",
+    "practice_systems",
+    "mycotoxins"
+  ],
+  "medical_terms": [
+    "hormone",
+    "vitamin_supplement",
+    "detox",
+    "cardio"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — ochratoxin A mold/suicide consult; CME vs MLM speaker cancel",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Speaker 4"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "practice_systems"],
+      "subtopics": [
+        "Ochratoxin A nephrotoxicity vs suicide literature",
+        "Mycomichael Lab / Andrew Campbell referral",
+        "Litigation caution on mold intakes"
+      ]
+    },
+    {
+      "topic": "Tip of the week — religion, faith coping & health outcomes",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Prayer substituting for prescription (Lannin 1998)",
+        "Negative religious coping (Koenig/Pargament)",
+        "Faith + doctor partnership pearl"
+      ]
+    },
+    {
+      "topic": "Estrogen timing controversy — KEEPS, ELITE, ≥65 Medicare cohort",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Carol"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "10-year / age-60 window critique",
+        "Estrogen as master hormone (brain/CV/bone)",
+        "Men need some estrogen; AI caution",
+        "Transdermal/vaginal E beyond age 65",
+        "Vaginal atrophy as systemic deficiency flag"
+      ]
+    },
+    {
+      "topic": "Progesterone after hysterectomy — neurosteroids vs progestins",
+      "speakers": ["Bill Clearfield", "Carol", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Never E without P rule",
+        "Progesterone ≠ progestins",
+        "Allopregnanolone → GABA pathway",
+        "Oral QHS vs topical/vaginal routes",
+        "E:P ratios; 100–200 mg dosing",
+        "Sulfation/glucuronidation if over-sedated"
+      ]
+    },
+    {
+      "topic": "Hormone testing dating-app — serum vs saliva vs 24-h urine",
+      "speakers": ["Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Serum baseline / insurance / pellets",
+        "Saliva free hormone & cortisol rhythms",
+        "Urine metabolome / estrogen detox",
+        "Dream Team combo; dose to symptoms"
+      ]
+    },
+    {
+      "topic": "Congress of Medical Excellence logistics; Austria PMF/hyperthermia; UK HRT gap",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Dr. Quinn", "Dr. Gerber"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Element Hotel; 20 AMA CME; exhibitor $500",
+        "ACCME no brand names on recorded slides",
+        "Next week: Ken Crowley glycocalyx"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-10-14/",
     "raw": "Research/lectures/clearfield-webinar-2025-10-14/raw/",
@@ -26,8 +124,16 @@
     "filename_pattern": "slide-2025-10-14-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-10-14/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-10-14/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-10-14/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-10-14/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar after guest cancel. Key segments: Clearfield estrogen timing critique + progesterone-after-hysterectomy CME deck; Nario religion/health tip + serum/saliva/urine testing metaphor. Panel (Carol) on vaginal estrogen flag and allopregnanolone detox. Close: December Congress logistics; Austria integrative tech; UK menopause/thyroid gaps. Next: Crowley glycocalyx."
 }

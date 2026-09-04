@@ -1,13 +1,117 @@
 {
   "id": "clearfield-webinar-2024-11-27",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — November 27, 2024: Brain Health Crisis, Women’s Hormones & Cognitive Prevention (Dr. Debbie Smurz)",
+  "speaker": "Debbie Smurz (key); Melvin Nario (Rome/red light); Dr. Stone (PANDAS/PANS); Bill Clearfield (host)",
   "approx_date": "2024-11-27",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 112,
   "duration": "1 h 52 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/vjcply7K-rJtWMYGKgD39abIq9E",
   "otter_id": "vjcply7K-rJtWMYGKgD39abIq9E",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["hormones", "nutrition", "immune", "longevity"],
+  "themes": [
+    "brain_health",
+    "dementia_prevention",
+    "cognitive_reserve",
+    "estrogen_menopause",
+    "bdnf_exercise",
+    "oxidative_stress",
+    "pandas_pans",
+    "omega3_nutrition",
+    "sleep_hygiene",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "vitamin_supplement",
+    "cardio",
+    "detox",
+    "immune"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Red light therapy / Bio Light — Rome Symposium 24 functional nutrition",
+      "speakers": ["Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "pain_msk"],
+      "subtopics": [
+        "Trigeminal neuralgia red-light anecdote",
+        "Italian hormone Rx restrictions",
+        "Specialist access and pay in social vs cash system"
+      ]
+    },
+    {
+      "topic": "Dr. Debbie Smurz — Brain health crisis stats and myths",
+      "speakers": ["Debbie Smurz"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "immune"],
+      "subtopics": [
+        "12.7M US dementia by 2050 / $1T cost",
+        "40% of dementia preventable",
+        "Serotonin hypothesis debunked",
+        "PANDAS personal case hook"
+      ]
+    },
+    {
+      "topic": "Women’s brain biology — estrogen, pregnancy, menopause, APOE",
+      "speakers": ["Debbie Smurz"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "2× female dementia risk mechanisms",
+        "White-matter catabolism / APOE4",
+        "Hot flashes and gray-matter microintensities",
+        "Type 3 diabetes / insulin resistance in brain"
+      ]
+    },
+    {
+      "topic": "Testing stack — measure / mend / maximize",
+      "speakers": ["Debbie Smurz"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "cardio"],
+      "subtopics": [
+        "APOE, P300 EEG, Trail Making",
+        "Homocysteine tight targets",
+        "Omega-3 index 8–12%",
+        "Visual contrast sensitivity / nitric oxide"
+      ]
+    },
+    {
+      "topic": "Interventions — reserve, BDNF, oxidative stress, lifestyle",
+      "speakers": ["Debbie Smurz"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "detox", "hormone"],
+      "subtopics": [
+        "4000 steps + HIIT / boxing / dancing",
+        "Omega-3 and probiotics for cognition",
+        "Sleep hygiene vs glymphatic dogma update",
+        "Acupuncture and mito/oxidative stress"
+      ]
+    },
+    {
+      "topic": "Q&A — HRT window, PANDAS/PANS, diet, Nano V / devices",
+      "speakers": ["Debbie Smurz", "Bill Clearfield", "Melvin Nario", "Dr. Stone"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "immune", "vitamin_supplement"],
+      "subtopics": [
+        "10-year HRT window individualized",
+        "PANS multi-bug workup (Stone)",
+        "Mediterranean/Paleo over strict keto",
+        "Omega-3 2–5g titration; Nano V / P300"
+      ]
+    },
+    {
+      "topic": "Closing — research team, CME, Poly-MVA next week",
+      "speakers": ["Bill Clearfield", "Dr. Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-11-27/",
     "raw": "Research/lectures/clearfield-webinar-2024-11-27/raw/",
@@ -26,8 +130,16 @@
     "filename_pattern": "slide-2024-11-27-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-11-27/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-11-27/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-11-27/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-11-27/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Key segment: Smurz brain-health lecture (dementia prevention, women’s hormones, BDNF/exercise, testing). Secondary: Nario Rome/red-light opener; Stone PANDAS/PANS Q&A; HRT window debate."
 }

@@ -1,13 +1,92 @@
 {
   "id": "clearfield-webinar-2025-11-05",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — November 5, 2025: PRF Quality, Glycocalyx Optimization & Fertility Support",
+  "speaker": "Joni Collins (PRF/glycocalyx); Melvin Nario (fertility tip); Bill Clearfield (host)",
   "approx_date": "2025-11-05",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 134,
   "duration": "2 h 14 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/aKanCqrE_LN8_fUCcz8yCi5pTLg",
   "otter_id": "aKanCqrE_LN8_fUCcz8yCi5pTLg",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "hormone", "materia-medica"],
+  "themes": [
+    "regenerative_medicine",
+    "prf_prp",
+    "glycocalyx",
+    "esthetics",
+    "fertility",
+    "endothelial_health",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "regenerative",
+    "vitamin_supplement",
+    "hormone",
+    "cardio",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — epigenetic Blueprint 3×4 testing, peptides caution, good faith exam bridge",
+      "speakers": ["Bill Clearfield", "Joni Collins"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "hormone"]
+    },
+    {
+      "topic": "Tip of the week — fertility nutritional toolkit (CoQ10, carnitine, inositols, maca, NAC)",
+      "speakers": ["Melvin Nario"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "hormone", "herbal_botanical"],
+      "subtopics": [
+        "Ubiquinol CoQ10 200–400 mg",
+        "Myo-inositol + D-chiro for ovulation",
+        "Antioxidant bodyguards NAC/E/omega-3"
+      ]
+    },
+    {
+      "topic": "Congress of Medical Excellence promo — Dec 4 Reno / biggest little conference",
+      "speakers": ["Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Joni Collins — PRF vs PRP, glycocalyx biology, optimize-then-inject protocol",
+      "speakers": ["Joni Collins"],
+      "branch": "integrative-medicine",
+      "terms": ["regenerative", "cardio", "vitamin_supplement"],
+      "subtopics": [
+        "PRF fibrin scaffold / 28-day growth factors",
+        "L-PRF 12 min @ 2800 RPM + 2 min spin",
+        "Syndecan >40 → 35–50% lower GF yield",
+        "PBR < 2 microvascular target",
+        "50yo T2DM 12-week case / alopecia areata totalis",
+        "1228 protocol & business model"
+      ]
+    },
+    {
+      "topic": "Q&A — scars/lidocaine, PRFM, tubes/centrifuge, Revaska, Cresca, NAD vs NAC",
+      "speakers": ["Joni Collins", "Bill Clearfield", "John Burgess", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["regenerative", "vitamin_supplement"],
+      "subtopics": [
+        "Lidocaine cytotoxic to PRF cells",
+        "Hyperdilute PRF scar takedown",
+        "Revaska glycocalyx support",
+        "Off-label Cresca allograft anecdote"
+      ]
+    },
+    {
+      "topic": "Closers — conference agenda hard sell; next week Burgess neural/segmental therapy",
+      "speakers": ["Bill Clearfield", "John Burgess", "Melvin Nario", "Speaker 7", "Speaker 8"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "herbal_botanical"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-11-05/",
     "raw": "Research/lectures/clearfield-webinar-2025-11-05/raw/",
@@ -26,8 +105,16 @@
     "filename_pattern": "slide-2025-11-05-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-11-05/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-11-05/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-11-05/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-11-05/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Tip: Nario fertility mitochondrial/hormone/antioxidant stack. Key segment: Collins PRF superiority + glycocalyx optimization (1228 protocol; case metrics; ~45% retreatment reduction). Q&A covers scars, centrifuge settings, Revaska, Cresca. Conference Dec 4 promo."
 }

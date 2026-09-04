@@ -1,13 +1,103 @@
 {
   "id": "clearfield-webinar-2025-07-29",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — July 29, 2025: Sexual Health as Whole-Health Indicator (Jacqueline Sammons)",
+  "speaker": "Bill Clearfield (host); Jacqueline Sammons, DO (primary lecturer); Dr. Nario (Celtic/Himalayan salt tip)",
   "approx_date": "2025-07-29",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 114,
   "duration": "1 h 54 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/ZdpkFb1zUrwSD134tv35ZcrcaI8",
   "otter_id": "ZdpkFb1zUrwSD134tv35ZcrcaI8",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["hormones", "nutrition", "immune"],
+  "themes": [
+    "sexual_health",
+    "hrt",
+    "menopause",
+    "vaginal_estradiol",
+    "female_testosterone",
+    "thyroid_autoimmune",
+    "vitamin_d",
+    "insulin_resistance",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "vitamin_supplement",
+    "cardio",
+    "immune",
+    "pain_msk"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Housekeeping — summer census, NOMA Vegas, Hawaii integrative outreach",
+      "speakers": ["Bill Clearfield", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — Celtic vs Himalayan salt (minerals, microplastics)",
+      "speakers": ["Dr. Nario"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Celtic: higher Mg/K/Ca; ocean microplastic concern",
+        "Himalayan: ancient deposits; iron oxide negligible at culinary doses",
+        "Icelandic salt as low-contamination alternative"
+      ]
+    },
+    {
+      "topic": "Jacqueline Sammons — sexual health as indicator of whole health",
+      "speakers": ["Jacqueline Sammons"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "WHO sexual-health definition beyond absence of disease",
+        "Meds that impair desire (SSRIs, statins, beta-blockers)",
+        "OSA screen for male ED",
+        "Meta-analysis ~20k → ~63 studies; ~once-weekly frequency plateau",
+        "Lifestyle, counseling, HRT, PDE5i, lubricants, peptides"
+      ]
+    },
+    {
+      "topic": "Q&A — HRT workup, vaginal estradiol, female T, CVD risk framing",
+      "speakers": ["Jacqueline Sammons", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "Vaginal E2: nightly × 2 wk → 2×/week",
+        "Female T 2.5–5 mg/day; levels ~40–70",
+        "Transdermal E2 safer than oral CEE; progestin ≠ progesterone",
+        "Risk signal after 60 / >10y post-menopause from CEE+MPA trials"
+      ]
+    },
+    {
+      "topic": "Hashimoto / TPO ladder, vitamin D, teen insulin resistance / leptin",
+      "speakers": ["Bill Clearfield", "Jacqueline Sammons"],
+      "branch": "immune",
+      "terms": ["immune", "vitamin_supplement", "hormone"],
+      "subtopics": [
+        "Vit D target ~80–100 for antibodies",
+        "Moducare, LDN, iodine, selenium, black cumin",
+        "Leptin check; tirzepatide microdose vignette"
+      ]
+    },
+    {
+      "topic": "Sexual health beyond hormones — cancer, paraplegia, gender bias",
+      "speakers": ["Dr. Nario", "Jacqueline Sammons", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "practice_systems"],
+      "subtopics": [
+        "Vaginal estrogen in cancer care",
+        "Paraplegic HRT denial vignette",
+        "Flonase before estradiol patch for adhesive rash"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-07-29/",
     "raw": "Research/lectures/clearfield-webinar-2025-07-29/raw/",
@@ -26,8 +116,16 @@
     "filename_pattern": "slide-2025-07-29-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-07-29/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-07-29/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-07-29/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-07-29/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Jacqueline Sammons on sexual health as whole-health indicator (screening, meds, QoL evidence, intervention stack). Extended Q&A: vaginal estradiol, female testosterone, HRT CVD framing, Clearfield Hashimoto ladder, teen IR/leptin. Secondary: Nario Celtic vs Himalayan salt tip. Local MedNote (Gem recreation)."
 }

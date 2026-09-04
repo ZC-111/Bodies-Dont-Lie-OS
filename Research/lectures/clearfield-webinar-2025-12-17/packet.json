@@ -1,13 +1,114 @@
 {
   "id": "clearfield-webinar-2025-12-17",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — December 17, 2025: Vasomotor Symptoms & Estradiol-First HRT (Gersh)",
+  "speaker": "Felicia Gersh (vasomotor/HRT); Melvin Nario (nandrolone tip); Bill Clearfield (host)",
   "approx_date": "2025-12-17",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 168,
   "duration": "2 h 48 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/OyOI3AvRLueyq57ys04VXI5U1WU",
   "otter_id": "OyOI3AvRLueyq57ys04VXI5U1WU",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "menopause_vms",
+    "bioidentical_hrt",
+    "neurokinin_antagonists",
+    "phytoestrogens",
+    "autonomic_gut_axis",
+    "progesterone_delivery",
+    "nandrolone_longevity",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "neuro",
+    "herbal_botanical",
+    "vitamin_supplement",
+    "cardio"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — osteopathic training, East/West integrative collab, A4M vendor recap",
+      "speakers": ["Bill Clearfield", "Speaker 1", "Melvin Nario", "Carol Peterson"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — nandrolone (Deca): CKD anemia label vs bone/sarcopenia/joint off-label",
+      "speakers": ["Melvin Nario", "Stefan Hartman", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "19-nortestosterone anabolic; weaker androgenic",
+        "50–100 mg IM q3–4 wk therapeutic vs gym 200–600 mg/week",
+        "Compounding ~200 mg/mL; microdose women; ED risk at high pulses"
+      ]
+    },
+    {
+      "topic": "Felicia Gersh — vasomotor mechanisms (KNDy/NKB), epidemiology, personal narrative",
+      "speakers": ["Felicia Gersh"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "neuro"],
+      "subtopics": [
+        "Hormones non-optional for optimal health",
+        "VMS 7–10 years; word-recall #1 complaint",
+        "SWAN: high FSH + low estradiol",
+        "Perimenopause up to ~10 years before final menses"
+      ]
+    },
+    {
+      "topic": "Non-hormonal ladder — SSRIs, gabapentin, Veozah/elinzanetant liver caution; phytoestrogens",
+      "speakers": ["Felicia Gersh"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "herbal_botanical"],
+      "subtopics": [
+        "Paroxetine FDA-approved for VMS",
+        "Fezolinetant ~$600/mo + hepatotoxicity warning",
+        "Soy isoflavones / flax lignans / Siberian rhubarb stilbenes",
+        "Ashwagandha VMS + sleep adjunct"
+      ]
+    },
+    {
+      "topic": "Autonomic–gut–GLP-1 axis and neuroinflammation in menopause",
+      "speakers": ["Felicia Gersh"],
+      "branch": "nutrition",
+      "terms": ["hormone", "neuro"],
+      "subtopics": [
+        "↓ Vagal tone / sympathetic overdrive",
+        "Enteroendocrine GLP-1 cell decline → diabetes risk",
+        "Circadian clock genes; nitric oxide / eNOS"
+      ]
+    },
+    {
+      "topic": "HRT protocols — estradiol patch/gel, vaginal progesterone, testosterone titration",
+      "speakers": ["Felicia Gersh", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Start 0.1 patch; ~100 pg/mL; upper buttock",
+        "Vaginal P4 200–400 mg; avoid unreliable topical",
+        "T cream low→up; no pellets; oophorectomy T emergency",
+        "Estrone dominance reframing"
+      ]
+    },
+    {
+      "topic": "Special situations — endometriosis/fibroids/ablation; estetrol; BiEst/estriol critique",
+      "speakers": ["Felicia Gersh", "Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "herbal_botanical"],
+      "subtopics": [
+        "Endometriosis: inflammation, high vaginal P4, CBD",
+        "Ablations enable cyclic HRT without bleeding",
+        "Estetrol in Nextstellis; skepticism for routine menopause",
+        "Never BiEst for menopause — estriol ≠ bone protection"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-12-17/",
     "raw": "Research/lectures/clearfield-webinar-2025-12-17/raw/",
@@ -26,8 +127,16 @@
     "filename_pattern": "slide-2025-12-17-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-12-17/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-12-17/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-12-17/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-12-17/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary segment: Felicia Gersh on vasomotor symptoms (KNDy/NKB), estradiol-first HRT, phytoestrogens, and critique of Veozah/BiEst. Secondary: Nario nandrolone tip. Extended Q&A on progesterone routes, testosterone, endometriosis, estetrol."
 }

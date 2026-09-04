@@ -1,13 +1,94 @@
 {
   "id": "clearfield-webinar-2026-02-11",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — February 11, 2026: Ibogaine Tip & Ketamine for TRD",
+  "speaker": "Erwin Boco (ketamine); Melvin Nario (ibogaine tip); Bill Clearfield (host)",
   "approx_date": "2026-02-11",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 127,
   "duration": "2 h 7 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/Z9n_3HuDLHeLCNsCxD97Y679BQA",
   "otter_id": "Z9n_3HuDLHeLCNsCxD97Y679BQA",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["immune", "nutrition"],
+  "themes": [
+    "mental_health",
+    "ketamine",
+    "treatment_resistant_depression",
+    "psychedelics",
+    "neuroplasticity",
+    "addiction",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "immune",
+    "pain_msk",
+    "vitamin_supplement",
+    "detox",
+    "hormone"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — Hartman PA hormone course, Baden-Baden conference, practice logistics",
+      "speakers": ["Bill Clearfield", "Stefan Hartman", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "hormone"]
+    },
+    {
+      "topic": "Tip of the week — ibogaine (NMDA, OUD interruption, QT risk)",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["immune"],
+      "subtopics": [
+        "Tabernanthe iboga / noribogaine",
+        "NMDA + opioid + BDNF/GDNF polypharmacology",
+        "Marsh/Brown-Alper OUD observational signals",
+        "Stanford veterans PTSD + magnesium cardiac research",
+        "EKG / supervised setting only"
+      ]
+    },
+    {
+      "topic": "Psychedelic access panel — Caribbean ibogaine, ayahuasca Reno/Hawaii, VA psilocybin rumor",
+      "speakers": ["John Bunker", "Melvin Nario", "Colleague (Speaker 6)"],
+      "branch": "integrative-medicine",
+      "terms": ["immune"],
+      "subtopics": [
+        "Herbal substitute cost vs ibogaine",
+        "Set and setting / ceremonial safety",
+        "Vets & Warriors / Stanford pilot"
+      ]
+    },
+    {
+      "topic": "Erwin Boco — ketamine for treatment-resistant depression",
+      "speakers": ["Erwin Boco"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "pain_msk"],
+      "subtopics": [
+        "STAR*D cascade / FDA TRD definition",
+        "Berman 2000 / CANMAT Level 1 / Albott VA / ELEKT-D",
+        "Glutamate surge → mTOR synaptogenesis",
+        "IV protocol 0.5→1.0 mg/kg; 6+4 boosters",
+        "SPRAVATO vs racemic; bioavailability ladder",
+        "Harvard QIDS 16–17→9–10; São Paulo suicidality"
+      ]
+    },
+    {
+      "topic": "Q&A — compounding, oral safety, midazolam, VA CCN/VCA, mTOR longevity balance",
+      "speakers": ["Erwin Boco", "Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "immune"],
+      "subtopics": [
+        "Brain-selective mTOR vs cancer concern",
+        "No at-home oral ketamine",
+        "ADHD meds as positive predictor",
+        "CCN Spravato / VCA IV ketamine",
+        "REMS safety network AEs"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-02-11/",
     "raw": "Research/lectures/clearfield-webinar-2026-02-11/raw/",
@@ -26,8 +107,16 @@
     "filename_pattern": "slide-2026-02-11-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-02-11/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-02-11/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-02-11/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-02-11/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Tip: Nario ibogaine. Core: Boco Zen Ketamine TRD lecture (mechanism, protocols, VA coverage, oral safety). Local MedNote (Gem recreation)."
 }

@@ -1,13 +1,102 @@
 {
   "id": "clearfield-webinar-2025-07-15",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — July 15, 2025: TBI Care Models & Post-Injury Hormones",
+  "speaker": "Bill Clearfield (host); Michael Hartford (primary); Bill Clearfield (hormones & TBI); Dr. Nario (tip); panel (Collins, Gerber, Quinn, Tano)",
   "approx_date": "2025-07-15",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 111,
   "duration": "1 h 51 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/FHVn8qFG7pov0fVMLuuVpKan1hA",
   "otter_id": "FHVn8qFG7pov0fVMLuuVpKan1hA",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "tbi",
+    "veteran_health",
+    "mental_health",
+    "hormone_optimization",
+    "neurosteroids",
+    "growth_hormone",
+    "zinc_copper",
+    "hyperbaric",
+    "regenerative",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "vitamin_supplement",
+    "detox",
+    "regenerative",
+    "pain_msk",
+    "cardio"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Tip of the week — zinc–copper ratio / metallothionein",
+      "speakers": ["Dr. Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Cu:Zn optimal 0.7–1.0 on standard labs",
+        "High-dose zinc → metallothionein → copper block",
+        "Supplement 8–15 mg Zn per 1 mg Cu; separate doses"
+      ]
+    },
+    {
+      "topic": "Michael Hartford — TBI in military/veterans / interdisciplinary care",
+      "speakers": ["Michael Hartford"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "pain_msk"],
+      "subtopics": [
+        "Invisible wounds misdiagnosed as primary MH",
+        "NICoE 30-day model / Fisher Foundation $70M",
+        "Avalon Action Alliance / Marcus Institute network",
+        "Suicide rates veterans with TBI <10→>90/100k",
+        "HBOT / TMS / photobiomodulation / ketamine",
+        "CMS chronic TBI; DoD baseline cognitive testing"
+      ]
+    },
+    {
+      "topic": "Panel — SVF/MSC, neural therapy, Synapsin, cervical care",
+      "speakers": ["Dr. Collins", "Dr. Gerber", "Bill Clearfield", "Michael Hartford", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["regenerative", "pain_msk", "vitamin_supplement"],
+      "subtopics": [
+        "Cell Surgical Network / adipose SVF-MSC / L2 Bio banking",
+        "Crown of thorns 1% procaine neural therapy",
+        "Synapsin IN ± HBOT for sports concussion",
+        "VA Whole Health / women veterans / sub-concussive summit"
+      ]
+    },
+    {
+      "topic": "Bill Clearfield — hormones & TBI / neurosteroids",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "vitamin_supplement"],
+      "subtopics": [
+        "Neurosteroids: pregnenolone / P4 / allopregnanolone / DHEA",
+        "GH first hit; IGF-1 200–250; peptides CJC-1295 / MK-677",
+        "Hypothyroid 10–30%; rT3 cortisol screen",
+        "Testosterone depression thresholds; prolactin >6",
+        "Early treat anterior pituitary deficits by 3 months"
+      ]
+    },
+    {
+      "topic": "Research updates — tribal formulary, CLA+P4, AI bias",
+      "speakers": ["Dr. Quinn", "Dr. Tano", "Bill Clearfield", "Dr. Collins"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "practice_systems"],
+      "subtopics": [
+        "NMBI amerimide heavy-metal detox formulary add",
+        "Chang-Garis CLA + progesterone for TBI symptoms",
+        "Tano/James Decoding AI Bias in Healthcare"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-07-15/",
     "raw": "Research/lectures/clearfield-webinar-2025-07-15/raw/",
@@ -26,8 +115,16 @@
     "filename_pattern": "slide-2025-07-15-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-07-15/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-07-15/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-07-15/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-07-15/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Michael Hartford on military/veteran TBI interdisciplinary care (NICoE/Avalon, suicide epidemiology, HBOT/TMS/ketamine policy). Secondary: Clearfield hormones & TBI neurosteroid overview; Nario Cu:Zn tip; Collins SVF; Gerber neural therapy; Quinn/Tano formulary & AI bias. Local MedNote (Gem recreation)."
 }

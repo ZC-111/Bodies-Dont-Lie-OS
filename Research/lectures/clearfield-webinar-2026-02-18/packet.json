@@ -1,13 +1,99 @@
 {
   "id": "clearfield-webinar-2026-02-18",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — February 18, 2026",
+  "speaker": "Eldredge Taylor (key); Melvin Nario (tip); Bill Clearfield (host)",
   "approx_date": "2026-02-18",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
   "duration": "2 h 9 min",
+  "duration_min": 129,
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/noIHLP-haQRngsIwy5mlPxVj6SM",
   "otter_id": "noIHLP-haQRngsIwy5mlPxVj6SM",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["hormones", "stress", "psychedelics"],
+  "themes": [
+    "stress_dominance",
+    "hpa_axis",
+    "saliva_hormone_testing",
+    "perimenopause",
+    "progesterone",
+    "cortisol_rhythm",
+    "ayahuasca_pharmacology",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cortisol",
+    "progesterone",
+    "estrogen",
+    "fsh",
+    "thyroid",
+    "dhea",
+    "saliva_testing",
+    "ayahuasca",
+    "dmt"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Welcome / mentorship / osteopathic integrative org history",
+      "speakers": ["Bill Clearfield", "Eldredge Taylor", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week: Ayahuasca pharmacology / screening / legality",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["ayahuasca", "dmt", "depression"],
+      "subtopics": [
+        "B. caapi β-carbolines + Psychotria DMT",
+        "Palhano-Fontes 2019 TRD RCT",
+        "MAO-i / serotonin syndrome contraindications"
+      ]
+    },
+    {
+      "topic": "Eldredge Taylor — Stress dominance / HPA / saliva cortisol",
+      "speakers": ["Eldredge Taylor"],
+      "branch": "integrative-medicine",
+      "terms": ["cortisol", "hpa_axis", "thyroid", "saliva_testing"],
+      "subtopics": [
+        "Non-diagnoses vs root cause",
+        "Zebra short-term stress model",
+        "Diurnal cortisol phases / high performers",
+        "Four-prong stress treatment"
+      ]
+    },
+    {
+      "topic": "Q&A — FSH / perimenopause / DUTCH vs saliva vs blood",
+      "speakers": ["Eldredge Taylor", "Bill Clearfield"],
+      "branch": "hormones",
+      "terms": ["fsh", "estrogen", "progesterone", "dutch_test"],
+      "subtopics": [
+        "Perimenopause progesterone failure",
+        "200:1 P:E saliva target",
+        "Compartment model of hormone testing"
+      ]
+    },
+    {
+      "topic": "Q&A — Cortisol/DHEA support / estrogen forms / progesterone dosing",
+      "speakers": ["Eldredge Taylor"],
+      "branch": "hormones",
+      "terms": ["hydrocortisone", "dhea", "estriol", "progesterone"],
+      "subtopics": [
+        "Adaptogens / super-energy IV / HC bridge",
+        "Oral vs cream progesterone by life stage",
+        "Doctor's Data saliva lab"
+      ]
+    },
+    {
+      "topic": "Closing logistics — Klauser case next week / CME / conference",
+      "speakers": ["Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-02-18/",
     "raw": "Research/lectures/clearfield-webinar-2026-02-18/raw/",
@@ -26,8 +112,16 @@
     "filename_pattern": "slide-2026-02-18-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-02-18/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-02-18/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-02-18/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-02-18/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Key segment: Eldredge Taylor stress dominance + saliva hormone physiology. Secondary: Nario ayahuasca tip. Extended Q&A on FSH, DUTCH, progesterone dosing, adrenal support."
 }

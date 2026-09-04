@@ -1,13 +1,108 @@
 {
   "id": "clearfield-webinar-2025-04-08",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — Clinical Homeopathy Constitutions (Hakimi)",
+  "speaker": "Payam Hakimi, DO (guest); Bill Clearfield, DO (host)",
   "approx_date": "2025-04-08",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
   "duration": "2 h 3 min",
+  "duration_min": 123,
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/6Jsw7QNZfMK82hH28Fgc1lAC87k",
   "otter_id": "6Jsw7QNZfMK82hH28Fgc1lAC87k",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["materia-medica", "nutrition"],
+  "themes": [
+    "homeopathy",
+    "clinical_constitution",
+    "miasms_reactional_modes",
+    "morphology_connective_tissue",
+    "sensitive_type",
+    "fda_regulation",
+    "integrative_practice",
+    "glycemic_load"
+  ],
+  "medical_terms": [
+    "homeopathy",
+    "herbal_botanical",
+    "detox",
+    "cardio",
+    "nutrition"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Open — Miami PLH outreach, classical vs clinical, NV/AZ homeopathic boards",
+      "speakers": ["Bill Clearfield", "Payam Hakimi", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "homeopathy"]
+    },
+    {
+      "topic": "Tip of the week — glycemic index vs glycemic load",
+      "speakers": ["Melvin Nario"],
+      "branch": "nutrition",
+      "terms": ["nutrition", "cardio"]
+    },
+    {
+      "topic": "Payam Hakimi intro — CDH faculty, Boiron, CME course structure",
+      "speakers": ["Bill Clearfield", "Payam Hakimi"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "homeopathy"]
+    },
+    {
+      "topic": "Homeopathy foundations — Hahnemann, Hering, proving, three principles, classical vs clinical, Coffea",
+      "speakers": ["Payam Hakimi"],
+      "branch": "materia-medica",
+      "terms": ["homeopathy", "herbal_botanical"],
+      "subtopics": [
+        "Law of similars / dilution / individuality",
+        "Classical vs clinical workflow",
+        "Coffea cruda toxicology teaching case"
+      ]
+    },
+    {
+      "topic": "Reactional modes — psoric, sycotic, syphilitic, tuberculinic",
+      "speakers": ["Payam Hakimi"],
+      "branch": "materia-medica",
+      "terms": ["homeopathy", "detox"],
+      "subtopics": [
+        "Elimination pathways",
+        "Etiology / after-what insults",
+        "Mode-specific materia lists"
+      ]
+    },
+    {
+      "topic": "Morphology constitution — fluoric, phosphoric, carbonic",
+      "speakers": ["Payam Hakimi"],
+      "branch": "materia-medica",
+      "terms": ["homeopathy", "pain_msk"]
+    },
+    {
+      "topic": "Sensitive type — Lycopodium / Sepia / Nux vomica portraits + triad review",
+      "speakers": ["Payam Hakimi"],
+      "branch": "materia-medica",
+      "terms": ["homeopathy"]
+    },
+    {
+      "topic": "FDA status, safety framing, EPI3 / LBP / Arnica research",
+      "speakers": ["Payam Hakimi"],
+      "branch": "integrative-medicine",
+      "terms": ["homeopathy", "practice_systems"]
+    },
+    {
+      "topic": "Q&A — single vs multiple remedies, allopathic sequencing, repertory, COVID claims, OTC vs Rx",
+      "speakers": ["Payam Hakimi", "Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["homeopathy", "practice_systems"]
+    },
+    {
+      "topic": "Closing — Lisa Talati next week, CME",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-04-08/",
     "raw": "Research/lectures/clearfield-webinar-2025-04-08/raw/",
@@ -26,8 +121,16 @@
     "filename_pattern": "slide-2025-04-08-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-04-08/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-04-08/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-04-08/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-04-08/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary segment: Hakimi clinical homeopathy constitution (reactional modes / morphology / sensitive type). Tip: Nario glycemic load. ASR cleanup: psoric/sycotic/fluoric."
 }

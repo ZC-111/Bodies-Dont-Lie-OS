@@ -1,13 +1,92 @@
 {
   "id": "clearfield-webinar-2025-04-22",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — April 22, 2025: Muscle-Centric Longevity, Myostatin & Fortetropin",
+  "speaker": "Bill Clearfield (host); Chris Meletis (primary); Melvin Nario (elderberry tip + Q&A)",
   "approx_date": "2025-04-22",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 119,
   "duration": "1 h 59 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/12d7QbwxGiZlK8kVCNzSowPUQXE",
   "otter_id": "12d7QbwxGiZlK8kVCNzSowPUQXE",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "sarcopenia",
+    "muscle_preservation",
+    "myostatin",
+    "glp1_weight_loss",
+    "mitochondria",
+    "sleep_apnea",
+    "detox",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "hormone",
+    "detox",
+    "pain_msk"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — AMMG/A4M travel, Johnny Castle lecture bit, practice economy",
+      "speakers": ["Bill Clearfield", "Chris Meletis"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — elderberry juice metabolic support (WSU 2024)",
+      "speakers": ["Melvin Nario"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "herbal_botanical"],
+      "subtopics": [
+        "12 oz × 1 week trial / ~6 oz practice dose",
+        "−24% glucose / −9% insulin / +27% fat oxidation",
+        "Anthocyanins + gut microbiota shift"
+      ]
+    },
+    {
+      "topic": "Chris Meletis — muscle-centric longevity / myostatin / Fortetropin",
+      "speakers": ["Chris Meletis"],
+      "branch": "nutrition",
+      "terms": ["cardio", "vitamin_supplement", "hormone", "detox"],
+      "subtopics": [
+        "GLP-1 & calorie-cut muscle loss",
+        "Grip strength as vital sign",
+        "Myostatin / anabolic resistance / irisin fat browning",
+        "T3 vs reverse T3 under restriction",
+        "Fortetropin dosing (11.6–19.8 g) & trials",
+        "OSA screening (Lofta) + mito/detox stack"
+      ]
+    },
+    {
+      "topic": "Q&A — BPC-157, Fortetropin use, urolithin A, biomarkers",
+      "speakers": ["Chris Meletis", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "pain_msk"],
+      "subtopics": [
+        "Food-based vs follistatin-344",
+        "BPC-157 ~500 mcg / Oingo sourcing",
+        "Mitopure vs bioavailable pomegranate extracts",
+        "Cortisol / IGF-1 / OAT + pollutant panels"
+      ]
+    },
+    {
+      "topic": "Closing — AMMG/A4M meetup, WV conference, next speakers",
+      "speakers": ["Bill Clearfield", "Dr. Burgess", "John", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "West Virginia end-of-May conference RSVPs",
+        "Next week: Jay Campbell peptides",
+        "Upcoming: Jacqueline Sammons / Quinn scheduling"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-04-22/",
     "raw": "Research/lectures/clearfield-webinar-2025-04-22/raw/",
@@ -26,8 +105,16 @@
     "filename_pattern": "slide-2025-04-22-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-04-22/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-04-22/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-04-22/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-04-22/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Chris Meletis on muscle-centric longevity — sarcopenia, myostatin, Fortetropin (Myos MD/Yoked), GLP-1 muscle-loss mitigation, grip strength, T3/rT3 under calorie stress, OSA. Secondary: Nario elderberry tip; BPC-157/Mitopure Q&A; conference logistics. Local MedNote (Gem recreation)."
 }

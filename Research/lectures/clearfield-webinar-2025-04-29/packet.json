@@ -1,13 +1,96 @@
 {
   "id": "clearfield-webinar-2025-04-29",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — Peptide Stacking Master Class (April 29, 2025)",
+  "speaker": "Jay Campbell & Hunter (guests); Melvin Nario (moderator)",
   "approx_date": "2025-04-29",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 172,
   "duration": "2 h 52 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/t9O9J5vUpWGkKXi-5TqxgKudSvY",
   "otter_id": "t9O9J5vUpWGkKXi-5TqxgKudSvY",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "neuro"],
+  "themes": [
+    "peptides",
+    "bioregulators",
+    "fat_loss",
+    "longevity",
+    "cognition",
+    "autoimmune",
+    "gut_health",
+    "cardiometabolic",
+    "sleep",
+    "sexual_health",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "peptide",
+    "cardio",
+    "neuro",
+    "immune",
+    "gut",
+    "vitamin_supplement",
+    "hormone"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "TB-006 / galectin-3 Alzheimer’s infusion (True Binding)",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["neuro"]
+    },
+    {
+      "topic": "Foundations before peptides — God stack agents",
+      "speakers": ["Jay Campbell", "Hunter"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "peptide"]
+    },
+    {
+      "topic": "Fat-loss stack — tesamorelin, SLU-PP-332, MOTS-c, retatrutide",
+      "speakers": ["Jay Campbell", "Hunter"],
+      "branch": "nutrition",
+      "terms": ["peptide", "cardio"],
+      "subtopics": [
+        "Multi-pathway microdosing vs Ozempic escalation",
+        "SLU-PP-332 oral mito mimetic",
+        "Retatrutide tri-agonist biomarkers"
+      ]
+    },
+    {
+      "topic": "Anti-aging stack — epitalon, GHK-Cu, ipamorelin, SS-31, thymalin",
+      "speakers": ["Jay Campbell", "Hunter"],
+      "branch": "integrative-medicine",
+      "terms": ["peptide"]
+    },
+    {
+      "topic": "Cognitive stack — Cerebrolysin, Semax, Selank, P-21, Melanotan-1",
+      "speakers": ["Jay Campbell", "Hunter"],
+      "branch": "integrative-medicine",
+      "terms": ["neuro", "peptide"]
+    },
+    {
+      "topic": "Immune / autoimmune stack — TA1, LL-37, KPV, VIP, Cartalax, microdose GLP",
+      "speakers": ["Jay Campbell", "Hunter"],
+      "branch": "immune",
+      "terms": ["immune", "peptide", "gut"]
+    },
+    {
+      "topic": "Gut, heart, injury, sleep, sexual health peptide stacks",
+      "speakers": ["Jay Campbell", "Hunter"],
+      "branch": "integrative-medicine",
+      "terms": ["gut", "cardio", "peptide"]
+    },
+    {
+      "topic": "Q&A — LDN reset, research-peptide regulation, mold/neuropathy sourcing",
+      "speakers": ["Jay Campbell", "Hunter", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["peptide", "practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-04-29/",
     "raw": "Research/lectures/clearfield-webinar-2025-04-29/raw/",
@@ -26,8 +109,16 @@
     "filename_pattern": "slide-2025-04-29-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-04-29/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-04-29/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-04-29/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-04-29/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Jay Campbell + Hunter Peptide Stacking Master Class (foundations, fat loss, longevity, cognition, immune/gut/heart, sleep/sexual health). Opening: Nario TB-006 galectin-3 Alzheimer’s. Extended Q&A on LDN, research-peptide legality, sourcing. Local MedNote processed."
 }

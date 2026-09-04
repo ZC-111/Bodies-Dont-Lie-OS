@@ -1,13 +1,134 @@
 {
   "id": "clearfield-webinar-2025-01-15",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — January 15, 2025: Metabolomics Pathways & Metabolic Syndrome",
+  "speaker": "Bill Clearfield (host); Greg Nakarelli, ND PhD (primary); Melvin Nario (panel)",
   "approx_date": "2025-01-15",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 101,
   "duration": "1 h 41 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/uRqtR3sy0qaYlUcYL4_tPVC7Tps",
   "otter_id": "uRqtR3sy0qaYlUcYL4_tPVC7Tps",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "detox"],
+  "themes": [
+    "metabolomics",
+    "metabolic_syndrome",
+    "mitochondria",
+    "gi_microbiome",
+    "cardiometabolic",
+    "precision_medicine",
+    "digital_twinning",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "detox",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — CME setup, South Reno clinic, Weil fellowship",
+      "speakers": ["Bill Clearfield", "Greg Nakarelli", "Freddie", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "CME background blur for teaching segment",
+        "Philippines cohort / CME draw",
+        "Nario day-2 Andrew Weil Institute fellowship"
+      ]
+    },
+    {
+      "topic": "Metabolomics framework — pathways, metabolic rate, circadian timing",
+      "speakers": ["Greg Nakarelli"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "detox"],
+      "subtopics": [
+        "Systems biology vs reductionist labs",
+        "Glycolysis / TCA / OxPhos / methylation / detox",
+        "BMR vs RMR vs exercise metabolic rate",
+        "High upstream + low downstream = enzyme/cofactor block"
+      ]
+    },
+    {
+      "topic": "Subjective/objective assessment and metabolomics visit goals",
+      "speakers": ["Greg Nakarelli"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "Visceral vs subcutaneous fat; MHO vs MUO",
+        "WHR cutoffs women >0.85 / men >1.0",
+        "BIA trending caveats; low temp / high pulse MetS signals",
+        "Genetics = risk; metabolites = current dysfunction"
+      ]
+    },
+    {
+      "topic": "Benefits, limitations, AI and digital twinning",
+      "speakers": ["Greg Nakarelli"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "GC-MS / LC-MS + machine learning associations",
+        "Health scores from metabolite patterns",
+        "Simulate CoQ10 / carnitine stacks on digital twin"
+      ]
+    },
+    {
+      "topic": "Metabolic syndrome — criteria, pathogenesis, microbiome, mitochondria",
+      "speakers": ["Greg Nakarelli"],
+      "branch": "nutrition",
+      "terms": ["cardio", "detox"],
+      "subtopics": [
+        "Any 3 of 5 classic MetS features",
+        "Inflammation / FFA / RAAS drivers",
+        "Akkermansia, SCFAs, LPS, TMAO",
+        "ETC leak → ROS → insulin resistance",
+        "Arg–Pro, glutathione/taurine, carnitine pathway hits"
+      ]
+    },
+    {
+      "topic": "Interventions — exercise metabolites, diet, biotics, bioactives",
+      "speakers": ["Greg Nakarelli"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "herbal_botanical", "cardio"],
+      "subtopics": [
+        "BAIBA, carnitines, indole lactic acid, α-KG",
+        "Mediterranean / DASH / plant-based; carnivore genotype nuance",
+        "L. gasseri; prebiotic SIBO caution; Akkermansia foods",
+        "Bergamot and cinnamon for lipids / MetS markers"
+      ]
+    },
+    {
+      "topic": "Q&A — browning, urolithin A, rapamycin, statins, metformin, omics ladder",
+      "speakers": ["Bill Clearfield", "Greg Nakarelli", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "vitamin_supplement", "herbal_botanical"],
+      "subtopics": [
+        "Cold shower 16–19°C × 15–20 min for BAT",
+        "Urolithin A mitophagy without pure mTOR smash",
+        "Rapamycin immune/autoimmune caution",
+        "Statin mitochondrial concerns; metformin B12 / complex I",
+        "Genomics → transcriptomics → proteomics → metabolomics"
+      ]
+    },
+    {
+      "topic": "Theorem Aristotle metabolomics + WGS microbiome demo",
+      "speakers": ["Greg Nakarelli", "Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "cardio"],
+      "subtopics": [
+        "126 metabolites / 12 health domains; digital twinning",
+        "Aristotle $400 practitioner / $750 retail",
+        "WGS microbiome $600 / $1,100; quantified counts vs GI-MAP",
+        "Environment: glyphosate / PFAS / plasticizers on metabolome",
+        "Next week: Donald Dennis mold; NOMA midwinter CME"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-01-15/",
     "raw": "Research/lectures/clearfield-webinar-2025-01-15/raw/",
@@ -26,8 +147,16 @@
     "filename_pattern": "slide-2025-01-15-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-01-15/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-01-15/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-01-15/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-01-15/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Greg Nakarelli metabolomics + metabolic syndrome (pathways, MHO/MUO, microbiome/mitochondria, digital twinning). Secondary: Theorem Aristotle + WGS microbiome demo; Q&A (urolithin A, rapamycin, statins/metformin, BAT/cold). Local MedNote (Gem recreation)."
 }

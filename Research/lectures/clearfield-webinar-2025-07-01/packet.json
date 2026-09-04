@@ -1,13 +1,123 @@
 {
   "id": "clearfield-webinar-2025-07-01",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — July 1, 2025: Sodium Ascorbate as Biological Catalyst",
+  "speaker": "Lior Shear (VCICI / sodium ascorbate); Melvin Nario (garlic tip); Bill Clearfield (host)",
   "approx_date": "2025-07-01",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 160,
   "duration": "2 h 40 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/DoY_YVmmJsZyWDMnmIlwfTtYV7k",
   "otter_id": "DoY_YVmmJsZyWDMnmIlwfTtYV7k",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "detox"],
+  "themes": [
+    "vitamin_c_redox",
+    "sodium_ascorbate",
+    "hormone_terrain",
+    "mitochondria",
+    "infectious_disease",
+    "integrative_oncology",
+    "regenerative",
+    "heavy_metal_chelation",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "immune",
+    "detox",
+    "cardio",
+    "regenerative",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — Zoom troubleshooting / pudendal block lidocaine numbness case",
+      "speakers": ["Bill Clearfield", "Lior Shear", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "vitamin_supplement"],
+      "subtopics": [
+        "2% lidocaine 10 mL pudendal block → leg numbness",
+        "Ascorbate as toxin/reaction neutralizer suggestion",
+        "YouTube topic restrictions; Androgen Society July 10 preview"
+      ]
+    },
+    {
+      "topic": "Tip of the week — garlic as heavy-metal chelator",
+      "speakers": ["Melvin Nario"],
+      "branch": "detox",
+      "terms": ["detox", "herbal_botanical"],
+      "subtopics": [
+        "RCT garlic 3.6 g/day vs D-penicillamine for lead",
+        "Allicin / SAC / diallyl disulfide thiol binding",
+        "Aged garlic extract 1.2–3.6 g/day vs raw cloves",
+        "Postmenopausal bone lead release context"
+      ]
+    },
+    {
+      "topic": "Lior Shear — ascorbate as biological catalyst / endocrine & redox terrain",
+      "speakers": ["Lior Shear"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "immune"],
+      "subtopics": [
+        "Optimal physiological ascorbate levels",
+        "Adrenal / thyroid / reproductive axes",
+        "Menopause collagen bone mood demand",
+        "Mitochondria brain metabolism / SVCT2"
+      ]
+    },
+    {
+      "topic": "AA vs SA pharmacology and clinical delivery",
+      "speakers": ["Lior Shear"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "SVCT1/2 vs GLUT transport",
+        "pH 2.2–2.4 vs 7.4–7.8",
+        "IV tolerability / dental enamel",
+        "Avoid calcium ascorbate; liposomal limits"
+      ]
+    },
+    {
+      "topic": "Infection immunity regenerative oncology applications",
+      "speakers": ["Lior Shear"],
+      "branch": "immune",
+      "terms": ["immune", "regenerative"],
+      "subtopics": [
+        "NET modulation / UTI oral resolution",
+        "Collagen MSC TET exosome support",
+        "Pharmacologic IVC pro-oxidant Fenton window",
+        "Do not co-infuse glutathione in cytotoxic window"
+      ]
+    },
+    {
+      "topic": "IVC safety + SIP seven-to-seven oral protocol",
+      "speakers": ["Lior Shear"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "practice_systems"],
+      "subtopics": [
+        "G6PD renal iron fluid screens",
+        "Maintenance 4 g/day sipped 20–30 min",
+        "Acute load q2–4h to gut tolerance",
+        "Continue ≥72h post-symptom resolution"
+      ]
+    },
+    {
+      "topic": "Q&A — Hashimoto dosing, absorption myths, GFR, Pure C products",
+      "speakers": ["Lior Shear", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "practice_systems"],
+      "subtopics": [
+        "Symptom/gut-tolerance titration vs daily assays",
+        "Absorption % myth bust",
+        "Low GFR monitoring judgment",
+        "Ultra C vs SNC; VCICI Aug 4 / C-posium Oct 24–25"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-07-01/",
     "raw": "Research/lectures/clearfield-webinar-2025-07-01/raw/",
@@ -26,8 +136,16 @@
     "filename_pattern": "slide-2025-07-01-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-07-01/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-07-01/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-07-01/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-07-01/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Tip: Nario garlic chelation RCT. Key segment: Lior Shear sodium ascorbate as biological catalyst (endocrine/redox/mito, AA vs SA, IVC safety, SIP 7-to-7). Q&A covers calcium/liposomal myths, Hashimoto titration, UTI/shingles pearls, Pure C/VCICI resources. Next: Jordan Hamlin photobiomodulation."
 }

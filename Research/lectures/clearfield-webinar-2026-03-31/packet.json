@@ -1,13 +1,105 @@
 {
   "id": "clearfield-webinar-2026-03-31",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — March 31, 2026: Vitamin K Metabolism & Multifunctional Cardiogram (MCG)",
+  "speaker": "Sam Fillingane (MCG / CardioVision); Melvin Nario (tip); Bill Clearfield (host)",
   "approx_date": "2026-03-31",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 144,
   "duration": "2 h 24 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/iFe-Jl__wpKT9UKu7NZMWLiMJ5w",
   "otter_id": "iFe-Jl__wpKT9UKu7NZMWLiMJ5w",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "cardiometabolic",
+    "vitamin_k",
+    "diagnostic_devices",
+    "inflammation",
+    "mitochondria",
+    "small_vessel_disease",
+    "detox",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "immune",
+    "detox",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — Zoom share troubleshooting / IFM & stem-cell awards",
+      "speakers": ["Bill Clearfield", "Sam Fillingane", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — Vitamin K (K1/MK-4/MK-7) as metabolic & frailty lever",
+      "speakers": ["Melvin Nario"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio"],
+      "subtopics": [
+        "MK-7 longer half-life vs MK-4",
+        "Ahmed 2026 meta-analysis glucose / HOMA-IR",
+        "Undercarboxylated osteocalcin frailty marker",
+        "Warfarin consistency vs DOACs",
+        "Magnesium 300–500 mg co-factor"
+      ]
+    },
+    {
+      "topic": "Glycocalyx / vascular fragility sidebar",
+      "speakers": ["Joanie", "Panel", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "immune"]
+    },
+    {
+      "topic": "Sam Fillingane — Multifunctional Cardiogram (MCG/MCGID) / CardioVision AI",
+      "speakers": ["Sam Fillingane"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "practice_systems"],
+      "subtopics": [
+        "Frequency-domain 2-lead EKG / 26 parameters",
+        "CVD score 0–22 / >4 significant / ACS ~4.6",
+        "Soft plaque + small-vessel disease vs CAC",
+        "Mitochondrial dysfunction + VF/AF foresight",
+        "Device ~$60K / Amy Spahi screening days"
+      ]
+    },
+    {
+      "topic": "MCG cases — 73yo high-risk, 60yo physician reversal, 13yo syncope ICD catch",
+      "speakers": ["Sam Fillingane"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio"],
+      "subtopics": [
+        "Report logic acute vs chronic / compliance / laterality",
+        "Serial score improvement documents plaque reverse trajectory",
+        "Congenital + cardiomyopathy pairing in athletes"
+      ]
+    },
+    {
+      "topic": "Eleven inflammatory disease states & plaque-reversal playbook",
+      "speakers": ["Sam Fillingane"],
+      "branch": "nutrition",
+      "terms": ["cardio", "immune", "detox"],
+      "subtopics": [
+        "Inflammation root of plaque / rupture MIs",
+        "Diabetes hepatic carb switch >25 g",
+        "50 min aerobic clears ~93% inflammatory factors",
+        "Sleep / MTHFR methylfolate substrate"
+      ]
+    },
+    {
+      "topic": "Q&A — MCAS/long COVID stack, MTHFR dosing, access, upcoming estrogen roundtable",
+      "speakers": ["Sam Fillingane", "Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "vitamin_supplement", "practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-03-31/",
     "raw": "Research/lectures/clearfield-webinar-2026-03-31/raw/",
@@ -26,8 +118,16 @@
     "filename_pattern": "slide-2026-03-31-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-03-31/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-03-31/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-03-31/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-03-31/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Tip: Nario vitamin K metabolic/frailty reframe. Key segment: Fillingane MCG/CardioVision AI cardiogram + 11-state inflammation reversal model. Local MedNote (Gem recreation)."
 }

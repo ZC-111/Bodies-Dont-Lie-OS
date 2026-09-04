@@ -1,13 +1,127 @@
 {
   "id": "clearfield-webinar-2025-01-22",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — January 22, 2025: Mold, Mycotoxins & the Sinus–Brain Axis (Dr. Dennis)",
+  "speaker": "Bill Clearfield (host); Dr. Dennis (primary); Dr. Nario, Stefan Hartman, Dr. Bailey, Dr. Quinn, Dr. Gooden (panel)",
   "approx_date": "2025-01-22",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 131,
   "duration": "2 h 11 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/hFcw5MS7FSAuXJGFcnPHqL6j1gM",
   "otter_id": "hFcw5MS7FSAuXJGFcnPHqL6j1gM",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["detox", "immune", "hormone", "nutrition"],
+  "themes": [
+    "mold_mycotoxins",
+    "sinus_ent",
+    "environmental_medicine",
+    "neuroinflammation",
+    "pituitary_hormones",
+    "antifungal_protocols",
+    "hvac_remediation",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "detox",
+    "hormone",
+    "vitamin_supplement",
+    "pain_msk",
+    "cardio"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Tech setup / Zoom slideshow troubleshooting",
+      "speakers": ["Bill Clearfield", "Dr. Dennis", "Dr. Nario", "Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Air-first thesis — mold burden, HEPA, humidity, D6 Stereonizer",
+      "speakers": ["Dr. Dennis"],
+      "branch": "integrative-medicine",
+      "terms": ["detox"],
+      "subtopics": [
+        "Air 5× treatment / 2× genetics",
+        "RH 40–50%; no fiberglass ducts",
+        "20% mycotoxin non-processors",
+        "sinus5 / Micro Balance resources"
+      ]
+    },
+    {
+      "topic": "Pathophysiology — nose→brain route, T-cell hyper-reactivity, fiberglass eosinophils",
+      "speakers": ["Dr. Dennis"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "immune"],
+      "subtopics": [
+        "Particle <50k @ 0.3 µm; plate 0–4 colonies",
+        "~9,000× inflammation per spore",
+        "Candida biofilm needs antifungals",
+        "Gene locus 21q23.3 cited"
+      ]
+    },
+    {
+      "topic": "Clinical cases — eczema, depression, Parkinsonism, paralysis, brown-halo proof",
+      "speakers": ["Dr. Dennis"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "pain_msk"],
+      "subtopics": [
+        "SDA brown halo = tissue mycotoxins",
+        "Amphotericin sinus fill → cognition",
+        "qEEG / P300 delays",
+        "Re-exposure relapse (rental car)"
+      ]
+    },
+    {
+      "topic": "Pituitary injury and unreliable IGF-1 for GH deficiency",
+      "speakers": ["Dr. Dennis"],
+      "branch": "hormone",
+      "terms": ["hormone"],
+      "subtopics": [
+        ">50% mold patients with pituitary deficits",
+        "IGF-1 above mean still ~53% GH-deficient",
+        "Stimulation testing required"
+      ]
+    },
+    {
+      "topic": "AI CT/MRI mycotoxin imaging; pituitary tumors harbor toxins",
+      "speakers": ["Dr. Dennis"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "hormone"],
+      "subtopics": [
+        "Urine 1 toxin → ≥10 in brain",
+        "Gliotoxin algorithm + biopsy confirm",
+        "11 mycotoxins in Cushing adenoma",
+        "100% O2 8–10 L/min × 2 h/day"
+      ]
+    },
+    {
+      "topic": "Protocol — environment, Candida diet, antifungals, nebulization recipes",
+      "speakers": ["Dr. Dennis"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "vitamin_supplement"],
+      "subtopics": [
+        "Diflucan + nystatin → itraconazole/voriconazole",
+        "Amphotericin 3 mg/30 mL water; vori 12.5 mg/30 mL",
+        "Vit D 80–90; GERD ~80%",
+        "~50% need ESS; 100% fail if environment ignored"
+      ]
+    },
+    {
+      "topic": "Q&A — MARCoNS/MCAS/biofilm, urine vs Campbell, HBOT, flood remediation",
+      "speakers": ["Dr. Dennis", "Dr. Nario", "Dr. Bailey", "Dr. Quinn", "Dr. Gooden", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "immune"],
+      "subtopics": [
+        "Fungus underlies MARCoNS/MCAS/biofilm",
+        "Urine preferred over blood for ‘now’",
+        "HBOT 1.4–2.5 ATA after safe housing",
+        "Next week: Al Sanchez Poly MVA"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-01-22/",
     "raw": "Research/lectures/clearfield-webinar-2025-01-22/raw/",
@@ -26,8 +140,16 @@
     "filename_pattern": "slide-2025-01-22-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-01-22/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-01-22/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-01-22/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-01-22/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Dr. Dennis ENT lecture on mold/mycotoxins — air-first remediation, sinus–brain axis, antifungal nebulization, pituitary/GH pitfalls, AI imaging. Secondary: long Q&A on MARCoNS/MCAS/biofilm, urine vs Campbell testing, HBOT, flood/HVAC. Otter summary empty. Local MedNote (Gem recreation)."
 }

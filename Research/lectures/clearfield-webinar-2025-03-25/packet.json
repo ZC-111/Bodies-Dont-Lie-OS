@@ -1,13 +1,185 @@
 {
   "id": "clearfield-webinar-2025-03-25",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — March 25, 2025: Laboratory of Functional Medicine",
+  "speaker": "Bill Clearfield (host/primary); Dr. Tano (deferred lipid lecture); Carol Peterson; Dr. Halasa (panel)",
   "approx_date": "2025-03-25",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 96,
   "duration": "1 h 36 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/Zxy20R1uant_QctiZutXLSt-Q-E",
   "otter_id": "Zxy20R1uant_QctiZutXLSt-Q-E",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "hormone", "detox", "immune"],
+  "themes": [
+    "functional_labs",
+    "cardiometabolic",
+    "gi_microbiome",
+    "sibo",
+    "leaky_gut",
+    "food_sensitivity",
+    "heavy_metals",
+    "mold_mycotoxins",
+    "micronutrients",
+    "hormone_indices",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "hormone",
+    "detox",
+    "vitamin_supplement",
+    "pain_msk"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — testosterone, SHBG, free androgen index",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Male T 700–900; free 2–4%",
+        "Female T window ~30–40; excess often >40",
+        "FAI = total T ÷ (SHBG × 0.288)",
+        "Boron to lower SHBG"
+      ]
+    },
+    {
+      "topic": "Schedule change — Dr. Tano lipid lecture deferred to June 3",
+      "speakers": ["Bill Clearfield", "Dr. Tano", "Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Tano not ready — refuse to butcher cholesterol topic",
+        "Clearfield substitutes Laboratory of Functional Medicine",
+        "AMMG Pittsburgh / IFM vs Arizona IM notes"
+      ]
+    },
+    {
+      "topic": "Serum markers — Lp-PLA2, MPO, LDH isoenzymes, inflammation triad",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio"],
+      "subtopics": [
+        "Lp-PLA2 = plaque vulnerability",
+        "MPO = plaque rupture (worse)",
+        "LDH 1–5 organ localization",
+        "CRP + sed rate + LDH disease-load patterns",
+        "hsCRP goal <1"
+      ]
+    },
+    {
+      "topic": "CBC pearls and hormone calculation indices",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "MCH/MCHC/RDW/NLR interpretations",
+        "High baso+mono+EOS = parasite clue",
+        "NTX/CTX bone resorption",
+        "Free T3×10/rT3 >2; E:P <250",
+        "Prolactin <6 anxiety/depression screen"
+      ]
+    },
+    {
+      "topic": "Salivary cortisol cases and DHEA inverse relationship",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Catastrophic stress → physiologic cortisone + counseling",
+        "High cortisol ↔ low DHEA",
+        "Cortisol–estrone / aromatase discussion"
+      ]
+    },
+    {
+      "topic": "Comprehensive stool, SIBO breath, mucosal barrier",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "vitamin_supplement"],
+      "subtopics": [
+        "qPCR pathogens + Firmicutes:Bacteroides / Akkermansia",
+        "β-glucuronidase → calcium D-glucarate",
+        "SIBO H2 ≥20 ppm / CH4 ≥10 ppm",
+        "Zonulin / DAO / histamine / LPS quartet",
+        "H. pylori antibiotic resistance genes"
+      ]
+    },
+    {
+      "topic": "Metabolic wellness urine — indican, bile salts, 8-OHdG",
+      "speakers": ["Bill Clearfield", "Dr. Halasa"],
+      "branch": "integrative-medicine",
+      "terms": ["detox"],
+      "subtopics": [
+        "Indican as dysbiosis/SIBO screen",
+        "Bile salts for hepatic fat/detox function",
+        "8-OHdG oxidative DNA damage biomarker"
+      ]
+    },
+    {
+      "topic": "IgG food sensitivity and elimination protocol",
+      "speakers": ["Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Chronic burden not IgE anaphylaxis",
+        "IgG half-life ~23 days → 3–6 week elimination",
+        "False positives / cross-reactivity caveats",
+        "Dietitian handoff for mapping"
+      ]
+    },
+    {
+      "topic": "Heavy metals, environmental toxins, mold testing",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["detox"],
+      "subtopics": [
+        "Hair metals ~$65 screen then urine/blood",
+        "Remove mold exposure first",
+        "Urine mycotoxins = recent; serum IgG/IgE = chronic (Campbell)",
+        "ALA ≥300 mg BID; Epsom baths for molybdenum"
+      ]
+    },
+    {
+      "topic": "Micronutrient panel overview — deficiency/excess map",
+      "speakers": ["Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "hormone"],
+      "subtopics": [
+        "Custom packs abandoned (cost $500–900/mo)",
+        "Selenium for T4→T3; iodine comeback",
+        "Vit D + K2 (MK-7) for bone"
+      ]
+    },
+    {
+      "topic": "Q&A — HOMA-IR, male E2 tools, progesterone, estrogen dominance",
+      "speakers": ["Bill Clearfield", "Carol Peterson", "Dr. Halasa", "Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio", "detox"],
+      "subtopics": [
+        "HOMA-IR = (FBG × insulin) / 405",
+        "DIM/I3C; spearmint / saw palmetto / white peony",
+        "Progesterone dominance rare / dose-related",
+        "Low prolactin → pregnenolone/progesterone/GABA",
+        "Halasa: screen E-dominance all ages; cyclodextrin detox first"
+      ]
+    },
+    {
+      "topic": "Announcements — East Coast AOS meeting May 30–June 1",
+      "speakers": ["Speaker 8", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Kathy O’Brien PTSD / MK-Ultra segment",
+        "DNA/stem cells, ethics, chelation, hormones",
+        "Quinn muscle-centric health + apothecary project",
+        "Participation decision within ~3 weeks"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-03-25/",
     "raw": "Research/lectures/clearfield-webinar-2025-03-25/raw/",
@@ -26,8 +198,16 @@
     "filename_pattern": "slide-2025-03-25-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-03-25/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-03-25/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-03-25/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-03-25/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Bill Clearfield Laboratory of Functional Medicine (serum markers, CBC pearls, cortisol, stool/SIBO/barrier, food IgG, metals/mold, micronutrients) after Dr. Tano lipid lecture deferred to June 3. Secondary: hormone indices open, Q&A (HOMA-IR, progesterone, Halasa estrogen dominance), East Coast meeting announcements. Local MedNote (Gem recreation)."
 }

@@ -1,13 +1,101 @@
 {
   "id": "clearfield-webinar-2025-12-10",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — December 10, 2025: Nanotechnology, Adaptogens & Holiday Metabolic Botanicals (Saleya / Nario)",
+  "speaker": "Robert Saleya (primary); Dr. Nario (botanicals tip); Heather House (Vital Health Global); Bill Clearfield (host)",
   "approx_date": "2025-12-10",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 100,
   "duration": "1 h 40 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/3BvIJDrhEXHdWPee7Ztw2x6EmdE",
   "otter_id": "3BvIJDrhEXHdWPee7Ztw2x6EmdE",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "materia-medica"],
+  "themes": [
+    "nanotechnology",
+    "adaptogens",
+    "epigenetics",
+    "detox",
+    "weight_loss",
+    "botanicals",
+    "oncology_adjunct",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "herbal_botanical",
+    "detox",
+    "cardio",
+    "cancer",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Conference recap / next event logistics / A4M planning",
+      "speakers": ["Bill Clearfield", "Speaker 2", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — holiday weight-loss botanicals",
+      "speakers": ["Dr. Nario", "Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["herbal_botanical", "vitamin_supplement", "cardio"],
+      "subtopics": [
+        "Curcumin / capsaicin / berberine / synephrine / garcinia",
+        "Post-GLP-1 berberine + resveratrol maintenance",
+        "Dose intensity vs label dosing"
+      ]
+    },
+    {
+      "topic": "Robert Saleya — nanotechnology, adaptogens, epigenetics",
+      "speakers": ["Robert Saleya"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "detox", "herbal_botanical"],
+      "subtopics": [
+        "Epigenetic terrain / toxin burden",
+        "Nano particle size (<100 nm / ~20 nm)",
+        "Bio-quantum metabolic analysis",
+        "Diabetes / stress adaptogen formulas"
+      ]
+    },
+    {
+      "topic": "Case studies — tongue cancer adjunct, kidney recovery",
+      "speakers": ["Robert Saleya", "Dr. Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["cancer", "detox", "vitamin_supplement"],
+      "subtopics": [
+        "Concurrent chemo + high-dose antioxidants",
+        "Vitamin D / vitamin C dosing cited",
+        "Oxidation vs antioxidation debate"
+      ]
+    },
+    {
+      "topic": "Vital Health Global products / Elite Pack / testimonials",
+      "speakers": ["Robert Saleya", "Heather House", "Speaker 1"],
+      "branch": "materia-medica",
+      "terms": ["vitamin_supplement", "detox", "herbal_botanical"],
+      "subtopics": [
+        "Detox → Pro/Builder pack progression",
+        "Fibromyalgia / methylation testimonials",
+        "Affiliate / scanner / saliva cortisol tools"
+      ]
+    },
+    {
+      "topic": "Cyclodextrin bioavailability / compounded semaglutide / closing",
+      "speakers": ["Bill Clearfield", "Speaker 7", "Speaker 8"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "vitamin_supplement"],
+      "subtopics": [
+        "Nano-scale language for skeptical patients",
+        "Cyclodextrin curcumin / GLP-1 loading (Halasa)",
+        "Novo Nordisk cease-and-desist anecdote"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-12-10/",
     "raw": "Research/lectures/clearfield-webinar-2025-12-10/raw/",
@@ -26,8 +114,16 @@
     "filename_pattern": "slide-2025-12-10-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-12-10/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-12-10/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-12-10/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-12-10/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segments: Saleya nano-adaptogen/epigenetics lecture + oncology/kidney case anecdotes; Nario holiday botanicals tip; Clearfield post-GLP-1 berberine/resveratrol pearl. Local MedNote (Gem recreation). Speaker name normalized from Otter variants."
 }

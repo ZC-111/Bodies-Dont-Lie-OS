@@ -1,13 +1,96 @@
 {
   "id": "clearfield-webinar-2025-10-07",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — October 7, 2025: Business of Health & Preeminence (Dr. Tanno)",
+  "speaker": "Bill Clearfield (host); Dr. Tanno (primary lecturer); Dr. Dario Nario (Vienna tip); panel (Hartman, Collins, Quinn)",
   "approx_date": "2025-10-07",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 141,
   "duration": "2 h 21 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/CQdkPoyCm_xx7nnZ2b80AClK8TM",
   "otter_id": "CQdkPoyCm_xx7nnZ2b80AClK8TM",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "practice_systems",
+    "practice_economics",
+    "preeminence",
+    "pricing_elasticity",
+    "outcome_measurement",
+    "biological_dentistry",
+    "prostate_infection",
+    "regenerative_scope",
+    "legal_compliance"
+  ],
+  "medical_terms": [
+    "practice_systems",
+    "cardio",
+    "immune",
+    "vitamin_supplement",
+    "detox",
+    "regenerative",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Clinical roundtable — itraconazole prostatitis / antifungal courses / ivermectin-fenbendazole notes",
+      "speakers": ["Bill Clearfield", "Dr. Tanno", "Dr. Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "detox"],
+      "subtopics": [
+        "Itraconazole oral response and rebound",
+        "Rectal itraconazole compound idea",
+        "Prostatomegaly = infectious prostatitis thesis",
+        "NAC with long antifungal courses"
+      ]
+    },
+    {
+      "topic": "Tip of the week — Vienna Effective Biomedicine Congress / titanium vs zirconia",
+      "speakers": ["Dr. Dario Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "practice_systems"],
+      "subtopics": [
+        "Biological dentistry as essential in Europe",
+        "Titanium corrosion / immune flares",
+        "Zirconia biocompatibility vs data gap"
+      ]
+    },
+    {
+      "topic": "Dr. Tanno — Business of health / productivity equation / preeminence & pricing",
+      "speakers": ["Dr. Tanno"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Revenue = price × quantity",
+        "Skills vs preeminence vs productivity",
+        "Psychic cost and opportunity cost",
+        "Price elasticity and inelastic demand via preeminence",
+        "High-ticket offers and multi-stream income",
+        "Pre/post questionnaires and ICEA"
+      ]
+    },
+    {
+      "topic": "Q&A — FM licensing, contracts, testimonials, membership, standardized intake",
+      "speakers": ["Dr. Tanno", "Dr. Collins", "Dr. Quinn", "Bill Clearfield", "Petronella"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Regenerative caution — plasmapheresis, ASEA, stem cells, NV HMD; Reno conference promo",
+      "speakers": ["Dr. Tanno", "Dr. Collins", "Dr. Quinn", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["regenerative", "detox", "practice_systems"],
+      "subtopics": [
+        "Mycotoxins often too small for pheresis",
+        "FDA/board risk of stem-cell practice",
+        "Nevada Homeopathic Medical Examiners HMD",
+        "Congress of Medical Excellence Dec 4–6 2025"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-10-07/",
     "raw": "Research/lectures/clearfield-webinar-2025-10-07/raw/",
@@ -26,8 +109,16 @@
     "filename_pattern": "slide-2025-10-07-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-10-07/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-10-07/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-10-07/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-10-07/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Dr. Tanno on business of health (preeminence, psychic cost, elasticity, multi-stream FM economics, outcome questionnaires). Secondary: itraconazole prostate case, Nario Vienna biological dentistry, legal/regenerative Q&A, Reno Dec 2025 promo. Local MedNote (Gem recreation)."
 }

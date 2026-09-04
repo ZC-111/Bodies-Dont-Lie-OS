@@ -1,13 +1,122 @@
 {
   "id": "clearfield-webinar-2025-05-27",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — May 27, 2025: Muscle as Organ of Longevity",
+  "speaker": "Bill Clearfield (host); Robert Quinn (primary); panel (Patel, Nario, Hartman, Joel, Tano)",
   "approx_date": "2025-05-27",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 154,
   "duration": "2 h 34 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/vn-MouyIRCM7VjShKYhDQr6Mc3U",
   "otter_id": "vn-MouyIRCM7VjShKYhDQr6Mc3U",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "muscle_longevity",
+    "sarcopenia",
+    "resistance_training",
+    "myokines",
+    "protein_leucine",
+    "mtor",
+    "insulin_sensitivity",
+    "isometrics",
+    "hormone_optimization",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "pain_msk",
+    "vitamin_supplement",
+    "hormone",
+    "cardio",
+    "regenerative"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Veteran care vignette / Burgess conference postponement",
+      "speakers": ["Bill Clearfield", "Joel", "Dr. Crowley"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "VA resource frustration",
+        "Burgess surgery → postpone not cancel",
+        "Venue/speaker travel unwind"
+      ]
+    },
+    {
+      "topic": "Robert Quinn — muscle as organ of longevity",
+      "speakers": ["Robert Quinn"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "cardio", "hormone"],
+      "subtopics": [
+        "Under-muscled not over-fat (Lyon)",
+        "Muscle endocrine organ / ~40% body mass",
+        "Glucose disposal ~80% to muscle",
+        "Start with minutes patient has"
+      ]
+    },
+    {
+      "topic": "1RM, lactate, neuromuscular principles",
+      "speakers": ["Robert Quinn", "Dr. Patel", "Joel"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "vitamin_supplement"],
+      "subtopics": [
+        "Strength vs hypertrophy loading",
+        "Lactate not lactic acid; ~10% burn",
+        "Henneman size principle",
+        "ALS early protein + deliberate movement"
+      ]
+    },
+    {
+      "topic": "Myokines, GLUT4, protein, mTOR",
+      "speakers": ["Robert Quinn"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio", "hormone"],
+      "subtopics": [
+        "BDNF / irisin / IL-6 / myostatin",
+        "GLUT4 translocation without carb load",
+        "Leucine → mTORC1 MPS",
+        "mTORC1 vs mTORC2 cell context"
+      ]
+    },
+    {
+      "topic": "Sarcopenia, isometrics, programming, self-tests",
+      "speakers": ["Robert Quinn"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "hormone"],
+      "subtopics": [
+        "3–5% muscle loss per decade; reversible",
+        "Yielding vs overcoming isometrics",
+        "~1 g protein / lb goal weight",
+        "Functional fitness checklist / waist:height"
+      ]
+    },
+    {
+      "topic": "Panel Q&A — grip, protein timing, TRT, DOMS",
+      "speakers": ["Robert Quinn", "Stefan Hartman", "Dr. Nario", "Joel", "Dr. Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "vitamin_supplement", "pain_msk"],
+      "subtopics": [
+        "Grip useful but incomplete marker",
+        "Protein after preferred; alone ≠ hypertrophy",
+        "TRT + training integrative stack",
+        "Pathologic DOMS → check anabolic hormones"
+      ]
+    },
+    {
+      "topic": "NOMA Reno October CME proposal / next week Tano",
+      "speakers": ["Bill Clearfield", "Dr. Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Oct 24–26 Pepper Mill Reno",
+        "DO/MD CME via NOMA",
+        "Dr. Tano ~June 3"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-05-27/",
     "raw": "Research/lectures/clearfield-webinar-2025-05-27/raw/",
@@ -26,8 +135,16 @@
     "filename_pattern": "slide-2025-05-27-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-05-27/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-05-27/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-05-27/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-05-27/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Robert Quinn on muscle as organ of longevity (myokines, 1RM, GLUT4, leucine/mTOR, sarcopenia, isometrics). Secondary: Burgess conference postponement; panel grip/protein/TRT/DOMS; NOMA Reno Oct CME proposal. Local MedNote (Gem recreation)."
 }

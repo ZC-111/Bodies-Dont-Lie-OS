@@ -1,13 +1,91 @@
 {
   "id": "clearfield-webinar-2025-06-10",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — June 10, 2025: Seven Synergistic Mushrooms for Longevity",
+  "speaker": "Bill Clearfield (host); Sochi Palomino, ND (primary); Melvin Nario (medical-legal tip); panel Q&A",
   "approx_date": "2025-06-10",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 124,
   "duration": "2 h 4 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/hnYI5BcQQLHjFGK0Vv7Jdr3Okdg",
   "otter_id": "hnYI5BcQQLHjFGK0Vv7Jdr3Okdg",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "materia-medica"],
+  "themes": [
+    "medicinal_mushrooms",
+    "longevity",
+    "cellular_senescence",
+    "telomeres",
+    "sirt1_ampk",
+    "neurocognition",
+    "immune_modulation",
+    "product_quality_aoac",
+    "medical_legal_marketing",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "herbal_botanical",
+    "vitamin_supplement",
+    "immune",
+    "detox",
+    "hormone"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — neuro mushroom products / practice context",
+      "speakers": ["Bill Clearfield", "Sochi Palomino"],
+      "branch": "integrative-medicine",
+      "terms": ["herbal_botanical", "vitamin_supplement"],
+      "subtopics": [
+        "Neuro Shield / Ohm Master Blend cost discussion",
+        "Host Defense quality research (Lion's Mane)",
+        "CIDP / demyelination interest in Lion's Mane"
+      ]
+    },
+    {
+      "topic": "Tip of the week — FDA/FTC marketing compliance for integrative practice",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Support vs cure/treat/proven language",
+        "Testimonial regulation + disclaimers",
+        "Avoid implying standard-of-care legitimacy",
+        "Off-label promotion vs exploratory framing"
+      ]
+    },
+    {
+      "topic": "Sochi Palomino — Seven synergistic mushrooms for longevity",
+      "speakers": ["Sochi Palomino"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical", "immune", "vitamin_supplement"],
+      "subtopics": [
+        "Senescence / inflammaging / epigenetics",
+        "Ergothioneine + full antioxidant profile",
+        "Butyrate/SCFA; telomere balance; SIRT1; AMPK",
+        "Reishi / Cordyceps / Blazei / Lion's Mane / Maitake / Meshima / Chaga clinical cards",
+        "AOAC testing; heavy metals; transplant contraindication",
+        "Ornish 2024 Lion's Mane multimodal cognition signal"
+      ]
+    },
+    {
+      "topic": "Q&A — delivery forms, Candida myth, CBD, radiation, blends",
+      "speakers": ["Sochi Palomino", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["herbal_botanical", "immune", "detox"],
+      "subtopics": [
+        "Beta-glucan fetish vs whole/dual extracts",
+        "Mushroom coffee heat-treatment caveat",
+        "Candida-feeding myth debunked",
+        "CBD synergy; radiation recovery (Reishi/Agaricus)",
+        "Stamets 7 vs MyCommunity rotation 3–6 months",
+        "Clearfield TMS + mushroom tinnitus/vertigo protocol"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-06-10/",
     "raw": "Research/lectures/clearfield-webinar-2025-06-10/raw/",
@@ -26,8 +104,16 @@
     "filename_pattern": "slide-2025-06-10-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-06-10/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-06-10/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-06-10/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-06-10/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Sochi Palomino on seven synergistic mushrooms for longevity (mechanisms + species safety cards + AOAC quality). Secondary: Nario FDA/FTC marketing tip; extended Q&A on Candida myth, CBD synergy, radiation, blend rotation. Local MedNote (Gem recreation)."
 }

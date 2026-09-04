@@ -1,13 +1,100 @@
 {
   "id": "clearfield-webinar-2026-05-05",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — May 5, 2026: Pediatric Case (Paisley) + Gut Peptide Triad",
+  "speaker": "Bill Clearfield (host); Melvin Nario (peptide tip); Benoit Tano (estrogen-free / TOBIN); Paisley + Cindy (case guests)",
   "approx_date": "2026-05-05",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 151,
   "duration": "2 h 31 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/gCOkfrp7geEQBa-LbITAgz6rTKA",
   "otter_id": "gCOkfrp7geEQBa-LbITAgz6rTKA",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "endocrine"],
+  "themes": [
+    "pediatric_case",
+    "hyperinsulinemia",
+    "insulin_resistance",
+    "pcos_androgens",
+    "thyroid_autoimmunity",
+    "gut_peptides",
+    "estrogen_free_lifestyle",
+    "detox",
+    "neural_therapy",
+    "tobin"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "detox",
+    "immune",
+    "herbal_botanical",
+    "endocrine",
+    "peptide"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Open / microplastics digression / housekeeping",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Benoit Tano"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — BPC-157 / KPV / larazotide gut peptide triad",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["peptide", "immune", "detox"],
+      "subtopics": [
+        "Damage → BPC-157",
+        "Inflammation → KPV (PepT1)",
+        "Permeability → larazotide (zonulin)"
+      ]
+    },
+    {
+      "topic": "Case intro — Paisley (age 11) + maternal PCOS / hypopituitarism history",
+      "speakers": ["Cindy", "Paisley", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["endocrine", "immune"]
+    },
+    {
+      "topic": "Labs walkthrough — fasting insulin ~50, A1c 5.7, TPO+, androgens",
+      "speakers": ["Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["cardio", "endocrine", "immune"],
+      "subtopics": [
+        "Hyperinsulinemia / IR score",
+        "Thyroid Abs vs TSH",
+        "Testosterone / estradiol / ferritin"
+      ]
+    },
+    {
+      "topic": "Androgen & skin plan — spearmint tea, saw palmetto, ketoconazole",
+      "speakers": ["Bill Clearfield", "Speaker 7"],
+      "branch": "integrative-medicine",
+      "terms": ["herbal_botanical", "endocrine"]
+    },
+    {
+      "topic": "Six-category workup — CGM, Abs, IGF-1, Moducare, LDN, GI-MAP",
+      "speakers": ["Bill Clearfield", "panel"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "vitamin_supplement", "detox"]
+    },
+    {
+      "topic": "Tonsillar scar neural therapy / Dr. Gerber workshop plan",
+      "speakers": ["Speaker 20", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "pain_msk"]
+    },
+    {
+      "topic": "Tano — estrogen-free lifestyle, TOBIN, toxin panels, Junior Nutrients",
+      "speakers": ["Benoit Tano"],
+      "branch": "nutrition",
+      "terms": ["detox", "vitamin_supplement", "endocrine"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-05-05/",
     "raw": "Research/lectures/clearfield-webinar-2026-05-05/raw/",
@@ -26,8 +113,16 @@
     "filename_pattern": "slide-2026-05-05-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-05-05/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-05-05/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-05-05/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-05-05/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Live pediatric case conference (Paisley, 11) on hyperinsulinemia, androgen signs, thyroid Abs, maternal endocrine history. Tip: Nario gut peptide triad. Local MedNote (Gem recreation). Next-week teaser: Stefan Hartman direct primary care."
 }

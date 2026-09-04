@@ -1,13 +1,105 @@
 {
   "id": "clearfield-webinar-2024-08-27",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — August 27, 2024: Lisa Tamati — Resilience, Advocacy & Mother’s Stroke/Cancer Recovery",
+  "speaker": "Bill Clearfield (host); Lisa Tamati (primary); Dr. Melvin Nario; Joe; John (panel)",
   "approx_date": "2024-08-27",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 125,
   "duration": "2 h 5 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/pw9yXaKVUW0ETXgSRTRBaLEzqQc",
   "otter_id": "pw9yXaKVUW0ETXgSRTRBaLEzqQc",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "hormone"],
+  "themes": [
+    "resilience_mindset",
+    "patient_advocacy",
+    "stroke_neurorehab",
+    "hyperbaric_oxygen",
+    "sleep_apnea",
+    "metabolic_oncology",
+    "peptides",
+    "longevity_athletics",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "detox",
+    "hormone",
+    "regenerative"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Tech setup and guest introduction — Lisa Tamati bio",
+      "speakers": ["Bill Clearfield", "Lisa Tamati", "Joe", "Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Zoom video audio troubleshooting",
+        "Ultramarathon / podcast / books background"
+      ]
+    },
+    {
+      "topic": "Ultramarathon mindset — Libyan desert to Badwater Death Valley",
+      "speakers": ["Lisa Tamati"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "practice_systems"],
+      "subtopics": [
+        "Cognitive compartmentalization under crisis",
+        "Team/crew dependence",
+        "Reframing capability after finish"
+      ]
+    },
+    {
+      "topic": "Himalayan 222 km race — hypoxic tent injury, ankle rupture, finish",
+      "speakers": ["Lisa Tamati"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio"],
+      "subtopics": [
+        "SpO2 ~70% hypoxic brain injury",
+        "Adaptive training when running impossible",
+        "53h 05m finish / crew hard-push"
+      ]
+    },
+    {
+      "topic": "Case — Isabelle aneurysm/stroke: ED delays, OSA, HBOT home rehab",
+      "speakers": ["Lisa Tamati"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "vitamin_supplement", "detox"],
+      "subtopics": [
+        "Migraine mislabel / ~18h to OR",
+        "Severe sleep apnea + CPAP save",
+        "Paul Harch–inspired HBOT; ~13 mo / 2.5 yr milestones"
+      ]
+    },
+    {
+      "topic": "CNS lymphoma metabolic + chemo stack; books Relentless / What Your Oncologist Isn’t Telling You",
+      "speakers": ["Lisa Tamati"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "detox", "regenerative"],
+      "subtopics": [
+        "RGCC-guided temozolomide + rituximab",
+        "Keto, IVC, peptides (thymosin α1), HBOT",
+        "~12 week MRI clearance"
+      ]
+    },
+    {
+      "topic": "Q&A — IVC/Right to Try, RGCC/SOT, peptides, athletic stacks, NPH/progesterone",
+      "speakers": ["Lisa Tamati", "Bill Clearfield", "Dr. Melvin Nario", "Joe", "John"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "hormone", "regenerative", "practice_systems"],
+      "subtopics": [
+        "Father sepsis IVC ethics fight (Marik)",
+        "Nario RGCC + Philippines peptide access",
+        "Muscle longevity; Mg/D3/K2/creatine/spermidine",
+        "Longevity group Sep 26–27; Heather Halus next week"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-08-27/",
     "raw": "Research/lectures/clearfield-webinar-2024-08-27/raw/",
@@ -25,8 +117,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-08-27/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-08-27/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-08-27/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-08-27/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Guest lecture: Lisa Tamati resilience + mother Isabelle SAH/stroke HBOT rehab and CNS lymphoma metabolic recovery. Panel Q&A with Nario (RGCC/peptides). Local MedNote processed from Otter transcript/summary."
 }

@@ -1,13 +1,112 @@
 {
   "id": "clearfield-webinar-2025-10-28",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — October 28, 2025: Mitochondrial Fatigue, Oxaloacetate & Vaginal Hormones for UTI",
+  "speaker": "Chris Meletis, ND (key); Melvin Nario (UTI tip); Bill Clearfield (host)",
   "approx_date": "2025-10-28",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 139,
   "duration": "2 h 19 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/sLBIeA_Jmb8LAaQrgfDavdK3onA",
   "otter_id": "sLBIeA_Jmb8LAaQrgfDavdK3onA",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "hormone"],
+  "themes": [
+    "mitochondria",
+    "long_covid",
+    "chronic_fatigue",
+    "adrenal_fatigue",
+    "oxaloacetate",
+    "nad",
+    "pelvic_health",
+    "womens_hormones",
+    "detox",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "hormone",
+    "immune",
+    "detox",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — off-label compounding, vitamin C conference split, Congress of Medical Excellence pitch",
+      "speakers": ["Bill Clearfield", "Chris Meletis", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — vaginal estrogen vs DHEA vs testosterone for UTI prevention",
+      "speakers": ["Melvin Nario", "Bill Clearfield", "Caroline"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Vaginal estrogen first-line non-antibiotic UTI prevention",
+        "Glycogen → lactobacilli → pH mechanism",
+        "DHEA/prasterone promising; testosterone experimental for UTI",
+        "Vestibule androgen receptors / dyspareunia pearls"
+      ]
+    },
+    {
+      "topic": "Chris Meletis — mitochondrial fatigue, adrenals (cortex+medulla), thyroid metronome",
+      "speakers": ["Chris Meletis"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "hormone", "immune"],
+      "subtopics": [
+        "Long COVID / CFS overlapping mito pathophysiology",
+        "Treat cortex + medulla; locus coeruleus NE damping",
+        "Deficit spending / rate-limiting factor crashes",
+        "T2 provocation; cholesterol→pregnenolone via mitochondria"
+      ]
+    },
+    {
+      "topic": "Oxaloacetate — stabilized TCA support for CFS / long COVID",
+      "speakers": ["Chris Meletis"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Medical food status for CFS",
+        "Enhanced responders 40.5% / mean 63% fatigue improvement",
+        "Glioblastoma orphan-drug research use",
+        "Cost ~$300–500 per bottle; 3–5% headaches"
+      ]
+    },
+    {
+      "topic": "NAD / CD38 / sirtuins — aging, stress, Harvard NR long-COVID study",
+      "speakers": ["Chris Meletis"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "immune"],
+      "subtopics": [
+        ">500 enzymatic pathways; CD38/PARP consumption",
+        "14000 steps/day NAD exception in seniors",
+        "NR 2000 mg/day RCT (pre-publication at talk)",
+        "Adrenal SIRT3/SIRT5 dependency on NAD"
+      ]
+    },
+    {
+      "topic": "Q&A — NAD stacking, cancer/Warburg, microplastics, metformin, methylene blue",
+      "speakers": ["Chris Meletis", "Melvin Nario", "Bill Clearfield", "Speaker 7"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "detox", "immune"],
+      "subtopics": [
+        "Oxaloacetate + NAD synergy without overshoot",
+        "RS Labs saliva microplastic test",
+        "Metformin Complex I + B12",
+        "Methylene blue individualized / dose-dependent"
+      ]
+    },
+    {
+      "topic": "Conference logistics, registration troubleshooting, closing",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Chris Meletis"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-10-28/",
     "raw": "Research/lectures/clearfield-webinar-2025-10-28/raw/",
@@ -26,8 +125,16 @@
     "filename_pattern": "slide-2025-10-28-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-10-28/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-10-28/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-10-28/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-10-28/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Tip: Nario vaginal estrogen > DHEA > testosterone for postmenopausal UTI prevention. Key segment: Meletis mitochondrial fatigue / adrenals / oxaloacetate / NAD (long COVID & CFS). Q&A covers stacking, microplastics (RS Labs), metformin, methylene blue. Congress of Medical Excellence Reno Dec pitch."
 }

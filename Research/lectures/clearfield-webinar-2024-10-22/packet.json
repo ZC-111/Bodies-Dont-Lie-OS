@@ -1,13 +1,163 @@
 {
   "id": "clearfield-webinar-2024-10-22",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — October 22, 2024: DHA, Lutein & Zeaxanthin for Brain Health",
+  "speaker": "Bill Clearfield (host); Michael Nelson (primary); Dr. Zen (Bio Quantum); Melvin Nario; Stefan Hartman; panel",
   "approx_date": "2024-10-22",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 102,
   "duration": "1 h 42 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/ykfPBSHSL3meBk4yGojbTxMVIpA",
   "otter_id": "ykfPBSHSL3meBk4yGojbTxMVIpA",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "nutrition",
+    "immune"
+  ],
+  "themes": [
+    "brain_health",
+    "dha_omega3",
+    "lutein_zeaxanthin",
+    "alzheimers_prevention",
+    "neuroinflammation",
+    "depression_inflammation",
+    "macular_pigment",
+    "mpod_biomarker",
+    "complement_mac",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "neuro",
+    "vitamin_supplement",
+    "cardio",
+    "immune",
+    "ophthalmology"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — Bio Quantum Academy, Germany Medicine Week, Rome IFM",
+      "speakers": [
+        "Bill Clearfield",
+        "Dr. Zen",
+        "Melvin Nario",
+        "Stefan Hartman"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Bio Quantum Nov 8–9 conference / graduate presentations",
+        "Nario Heel factory tour / homeopathy updates",
+        "Hartman Rome functional medicine symposium Nov 15–16"
+      ]
+    },
+    {
+      "topic": "Peptides plug & Nelson intro (post-appendicitis LPS story)",
+      "speakers": [
+        "Bill Clearfield",
+        "Michael Nelson"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems",
+        "immune"
+      ],
+      "subtopics": [
+        "Jay Campbell bulk peptide sale",
+        "Ruptured appendix / sepsis / LPS first-hand"
+      ]
+    },
+    {
+      "topic": "Michael Nelson — AD epidemiology, brain energetics, inflammation–depression",
+      "speakers": [
+        "Michael Nelson"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "neuro",
+        "cardio",
+        "immune"
+      ],
+      "subtopics": [
+        "7M Americans with AD; +140% / early-onset +407%",
+        "Bredesen systems disorder; Aduhelm critique",
+        "MMP-9 leaky brain; SPM insufficiency; exposome / allostatic load"
+      ]
+    },
+    {
+      "topic": "DHA deep dive — 2 g/day, membrane fluidity, Framingham / Yassine PK",
+      "speakers": [
+        "Michael Nelson"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "neuro",
+        "vitamin_supplement"
+      ],
+      "subtopics": [
+        "97% brain / 93% eye omega-3 is DHA",
+        "Neuroprotectins / AQP4 / GPCR fluidity",
+        "2 g lifelong; 6-week plasma vs 2.5-year brain turnover"
+      ]
+    },
+    {
+      "topic": "Lutein & zeaxanthin — MPOD biomarker, DHA protection, complement/MAC",
+      "speakers": [
+        "Michael Nelson"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "neuro",
+        "vitamin_supplement",
+        "ophthalmology",
+        "immune"
+      ],
+      "subtopics": [
+        "Only carotenoids crossing BBB for macular pigment",
+        "Cognition / BDNF / pediatric eye-strain data",
+        "Long-COVID complement dysregulation; 20 mg lutein signals"
+      ]
+    },
+    {
+      "topic": "Q&A — dosing, Fatty15, AFib, GRAS, Lutamax 2020",
+      "speakers": [
+        "Bill Clearfield",
+        "Michael Nelson"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "vitamin_supplement",
+        "neuro"
+      ],
+      "subtopics": [
+        "Lutein 6–60 mg GRAS range",
+        "Do not replace DHA with Fatty15",
+        "Never too late to start at 70"
+      ]
+    },
+    {
+      "topic": "Brain Omega product close, CME, conference reminders",
+      "speakers": [
+        "Michael Nelson",
+        "Bill Clearfield",
+        "Dr. Zen"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems",
+        "vitamin_supplement"
+      ],
+      "subtopics": [
+        "Brain Omega ~460 mg DHA + Lutamax; methyl-B cofactor",
+        "2 AMA Cat 1 CME via EDS",
+        "Bio Quantum / AMMG Salt Lake logistics"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-10-22/",
     "raw": "Research/lectures/clearfield-webinar-2024-10-22/raw/",
@@ -26,8 +176,16 @@
     "filename_pattern": "slide-2024-10-22-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-10-22/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-10-22/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-10-22/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-10-22/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Michael Nelson on DHA + lutein/zeaxanthin for brain health (AD epidemiology, neuroinflammation–depression, 2 g DHA rule, MPOD as brain biomarker, complement/MAC). Secondary: conference circuit (Bio Quantum, Germany Medicine Week, Rome IFM), Brain Omega product/CME close. Local MedNote (Gem recreation)."
 }

@@ -1,13 +1,115 @@
 {
   "id": "clearfield-webinar-2024-08-06",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — August 6, 2024: Gut Microbiome, Postbiotic Metabolites & Oral Probiotic Dilemma",
+  "speaker": "Bill Clearfield (host); Ross Pelton (primary); Melvin Nario (Q&A / Philippines); Dr. Quinn (panel)",
   "approx_date": "2024-08-06",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 133,
   "duration": "2 h 13 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/CMNjlQbT2xu4NqL-9gu4VQSt0mo",
   "otter_id": "CMNjlQbT2xu4NqL-9gu4VQSt0mo",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "gut_microbiome",
+    "postbiotic_metabolites",
+    "oral_probiotic_dilemma",
+    "dysbiosis_lps",
+    "sibo",
+    "diet_diversity",
+    "rapamycin_autophagy",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "detox",
+    "herbal_botanical",
+    "immune",
+    "cardio"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — conferences, CME, Philippines Healing Revolution",
+      "speakers": ["Bill Clearfield", "Ross Pelton", "Dr. Quinn", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Nevada osteopathic / mycotoxin education",
+        "Nario keynote Aug 14–16 Philippines",
+        "CME link disruption last 3–4 weeks"
+      ]
+    },
+    {
+      "topic": "Ross Pelton — gut microbiome ecosystem & oral probiotic dilemma",
+      "speakers": ["Ross Pelton"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "immune"],
+      "subtopics": [
+        "Colon focus (>99.9% GI bacteria); >70% immune cells in gut",
+        "Three-part oral probiotic dilemma (acid / bile / diet)",
+        "Fibers + polyphenols as bacterial food; US fiber/phytonutrient gaps"
+      ]
+    },
+    {
+      "topic": "Japanese multi-year fermentation & diet diversity (salad buzz)",
+      "speakers": ["Ross Pelton"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "herbal_botanical"],
+      "subtopics": [
+        "12 starter strains; >500 postbiotic metabolites; 3+2 year ferment",
+        "SCFA / butyrate / antimicrobial peptides / serotonin",
+        "Salad buzz: ~16 plants weekly for diversity"
+      ]
+    },
+    {
+      "topic": "Barrier science — zonulin, LPS study, clinical evidence",
+      "speakers": ["Ross Pelton"],
+      "branch": "immune",
+      "terms": ["immune", "detox", "cardio"],
+      "subtopics": [
+        "Zonulin / tight junctions / LPS leak",
+        "Asymptomatic LPS: ~25× TNF-α, ~100× IL-6",
+        "Constipation, runners Hb +8.4%, bone density, fatigue, swim studies"
+      ]
+    },
+    {
+      "topic": "Q&A — fulvic acids, Candida TH-10, SIBO, FMT, H₂O₂",
+      "speakers": ["Ross Pelton", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "vitamin_supplement", "immune"],
+      "subtopics": [
+        "Fulvic acids as mineral transporters in ferment",
+        "E. faecalis TH-10 / phenyllactic acid for Candida",
+        "SIBO titration; FMT; food-grade peroxide caution"
+      ]
+    },
+    {
+      "topic": "Extended Q&A — custom probiotics, delivery, Acid Block, rapamycin",
+      "speakers": ["Ross Pelton", "Melvin Nario", "Bill Clearfield", "panel"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "detox"],
+      "subtopics": [
+        "Custom oral probiotics still fail without diet substrates",
+        "RX Vitamins Acid Block (DGL + alginate); ME-3 glutathione",
+        "Rapamycin ~5–6 mg weekly; autophagy vs chronic mTOR"
+      ]
+    },
+    {
+      "topic": "Closing — sample kits, Philippines conference, CME housekeeping",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Dr. Quinn", "panel"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "US attendee sample kits via Pelton",
+        "Healing Revolution Aug 14–16 recordings",
+        "CME $30 / 2 AMA credits when links restore"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-08-06/",
     "raw": "Research/lectures/clearfield-webinar-2024-08-06/raw/",
@@ -25,8 +127,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-08-06/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-08-06/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-08-06/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-08-06/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Ross Pelton postbiotic metabolites / oral probiotic dilemma / microbiome theory of aging. Secondary: rapamycin autophagy Q&A. Local MedNote complete; transcript_only (0 screenshots)."
 }

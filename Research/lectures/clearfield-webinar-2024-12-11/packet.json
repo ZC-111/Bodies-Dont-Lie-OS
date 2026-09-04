@@ -1,13 +1,159 @@
 {
   "id": "clearfield-webinar-2024-12-11",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — December 11, 2024: Soy Foods, Isoflavones & Controversies",
+  "speaker": "Bill Clearfield (host); Mark Messina, PhD (keynote); Dr. Melvin Nario; Benoit Tano; Stefan Hartman (panel)",
   "approx_date": "2024-12-11",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 124,
   "duration": "2 h 4 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/TNvBcRwwSnrkWGe2_L3i3lGvYYk",
   "otter_id": "TNvBcRwwSnrkWGe2_L3i3lGvYYk",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "hormone", "immune"],
+  "themes": [
+    "soy_nutrition",
+    "isoflavones",
+    "protein_quality",
+    "cardiometabolic",
+    "breast_cancer",
+    "mens_hormone_myths",
+    "thyroid_safety",
+    "ultra_processed_foods",
+    "seed_oils",
+    "gmo_glyphosate",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "cardio",
+    "hormone",
+    "detox"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — CME, guest intro, Messina bio",
+      "speakers": ["Bill Clearfield", "Dr. Nario", "Mark Messina"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "CME 2 credits / $30",
+        "Eric Estevedo welcome",
+        "Soy cultural fear narrative"
+      ]
+    },
+    {
+      "topic": "Soy protein quality, PDCAAS, muscle building",
+      "speakers": ["Mark Messina"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Soy ~42% calories from protein; PDCAAS 1.0",
+        "Complete vs incomplete protein myth",
+        "Resistance exercise ≫ protein ≫ protein type",
+        "2018 meta: soy ≈ whey for strength/lean mass"
+      ]
+    },
+    {
+      "topic": "LDL cholesterol, soybean oil, FDA heart claims",
+      "speakers": ["Mark Messina"],
+      "branch": "nutrition",
+      "terms": ["cardio"],
+      "subtopics": [
+        "Soy protein LDL ↓ 3–4%; FDA claim 25 g/day",
+        "Intrinsic vs extrinsic (Jenkins) LDL effects",
+        "Soybean oil #1 US edible oil; >7% calories",
+        "FDA 2017 soybean oil heart claim"
+      ]
+    },
+    {
+      "topic": "Isoflavones, breast cancer prevention & survivors, skin",
+      "speakers": ["Mark Messina", "Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["hormone", "vitamin_supplement"],
+      "subtopics": [
+        "Japan 30–50 mg vs West ≤3 mg isoflavones/day",
+        "Isoflavones ≠ hormone estrogen (RCT meta)",
+        "Early-life intake for maximal BC prevention",
+        "Shanghai survival study; ACS/AICR supportive",
+        "Skin photoaging RCT: soy vs casein"
+      ]
+    },
+    {
+      "topic": "Male feminization myths, thyroid, soy allergy",
+      "speakers": ["Mark Messina"],
+      "branch": "nutrition",
+      "terms": ["hormone"],
+      "subtopics": [
+        "41 RCTs: no effect on T or estrogen in men",
+        "Oligospermia case reports at 80 mg/day",
+        "Thyroid meta 2019: null T4/T3",
+        "FDA 2017 safety review; Big-9 allergy low prevalence"
+      ]
+    },
+    {
+      "topic": "Ultra-processed foods / Nova critique vs soy products",
+      "speakers": ["Mark Messina"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Plant milks/meats classified Nova group 4",
+        "Nova processing vs nutrient quality flaws",
+        "Soy milk vs cow’s milk meta: lipids/BP/CRP"
+      ]
+    },
+    {
+      "topic": "Seed oils defense — linoleic acid, inflammation, outcomes",
+      "speakers": ["Mark Messina"],
+      "branch": "nutrition",
+      "terms": ["cardio"],
+      "subtopics": [
+        "Hateful Eight listed",
+        "n-6:n-3 ratio irrelevant",
+        "RCT metas refute linoleic inflammation",
+        "Nordic 2024: replace SFA with n-6 PUFA"
+      ]
+    },
+    {
+      "topic": "GMO soy, glyphosate, intake recommendations",
+      "speakers": ["Mark Messina"],
+      "branch": "nutrition",
+      "terms": ["detox", "vitamin_supplement"],
+      "subtopics": [
+        "~94% US soy GMO (2020)",
+        "EPA glyphosate not likely carcinogenic (cited)",
+        "Retail tofu/soy milk mostly non-GMO",
+        "Recommend ~2 servings/day; ≤4 upper practical"
+      ]
+    },
+    {
+      "topic": "Q&A — miso, genistein, vegan intake, seed-oil debate",
+      "speakers": ["Mark Messina", "Benoit Tano", "Dr. Nario", "Stefan Hartman", "Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["hormone", "cardio", "vitamin_supplement"],
+      "subtopics": [
+        "Food vs isolate vs oil components",
+        "Extreme-dose gynecomastia context (~360 mg)",
+        "Genistein/daidzein/glycitein ratios; hot flashes",
+        "Hartman vs Messina on seed-oil epidemiology",
+        "Bill Harris: raise omega-3, ignore ratio"
+      ]
+    },
+    {
+      "topic": "Closing — Mira hormone testing next week; holiday break",
+      "speakers": ["Bill Clearfield", "Dr. Nario", "Mark Messina"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "hormone"],
+      "subtopics": [
+        "Next: Mira Neuro Care hormone testing",
+        "Off Christmas Eve & New Year’s Eve",
+        "Vegas meetup; Dr. Burgess well-wishes"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-12-11/",
     "raw": "Research/lectures/clearfield-webinar-2024-12-11/raw/",
@@ -26,8 +172,16 @@
     "filename_pattern": "slide-2024-12-11-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-12-11/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-12-11/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-12-11/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-12-11/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Mark Messina soy deep-dive (protein quality, LDL, isoflavones, breast cancer survivors, male hormones, thyroid, allergy, Nova/UPF, seed oils, GMO). Secondary: extended Q&A (Tano/Nario/Hartman) on genistein, miso, vegan intake, seed-oil epidemiology. Local MedNote (Gem recreation)."
 }

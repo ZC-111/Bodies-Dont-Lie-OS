@@ -1,13 +1,133 @@
 {
   "id": "clearfield-webinar-2025-01-29",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar \u2014 Poly-MVA / LAMC Mitochondrial Medicine",
+  "speaker": "Al Sanchez (key); Bill Clearfield (host); Melvin Nario (moderator)",
   "approx_date": "2025-01-29",
+  "event": "Clearfield Training Program \u2014 Tuesday Integrative Health Webinar",
   "duration": "1 h 57 min",
+  "duration_min": 117,
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/Ts2MMXvFk3VIGcyQs8K33dvV7lk",
   "otter_id": "Ts2MMXvFk3VIGcyQs8K33dvV7lk",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "nutrition",
+    "immune",
+    "oncology-support"
+  ],
+  "themes": [
+    "mitochondrial_medicine",
+    "poly_mva",
+    "cancer_support",
+    "radiation_protection",
+    "mold_fatigue",
+    "hashimoto_ebv",
+    "iv_nutrient_stacking",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "detox",
+    "cardio",
+    "immune",
+    "oncology"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Open \u2014 Poly-MVA context / mold brain-fog anecdote",
+      "speakers": [
+        "Bill Clearfield",
+        "Eric",
+        "Al Sanchez"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "vitamin_supplement",
+        "detox"
+      ]
+    },
+    {
+      "topic": "Tip \u2014 Hashimoto\u2019s, EBV reactivation, vitamin D",
+      "speakers": [
+        "Melvin Nario",
+        "Bill Clearfield"
+      ],
+      "branch": "immune",
+      "terms": [
+        "immune",
+        "vitamin_supplement"
+      ]
+    },
+    {
+      "topic": "Al Sanchez \u2014 mitochondrial medicine / energy framing",
+      "speakers": [
+        "Al Sanchez",
+        "Melvin Nario"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "vitamin_supplement"
+      ]
+    },
+    {
+      "topic": "LAMC mechanism, dose ladder, radiation & stacking protocols",
+      "speakers": [
+        "Al Sanchez"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "vitamin_supplement",
+        "oncology",
+        "detox"
+      ],
+      "subtopics": [
+        "ALA\u2013thiamine\u2013palladium complex",
+        "5\u201340 mL dosing / ALA equivalency",
+        "Radiation protection studies",
+        "IPT / glutathione / oxidative / light stacking"
+      ]
+    },
+    {
+      "topic": "Q&A \u2014 palladium safety, carriers, cachexia, contraindications",
+      "speakers": [
+        "Al Sanchez",
+        "Melvin Nario",
+        "Dr. Bennett"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "vitamin_supplement",
+        "oncology",
+        "detox"
+      ]
+    },
+    {
+      "topic": "Practice accounts / compounding pharmacies / Poly talks",
+      "speakers": [
+        "Al Sanchez",
+        "Melvin Nario"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    },
+    {
+      "topic": "Research group update + next week uveal melanoma preview",
+      "speakers": [
+        "Bill Clearfield",
+        "Dr. Quinn",
+        "Dr. Burgess"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-01-29/",
     "raw": "Research/lectures/clearfield-webinar-2025-01-29/raw/",
@@ -26,8 +146,16 @@
     "filename_pattern": "slide-2025-01-29-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-01-29/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-01-29/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-01-29/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-01-29/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary segment: Al Sanchez on Poly-MVA / LAMC as mitochondrial driver (dosing, radiation, IV stacking, palladium caveats). Secondary: Nario Hashimoto\u2013EBV\u2013vitamin D tip; mold brain-fog use. Local MedNote processed."
 }

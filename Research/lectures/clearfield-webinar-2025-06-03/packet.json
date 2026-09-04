@@ -1,13 +1,115 @@
 {
   "id": "clearfield-webinar-2025-06-03",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — June 3, 2025: Cholesterol Decoded",
+  "speaker": "Bill Clearfield (host); Dr. Tano (primary); Melvin Nario (HRV tip); Stefan Hartman (panel); Dr. Quinn",
   "approx_date": "2025-06-03",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 173,
   "duration": "2 h 53 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/glV8jJH0PlVmEafpjvon_ZOlt6g",
   "otter_id": "glV8jJH0PlVmEafpjvon_ZOlt6g",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "cardio", "hormone"],
+  "themes": [
+    "cardiometabolic",
+    "lipid_management",
+    "lipoprotein_fractionation",
+    "homocysteine",
+    "niacin",
+    "statin_critique",
+    "mthfr_methylation",
+    "hrv",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "hormone",
+    "detox",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — Reno conference logistics / tinnitus TMS + peptide protocol",
+      "speakers": ["Bill Clearfield", "Dr. Tano", "Jim Nakarato"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "pain_msk"],
+      "subtopics": [
+        "NEMA Reno November conference planning",
+        "TMS + BPC-157 peri-auricular + Neuro Shield mushrooms for tinnitus"
+      ]
+    },
+    {
+      "topic": "Tip of the week — HRV lifestyle/supplement stack; Quinn board appointment",
+      "speakers": ["Melvin Nario", "Dr. Quinn"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "Fish oil / St. John's wort / lavender / Med diet / coffee for HRV",
+        "Nevada State Board of Homeopathic Medical Examiners"
+      ]
+    },
+    {
+      "topic": "Dr. Tano — Cholesterol Decoded: Seven Countries, LDL physiology, statin harms",
+      "speakers": ["Dr. Tano", "Stefan Hartman"],
+      "branch": "nutrition",
+      "terms": ["cardio", "hormone", "vitamin_supplement"],
+      "subtopics": [
+        "Ancel Keys Seven Countries critique",
+        "LDL as hormone/Vit D/membrane substrate",
+        "Insulin → HMG-CoA reductase; CoQ10 and diabetes worsening",
+        "ApoB-100 / ApoB-48 / ApoE4; acetyl-L-carnitine shuttle"
+      ]
+    },
+    {
+      "topic": "Niacin, Repatha/PCSK9, homocysteine–oxLDL cascade, MTHFR",
+      "speakers": ["Dr. Tano", "Melvin Nario", "Stefan Hartman"],
+      "branch": "nutrition",
+      "terms": ["cardio", "vitamin_supplement", "detox"],
+      "subtopics": [
+        "Lp(a) niacin protocol vs statin non-response",
+        "Homocysteine arterial injury + foam cell plaque",
+        "Methylfolate + TMG + methylcobalamin"
+      ]
+    },
+    {
+      "topic": "Lipoprotein fractionation case + orthomolecular / dietary protocol",
+      "speakers": ["Dr. Tano", "Stefan Hartman"],
+      "branch": "nutrition",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "LDL-P / sdLDL / ApoB targets",
+        "Prophet Daniel diet; African yam; Japanese sweet potato",
+        "Omega-3, berberine, curcumin, magnesium, CoQ10"
+      ]
+    },
+    {
+      "topic": "Q&A — GH lipids n=1, ezetimibe, aromatase debate, lab discordance",
+      "speakers": ["Stefan Hartman", "Dr. Tano", "Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "hormone", "vitamin_supplement"],
+      "subtopics": [
+        "HGH lowered LDL-P but worsened insulin resistance",
+        "Grape seed as aromatase inhibitor hypothesis",
+        "MPO / Lp-PLA2; Vibrant vs LabCorp",
+        "Estrogen/ASA/ASO adjuncts for Lp(a)"
+      ]
+    },
+    {
+      "topic": "Closing — conference recap, org building, next mushrooms webinar",
+      "speakers": ["Bill Clearfield", "Dr. Quinn", "Dr. Tano", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "London June 16–17; Sochi Palomino seven mushrooms next",
+        "NEMA Reno Nov 7–9; membership / CME structure"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-06-03/",
     "raw": "Research/lectures/clearfield-webinar-2025-06-03/raw/",
@@ -26,8 +128,16 @@
     "filename_pattern": "slide-2025-06-03-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-06-03/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-06-03/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-06-03/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-06-03/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Dr. Tano Cholesterol Decoded (Seven Countries critique, LDL physiology, statin/HMG-CoA, niacin/Lp(a), homocysteine–oxLDL, fractionation targets). Secondary: Nario HRV tip; Clearfield tinnitus protocol; Hartman panel; org/conference logistics. Local MedNote (Gem recreation)."
 }

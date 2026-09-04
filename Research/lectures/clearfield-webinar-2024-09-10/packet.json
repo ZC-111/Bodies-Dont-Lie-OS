@@ -1,13 +1,126 @@
 {
   "id": "clearfield-webinar-2024-09-10",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — September 10, 2024: Classical Homeopathy Cases (Stroke & Crohn’s)",
+  "speaker": "Bill Clearfield (host); Dr. Parven (Aaron) Zerrin (primary); Dr. Melvin Nario (panel)",
   "approx_date": "2024-09-10",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 150,
   "duration": "2 h 30 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/dliX4LcIPRKy-7vE3xcjJ4TlkiI",
   "otter_id": "dliX4LcIPRKy-7vE3xcjJ4TlkiI",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["materia-medica", "nutrition", "immune", "neurology"],
+  "themes": [
+    "classical_homeopathy",
+    "homotoxicology",
+    "gemmotherapy",
+    "stroke_neurorehab",
+    "crohns_autoimmunity",
+    "constitutional_prescribing",
+    "practice_systems",
+    "medical_education"
+  ],
+  "medical_terms": [
+    "herbal_botanical",
+    "detox",
+    "vitamin_supplement",
+    "cardio",
+    "pain_msk"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — Canada supplement restrictions, influencers, Bio Quantum intro",
+      "speakers": ["Bill Clearfield", "Dr. Parven Zerrin", "Dr. Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "herbal_botanical"],
+      "subtopics": [
+        "MD license risk for herbal/supplement recommending in Canada",
+        "Unlicensed hormone influencers vs credentialed care",
+        "Sept 27 principles-of-homeopathy certification webinar"
+      ]
+    },
+    {
+      "topic": "Philosophy — one disharmony, vital force, remedy vs medication",
+      "speakers": ["Dr. Parven Zerrin"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical", "detox"],
+      "subtopics": [
+        "Treat person not disease label",
+        "Hahnemann / Organon natural-law framing",
+        "Lifestyle prerequisites for cure"
+      ]
+    },
+    {
+      "topic": "Method — six compatible protocols + prior thyroid/infertility recap",
+      "speakers": ["Dr. Parven Zerrin"],
+      "branch": "integrative-medicine",
+      "terms": ["herbal_botanical", "detox", "vitamin_supplement"],
+      "subtopics": [
+        "Simillimum → homotoxicology → gemmo → oligo → sarcodes → tissue salts",
+        "Art vs science of homeopathy",
+        "Bio Quantum MD conversion goal"
+      ]
+    },
+    {
+      "topic": "Case — post-stroke hemiparesis / seizures (Arnica → Causticum)",
+      "speakers": ["Dr. Parven Zerrin"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "pain_msk", "herbal_botanical"],
+      "subtopics": [
+        "Reconstruct constitution after suppression",
+        "Injury-first Arnica; pathway complexes; brain tissue salts",
+        "Taper at ~85% to avoid proving; durable recovery"
+      ]
+    },
+    {
+      "topic": "Q&A — placebo, quantum/water memory, Materia Medica resources",
+      "speakers": ["Dr. Parven Zerrin", "Bill Clearfield", "Dr. Melvin Nario"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical"],
+      "subtopics": [
+        "Waves/quantum objects vs particle assays",
+        "Vaccine-analogy explainer for MDs",
+        "Concordant MM / Desktop Companion / Morrison"
+      ]
+    },
+    {
+      "topic": "Case — advanced Crohn’s (Nux vomica, stop cortisone, gut reset)",
+      "speakers": ["Dr. Parven Zerrin"],
+      "branch": "nutrition",
+      "terms": ["detox", "herbal_botanical", "vitamin_supplement"],
+      "subtopics": [
+        "Colocynthis/Bryonia pain; Nux for polypharmacy intoxication",
+        "Mineralize before drainage; gemmotherapy GI/liver",
+        "Baby-food plant diet; clear imaging; no relapse to 2024"
+      ]
+    },
+    {
+      "topic": "Education + combining Rx with homeopathy",
+      "speakers": ["Bill Clearfield", "Dr. Parven Zerrin", "Dr. Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "herbal_botanical"],
+      "subtopics": [
+        "Diploma L1–L3 timing; Clearfield group discount",
+        "Steroid conflict; functional not pharmacokinetic interaction",
+        "Arnica still valid in unhealed ‘chronic’ injury"
+      ]
+    },
+    {
+      "topic": "Close — research group, Clearfield homeopathy story, next week Block",
+      "speakers": ["Bill Clearfield", "Dr. Parven Zerrin", "Dr. Melvin Nario", "Dr. Itami"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Indonesia MD graduates; Philippines conference note",
+        "Homegrown outcomes research kickoff",
+        "Hemorrhoid 48 conversion anecdote; Jeff Block cannabis next"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-09-10/",
     "raw": "Research/lectures/clearfield-webinar-2024-09-10/raw/",
@@ -25,8 +138,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-09-10/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-09-10/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-09-10/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-09-10/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Dr. Parven Zerrin classical homeopathy + six-protocol integrative stack; deep-dive stroke (Causticum/Arnica) and Crohn’s (Nux vomica) cases. Secondary: placebo/quantum Q&A, Bio Quantum education, Clearfield research-group kickoff. Local MedNote (Gem recreation)."
 }

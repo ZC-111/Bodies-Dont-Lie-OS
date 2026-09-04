@@ -1,13 +1,77 @@
 {
   "id": "clearfield-webinar-2026-06-02",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — June 2, 2026: Cancer Destruction Kits & Low-Dose Colchicine (Nicholas St. John)",
+  "speaker": "Nicholas St. John (primary); Bill Clearfield (host); Melvin Nario (tip)",
   "approx_date": "2026-06-02",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 93,
   "duration": "1 h 33 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/avbRWMav2fwgobz9r7HjwR4z44I",
   "otter_id": "avbRWMav2fwgobz9r7HjwR4z44I",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["immune", "nutrition"],
+  "themes": [
+    "oncology_integrative",
+    "cardiometabolic",
+    "inflammation",
+    "dmso",
+    "private_health_association",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "immune",
+    "vitamin_supplement",
+    "detox",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "IFM Annual International Conference recap / conference economics",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — Low-dose colchicine for residual inflammatory CV risk (LoDoCo2 / COLCOT)",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio"],
+      "subtopics": [
+        "NLRP inflammasome / IL-1β / IL-6",
+        "Generic 0.6 mg vs branded 0.5 mg cost",
+        "High CAC use case"
+      ]
+    },
+    {
+      "topic": "Nicholas St. John — Alt One cancer destruction kits (fenbendazole, B17, CDS, DMSO)",
+      "speakers": ["Nicholas St. John"],
+      "branch": "immune",
+      "terms": ["immune", "vitamin_supplement", "detox"],
+      "subtopics": [
+        "Prevention stack (C / D / B17)",
+        "Thermography early warning",
+        "Joe Tippens protocol + Keytruda confounder",
+        "Case vignettes / super kit + ivermectin"
+      ]
+    },
+    {
+      "topic": "Q&A — DMSO/CDS protocols, CMV colitis peptides, blood cancers",
+      "speakers": ["Nicholas St. John", "Melvin Nario", "Dr. Collins", "Jessica"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "detox"]
+    },
+    {
+      "topic": "Stroke reversal kit / DMSO evidence / private health association legality",
+      "speakers": ["Nicholas St. John", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "cardio"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-06-02/",
     "raw": "Research/lectures/clearfield-webinar-2026-06-02/raw/",
@@ -26,8 +90,16 @@
     "filename_pattern": "slide-2026-06-02-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-06-02/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-06-02/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-06-02/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-06-02/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Nicholas St. John (Alt One) on cancer destruction kits, CDS/DMSO, stroke kit, PHA model. Tip: Nario low-dose colchicine (LoDoCo2/COLCOT). Local MedNote (Gem recreation)."
 }

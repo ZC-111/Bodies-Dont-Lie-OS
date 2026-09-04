@@ -10,6 +10,6 @@ Source: **Clearfield Training Program** channel on Otter.ai.
 | Cadence | Weekly Tuesday Integrative Health Webinar |
 | Transcripts exported | 98 |
 | Packets created | 98 |
-| Fully processed (MedNote) | 1 (`clearfield-webinar-2026-06-30`) |
+| Fully processed (MedNote) | 98 (complete; see `otter-manifest.json`) |
 
 `otter-manifest.json` is the source of truth for batch status (`exported`, `slides_downloaded`, `packet_created`, `processed`).

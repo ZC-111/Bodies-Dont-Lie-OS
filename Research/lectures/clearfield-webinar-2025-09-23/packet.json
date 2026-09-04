@@ -1,13 +1,91 @@
 {
   "id": "clearfield-webinar-2025-09-23",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — September 23, 2025: Brain Optimization (Hartman) & Glycocalyx Tip",
+  "speaker": "Bill Clearfield (host); Stefan Hartman, PA (primary lecturer); Dr. Nario (tip); panel (Amerling, Quinn, Hall, Arnot, Urban)",
   "approx_date": "2025-09-23",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 107,
   "duration": "1 h 47 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/zlsEo9I_-f-RI9YXiSfAueScYNM",
   "otter_id": "zlsEo9I_-f-RI9YXiSfAueScYNM",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "brain_optimization",
+    "mental_health",
+    "cold_plunge",
+    "sauna_detox",
+    "nutrient_deficiency",
+    "iron_deficiency",
+    "leaky_gut",
+    "hormone_optimization",
+    "glycocalyx",
+    "pain_msk",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "pain_msk",
+    "detox",
+    "hormone",
+    "immune",
+    "regenerative"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — pregnenolone autism speech case / book donation logistics",
+      "speakers": ["Bill Clearfield", "Speaker 1", "Speaker 2"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Pregnenolone 400 mg → conversational speech",
+        "Cycle high dose every 3 months"
+      ]
+    },
+    {
+      "topic": "Tip of the week — Sulodexide / endothelial glycocalyx / rhamnan sulfate",
+      "speakers": ["Dr. Nario", "Speaker 4", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["cardio", "detox", "vitamin_supplement"],
+      "subtopics": [
+        "Sulodexide 80% heparin-like + 20% dermatan sulfate",
+        "EU availability / US personal-use import",
+        "Rhamnan sulfate / Arterosil HP + NO — BP & carotid plaque signals"
+      ]
+    },
+    {
+      "topic": "Stefan Hartman — Brain optimization four pillars (Bologna preview)",
+      "speakers": ["Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "vitamin_supplement", "hormone", "detox"],
+      "subtopics": [
+        "Cold plunge 35–36°F pain/mood/brown fat",
+        "Finnish sauna GH & dementia literature",
+        "Red light for trigeminal neuralgia",
+        "Synapsin / lithium orotate / Mg threonate / ketamine",
+        "Leaky gut micronutrient failure & iron deficiency",
+        "LDN / methylene blue",
+        "Hormones + nandrolone microdose for pain/mood"
+      ]
+    },
+    {
+      "topic": "Q&A — sauna volume/aldosterone, Synapsin dosing, cold plunge gender, creatine, sequencing",
+      "speakers": ["Stefan Hartman", "Dr. Amerling", "Dr. Nario", "Dr. Quinn", "Dr. Hall", "Bill Clearfield", "Dr. Arnot"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "vitamin_supplement", "pain_msk", "hormone"]
+    },
+    {
+      "topic": "Conference planning — Mrs. Hartman Nov 25 / Reno Dec CME structure",
+      "speakers": ["Bill Clearfield", "Dr. Quinn", "Dr. Nario", "Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-09-23/",
     "raw": "Research/lectures/clearfield-webinar-2025-09-23/raw/",
@@ -26,8 +104,16 @@
     "filename_pattern": "slide-2025-09-23-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-09-23/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-09-23/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-09-23/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-09-23/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Stefan Hartman brain optimization (four pillars — lifestyle/nutrients/pain/hormones; cold plunge, sauna, Synapsin, lithium orotate, iron/leaky gut, LDN, methylene blue, nandrolone). Secondary: Nario sulodexide/glycocalyx tip, Amerling sauna volume pearl, Reno Dec conference logistics. Local MedNote (Gem recreation)."
 }

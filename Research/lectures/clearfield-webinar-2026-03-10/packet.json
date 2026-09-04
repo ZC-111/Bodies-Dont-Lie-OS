@@ -1,13 +1,110 @@
 {
   "id": "clearfield-webinar-2026-03-10",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — March 10, 2026: Paul Clayton Pharmaco-Nutrition & GHK-Cu",
+  "speaker": "Paul Clayton (pharmaco-nutrition); Melvin Nario (GHK-Cu tip); Bill Clearfield (host); Aaron Marinucci (peptides)",
   "approx_date": "2026-03-10",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 106,
   "duration": "1 h 46 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/Se28ZvfBuNMYHNmwQG9ua7gbTWk",
   "otter_id": "Se28ZvfBuNMYHNmwQG9ua7gbTWk",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "pharmaco_nutrition",
+    "ultraprocessed_food",
+    "inflammasome",
+    "omega3",
+    "polyphenols",
+    "dysbiosis",
+    "prebiotic_fiber",
+    "type_b_malnutrition",
+    "peptides",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "herbal_botanical",
+    "immune",
+    "detox",
+    "peptide",
+    "cardio"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — peptide sourcing (Marinucci), conferences, attendance",
+      "speakers": ["Bill Clearfield", "Aaron Marinucci", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "peptide"]
+    },
+    {
+      "topic": "Tip of the week — GHK-Cu copper tripeptide (regenerative signaling beyond cosmetics)",
+      "speakers": ["Melvin Nario", "Aaron Marinucci", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["peptide"],
+      "subtopics": [
+        "Glycine-histidine-lysine copper gene regulation",
+        "Topical cream preferred delivery",
+        "Gut / lung / brain / fibrosis preclinical signals",
+        "Liposomal oral vs injectable"
+      ]
+    },
+    {
+      "topic": "Paul Clayton — The End of Medicine / pharmaco-nutrition vs pharmacocentric care",
+      "speakers": ["Paul Clayton"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "immune", "cardio"],
+      "subtopics": [
+        "Chronic disease prevalence explosion since 1935",
+        "Four drivers: inflammasome, dysbiosis, type B malnutrition, glycemic mismatch",
+        "Omega-6:3 ≤ 5:1 target",
+        "Polyphenols inhibit MMPs",
+        "Prebiotic fiber blend vs probiotics",
+        "FOSHU / Japan life-expectancy contrast",
+        "Early intervention before event horizon"
+      ]
+    },
+    {
+      "topic": "Q&A — pharmaco-nutrition vs generic advice, seed oils, Yudkin vs Keys",
+      "speakers": ["Melvin Nario", "Paul Clayton", "Richard"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "herbal_botanical"],
+      "subtopics": [
+        "Med-school nutrition training gap",
+        "Spice polyphenols / Indian centenarian paradox",
+        "Subsidy misallocation toward UPFs",
+        "Mediterranean diet collapse / New Nordic"
+      ]
+    },
+    {
+      "topic": "Contaminants debate — glyphosate, aspartame, bliss-point food addiction",
+      "speakers": ["Victor", "Paul Clayton"],
+      "branch": "nutrition",
+      "terms": ["detox", "immune"],
+      "subtopics": [
+        "Aspartame CSM dossier vs neurodegeneration epi",
+        "Sugar-sweetened beverages as clearer metabolic risk",
+        "MRI bliss-point engineering",
+        "Naloxone for UPF addiction"
+      ]
+    },
+    {
+      "topic": "Closing — Zn samizdat advocacy, stevia, Nevada homeopathic CME/telemedicine",
+      "speakers": ["Aaron Marinucci", "Paul Clayton", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "peptide"],
+      "subtopics": [
+        "John Snow pump analogy",
+        "tests.info omega ratio blood spot",
+        "80–90% chronic disease reduction / $4T savings estimate",
+        "Nevada Homeopathic Board licensure path"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-03-10/",
     "raw": "Research/lectures/clearfield-webinar-2026-03-10/raw/",
@@ -26,8 +123,16 @@
     "filename_pattern": "slide-2026-03-10-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-03-10/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-03-10/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-03-10/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-03-10/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Featured guest: Paul Clayton pharmaco-nutrition ('The End of Medicine'). Tip: Nario GHK-Cu. Q&A: seed oils, polyphenols, aspartame debate, bliss-point addiction. Local MedNote (Gem recreation)."
 }

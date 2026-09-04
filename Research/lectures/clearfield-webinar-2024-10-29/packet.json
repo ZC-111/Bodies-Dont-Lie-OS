@@ -1,13 +1,110 @@
 {
   "id": "clearfield-webinar-2024-10-29",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — Cash-Based Practice / Stairway System (Gallogly)",
+  "speaker": "Matthew Gallogly (key); Bill Clearfield (host); Stefan Hartman (opener)",
   "approx_date": "2024-10-29",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
   "duration": "1 h 42 min",
+  "duration_min": 102,
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/P7cEH8dwjVWTUDcsolAayRGqqp4",
   "otter_id": "P7cEH8dwjVWTUDcsolAayRGqqp4",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["practice-systems"],
+  "themes": [
+    "practice_systems",
+    "cash_based_medicine",
+    "premium_pricing",
+    "patient_education",
+    "regenerative_marketing",
+    "burnout_prevention"
+  ],
+  "medical_terms": [
+    "practice_systems",
+    "regenerative",
+    "hormone",
+    "pain_msk"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Stefan opener — red light, cryotherapy Morozko Pro, EWOT playground",
+      "speakers": ["Bill Clearfield", "Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["regenerative", "practice_systems"]
+    },
+    {
+      "topic": "Intro — ditch insurance / get paid what you're worth",
+      "speakers": ["Bill Clearfield", "Matthew Gallogly"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Case studies — Goyle, Demir, Gapp, Bucha cash transformations",
+      "speakers": ["Matthew Gallogly"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "regenerative"],
+      "subtopics": [
+        "Ash Goyle regenerative spine $125–135K/mo",
+        "Ariana Demir rural biologics 8 days/mo",
+        "Tracy Gapp $385–410K/mo without seeing patients",
+        "Treb Bucha women's waist-focus dual clinics"
+      ]
+    },
+    {
+      "topic": "Stairway System — Beachhead (one offer / one market)",
+      "speakers": ["Matthew Gallogly"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "One message one market one offer",
+        "80/20 revenue concentration",
+        "Nicole Garcia ED/HRT focus case"
+      ]
+    },
+    {
+      "topic": "Educate & Excite — know/like/trust via content",
+      "speakers": ["Matthew Gallogly"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "55+ ideal cash patient",
+        "YouTube education over Facebook leads",
+        "Joshua Schachter $235K/mo + indoctrination video"
+      ]
+    },
+    {
+      "topic": "Convert — scripts, signature packages, premium pricing",
+      "speakers": ["Matthew Gallogly"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Costs ≤25% of price",
+        "No à la carte / no discounting",
+        "Amy Duffy $5.5K→$10K package doubling"
+      ]
+    },
+    {
+      "topic": "Resources / Scottsdale Dec 7 event / 5-1-30 reactivation",
+      "speakers": ["Matthew Gallogly"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Q&A — PAs/NPs/pharmacists, raise prices 25%, compliance",
+      "speakers": ["Bill Clearfield", "Matthew Gallogly"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Housekeeping — next week microbiome (Dobner); AMMG Salt Lake",
+      "speakers": ["Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-10-29/",
     "raw": "Research/lectures/clearfield-webinar-2024-10-29/raw/",
@@ -26,8 +123,16 @@
     "filename_pattern": "slide-2024-10-29-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-10-29/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-10-29/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-10-29/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-10-29/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Practice-systems webinar. Key segment: Matthew Gallogly Stairway System (beachhead / educate-excite / convert) with cash-practice case studies. Stefan device opener; next week clinical (microbiome)."
 }

@@ -1,13 +1,140 @@
 {
   "id": "clearfield-webinar-2024-09-17",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — September 17, 2024: Evolving Cannabis Space, ECS & Evidence (Jeffrey Block)",
+  "speaker": "Bill Clearfield (host); Jeffrey Block (primary); Melvin Nario; Dr. Leonard; Robert Quinn (panel); Dr. Siegel",
   "approx_date": "2024-09-17",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 151,
   "duration": "2 h 31 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/XFeeYcx6xIW9i1HcL0VfsCVvAjY",
   "otter_id": "XFeeYcx6xIW9i1HcL0VfsCVvAjY",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "pain",
+    "immune",
+    "nutrition"
+  ],
+  "themes": [
+    "cannabis_therapeutics",
+    "endocannabinoid_system",
+    "pain_management",
+    "public_health_policy",
+    "bioethics",
+    "adolescent_neurology",
+    "oncology_adjunct",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "herbal_botanical",
+    "pain_msk",
+    "immune",
+    "vitamin_supplement",
+    "cardio"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — CME setup, Emerald Cup context, Block intro",
+      "speakers": [
+        "Bill Clearfield",
+        "Jeffrey Block"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    },
+    {
+      "topic": "Evolving cannabis space — history, Schedule I, landrace vs modern breeding",
+      "speakers": [
+        "Jeffrey Block"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "herbal_botanical"
+      ],
+      "subtopics": [
+        "FDA vs DEA axes",
+        "USP removal / medical education gap",
+        "Afghani Kush / myrcene / mega-THC",
+        "Florida recreational ballot / DEA rescheduling timing"
+      ]
+    },
+    {
+      "topic": "Endocannabinoid system — CB1/CB2, anandamide/2-AG, NIH framing",
+      "speakers": [
+        "Jeffrey Block"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "herbal_botanical",
+        "pain_msk",
+        "immune"
+      ],
+      "subtopics": [
+        "No brainstem respiratory CB receptors",
+        "Retrograde synaptic fine-tuning",
+        "CB2 gut / qi bridge",
+        "Endorphin / endocannabinoid / endovanilloid pain triad"
+      ]
+    },
+    {
+      "topic": "Bioethics, public health & 2017 National Academies evidence ladder",
+      "speakers": [
+        "Jeffrey Block"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "pain_msk",
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Physician state vs DEA double bind",
+        "Tobacco↓ vs opioid overdose↑",
+        "CINV conclusive; pain/MS substantial",
+        "Surgeon Generals Murthy / Adams clips"
+      ]
+    },
+    {
+      "topic": "Q&A — psychiatry, Dunedin IQ, delta-8, edibles, cancer/RSO, Schedule III",
+      "speakers": [
+        "Jeffrey Block",
+        "Melvin Nario",
+        "Dr. Leonard",
+        "Robert Quinn",
+        "Bill Clearfield",
+        "Dr. Siegel"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "herbal_botanical",
+        "pain_msk",
+        "cardio",
+        "immune"
+      ],
+      "subtopics": [
+        "Adolescent brain / wait until ~25",
+        "11-hydroxy-THC edible kinetics",
+        "Farm Bill CBD flood → delta-8 loophole",
+        "RSO anecdotal vs evidence",
+        "Schedule III research unlock / possible Schedule VI"
+      ]
+    },
+    {
+      "topic": "Housekeeping — CME restore, FIRM Oct 7, homeopathy Sep 27",
+      "speakers": [
+        "Bill Clearfield",
+        "Melvin Nario"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-09-17/",
     "raw": "Research/lectures/clearfield-webinar-2024-09-17/raw/",
@@ -25,8 +152,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-09-17/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-09-17/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-09-17/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-09-17/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Jeffrey Block cannabis/ECS deep dive — plant evolution, CB1/CB2 mechanisms, NASEM evidence tiers, bioethics, Surgeon General arc, extended Q&A (Dunedin, delta-8, edibles/11-OH-THC, cancer/RSO, Schedule III). Local MedNote (Gem recreation)."
 }

@@ -1,13 +1,96 @@
 {
   "id": "clearfield-webinar-2025-01-08",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — January 8, 2025: Rapid Weight Loss, Muscle Preservation, NAD & Fortetropin",
+  "speaker": "Bill Clearfield (host); Chris Meletis (primary); Melvin Nario (fellowship + Q&A); Dr. Halasa (cyclodextrin)",
   "approx_date": "2025-01-08",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 133,
   "duration": "2 h 13 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/5HPCyqwQxi9QD1of8g-CPHrnFcc",
   "otter_id": "5HPCyqwQxi9QD1of8g-CPHrnFcc",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "sarcopenia",
+    "muscle_preservation",
+    "myostatin",
+    "glp1_weight_loss",
+    "euthyroid_sick",
+    "nad_mitochondria",
+    "detox",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "hormone",
+    "detox",
+    "pain_msk"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — CME kickoff, thyroid testing limits, Weil fellowship plans",
+      "speakers": ["Bill Clearfield", "Chris Meletis", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "practice_systems"],
+      "subtopics": [
+        "Free T3 / reverse T3 vs TSH+T4 only",
+        "Nario Andrew Weil Arizona fellowship",
+        "CME $30 / 2 AMA credits"
+      ]
+    },
+    {
+      "topic": "Chris Meletis — rapid weight loss, sarcopenia, euthyroid sick, myostatin–irisin",
+      "speakers": ["Chris Meletis"],
+      "branch": "nutrition",
+      "terms": ["hormone", "vitamin_supplement", "detox", "cardio"],
+      "subtopics": [
+        "GLP-1 / bariatric / crash-diet muscle + toxin dump",
+        "Muscle as endocrine organ / myokines",
+        "Free T3 ↓ / reverse T3 ↑ under calorie stress",
+        "Myostatin ↑ → irisin ↓ → impaired fat browning"
+      ]
+    },
+    {
+      "topic": "NAD decline, mito stack, detox phases, weight-loss protocol",
+      "speakers": ["Chris Meletis"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "detox", "cardio"],
+      "subtopics": [
+        "NAD ~65% drop age 30–70; 14k-step exception",
+        "NR + CoQ10 + PQQ + resveratrol",
+        "Phase I→II→III toxin handling",
+        "OSA screen; protein/leucine for anabolic resistance"
+      ]
+    },
+    {
+      "topic": "Q&A — IV NR vs NAD, cyclodextrin, Fortetropin, cancer caution",
+      "speakers": ["Chris Meletis", "Bill Clearfield", "Dr. Halasa", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "detox"],
+      "subtopics": [
+        "IV NR better tolerated / shorter than IV NAD",
+        "Halasa cyclodextrin delivery + toxin clearance",
+        "Fortetropin ~18% protein synthesis / 21 days",
+        "NR dosing 500–1000 mg; egg allergy / cancer no-fly"
+      ]
+    },
+    {
+      "topic": "Closing — research group, Nevada/Hawaii conferences, next speakers",
+      "speakers": ["Bill Clearfield", "Dr. Quinn", "Dr. Halasa", "panel"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Saturday real-world evidence / master's curriculum push",
+        "Meletis April return invite",
+        "Next week: Greg Nanacarelli / Thorn testing"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-01-08/",
     "raw": "Research/lectures/clearfield-webinar-2025-01-08/raw/",
@@ -26,8 +109,16 @@
     "filename_pattern": "slide-2025-01-08-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-01-08/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-01-08/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-01-08/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-01-08/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Chris Meletis on rapid weight loss — sarcopenia, euthyroid sick (free T3/rT3), myostatin–irisin fat browning, NAD/NR mito support, Fortetropin, phase I–II detox. Secondary: Halasa cyclodextrin; Nario Weil fellowship; research-group logistics. Local MedNote (Gem recreation)."
 }

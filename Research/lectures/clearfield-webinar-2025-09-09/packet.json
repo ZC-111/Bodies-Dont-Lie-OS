@@ -1,13 +1,109 @@
 {
   "id": "clearfield-webinar-2025-09-09",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — Mold, Mycotoxins & Vitamin C Safety",
+  "speaker": "Andrew Campbell (key); Bill Clearfield (host); Melvin Nario (tip)",
   "approx_date": "2025-09-09",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
   "duration": "2 h 16 min",
+  "duration_min": 136,
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/v3Md09l1C_mz3hrDPWngln5SYQw",
   "otter_id": "v3Md09l1C_mz3hrDPWngln5SYQw",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["immune", "detox", "nutrition"],
+  "themes": [
+    "mold_mycotoxins",
+    "neurotoxicity",
+    "lyme_differential",
+    "antifungal_therapy",
+    "vitamin_c_iron_safety",
+    "sinusitis",
+    "microbiome",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "mycotoxin",
+    "itraconazole",
+    "gliotoxin",
+    "zearalenone",
+    "vitamin_c",
+    "ferritin",
+    "lyme",
+    "detox",
+    "probiotic"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — logistics, global mold consult reach, December Reno recording",
+      "speakers": ["Bill Clearfield", "Andrew Campbell", "Dr. Quinn", "John"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — high-dose oral vitamin C, Fenton reaction, ferritin/iron panel",
+      "speakers": ["Melvin Nario", "Bill Clearfield", "Dr. Patel"],
+      "branch": "nutrition",
+      "terms": ["vitamin_c", "ferritin"],
+      "subtopics": [
+        "Immune / antihistamine / wound-healing uses",
+        "Fe3+ to Fe2+ Fenton oxidative injury",
+        "Transferrin saturation vs inflammatory ferritin"
+      ]
+    },
+    {
+      "topic": "Andrew Campbell — mold/mycotoxins detect-remove-repair; brain neurotoxicity",
+      "speakers": ["Andrew Campbell"],
+      "branch": "integrative-medicine",
+      "terms": ["mycotoxin", "neurotoxicity", "detox"],
+      "subtopics": [
+        "Spore vs mycotoxin size; inhalation exposure",
+        "ASD / neurodegeneration / misdiagnoses",
+        "Neuropathy series; MS gliotoxin; Alzheimer fungal autopsy"
+      ]
+    },
+    {
+      "topic": "Lyme vs mycotoxins — testing limits, multi-peptide ELISA, PTLDS antibiotic evidence",
+      "speakers": ["Andrew Campbell"],
+      "branch": "immune",
+      "terms": ["lyme", "mycotoxin"],
+      "subtopics": [
+        "84% Johns Hopkins referrals not active Lyme",
+        "Unsuitable urine PCR / CD57 / LTT",
+        "7–14 day early Rx; no sustained PTLDS antibiotic benefit"
+      ]
+    },
+    {
+      "topic": "Mycotoxin labs & protocol — serum IgG/IgE, itraconazole, Detox Pure, avoid binders/GSH",
+      "speakers": ["Andrew Campbell"],
+      "branch": "integrative-medicine",
+      "terms": ["mycotoxin", "itraconazole", "detox"],
+      "subtopics": [
+        "CDC/FDA urine test critique",
+        "Itraconazole 100 mg BID + 8 supplements + low-histamine diet",
+        "Gliotoxin + glutathione cytotoxicity warning"
+      ]
+    },
+    {
+      "topic": "Q&A — Sporanox, fungal sinusitis (Ponikau/Mayo), zearalenone hormones, HBOT/Clorox myths",
+      "speakers": ["Andrew Campbell", "Melvin Nario", "Bill Clearfield", "Dr. Benoit"],
+      "branch": "integrative-medicine",
+      "terms": ["itraconazole", "sinusitis", "zearalenone"],
+      "subtopics": [
+        "96% mold in chronic sinusitis; cribriform brain path",
+        "Zearalenone: low T, premature puberty, early menopause",
+        "Spore-forming bacilli; melatonin 3 mg brain clearance"
+      ]
+    },
+    {
+      "topic": "Closing — Reno CME, tribal apothecary/licensing, Austria conference",
+      "speakers": ["Bill Clearfield", "Dr. Quinn", "Dr. Tanner", "John", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-09-09/",
     "raw": "Research/lectures/clearfield-webinar-2025-09-09/raw/",
@@ -26,8 +122,16 @@
     "filename_pattern": "slide-2025-09-09-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-09-09/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-09-09/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-09-09/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-09-09/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Andrew Campbell mold/mycotoxins (detect-remove-repair; serum IgG/IgE; itraconazole protocol; Lyme differential). Tip: Nario high-dose vitamin C vs high ferritin/Fenton. Local MedNote (Gem recreation)."
 }

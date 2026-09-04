@@ -1,13 +1,140 @@
 {
   "id": "clearfield-webinar-2024-11-06",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — November 6, 2024: Microbiome Diversity & Fecal Microbiota Transplant",
+  "speaker": "Bill Clearfield (host); Piper Dobner, NMD (primary — microbiome/FMT); Melvin Nario (Q&A); Dr. Aaron (Bio Quantum conference)",
   "approx_date": "2024-11-06",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 138,
   "duration": "2 h 18 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/P1FgRy3FvTrrNYsXISdsJKJeiEg",
   "otter_id": "P1FgRy3FvTrrNYsXISdsJKJeiEg",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "gi"],
+  "themes": [
+    "microbiome",
+    "fecal_microbiota_transplant",
+    "c_difficile",
+    "gut_brain_axis",
+    "donor_screening",
+    "probiotics",
+    "fermented_foods",
+    "biofilms",
+    "fda_regulation",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "gi",
+    "immune",
+    "vitamin_supplement",
+    "herbal_botanical",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Welcome — Salt Lake conference / Bio Quantum homeopathy Zoom / CME",
+      "speakers": ["Bill Clearfield", "Dr. Aaron", "Piper Dobner", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Age-management conference recap",
+        "Bio Quantum Academy Fri–Sat certification conference",
+        "2 AMA Cat-1 CME credits (~$30)"
+      ]
+    },
+    {
+      "topic": "Piper Dobner — Microbiome as organ & diversity thesis",
+      "speakers": ["Piper Dobner"],
+      "branch": "integrative-medicine",
+      "terms": ["gi", "immune"],
+      "subtopics": [
+        "~4 lb ecosystem / ~1:1 cell:microbe",
+        "Rob Knight uniqueness / ~10% named overlap",
+        "2016 chronic disease ↔ low diversity"
+      ]
+    },
+    {
+      "topic": "Diversity depleters — drugs, pesticides, gut–brain",
+      "speakers": ["Piper Dobner"],
+      "branch": "integrative-medicine",
+      "terms": ["gi", "immune"],
+      "subtopics": [
+        "NSAIDs / metformin / PPIs / antipsychotics",
+        "Glyphosate & park pesticides",
+        "Psychotropics as microbiome insults"
+      ]
+    },
+    {
+      "topic": "FMT fundamentals — mechanisms, capsules vs colonoscopy",
+      "speakers": ["Piper Dobner"],
+      "branch": "integrative-medicine",
+      "terms": ["gi", "immune"],
+      "subtopics": [
+        "Competitive occupancy / quorum sensing / bile acids / immunity",
+        "Kao 2017: capsules ≈ colonoscopy 96.2%",
+        "Frozen oral capsules preferred outpatient"
+      ]
+    },
+    {
+      "topic": "Donor screening — cream of the crop & birth seeding",
+      "speakers": ["Piper Dobner"],
+      "branch": "integrative-medicine",
+      "terms": ["gi", "immune"],
+      "subtopics": [
+        "6-page screen / diet & stool diaries / WGS",
+        "Vaginal birth + breastfed preference",
+        "Domínguez-Bello stool seating; first 1000 days"
+      ]
+    },
+    {
+      "topic": "Clinical cases — recurrent C. diff (depression, pregnancy, hospice, J-pouch)",
+      "speakers": ["Piper Dobner"],
+      "branch": "integrative-medicine",
+      "terms": ["gi", "immune"],
+      "subtopics": [
+        "Mood shift within 24h post-FMT",
+        "Pregnant C. diff dual 30-cap courses",
+        "Hospice mucus-plug / gut–lung recovery",
+        "J-pouch adapted thaw + food dosing; Vowst fail"
+      ]
+    },
+    {
+      "topic": "Regulation & protocol — 2022 stool-bank clampdown, prep, biofilms",
+      "speakers": ["Piper Dobner"],
+      "branch": "integrative-medicine",
+      "terms": ["gi", "practice_systems"],
+      "subtopics": [
+        "Rebyota Nov 2022 → no bank distribution",
+        "Avoid Flagyl; escalate FMT after one failure",
+        "Oral EDTA biofilm disruptors; loperamide retention"
+      ]
+    },
+    {
+      "topic": "Post-FMT nutrition — 30 plants, ferments, S. boulardii, metabolites",
+      "speakers": ["Piper Dobner"],
+      "branch": "nutrition",
+      "terms": ["gi", "vitamin_supplement", "herbal_botanical"],
+      "subtopics": [
+        "≥30 plants/week; fermented-food diversity signal",
+        "Rotate probiotics; hold consortia 2–4 weeks post-FMT",
+        "Vitamin A / FoxP3; postbiotics > taxonomy"
+      ]
+    },
+    {
+      "topic": "Q&A — access, training, Mexico/Taymount, autologous FMT limits",
+      "speakers": ["Piper Dobner", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["gi", "practice_systems"],
+      "subtopics": [
+        "Non–C. diff uses need IND / offline licensure talk",
+        "Double-centrifuge capsule method; Mark Davis mentorship",
+        "Next week: MitoQ / CoQ10 (Siobhan Mitchell)"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-11-06/",
     "raw": "Research/lectures/clearfield-webinar-2024-11-06/raw/",
@@ -26,8 +153,16 @@
     "filename_pattern": "slide-2024-11-06-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-11-06/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-11-06/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-11-06/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-11-06/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary didactic: Piper Dobner on microbiome diversity and FMT for recurrent C. diff (cases, donor screening, 2022 FDA/stool-bank changes, post-FMT nutrition). Multi-topic housekeeping (Bio Quantum conference, CME). Needs Gem cleanup only if further knowledge-leaf extraction desired."
 }

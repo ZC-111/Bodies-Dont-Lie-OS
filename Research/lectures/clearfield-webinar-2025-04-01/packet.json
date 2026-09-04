@@ -1,13 +1,177 @@
 {
   "id": "clearfield-webinar-2025-04-01",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar \u2014 April 1, 2025: Neurofeedback & Neuro Optimal for Integrative Practice",
+  "speaker": "Bill Clearfield (host); Marley Jones, ND (primary \u2014 Neuro Optimal / Zengar); Melvin Nario (Q&A); panel",
   "approx_date": "2025-04-01",
+  "event": "Clearfield Training Program \u2014 Tuesday Integrative Health Webinar",
+  "duration_min": 64,
   "duration": "1 h 4 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/jZM7WB_BG5YwNdBn2EQBHQM-aNc",
   "otter_id": "jZM7WB_BG5YwNdBn2EQBHQM-aNc",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "immune",
+    "nutrition"
+  ],
+  "themes": [
+    "neurofeedback",
+    "neuro_optimal",
+    "dynamical_systems",
+    "interoception",
+    "allostatic_load",
+    "ptsd_trauma",
+    "adhd",
+    "sleep",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "pain_msk",
+    "detox",
+    "vitamin_supplement",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Clinical citations \u2014 specialty pathways for neurofeedback",
+      "speakers": [
+        "Marley Jones"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "pain_msk",
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Neurology: concussion, epilepsy",
+        "Psychiatry: ADHD, anxiety, depression, autism, PTSD",
+        "Pain: fibromyalgia, migraine, chronic pain",
+        "Sleep medicine applications"
+      ]
+    },
+    {
+      "topic": "Opening housekeeping \u2014 Walter Reed invite / partnerships",
+      "speakers": [
+        "Bill Clearfield",
+        "Johnny B",
+        "Melvin Nario"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "AAMA Pittsburgh follow-on invitations",
+        "Walter Reed Bethesda integrative webinar invite",
+        "Federal partnership / Dulles medical shows",
+        "Meditation/yoga + neurofeedback Q&A"
+      ]
+    },
+    {
+      "topic": "History \u2014 Miller, Sterman, Lubar, Zengar Neuro Optimal",
+      "speakers": [
+        "Marley Jones",
+        "Bill Clearfield"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Neil Miller autonomic conditioning (1950s)",
+        "Sterman cats / UCLA epilepsy 1971",
+        "Lubar ADHD EEG biofeedback 1976",
+        "Neuro Optimal 1999 \u2014 25th anniversary"
+      ]
+    },
+    {
+      "topic": "Practice economics \u2014 sessions, rentals, system sales",
+      "speakers": [
+        "Marley Jones"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "~$79 in-person; ~$5 effective via family rental",
+        "Personal vs professional Zengar systems",
+        "Auto-navigational home use; no QEEG required",
+        "Referral commissions inside Zengar community"
+      ]
+    },
+    {
+      "topic": "Interoception, allostatic load, and stuck cortical patterns",
+      "speakers": [
+        "Marley Jones"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "detox",
+        "pain_msk"
+      ],
+      "subtopics": [
+        "Wagon-rut neural pathways from trauma/ACE/Lyme/mold",
+        "Fight-or-flight baseline hypervigilance",
+        "Root-cause neuromodulation framing"
+      ]
+    },
+    {
+      "topic": "Modalities \u2014 cap networks, ILF, dynamical Neuro Optimal",
+      "speakers": [
+        "Marley Jones"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "pain_msk"
+      ],
+      "subtopics": [
+        "Amygdala / PFC network targeting",
+        "ILF ~0.1 Hz self-regulation",
+        "Auditory micro-interruption self-correction",
+        "Invitation vs intervention philosophy"
+      ]
+    },
+    {
+      "topic": "Pribram holonomic theory, five-phase model, certification",
+      "speakers": [
+        "Marley Jones"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Brain as dynamical self-organizing system",
+        "Val Brown phases: instability \u2192 resilience",
+        "Overtraining risk of forced protocols",
+        "Certification ~$660 / 2 days"
+      ]
+    },
+    {
+      "topic": "Closing numbers, consumer gadgets, clinical outcomes, next week",
+      "speakers": [
+        "Marley Jones",
+        "Bill Clearfield",
+        "Dr. Quinn",
+        "Dr. Tanner"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems",
+        "pain_msk"
+      ],
+      "subtopics": [
+        "Pro system ~$10K; 12\u201315 adult sessions",
+        "Muse/Mendi/Narbus artifact critiques",
+        "ADHD 30\u201350%; sleep first improvement",
+        "Next week: constitutional homeopathy"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-04-01/",
     "raw": "Research/lectures/clearfield-webinar-2025-04-01/raw/",
@@ -26,8 +190,16 @@
     "filename_pattern": "slide-2025-04-01-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-04-01/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-04-01/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-04-01/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-04-01/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Marley Jones on dynamical Neuro Optimal neurofeedback (history, ILF vs linear vs dynamical, interoception/allostatic load, practice economics). Secondary: Clearfield Walter Reed/AAMA housekeeping, consumer device critiques, May 30 drumming conference note. Local MedNote (Gem recreation)."
 }

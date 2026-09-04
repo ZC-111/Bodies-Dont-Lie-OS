@@ -1,13 +1,148 @@
 {
   "id": "clearfield-webinar-2025-03-18",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar \u2014 March 18, 2025: Gut Microbiome, Barrier Integrity & Four R Protocol",
+  "speaker": "Bill Clearfield (host + primary); Melvin Nario (S. boulardii tip / Q&A); John Burgess (May conference); Ken, Dr. Quinn, Dr. Gerber (panel)",
   "approx_date": "2025-03-18",
+  "event": "Clearfield Training Program \u2014 Tuesday Integrative Health Webinar",
+  "duration_min": 62,
   "duration": "1 h 2 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/pfNO6khumfRfVoCync03aVBxZ70",
   "otter_id": "pfNO6khumfRfVoCync03aVBxZ70",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "nutrition",
+    "immune"
+  ],
+  "themes": [
+    "microbiome",
+    "gut_barrier",
+    "dysbiosis",
+    "scfa",
+    "four_r_protocol",
+    "prebiotics_probiotics_postbiotics",
+    "h_pylori",
+    "gut_brain_hormones",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "detox",
+    "vitamin_supplement",
+    "herbal_botanical",
+    "immune",
+    "cardio"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening \u2014 Sammons dropout / Folsom event / group growth",
+      "speakers": [
+        "Bill Clearfield",
+        "Speaker 2",
+        "Ken"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Jacqueline Sammons cancelled \u2192 Clearfield AMMG rehearsal",
+        "Thursday Folsom Nacarato event logistics",
+        "Ken Reno referrals / cohort growth"
+      ]
+    },
+    {
+      "topic": "John Burgess \u2014 May live conference / NCTC + gut\u2013hormone slide bleed",
+      "speakers": [
+        "John Burgess",
+        "Bill Clearfield",
+        "Ken"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems",
+        "immune"
+      ],
+      "subtopics": [
+        "May 30\u201331 facility conference + Maurice Farm day",
+        "Documentary / camera donation framing",
+        "Cortisol\u2013flora, IGF-1/autism, allopregnanolone\u2013GABA"
+      ]
+    },
+    {
+      "topic": "Bill Clearfield \u2014 microbiome definition, Metchnikoff, SCFA, Four R",
+      "speakers": [
+        "Bill Clearfield"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "detox",
+        "vitamin_supplement",
+        "immune"
+      ],
+      "subtopics": [
+        "Multi-site microbiomes / 3.3M microbial genes",
+        "Butyrate barrier / Firmicutes\u2013Bacteroides / Akkermansia",
+        "Remove\u2013Repair\u2013Restore\u2013Replace protocol",
+        "Calprotectin / zonulin / H. pylori resistance genes"
+      ]
+    },
+    {
+      "topic": "Q&A \u2014 Akkermansia aging, bile acids, urolithin A, antifungals, Listeria",
+      "speakers": [
+        "Bill Clearfield",
+        "Melvin Nario"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "vitamin_supplement",
+        "immune"
+      ],
+      "subtopics": [
+        "Akkermansia decreases with age",
+        "Primary vs secondary bile acids",
+        "DGL vs licorice; Himalayan salt \u2192 gastrin/HCl",
+        "Progesterone / TH2 / Listeria pregnancy risk"
+      ]
+    },
+    {
+      "topic": "Tip of the week \u2014 Saccharomyces boulardii for diarrhea syndromes",
+      "speakers": [
+        "Melvin Nario",
+        "Ken",
+        "Bill Clearfield"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "vitamin_supplement"
+      ],
+      "subtopics": [
+        "Antibiotic-associated / traveler / C. diff / NEC",
+        "Toxin inactivation + SI-to-colon colonization",
+        "Bismuth preferred over loperamide for travel bugs"
+      ]
+    },
+    {
+      "topic": "Closing \u2014 GI-MAP/Rupa, CME, Tano next week, Sammons May 6",
+      "speakers": [
+        "Bill Clearfield",
+        "Dr. Gerber",
+        "Melvin Nario",
+        "Dr. Quinn"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ],
+      "subtopics": [
+        "Diagnostic Solutions GI-MAP via Rupa Health",
+        "CME $50 / aosrd.org webinars",
+        "Yakult L. casei Shirota Arizona study caveat"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-03-18/",
     "raw": "Research/lectures/clearfield-webinar-2025-03-18/raw/",
@@ -26,8 +161,16 @@
     "filename_pattern": "slide-2025-03-18-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-03-18/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-03-18/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-03-18/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-03-18/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Clearfield microbiome AMMG rehearsal (definition, SCFAs, dysbiosis, Four R, biomarkers, gut\u2013brain/skin). Secondary: Burgess May conference pitch, extended clinical Q&A, Nario S. boulardii tip, GI-MAP/Rupa + CME logistics. Local MedNote (Gem recreation)."
 }

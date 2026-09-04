@@ -1,13 +1,111 @@
 {
   "id": "clearfield-webinar-2024-11-13",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — November 13, 2024",
+  "speaker": "Bill Clearfield (host); Siobhan Mitchell, PhD (keynote)",
   "approx_date": "2024-11-13",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
   "duration": "1 h 54 min",
+  "duration_min": 114,
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/NGmGloKNP2XqOUJP7jB7qBC5eRM",
   "otter_id": "NGmGloKNP2XqOUJP7jB7qBC5eRM",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "cognitive_aging",
+    "mitochondria",
+    "omega3_lipids",
+    "menopause_hrt",
+    "metabolic_health",
+    "air_pollution",
+    "long_covid",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "neuro",
+    "vitamin_supplement",
+    "cardio",
+    "hormone",
+    "detox"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Case huddle / Germany conference — homeopathy, muscle testing, pharmacy culture",
+      "speakers": ["Bill Clearfield", "Kent", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems", "herbal_botanical"]
+    },
+    {
+      "topic": "Siobhan Mitchell intro — MitoQ CSO / nutritional neuroscience background",
+      "speakers": ["Bill Clearfield", "Siobhan Mitchell"],
+      "branch": "integrative-medicine",
+      "terms": ["neuro", "vitamin_supplement"]
+    },
+    {
+      "topic": "Cognitive decline framework — preclinical window, PrecivityAD2, mito testing",
+      "speakers": ["Siobhan Mitchell"],
+      "branch": "integrative-medicine",
+      "terms": ["neuro"],
+      "subtopics": [
+        "AD 10% / MCI 12–18% over 65",
+        "PrecivityAD2 Aβ42/40 + p-tau217",
+        "GDF-15 / MitoScreen / MitoSWAB",
+        "Lancet risks: hearing, pollution"
+      ]
+    },
+    {
+      "topic": "Emerging mito-linked risks — long COVID, mtDNA inflammation",
+      "speakers": ["Siobhan Mitchell"],
+      "branch": "immune",
+      "terms": ["neuro", "immune"],
+      "subtopics": [
+        "28% memory/attention drop",
+        "NAC for post-COVID fog",
+        "mtDNA → NLRP3 / STING"
+      ]
+    },
+    {
+      "topic": "Therapeutics — omega-3 phospholipids, B vitamins, weight, GLP-1, MCT/C10",
+      "speakers": ["Siobhan Mitchell"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "neuro", "cardio"],
+      "subtopics": [
+        "EPA-forward omega-3 ≥12 months",
+        "Phospholipid vs TG fish oil",
+        "MTHFR / MTR / CBS",
+        "5% weight loss cognition signal",
+        "C10 MCT preferred over C12"
+      ]
+    },
+    {
+      "topic": "Menopause VMS, air pollution, FINGER multimodal prevention",
+      "speakers": ["Siobhan Mitchell"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "neuro"],
+      "subtopics": [
+        "Hot flashes as dementia risk signal",
+        "Early HRT window ~5 years",
+        "Equol 10 mg / PhytoSERM",
+        "PM2.5 → mito → amyloid",
+        "FINGER ~40% modifiable risk"
+      ]
+    },
+    {
+      "topic": "Q&A — postbiotics, Aricept, Fatty15, MitoQ/CoQ10, NAC vs GSH",
+      "speakers": ["Siobhan Mitchell", "Bill Clearfield", "Melvin Nario", "Benoit Tano"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "neuro"]
+    },
+    {
+      "topic": "Research group housekeeping / speaker invites / next-week preview",
+      "speakers": ["Bill Clearfield", "Benoit Tano", "Dr. Quinn", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-11-13/",
     "raw": "Research/lectures/clearfield-webinar-2024-11-13/raw/",
@@ -26,8 +124,16 @@
     "filename_pattern": "slide-2024-11-13-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-11-13/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-11-13/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-11-13/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-11-13/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Siobhan Mitchell on mitochondrial approaches to cognitive preservation (omega-3 phospholipids, B-vitamin genetics, menopause/VMS, pollution, MCT/C10, NAC). Germany integrative-practice recap from Nario. Extended clinical Q&A."
 }

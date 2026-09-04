@@ -1,13 +1,142 @@
 {
   "id": "clearfield-webinar-2024-10-08",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — Nitric Oxide, EMF & Compounding Adjuncts",
+  "speaker": "Beth Shirley (key); Bill Clearfield (host); Melvin Nario (moderator); Mike Emmanuel (compounding)",
   "approx_date": "2024-10-08",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
   "duration": "1 h 54 min",
+  "duration_min": 114,
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/EqC6yd4bQDKMl2mpzPURPZu-_Pc",
   "otter_id": "EqC6yd4bQDKMl2mpzPURPZu-_Pc",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": [
+    "nutrition",
+    "immune",
+    "hormones"
+  ],
+  "themes": [
+    "nitric_oxide",
+    "emf_oxidative_stress",
+    "cardiometabolic",
+    "microbiome",
+    "fertility",
+    "sleep_melatonin",
+    "niacin",
+    "compounding",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "detox",
+    "hormone",
+    "immune"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Open — hurricane banter / CME / Philippines contingent",
+      "speakers": [
+        "Bill Clearfield",
+        "Dr. Halasa",
+        "Melvin Nario",
+        "Stefan Hartman"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems"
+      ]
+    },
+    {
+      "topic": "Emmanuel / Halasa — intranasal progesterone, oxytocin, weight-loss capsules",
+      "speakers": [
+        "Melvin Nario",
+        "Mike Emmanuel",
+        "Bill Clearfield"
+      ],
+      "branch": "hormones",
+      "terms": [
+        "hormone",
+        "vitamin_supplement"
+      ],
+      "subtopics": [
+        "Progesterone + cyclodextrin (night)",
+        "Oxytocin + cyclodextrin (morning)",
+        "Naltrexone / metformin / B12 diet stack"
+      ]
+    },
+    {
+      "topic": "Beth Shirley — nitric oxide primer & age-related NOS decline",
+      "speakers": [
+        "Beth Shirley"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "cardio",
+        "vitamin_supplement"
+      ],
+      "subtopics": [
+        "NOS vs nitrate–nitrite–NO pathways",
+        "BH4 coupling / arginine caveat",
+        "Hb–NO oxygen delivery"
+      ]
+    },
+    {
+      "topic": "EMF mechanisms — NOX, mitochondria, VGCC, peroxynitrite debate",
+      "speakers": [
+        "Beth Shirley"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "detox",
+        "cardio"
+      ]
+    },
+    {
+      "topic": "System effects — CV, gut/immune, fertility, metabolic, brain, sleep, pain",
+      "speakers": [
+        "Beth Shirley"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "cardio",
+        "immune",
+        "hormone"
+      ]
+    },
+    {
+      "topic": "Q&A — nitrate action stack, melatonin, niacin flush, MTHFR, grounding",
+      "speakers": [
+        "Beth Shirley",
+        "Bill Clearfield",
+        "Melvin Nario",
+        "Steven McConnell"
+      ],
+      "branch": "nutrition",
+      "terms": [
+        "vitamin_supplement",
+        "cardio"
+      ]
+    },
+    {
+      "topic": "Post-CME products (Approved Medical Solutions) + schedule pipeline",
+      "speakers": [
+        "Beth Shirley",
+        "Bill Clearfield",
+        "Melvin Nario",
+        "Dr. Quinn",
+        "Steven McConnell"
+      ],
+      "branch": "integrative-medicine",
+      "terms": [
+        "practice_systems",
+        "vitamin_supplement"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-10-08/",
     "raw": "Research/lectures/clearfield-webinar-2024-10-08/raw/",
@@ -25,8 +154,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-10-08/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-10-08/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-10-08/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-10-08/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary segment: Beth Shirley on nitric oxide collapse under EMF (NOX, mitochondria, VGCC, systems effects) + nitrate/melatonin/grounding action stack. Secondary: Emmanuel/Halasa compounding (intranasal P+oxytocin, weight-loss caps); McConnell niacin–NO pearls. Hartman bowed out. Local MedNote processed."
 }

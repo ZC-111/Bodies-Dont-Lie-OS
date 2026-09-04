@@ -1,13 +1,97 @@
 {
   "id": "clearfield-webinar-2026-04-28",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — April 28, 2026: Telomeres & How Not to Age (Bill Andrews)",
+  "speaker": "Bill Andrews (primary); Bill Clearfield (host); Melvin Nario (tip); Sonny Wynn (Touchstone)",
   "approx_date": "2026-04-28",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 163,
   "duration": "2 h 43 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/ajVChHpkQS72kcrtN9J03lwNFZ0",
   "otter_id": "ajVChHpkQS72kcrtN9J03lwNFZ0",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "telomeres",
+    "telomerase",
+    "longevity",
+    "aging_as_disease",
+    "follistatin_myostatin",
+    "nutraceuticals",
+    "inflammation_testing",
+    "gene_therapy"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "detox",
+    "immune",
+    "herbal_botanical",
+    "practice_systems"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Open / XPRIZE healthspan / Joseph Krieger Functional Longevity Summit",
+      "speakers": ["Bill Clearfield", "Bill Andrews", "Joseph Krieger"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — follistatin spectrum (Fortetropin → gene therapy)",
+      "speakers": ["Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "immune"]
+    },
+    {
+      "topic": "Bill Andrews — aging as disease, Betty White test, 125-year telomere limit",
+      "speakers": ["Bill Andrews"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "FDA vs scientists on aging-as-disease",
+        "Species differences in telomerase",
+        "Betty White phenotypic reversal endpoint"
+      ]
+    },
+    {
+      "topic": "Telomeres as enhancer sequences / epigenetic aging",
+      "speakers": ["Bill Andrews"],
+      "branch": "integrative-medicine",
+      "terms": ["immune"],
+      "subtopics": [
+        "Enhancer looping model",
+        "Epigenetic old-vs-young profiles",
+        "Absolute need to solve telomere shortening"
+      ]
+    },
+    {
+      "topic": "Tug-of-war: shortener reduction + Telovital telomerase induction",
+      "speakers": ["Bill Andrews"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "detox", "cardio"],
+      "subtopics": [
+        "Touchstone GlucoControl / zeolites / fulvic / ParaShield",
+        "600K fraction screen → Telovital",
+        "Why average telomere assays mislead",
+        "ALCAT + Life Length testing"
+      ]
+    },
+    {
+      "topic": "Sonny Wynn — Touchstone terrain detox + patient testimonials",
+      "speakers": ["Sonny Wynn", "Peter", "Debbie Steeler"],
+      "branch": "nutrition",
+      "terms": ["detox", "vitamin_supplement", "cardio"]
+    },
+    {
+      "topic": "Q&A — hormones vs telomeres, autoimmunity, practice startup",
+      "speakers": ["Bill Andrews", "Bill Clearfield", "Michael Gerber", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "practice_systems"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-04-28/",
     "raw": "Research/lectures/clearfield-webinar-2026-04-28/raw/",
@@ -26,8 +110,16 @@
     "filename_pattern": "slide-2026-04-28-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-04-28/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-04-28/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-04-28/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-04-28/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Bill Andrews on telomere biology, aging-as-disease, Telovital/telomerase induction, assay pitfalls. Tip: Nario follistatin continuum. Local MedNote (Gem recreation). Otter summary empty."
 }

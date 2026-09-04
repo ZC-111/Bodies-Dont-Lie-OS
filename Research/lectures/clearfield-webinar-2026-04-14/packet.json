@@ -1,13 +1,101 @@
 {
   "id": "clearfield-webinar-2026-04-14",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — April 14, 2026: Emily Case (EDS / Migraines / Autoimmunity) + Endocrine CE Critique",
+  "speaker": "Bill Clearfield (host); Emily + mother (case guests); Dr. Leonard (neural therapy); Michael Gerber; Stefan Hartman; panel",
   "approx_date": "2026-04-14",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 121,
   "duration": "2 h 1 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/GpGzOhGTH4-q6bror7uHVEIk1Jk",
   "otter_id": "GpGzOhGTH4-q6bror7uHVEIk1Jk",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune", "endocrine"],
+  "themes": [
+    "case_conference",
+    "ehlers_danlos",
+    "migraine",
+    "neural_therapy",
+    "autoimmunity",
+    "hyperinsulinemia",
+    "hormone_optimization",
+    "mirena_iud",
+    "scar_interference_fields",
+    "craniosacral",
+    "detox",
+    "endocrine_ce_critique"
+  ],
+  "medical_terms": [
+    "cardio",
+    "vitamin_supplement",
+    "detox",
+    "immune",
+    "endocrine",
+    "pain_msk",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Open / Nevada endocrinology CE recap — reverse T3, iodine, pharma vendors",
+      "speakers": ["Bill Clearfield", "Joel", "Rafael Sanchez", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["endocrine", "practice_systems", "vitamin_supplement"],
+      "subtopics": [
+        "Reverse T3 dismissed as internet idiocy",
+        "Iodine unnecessary in US claim",
+        "~30 pharma tables / no supplements"
+      ]
+    },
+    {
+      "topic": "Case intro — Emily (20): cheer injury, EDS, FSHD, birth trauma",
+      "speakers": ["Emily", "mother", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "immune"]
+    },
+    {
+      "topic": "Neural therapy scars / tonsils + GlycoCheck / SVF / high ANA",
+      "speakers": ["Dr. Leonard", "Speaker 11", "Michael Gerber", "Emily"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "immune", "cardio"],
+      "subtopics": [
+        "Interference fields lidocaine test",
+        "Tonsillar scar rheumatic lore",
+        "Fucoidan microvascular support"
+      ]
+    },
+    {
+      "topic": "Labs — insulin 25, ferritin/D 25, pregnenolone 437, Mirena, LDN",
+      "speakers": ["Bill Clearfield", "Stefan Hartman", "panel"],
+      "branch": "nutrition",
+      "terms": ["endocrine", "cardio", "immune"],
+      "subtopics": [
+        "Hyperinsulinemia vs mealtime insulin",
+        "IUD removal / progesterone gap",
+        "Iodoral + iodine challenge anecdote"
+      ]
+    },
+    {
+      "topic": "Migraine plan — progesterone, blocks, keto, gut autotoxicity",
+      "speakers": ["panel", "Emily", "mother"],
+      "branch": "integrative-medicine",
+      "terms": ["endocrine", "detox", "vitamin_supplement", "pain_msk"]
+    },
+    {
+      "topic": "Craniosacral / Tennant voltage / concussion & birth trauma",
+      "speakers": ["Speaker 9", "Dr. Leonard"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk"]
+    },
+    {
+      "topic": "Escalation board — SVF, TPE, metals, CBG, mast cell; close",
+      "speakers": ["Bill Clearfield", "panel"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "immune", "cardio"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2026-04-14/",
     "raw": "Research/lectures/clearfield-webinar-2026-04-14/raw/",
@@ -26,8 +114,16 @@
     "filename_pattern": "slide-2026-04-14-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2026-04-14/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2026-04-14/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2026-04-14/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2026-04-14/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Live young-adult case conference (Emily, 20): hypermobile EDS, FSHD, continuous migraines, high ANA, hyperinsulinemia, Mirena/progesterone debate, neural therapy for scars. Secondary: Nevada endocrinology CE critique. Tip skipped (Nario hoarse). Local MedNote (Gem recreation)."
 }

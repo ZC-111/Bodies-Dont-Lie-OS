@@ -1,13 +1,108 @@
 {
   "id": "clearfield-webinar-2024-10-01",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — October 1, 2024: Physiologic Menopausal HRT with Felice Gersh",
+  "speaker": "Felice Gersh, MD (key); Melvin Nario (derm tip); Bill Clearfield (host)",
   "approx_date": "2024-10-01",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 162,
   "duration": "2 h 42 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/OL_Ukp1RYjVvnjsMHnF2eXCXDC8",
   "otter_id": "OL_Ukp1RYjVvnjsMHnF2eXCXDC8",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["hormone", "nutrition", "immune"],
+  "themes": [
+    "womens_hormones",
+    "menopause",
+    "estradiol_dosing",
+    "cyclic_progesterone",
+    "estrogen_receptors",
+    "endometrial_ablation",
+    "glp1_hormones",
+    "integrative_dermatology",
+    "osteoporosis",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "cardio",
+    "vitamin_supplement",
+    "immune",
+    "pain_msk"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Openers — survival prep / hurricane context / Hartman SHTF class",
+      "speakers": ["Bill Clearfield", "Stefan Hartman", "Speaker 1"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip — Integrative Dermatology Symposium: visible light, Zn/Fe oxides, niacinamide, melatonin",
+      "speakers": ["Melvin Nario", "Felice Gersh"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "hormone"],
+      "subtopics": [
+        "Visible light DNA damage / oxidative stress",
+        "Pigmented zinc oxide + iron oxide daily",
+        "Niacinamide for skin-cancer risk reduction",
+        "Melatonin and gray hair as metabolic biomarker"
+      ]
+    },
+    {
+      "topic": "Felice Gersh — menopause evolution, estrogen family, α/β/GPER receptors, anti-BiEst",
+      "speakers": ["Felice Gersh"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "immune", "cardio"],
+      "subtopics": [
+        "Menopause as protective infertility not anti-hormone",
+        "WHI Premarin/MPA ≠ bioidentical estradiol/progesterone",
+        "E2 master of metabolic homeostasis; GLP-1 needs estradiol",
+        "E1 pro-inflammatory; E3 pregnancy β-bias; avoid BiEst HRT"
+      ]
+    },
+    {
+      "topic": "Physiologic dosing — E2 ~100 pg/mL, cyclic P4, ablation, delivery forms",
+      "speakers": ["Felice Gersh"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "Target ~100 pg/mL E2 (>50 floor)",
+        "Low E2 proinflammatory; nightly P4 downregulates ER",
+        "Cyclic ~200 mg P4 × 14 days; if grow endometrium must shed",
+        "Elective endometrial ablation advocacy",
+        "Prefer patch/gel/compound BID; avoid pellets and E2 troches"
+      ]
+    },
+    {
+      "topic": "Q&A — labs, vaginal E2 vs estriol, testosterone/SHBG, fasting, Wiley, HRT duration",
+      "speakers": ["Felice Gersh", "Melvin Nario", "Bill Clearfield", "Speaker 5"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "detox", "immune"],
+      "subtopics": [
+        "Measure E2 AM trough / day-after patch",
+        "Vaginal E2 preferred for bladder; estriol OK; +DHEA",
+        "Don't add T in early menopause facial-hair phenotype blindly",
+        "Multi-day fasting luteal only; FMD after hormone prep",
+        "No arbitrary 10-year HRT stop"
+      ]
+    },
+    {
+      "topic": "Post-talk panel — osteoporosis (Prior/P4), soy β, bioregulators, GLP-1 synergy",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Carol", "Amber"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "pain_msk", "vitamin_supplement"],
+      "subtopics": [
+        "Premarin studies confound oral-estrogen safety narrative",
+        "E2-alone post-hysterectomy may harm bone via prolactin/PTH",
+        "Jerilynn Prior progesterone ~300 mg osteoporosis context",
+        "GLP-1 more effective with optimized bioidenticals"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-10-01/",
     "raw": "Research/lectures/clearfield-webinar-2024-10-01/raw/",
@@ -25,8 +120,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-10-01/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-10-01/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-10-01/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-10-01/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Felice Gersh physiologic menopausal HRT (E2 ~100 pg/mL, receptor biology, cyclic progesterone, anti-BiEst/pellets, elective ablation). Secondary: Nario derm tip; panel osteoporosis/GLP-1. Transcript-only (0 screenshots)."
 }

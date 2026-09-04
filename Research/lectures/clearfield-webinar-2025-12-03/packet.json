@@ -1,13 +1,93 @@
 {
   "id": "clearfield-webinar-2025-12-03",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — December 3, 2025: Coimbra Protocol (High-Dose Vitamin D for Autoimmunity)",
+  "speaker": "Bill Clearfield (host / primary lecturer); Melvin Nario (discussant)",
   "approx_date": "2025-12-03",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 135,
   "duration": "2 h 15 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/dBggaNSwAGYqDBG1O_hdE5Zo1CY",
   "otter_id": "dBggaNSwAGYqDBG1O_hdE5Zo1CY",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["immune", "nutrition"],
+  "themes": [
+    "autoimmunity",
+    "vitamin_d",
+    "coimbra_protocol",
+    "immune_modulation",
+    "safety_monitoring",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "immune",
+    "vitamin_supplement",
+    "detox",
+    "practice_systems",
+    "pain_msk"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Congress of Medical Excellence logistics / Reno dinner / recordings",
+      "speakers": ["Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Coimbra Protocol overview — Cicero Coimbra, acquired vitamin D resistance, Tom hypercalcemia cautionary case",
+      "speakers": ["Bill Clearfield"],
+      "branch": "immune",
+      "terms": ["immune", "vitamin_supplement"],
+      "subtopics": [
+        "Coimbra Group vs Coimbra Protocol",
+        "Parkinson / vitiligo origin story",
+        "Unsupervised mega-dose toxicity"
+      ]
+    },
+    {
+      "topic": "Mechanism — VDR/CYP resistance, Treg vs Th17, individualized dosing",
+      "speakers": ["Bill Clearfield"],
+      "branch": "immune",
+      "terms": ["immune", "vitamin_supplement"],
+      "subtopics": [
+        "CYP2R1 / CYP27B1",
+        "EBV Lyme mold cortisol aging",
+        "1000 IU/kg/day start framework"
+      ]
+    },
+    {
+      "topic": "PTH as therapeutic compass vs 25-OH-D",
+      "speakers": ["Bill Clearfield"],
+      "branch": "immune",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Lower-third PTH target ~10–13 pg/mL",
+        "Expected 25-OH-D 150–200+",
+        "Lemke MS PTH suppression data"
+      ]
+    },
+    {
+      "topic": "Low-calcium diet, 2.5 L fluids, cofactors, lab monitoring, research & risks",
+      "speakers": ["Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "immune"],
+      "subtopics": [
+        "Ca <500 mg/day",
+        "Mg + riboflavin mandatory",
+        "24h urine Ca >250 pause rule",
+        "Nephrocalcinosis / arrhythmia risks"
+      ]
+    },
+    {
+      "topic": "Q&A — vitiligo dosing, VDR SNPs, acupuncture/homeopathy, boron/SHBG, patient selection",
+      "speakers": ["Bill Clearfield", "Melvin Nario", "Dr. Vargas", "Dr. Serna"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "vitamin_supplement", "pain_msk"]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-12-03/",
     "raw": "Research/lectures/clearfield-webinar-2025-12-03/raw/",
@@ -26,8 +106,16 @@
     "filename_pattern": "slide-2025-12-03-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-12-03/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-12-03/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-12-03/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-12-03/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Bill Clearfield on Coimbra Protocol (high-dose vitamin D for autoimmune disease — PTH titration, low-Ca diet, fluids, cofactors, safety). Secondary: Congress of Medical Excellence logistics + Q&A (vitiligo alternatives, boron). Local MedNote (Gem recreation)."
 }

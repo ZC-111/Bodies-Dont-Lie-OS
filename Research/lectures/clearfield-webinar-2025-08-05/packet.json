@@ -1,13 +1,94 @@
 {
   "id": "clearfield-webinar-2025-08-05",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — August 5, 2025: Beyond Pharmacogenomics for Depression & Anxiety",
+  "speaker": "Bill Clearfield (host); Sharon Houseman Cohen, MD (primary lecturer); Melvin Nario (rosemary tip)",
   "approx_date": "2025-08-05",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 68,
   "duration": "1 h 8 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/LxOKeD9fWZEycb7WYyMiRLE90EU",
   "otter_id": "LxOKeD9fWZEycb7WYyMiRLE90EU",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "materia-medica"],
+  "themes": [
+    "clinical_genomics",
+    "pharmacogenomics",
+    "mental_health",
+    "depression_anxiety",
+    "inflammation",
+    "nutrigenomics",
+    "herbal_botanical",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "genomics",
+    "mental_health",
+    "inflammation",
+    "vitamin_supplement",
+    "herbal_botanical",
+    "neurotransmitter",
+    "thyroid"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — summer gardening banter",
+      "speakers": ["Bill Clearfield", "Speaker 1"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — rosemary for cognition (cineole, AChE inhibition)",
+      "speakers": ["Melvin Nario"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical"],
+      "subtopics": [
+        "750 mg culinary dose vs 6000 mg impairment",
+        "Essential oil ingestion safety",
+        "Anticoagulant caution"
+      ]
+    },
+    {
+      "topic": "Sharon Houseman Cohen — beyond pharmacogenomics for depression/anxiety",
+      "speakers": ["Sharon Houseman Cohen"],
+      "branch": "integrative-medicine",
+      "terms": ["genomics", "mental_health", "inflammation"],
+      "subtopics": [
+        "PGx remission limits (~16–20%)",
+        "HTR1A serotonin auto-receptor",
+        "IL1B / NLRP3 inflammasomes",
+        "GPR50 cortisol-melatonin / ashwagandha",
+        "ADORA2A caffeine panic",
+        "GCH1 / BH4 (Jasmine case)"
+      ]
+    },
+    {
+      "topic": "Q&A — BH4 sourcing, inflammation subtypes, mentoring",
+      "speakers": ["Sharon Houseman Cohen", "Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["genomics", "vitamin_supplement", "practice_systems"],
+      "subtopics": [
+        "Sapropterin / Terrain / compounding",
+        "CCL2 PEA vs TNF Lion's Mane vs IL1B resolvins",
+        "Free mentoring offer"
+      ]
+    },
+    {
+      "topic": "Off-camera demo — Intellx DNA / Annie adrenaline case / nutrigenomics",
+      "speakers": ["Sharon Houseman Cohen", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["genomics", "thyroid", "mental_health"],
+      "subtopics": [
+        "Hot-spot workflow",
+        "COMT / DIO2 / BDNF interventions",
+        "TCN2 brain B12 transport",
+        "Licensed clinician CDS tool"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-08-05/",
     "raw": "Research/lectures/clearfield-webinar-2025-08-05/raw/",
@@ -26,8 +107,16 @@
     "filename_pattern": "slide-2025-08-05-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-08-05/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-08-05/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-08-05/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-08-05/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Sharon Houseman Cohen on clinical/root-cause genomics beyond pharmacogenomics for depression and anxiety (HTR1A, IL1B, GPR50, ADORA2A, GCH1/BH4; Candy, Alan, Jasmine, Annie cases). Secondary: Nario rosemary cognitive tip. Local MedNote (Gem recreation)."
 }

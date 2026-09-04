@@ -1,13 +1,122 @@
 {
   "id": "clearfield-webinar-2025-05-06",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — May 6, 2025: Male Aromatization & Aromatase Blockade on TRT",
+  "speaker": "Bill Clearfield (host); Jacqueline Sammons, DO (primary); Melvin Nario (AMPK tip); Dr. Halasa (cyclodextrin / upstream hormones); panel Q&A",
   "approx_date": "2025-05-06",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 139,
   "duration": "2 h 19 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/GUt4yZgCp4lNVboAnJBHNMsHO7A",
   "otter_id": "GUt4yZgCp4lNVboAnJBHNMsHO7A",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "hormone"],
+  "themes": [
+    "male_hrt",
+    "testosterone_deficiency",
+    "aromatization",
+    "aromatase_inhibitors",
+    "estradiol_balance",
+    "endocrine_disruptors",
+    "detox_methylation",
+    "ampk_os01",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "vitamin_supplement",
+    "detox",
+    "cardio",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — Jay Campbell recap / Nurses Week / housekeeping",
+      "speakers": ["Bill Clearfield", "Melvin Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Prior webinar attendance record (~103)",
+        "Slides not released — screenshot summaries",
+        "National Nurses Week May 6–12"
+      ]
+    },
+    {
+      "topic": "Jacqueline Sammons — testosterone deficiency diagnosis beyond cutoffs",
+      "speakers": ["Jacqueline Sammons"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "Clinical presentation over single total-T number",
+        "Physiologic window ~700–1100",
+        "Prevalence 2.1–40%; practice ~30–40%",
+        "Root causes: OSA, disruptors, hemochromatosis, stress"
+      ]
+    },
+    {
+      "topic": "Pre-TRT labs, clearance, and management ladder",
+      "speakers": ["Jacqueline Sammons"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "detox", "vitamin_supplement"],
+      "subtopics": [
+        "FSH/LH/DHEA/E2/prolactin/thyroid/metabolic panel",
+        "Homocysteine <10 / MTHFR methylation",
+        "Lifestyle + maca/ashwagandha/kisspeptin peptides",
+        "Troche > topical > injectable > pellet"
+      ]
+    },
+    {
+      "topic": "Aromatization biology, estradiol benefits, T:E2 ratio",
+      "speakers": ["Jacqueline Sammons"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "E2 signs: mood, central fat, late gynecomastia",
+        "Men need E2 for bone, repair, libido sweet spot",
+        "Intervene often if E2 >65 or >42 + symptoms",
+        "Omni Calculator T:E2 ~10–13:1"
+      ]
+    },
+    {
+      "topic": "Aromatase inhibitors and natural clearance tools",
+      "speakers": ["Jacqueline Sammons"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "herbal_botanical", "detox"],
+      "subtopics": [
+        "Anastrozole 0.5 mg 3×/week with TRT",
+        "Only ~2.5% of ~1700 TRT men needed AI",
+        "DIM + calcium D-glucarate",
+        "Tamoxifen is SERM not AI"
+      ]
+    },
+    {
+      "topic": "Panel Q&A — delivery forms, cardiac risk, FDA/TRAVERSE, AI philosophy",
+      "speakers": ["Jacqueline Sammons", "Bill Clearfield", "Melvin Nario", "Dr. Halasa"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "Microdosing cypionate; intranasal compliance/$800",
+        "OSA/diabetes concomitant monitoring",
+        "FDA removed T CV black-box Feb 2025",
+        "Clearfield rarely blocks E2 unless gyno/mood"
+      ]
+    },
+    {
+      "topic": "Upstream hormones, cyclodextrin/microplastics, OS01 AMPK tip",
+      "speakers": ["Dr. Halasa", "Melvin Nario", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "detox", "vitamin_supplement"],
+      "subtopics": [
+        "Pregnenolone/progesterone/DHEA before end-products",
+        "Cyclodextrin for xenoestrogens/microplastics",
+        "OS01 100 mg — 6 weeks on / 4 off",
+        "AMPK must cycle with mTOR repair"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-05-06/",
     "raw": "Research/lectures/clearfield-webinar-2025-05-06/raw/",
@@ -26,8 +135,16 @@
     "filename_pattern": "slide-2025-05-06-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-05-06/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-05-06/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-05-06/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-05-06/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Jacqueline Sammons on male aromatization/aromatase blockade during TRT (labs, T:E2 ratio, selective AI). Secondary: panel on cardiac safety/FDA labeling, Halasa cyclodextrin/upstream hormones, Nario OS01 AMPK tip. Local MedNote (Gem recreation)."
 }

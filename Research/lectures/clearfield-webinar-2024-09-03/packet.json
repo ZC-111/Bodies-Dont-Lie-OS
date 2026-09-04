@@ -1,13 +1,104 @@
 {
   "id": "clearfield-webinar-2024-09-03",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — September 3, 2024: Hormone-Balancing Drops, Insulin Resistance & Poly Homeopathy",
+  "speaker": "Bill Clearfield (host); Heather Hollis (primary); Dr. Aaron, Dr. Nereo, Dr. Gerber, Dr. Landry God, Dr. Quinn (panel); Dr. Ray Strand / Dr. Melissa Hurt (cited)",
   "approx_date": "2024-09-03",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 136,
   "duration": "2 h 16 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/lad4QB8n10SgLwRq48hmZvwDQ2U",
   "otter_id": "lad4QB8n10SgLwRq48hmZvwDQ2U",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "materia-medica"],
+  "themes": [
+    "insulin_resistance",
+    "weight_loss",
+    "hormone_balance",
+    "homeopathy",
+    "poly_remedies",
+    "homotoxicology",
+    "detox",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "vitamin_supplement",
+    "herbal_botanical",
+    "detox",
+    "cardio"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — Sept 27 homeopathy history plans; cervical cancer ivermectin/iodine case",
+      "speakers": ["Bill Clearfield", "Dr. Aaron", "Speaker 4"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "Hahnemann Hospital / U.S. homeopathy history for Sept 27",
+        "Invite Dr. Nereo ~15 min",
+        "Iodine 300 mg + intravaginal ivermectin ~0.4 mg/kg; ~3-month remission claim"
+      ]
+    },
+    {
+      "topic": "Heather Hollis — Partner Co products & Slender X / Accelerate intro",
+      "speakers": ["Heather Hollis"],
+      "branch": "nutrition",
+      "terms": ["hormone", "vitamin_supplement", "herbal_botanical"],
+      "subtopics": [
+        "Personal anorexia / OCP / fibromyalgia context",
+        "MOA, Renu, Elite, Restore adjuncts",
+        "Formulators: Melissa Hurt, Ray Strand, Crystal Vance"
+      ]
+    },
+    {
+      "topic": "Dr. Ray Strand clip — four stages of insulin resistance",
+      "speakers": ["Dr. Ray Strand", "Heather Hollis"],
+      "branch": "nutrition",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "Muscle IR breaks calories-in/calories-out",
+        "Stages 1–4 through metabolic syndrome to T2DM",
+        "TG/HDL staging shortcut (≥2 / ≥3)"
+      ]
+    },
+    {
+      "topic": "Protocol — diet, dosing, exercise, ingredient map",
+      "speakers": ["Heather Hollis"],
+      "branch": "nutrition",
+      "terms": ["hormone", "vitamin_supplement", "herbal_botanical"],
+      "subtopics": [
+        "SX → 10 min → Accelerate → eat; ≥8 weeks",
+        "30-day hormone-balancing plate; 3-day GI cheat penalty",
+        "Homeopathic + B12/adaptogen bottle composition"
+      ]
+    },
+    {
+      "topic": "Panel Q&A — poly vs classical homeopathy, stop rules, PCOS, Traumeel",
+      "speakers": ["Dr. Aaron", "Dr. Nereo", "Dr. Gerber", "Dr. Landry God", "Heather Hollis"],
+      "branch": "materia-medica",
+      "terms": ["herbal_botanical", "hormone"],
+      "subtopics": [
+        "Calcarea carbonica + Graphites; complex = one medicine",
+        "Stop at plateau / ~85% goal; proving risk ~50-day action",
+        "PCOS driven by IR; Traumeel DU20/LI4/DU14"
+      ]
+    },
+    {
+      "topic": "Toxicity, 4×/year drainage, VA/Whole Health, upcoming calendar",
+      "speakers": ["Dr. Aaron", "Dr. Quinn", "Dr. Gerber", "Joel", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["detox", "practice_systems"],
+      "subtopics": [
+        "Cellular detox/drainage every 3 months",
+        "Organic-farm trust issues; chelation / RFK politics thread",
+        "Sept 27 certification webinar; AMG longevity talk; modality compendium"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-09-03/",
     "raw": "Research/lectures/clearfield-webinar-2024-09-03/raw/",
@@ -25,8 +116,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-09-03/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-09-03/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-09-03/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-09-03/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Multi-topic webinar. Key segment: Heather Hollis Partner Co Slender X/Accelerate + Strand IR staging. Strong homeopathy panel (Aaron poly-remedy stop rules; Nereo PCOS/IR; Gerber Traumeel). Transcript-only packet (0 screenshots)."
 }

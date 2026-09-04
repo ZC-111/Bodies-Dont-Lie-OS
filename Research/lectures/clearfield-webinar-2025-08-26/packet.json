@@ -1,13 +1,99 @@
 {
   "id": "clearfield-webinar-2025-08-26",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — August 26, 2025: Ozone Therapy Foundations (Frank Shallenberger)",
+  "speaker": "Bill Clearfield (host); Frank Shallenberger, MD (primary lecturer); Dr. Nario (vitamin A tip); Stefan Hartman (panel)",
   "approx_date": "2025-08-26",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 152,
   "duration": "2 h 32 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/LvCEhutJR34KphFeXcFdbBQ3PZE",
   "otter_id": "LvCEhutJR34KphFeXcFdbBQ3PZE",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["immune", "nutrition", "detox"],
+  "themes": [
+    "ozone_therapy",
+    "mitochondria",
+    "electron_movement",
+    "nrf2",
+    "th1_immunity",
+    "pain_msk",
+    "viral_infection",
+    "prostate",
+    "biofilm",
+    "vitamin_a",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "ozone",
+    "mitochondria",
+    "immune",
+    "vitamin_supplement",
+    "pain_msk",
+    "cardio",
+    "detox",
+    "regenerative"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Housekeeping — clinic retreat, Reno December conference / CME",
+      "speakers": ["Bill Clearfield", "Stefan Hartman", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"]
+    },
+    {
+      "topic": "Tip of the week — vitamin A forms; beta-carotene risk in smokers (ATBC)",
+      "speakers": ["Dr. Nario"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Retinoids vs carotenoids",
+        "ATBC ~18–28% lung cancer signal at 20 mg/day",
+        "Social history before supplement plans"
+      ]
+    },
+    {
+      "topic": "Frank Shallenberger — ozone foundations (O3, peroxides, dose, routes)",
+      "speakers": ["Frank Shallenberger"],
+      "branch": "integrative-medicine",
+      "terms": ["ozone", "mitochondria", "immune"],
+      "subtopics": [
+        "Electron movement thesis",
+        "Lipid peroxides 7–10 days",
+        "NAD:NADH ~700:1",
+        "MAH and multi-route delivery",
+        "No inhaled ozone; no direct IV gas"
+      ]
+    },
+    {
+      "topic": "Clinical applications — virus, bacteria, autoimmune, CVD, cancer, diabetes, pain",
+      "speakers": ["Frank Shallenberger"],
+      "branch": "integrative-medicine",
+      "terms": ["immune", "cardio", "pain_msk", "ozone"],
+      "subtopics": [
+        "Franzini COVID series",
+        "NRF2 and TH1 mechanisms",
+        "Chemo/radiation potentiation vignettes",
+        "Prolozone / pain as electron failure"
+      ]
+    },
+    {
+      "topic": "Q&A — safety, consent, prostate, biofilm/IC, vitamin C order, keyzone, EBU, O3 movie",
+      "speakers": ["Frank Shallenberger", "Bill Clearfield", "Dr. Nario"],
+      "branch": "integrative-medicine",
+      "terms": ["ozone", "detox", "pain_msk", "practice_systems"],
+      "subtopics": [
+        "G6PD and acute CVD contraindications",
+        "Ozone then vitamin C then Myers",
+        "Peri-prostatic injection technique",
+        "Keyzone = MAH + EDTA chelation",
+        "EBU via Brendan Cochran; o3movie.com"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2025-08-26/",
     "raw": "Research/lectures/clearfield-webinar-2025-08-26/raw/",
@@ -26,8 +112,16 @@
     "filename_pattern": "slide-2025-08-26-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2025-08-26/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2025-08-26/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2025-08-26/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2025-08-26/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary lecture: Frank Shallenberger on clinical ozone therapy (electron movement, lipid peroxides, NRF2/TH1, multi-route delivery, safety). Secondary: Nario vitamin A/beta-carotene-in-smokers tip; Reno Dec conference ops. Extended Q&A covers prostate, IC/biofilm, vitamin C order, keyzone chelation, EBU. Local MedNote (Gem recreation)."
 }

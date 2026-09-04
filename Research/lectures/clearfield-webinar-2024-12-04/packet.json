@@ -1,13 +1,144 @@
 {
   "id": "clearfield-webinar-2024-12-04",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — December 4, 2024: 12 Medical Myths (Christmas Edition)",
+  "speaker": "Bill Clearfield (host); Stefan Hartman (primary); Dr. Richard Armerling; Dr. Nario; Carol Peterson (panel)",
   "approx_date": "2024-12-04",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 124,
   "duration": "2 h 4 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/vZKE66zexBS6KPliMMq0glRxefk",
   "otter_id": "vZKE66zexBS6KPliMMq0glRxefk",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["hormone", "nutrition", "immune", "pain_msk"],
+  "themes": [
+    "medical_myths",
+    "antibiotic_stewardship",
+    "hormone_trt",
+    "cardiometabolic",
+    "salt_hypertension",
+    "gi_fiber",
+    "iodine",
+    "sunscreen_vitamin_d",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "hormone",
+    "cardio",
+    "vitamin_supplement",
+    "pain_msk",
+    "detox",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_plus_screenshots",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — Rome conference, vasopressin, tribal education logistics",
+      "speakers": ["Bill Clearfield", "Stefan Hartman", "Speaker 3", "Speaker 4"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "practice_systems"],
+      "subtopics": [
+        "Shoemaker ADH / vasopressin (POTS, hypotension, tinnitus)",
+        "Bioidentical hormone compliance",
+        "Tribal practitioners / Vegas apothecary plans"
+      ]
+    },
+    {
+      "topic": "Myths 1–3 — Ear antibiotics, fever/Tylenol, NSAID+ice injuries",
+      "speakers": ["Stefan Hartman", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["pain_msk", "vitamin_supplement"],
+      "subtopics": [
+        "Otitis antibiotics ~16h faster resolution",
+        "Fever as host defense; APAP depletes glutathione",
+        "BPC-157 + thymosin β4 over early NSAIDs"
+      ]
+    },
+    {
+      "topic": "Myths 4–5 — Vasectomy risk and TRT misconceptions",
+      "speakers": ["Stefan Hartman", "Bill Clearfield"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "cardio"],
+      "subtopics": [
+        "Vasectomy–prostate Ca meta-analysis signal",
+        "TRT mortality / mood / bone / cardiac benefits",
+        "Morgentaler prostate data; 2013 FDA CV scare flawed",
+        "Target T ~700–900; erythrocytosis vs PV"
+      ]
+    },
+    {
+      "topic": "Myths 6–8 — Saturated fat and chemical sunscreen / vitamin D",
+      "speakers": ["Stefan Hartman", "Bill Clearfield", "Dr. Nario", "Dr. Maxim"],
+      "branch": "nutrition",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "Inflammation / particles over sat-fat clogging narrative",
+        "Benzophenone endocrine disruptors; prefer zinc oxide",
+        "Vitamin D upper-range targets ~70–100"
+      ]
+    },
+    {
+      "topic": "Myth 9 — Low-salt diets and hypertension (Armerling)",
+      "speakers": ["Stefan Hartman", "Dr. Richard Armerling"],
+      "branch": "nutrition",
+      "terms": ["cardio"],
+      "subtopics": [
+        "Sodium restriction MAP ↓ ~0.4 mmHg",
+        "Volume depletion → SNS/RAAS activation",
+        "Hyperinsulinemia as primary outpatient HTN driver",
+        "Mineral salt vs dextrose-containing table salt"
+      ]
+    },
+    {
+      "topic": "Myth 10 — Fiber for constipation, IBS, diverticulosis, cancer",
+      "speakers": ["Stefan Hartman", "Dr. Richard Armerling", "Benoit Tano", "Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["detox", "vitamin_supplement"],
+      "subtopics": [
+        "Mg + salt 5–10 g/day for constipation",
+        "Fiber often worsens IBS; peptides/Biocidin gut protocols",
+        "Diverticulosis despite high fiber; weak CRC protection data"
+      ]
+    },
+    {
+      "topic": "Myth 11 — Sore throat antibiotics and iodine local therapy",
+      "speakers": ["Stefan Hartman"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement"],
+      "subtopics": [
+        "Strep antibiotics ~1 day shorter illness",
+        "Lugol’s gargle / sprays / neti alternatives",
+        "Very low clinic antibiotic rates"
+      ]
+    },
+    {
+      "topic": "Myth 12 — Tamiflu scandal and iodine elevator pitch",
+      "speakers": ["Stefan Hartman", "Dr. Richard Armerling"],
+      "branch": "integrative-medicine",
+      "terms": ["vitamin_supplement", "detox"],
+      "subtopics": [
+        "Cochrane/BMJ Roche data fight; limited efficacy",
+        "100% iodine deficiency in ~150 patients",
+        "Iodine + selenium 400 mcg + B vitamins",
+        "Hashimoto’s compatible with Brownstein approach"
+      ]
+    },
+    {
+      "topic": "Q&A — TRT timing, finasteride, iodine acne, K2 with D",
+      "speakers": ["Stefan Hartman", "Bill Clearfield", "Dr. Nario", "Dr. Richard Armerling", "Carol Peterson"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone", "vitamin_supplement", "cardio"],
+      "subtopics": [
+        "Low intermittent finasteride/dutasteride if needed",
+        "Post-MI/DVT: don’t reflex-stop hormones",
+        "Progesterone cycling / B5 for iodine-acne case",
+        "D3 + K2 + magnesium mandatory pairing",
+        "CME credits; Messina soy webinar; Vegas forum"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-12-04/",
     "raw": "Research/lectures/clearfield-webinar-2024-12-04/raw/",
@@ -26,8 +157,16 @@
     "filename_pattern": "slide-2024-12-04-{NNN}.jpeg"
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-12-04/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-12-04/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-12-04/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-12-04/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Stefan Hartman 12 Days of Christmas medical myths (antibiotics, fever, NSAIDs, vasectomy, TRT, sat fat, sunscreen, salt, fiber, sore throat, Tamiflu) + iodine pitch. Secondary: Armerling nephrology/salt/Tamiflu; Clearfield TRT vs PV; Q&A finasteride/K2. Local MedNote (Gem recreation)."
 }

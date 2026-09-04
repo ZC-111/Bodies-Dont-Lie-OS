@@ -1,13 +1,121 @@
 {
   "id": "clearfield-webinar-2024-09-24",
-  "title": "Tuesday Integrative Health Webinar",
+  "title": "Tuesday Integrative Health Webinar — September 24, 2024: Drug-Induced Nutrient Depletion & Nitric Oxide",
+  "speaker": "Bill Clearfield (host); Violet Bailey (primary); Harlan / Quinn panel on nitric oxide; Carol & Joel Peterson",
   "approx_date": "2024-09-24",
+  "event": "Clearfield Training Program — Tuesday Integrative Health Webinar",
+  "duration_min": 90,
   "duration": "1 h 30 min",
   "channel": "Clearfield Training Program",
   "otter_url": "https://otter.ai/u/FbRyr7EkkewAoPTmXbK9DtUiA_Y",
   "otter_id": "FbRyr7EkkewAoPTmXbK9DtUiA_Y",
   "primary_branch": "integrative-medicine",
-  "gem_status": "raw",
+  "related_branches": ["nutrition", "immune"],
+  "themes": [
+    "drug_induced_nutrient_depletion",
+    "polypharmacy",
+    "tobacco_smoke_nutrients",
+    "coq10",
+    "nitric_oxide",
+    "methylation_folate",
+    "functional_labs",
+    "practice_systems"
+  ],
+  "medical_terms": [
+    "vitamin_supplement",
+    "cardio",
+    "detox",
+    "hormone",
+    "herbal_botanical"
+  ],
+  "sync": "transcript_only",
+  "gem_status": "processed",
+  "research_priority": "normal",
+  "segments": [
+    {
+      "topic": "Opening — pregnenolone 400 mg HS for anxious women; tech setup",
+      "speakers": ["Bill Clearfield", "Speaker 1", "Carol Peterson"],
+      "branch": "integrative-medicine",
+      "terms": ["hormone"],
+      "subtopics": [
+        "400 mg pregnenolone × ~4 weeks at bedtime",
+        "Bridge when progesterone alone fails",
+        "Audience seizure-risk question at low dose"
+      ]
+    },
+    {
+      "topic": "Bailey patent — smoke / secondhand nutrient replenishment product",
+      "speakers": ["Violet Bailey", "Bill Clearfield", "Joel Peterson", "Dr. Quinn"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "detox"],
+      "subtopics": [
+        "US patent; formulas by smoker type + quitters",
+        "Nicotine NRT ~25% efficacy vs $5.5B market",
+        "Taste change ~2 weeks; cigarette count often falls",
+        "AOSRD Saturday research committee invite"
+      ]
+    },
+    {
+      "topic": "Drug-induced nutrient depletion by drug class",
+      "speakers": ["Violet Bailey"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "cardio", "hormone"],
+      "subtopics": [
+        "~50% of common Rx deplete nutrients",
+        "LaValle + Pam Smith source maps",
+        "OCPs, PPIs, metformin, ACEI, statins, NSAIDs, steroids",
+        "Avoid folic acid; prefer methylfolate"
+      ]
+    },
+    {
+      "topic": "Tobacco smoke depletions — C, B6, Mg, Se, Zn, GSH/NAC",
+      "speakers": ["Violet Bailey"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "detox"],
+      "subtopics": [
+        "115 references; Lord affirmation letter",
+        "B6 ↔ lung cancer; Mg ↔ stroke associations",
+        "Smokeless tobacco: homocysteine ↑ ~10×",
+        "Vaping: no clear DIND map yet"
+      ]
+    },
+    {
+      "topic": "Q&A — CoQ10 crystals, Genova metabolomics, thyroid timing, mold",
+      "speakers": ["Violet Bailey", "Bill Clearfield", "Dr. Harlan"],
+      "branch": "nutrition",
+      "terms": ["vitamin_supplement", "hormone"],
+      "subtopics": [
+        "Crystal-free CoQ10 finger test",
+        "MitoQ + systemic ubiquinol (Houston pearl)",
+        "Labs 4–6 h post thyroid dose + vitamin D",
+        "Half of Bailey practice = mold / WDB"
+      ]
+    },
+    {
+      "topic": "Nitric oxide panel — strips, lipids, ED, neuropathy, oral microbiome",
+      "speakers": ["Violet Bailey", "Dr. Harlan", "Dr. Quinn", "Bill Clearfield"],
+      "branch": "nutrition",
+      "terms": ["cardio", "vitamin_supplement"],
+      "subtopics": [
+        "Berkeley Life strips; ~15% youthful NO by age 60",
+        "Resistant lipids / plaque anecdotes (Shirley)",
+        "Mouthwash & tongue scraping impair NO3→NO2",
+        "Fiber + tocotrienols + fish oil lipid stack"
+      ]
+    },
+    {
+      "topic": "Wrap — CME, Gersh next week, homeopathy Friday, commercialization",
+      "speakers": ["Bill Clearfield", "Violet Bailey", "Dr. Aaron", "Dr. Tanto"],
+      "branch": "integrative-medicine",
+      "terms": ["practice_systems"],
+      "subtopics": [
+        "2 AMA CME credits (~$30)",
+        "Felice Gersh estrogen / breast cancer next Tuesday",
+        "Aaron homeopathy certification Sep 27",
+        "Tanto Taproom Metaverse book tooling"
+      ]
+    }
+  ],
   "paths": {
     "packet": "Research/lectures/clearfield-webinar-2024-09-24/",
     "raw": "Research/lectures/clearfield-webinar-2024-09-24/raw/",
@@ -25,8 +133,16 @@
     "screenshot_count": 0
   },
   "derived": {
-    "gem_cleanup": false,
-    "study_guide": false,
-    "teach_outline": false
-  }
+    "gem_cleanup": true,
+    "study_guide": true,
+    "teach_outline": true,
+    "files": {
+      "structured_notes": "Research/lectures/clearfield-webinar-2024-09-24/derived/structured-lecture-notes.md",
+      "quiz": "Research/lectures/clearfield-webinar-2024-09-24/derived/quiz.md",
+      "infographic_data": "Research/lectures/clearfield-webinar-2024-09-24/derived/infographic-data.md",
+      "key_takeaways": "Research/lectures/clearfield-webinar-2024-09-24/derived/key-takeaways.md"
+    }
+  },
+  "knowledge_leaves": [],
+  "notes": "Primary: Violet Bailey on drug-induced nutrient depletion (drug-class maps + tobacco smoke) and patented smoke-nutrient replenishment product. Secondary: nitric oxide panel (Berkeley Life strips, lipid anecdotes, oral microbiome caveats), pregnenolone anxiety pearl, research-committee commercialization path. Local MedNote (Gem recreation)."
 }
