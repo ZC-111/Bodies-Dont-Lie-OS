@@ -567,15 +567,26 @@ def extract_location_blocks(text: str, page: int, existing: dict[str, dict]) -> 
             ingest_location_match(text, m.start(), end, page, existing)
 
 
+LOCATION_FIELDS = ("location_en", "location_note_en")
+
+
 def propagate_cluster_fields(extracted: dict[str, dict]) -> None:
-    """Copy shared LOCATION-cluster text to points named in a block."""
+    """Share only LOCATION text between points that name each other as landmarks.
+
+    A code appearing in a point's LOCATION prose (e.g. "7 cun proximal to Taiyuan
+    LU-9") is an anatomical landmark, not a shared clinical block. Clinical
+    sections (needling / actions / indications / commentary / combinations) are
+    therefore NEVER copied between points: doing so misattributes one point's
+    text to another (e.g. LU-9 Taiyuan previously inherited LU-6 Kongzui's
+    actions). We only fill a *missing* location from a neighbour that references
+    it, and we record that fill in ``propagated_fields`` so validation can flag
+    it. A point's own parsed section is never overwritten.
+    """
     snapshots = {code: dict(entry) for code, entry in extracted.items()}
     clusters: list[tuple[dict, list[str]]] = []
 
     for entry in snapshots.values():
-        blob = " ".join(
-            entry.get(k, "") or "" for k in ("location_en", "location_note_en", "needling_en", "actions_en", "indications_en")
-        )
+        blob = " ".join(entry.get(k, "") or "" for k in LOCATION_FIELDS)
         codes: list[str] = []
         for cm in CODE_IN_LINE.finditer(blob):
             c = normalize_code(cm.group(1))
@@ -589,11 +600,12 @@ def propagate_cluster_fields(extracted: dict[str, dict]) -> None:
             if code not in extracted:
                 continue
             target = extracted[code]
-            for field in TEXT_FIELDS:
-                if field in ("header", "name_en", "categories"):
-                    continue
+            for field in LOCATION_FIELDS:
                 if not (target.get(field) or "").strip() and (entry.get(field) or "").strip():
                     target[field] = entry[field]
+                    flags = target.setdefault("propagated_fields", [])
+                    if field not in flags:
+                        flags.append(field)
 
     for entry, codes in clusters:
         own = extracted.get(entry["code"])
@@ -716,7 +728,8 @@ def main(pdf_path: str, out_path: str) -> None:
 
     output = {
         "meta": {
-            "version": "0.2",
+            "version": "0.2.1",
+            "revision": "Clinical sections no longer propagated across landmark clusters (fixes cross-point contamination, e.g. LU-9 inheriting LU-6 text).",
             "source": pdf_path,
             "total_extracted": len(extracted),
             "classical_count": len(classical_codes),
