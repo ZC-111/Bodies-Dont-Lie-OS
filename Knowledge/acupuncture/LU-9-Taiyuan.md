@@ -42,4 +42,4 @@ Taiyuan LU-9 is the single most important point on the Lung channel to tonify Lu
 ## Related
 
 - Channel index: [Acupuncture Knowledge Branch](README.md)
-- Previous: [LU-7 Lieque](LU-7-Lieque.md) · Next: [LU-10 Yuji](LU-10-Yuji.md)
+- Previous: [LU-8 Jingqu](LU-8-Jingqu.md) · Next: [LU-10 Yuji](LU-10-Yuji.md)

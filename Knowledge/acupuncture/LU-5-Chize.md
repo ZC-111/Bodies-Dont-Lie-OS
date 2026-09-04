@@ -27,7 +27,7 @@ Perpendicular insertion 0.5 to 1 cun.
 
 ## Indications
 
-Cough, dyspnoea, asthma, shortness of breath; heart pain, palpitations, agitation and fullness, retching; pain in the medial aspect of the arm, purple-white wind blotches (pityriasis versicolor); restricted movement and pain of the elbow; the five types of lumbar pain, crane's-knee swelling and pain.
+Cough, coughing phlegm, asthma, wheezing, dyspnoea, shortness of breath, agitation and fullness of the chest; tidal fever, taxation fever, shivering, malaria, dry mouth and tongue, throat painful obstruction; spitting blood, coughing blood, nosebleed, vomiting blood; vomiting, diarrhoea, abdominal distention; swelling of the four limbs, enuresis, frequent urination; pain of the lateral costal region, Heart pain, agitation of the Heart, childhood fright wind, epilepsy, clonic spasm; coldness of the shoulder, pain of the upper arm, restricted movement of the elbow, the five types of lumbar pain, crane's-knee swelling and pain.
 
 ## Sources
 
@@ -38,4 +38,4 @@ Cough, dyspnoea, asthma, shortness of breath; heart pain, palpitations, agitatio
 ## Related
 
 - Channel index: [Acupuncture Knowledge Branch](README.md)
-- Previous: [LU-3 Tianfu](LU-3-Tianfu.md) · Next: [LU-6 Kongzui](LU-6-Kongzui.md)
+- Previous: [LU-4 Xiabai](LU-4-Xiabai.md) · Next: [LU-6 Kongzui](LU-6-Kongzui.md)

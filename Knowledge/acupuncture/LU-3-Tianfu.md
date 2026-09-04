@@ -37,4 +37,4 @@ Wheezing, dyspnoea, cough, asthma, nosebleed, spitting blood, coughing blood, mu
 ## Related
 
 - Channel index: [Acupuncture Knowledge Branch](README.md)
-- Previous: [LU-2 Yunmen](LU-2-Yunmen.md) · Next: [LU-5 Chize](LU-5-Chize.md)
+- Previous: [LU-2 Yunmen](LU-2-Yunmen.md) · Next: [LU-4 Xiabai](LU-4-Xiabai.md)

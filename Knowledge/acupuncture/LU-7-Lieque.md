@@ -37,4 +37,4 @@ Chills and fever, nasal congestion and discharge, nasal polyps, throat painful o
 ## Related
 
 - Channel index: [Acupuncture Knowledge Branch](README.md)
-- Previous: [LU-6 Kongzui](LU-6-Kongzui.md) · Next: [LU-9 Taiyuan](LU-9-Taiyuan.md)
+- Previous: [LU-6 Kongzui](LU-6-Kongzui.md) · Next: [LU-8 Jingqu](LU-8-Jingqu.md)
