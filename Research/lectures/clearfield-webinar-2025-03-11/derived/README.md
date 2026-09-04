@@ -10,6 +10,7 @@ Processed via MedNote pipeline (transcript → structure → supplemental conten
 | `quiz.md` | 20-question clinical quiz (MCQ + short answer) with answer keys |
 | `infographic-data.md` | 8 visual data cards (+ tip-of-week bonus) ready for Canva/Figma design |
 | `protocol-pathway.md` | Lecture-derived SIBO three-phase clinical pathway (slides pending) |
+| `content-kit.md` | Remix atoms: hooks, pins, scripts, patient/clinician cards |
 | `key-takeaways.md` | Top 10 clinical pearls, kill-only vs three-phase comparison, action items |
 
 ## Processing Notes

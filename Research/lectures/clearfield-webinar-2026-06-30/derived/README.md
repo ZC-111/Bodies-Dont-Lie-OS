@@ -11,6 +11,7 @@ Processed via MedNote pipeline (transcript → structure → supplemental conten
 | `infographic-data.md` | 8 visual data cards ready for Canva/Figma design |
 | `key-takeaways.md` | Top 10 clinical pearls, statin vs niacin comparison table, action items |
 | `protocol-pathway.md` | Lecture-derived ApoB-first lipid pathway (slides pending) |
+| `content-kit.md` | Remix atoms: hooks, pins, scripts, patient/clinician cards |
 
 ## Processing Notes
 
