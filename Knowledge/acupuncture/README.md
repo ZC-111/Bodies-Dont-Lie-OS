@@ -15,6 +15,19 @@ Atomic knowledge objects about acupuncture points — one leaf per confirmed poi
 - `{CODE}-{Pinyin-Or-English}.md` (e.g. `LU-1-Zhongfu.md`)
 - Only add leaves after Validate stage confirms the record
 
+## Confidence
+
+Correctness is an evolving property, not a binary (Constitution Article VI). Every leaf carries a `Confidence` rung that can only rise as evidence accrues, and is re-audited by [`qa_check.py`](../../Research/acupuncture/scripts/qa_check.py):
+
+| Rung | Meaning |
+|------|---------|
+| `proposed` | Extracted by tooling; not yet checked against a source. |
+| `source-verified` | Each clinical field read directly from a gold-standard source (Deadman) and confirmed present on the cited page; the point also appears in ≥1 comparison source. |
+| `cross-confirmed` | Clinical **content** additionally agrees across ≥2 independent sources. |
+| `contested` | Sources are present but disagree; the disagreement is documented rather than hidden. |
+
+Run the audit any time: `python3 Research/acupuncture/scripts/qa_check.py`.
+
 ## Related Folders
 
 - [Research/acupuncture/](../../Research/acupuncture/README.md) — Raw comparison and extraction data
