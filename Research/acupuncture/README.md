@@ -7,6 +7,7 @@ Cross-source comparison of acupuncture point data to build a confirmed foundatio
 ## What Belongs Here
 
 - Source datasets (JSON)
+- **How to run & verify the scripts** — [pipeline-usage.md](pipeline-usage.md)
 - Comparison outputs
 - Extraction scripts
 - Research notes on discrepancies
