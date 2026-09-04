@@ -16,6 +16,61 @@ BODY_START = 75
 BODY_END = 612
 INDEX_START = 668
 
+# Deadman point entries are laid out in two columns. pypdf's default text
+# extraction reads across both columns, scrambling each point's sections and
+# interleaving neighbouring points. Reconstructing reading order column-by-column
+# keeps each point's LOCATION/ACTIONS/INDICATIONS block contiguous, which is what
+# makes reliable per-point attribution possible.
+COLUMN_SPLIT_X = 290.0          # gutter between the two text columns (PDF units)
+GUTTER_BAND = (258.0, 322.0)    # near-empty vertical band on two-column pages
+
+
+def render_page_columns(page) -> str:
+    """Return page text in true reading order, handling the two-column layout.
+
+    Single-column pages (channel intros, theory, figures) are detected by a
+    populated central gutter and rendered as-is; two-column pages are split at
+    the gutter and each column is read top-to-bottom, left column first.
+    """
+    tokens: list[tuple[float, float, str]] = []
+
+    def visit(text, cm, tm, font, size):
+        if text and text.strip():
+            tokens.append((tm[5], tm[4], text.strip()))
+
+    page.extract_text(visitor_text=visit)
+    if not tokens:
+        return ""
+
+    def render(items: list[tuple[float, float, str]]) -> str:
+        items = sorted(items, key=lambda t: -t[0])
+        lines: list[list[tuple[float, str]]] = []
+        cur: list[tuple[float, str]] = []
+        cy: Optional[float] = None
+        for y, x, txt in items:
+            if cy is None or abs(y - cy) <= 3:
+                cur.append((x, txt))
+                cy = y if cy is None else cy
+            else:
+                lines.append(cur)
+                cur = [(x, txt)]
+                cy = y
+        if cur:
+            lines.append(cur)
+        return "\n".join(" ".join(t for _, t in sorted(ln)) for ln in lines)
+
+    n = len(tokens)
+    gutter = sum(1 for _, x, _ in tokens if GUTTER_BAND[0] <= x < GUTTER_BAND[1])
+    left = [t for t in tokens if t[1] < COLUMN_SPLIT_X]
+    right = [t for t in tokens if t[1] >= COLUMN_SPLIT_X]
+    two_column = (
+        gutter <= max(6, 0.05 * n)
+        and min(len(left), len(right)) >= 0.2 * n
+    )
+    if two_column:
+        return render(left) + "\n" + render(right)
+    return render(tokens)
+
 CODE_PATTERN = (
     r"(?:LU|LI|L\.I\.|L\.1\.|ST|SP|HE|HT|SI|BL|KI|KID|PC|P|TE|SJ|GB|LIV|LR|REN|DU|"
     r"M-[A-Z]{2}|N-[A-Z]{2}|MN-[A-Z]{2})[\-\s\.]*\d{1,2}[A-Z]?"
@@ -754,7 +809,28 @@ def main(pdf_path: str, out_path: str) -> None:
     print(json.dumps(output["meta"], indent=2))
 
 
+def print_columns(pages: str, pdf_path: str = DEFAULT_PDF) -> None:
+    """Print column-aware page text for a page or range, e.g. `--page 80-86`.
+
+    This exposes the two-column reconstruction used to verify point sections
+    directly against the source, without going through the full extractor.
+    Page numbers are the printed Deadman page numbers.
+    """
+    reader = PdfReader(pdf_path)
+    if "-" in pages:
+        a, b = pages.split("-", 1)
+        rng = range(int(a), int(b) + 1)
+    else:
+        rng = range(int(pages), int(pages) + 1)
+    for p in rng:
+        print(f"\n===== Deadman page {p} =====")
+        print(render_page_columns(reader.pages[p - 1]))
+
+
 if __name__ == "__main__":
-    pdf = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_PDF
-    out = sys.argv[2] if len(sys.argv) > 2 else "Research/acupuncture/data/deadman-extract-v0.2.json"
-    main(pdf, out)
+    if len(sys.argv) > 1 and sys.argv[1] == "--page":
+        print_columns(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else DEFAULT_PDF)
+    else:
+        pdf = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_PDF
+        out = sys.argv[2] if len(sys.argv) > 2 else "Research/acupuncture/data/deadman-extract-v0.2.json"
+        main(pdf, out)
