@@ -1,0 +1,4 @@
+{
+  "name": "Bodies Don't Lie OS",
+  "install": "pip3 install -r requirements.txt"
+}
