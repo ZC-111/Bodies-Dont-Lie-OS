@@ -7,7 +7,7 @@
 | Pinyin | bì nào |
 | Chinese | 臂臑 |
 | Point class | Meeting point of the Large Intestine channel with the Small Intestine and Bladder channels |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman pp. 115–116); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

@@ -7,7 +7,7 @@
 | Pinyin | shàng lián |
 | Chinese | 上廉 |
 | Point class | — |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman pp. 110–111); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

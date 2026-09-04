@@ -7,7 +7,7 @@
 | Pinyin | hé gǔ |
 | Chinese | 合谷 |
 | Point class | Yuan-Source point of the Large Intestine channel; command point of the face and mouth |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman pp. 103–104); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

@@ -7,7 +7,7 @@
 | Pinyin | wēn liū |
 | Chinese | 溫溜 |
 | Point class | Xi-Cleft point of the Large Intestine channel |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman p. 109); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
@@ -34,6 +34,7 @@ Headache, deviation of the face and mouth, redness, swelling and pain of the fac
 
 - *A Manual of Acupuncture* (Deadman), p. 109 — read directly from source (column-aware)
 - Cross-source: Bencaodian (溫溜 Wenliu)
+- Cross-source reconciliation: Bencaodian locates it "5 cun above the wrist crease" on the LI-5–LI-11 line — equivalent to Deadman's "5 cun proximal to Yangxi LI-5" (measurement-convention difference, not a conflict).
 - Validation gate: [large-intestine-channel-validation-v0.1.md](../../Research/acupuncture/large-intestine-channel-validation-v0.1.md)
 
 ## Related

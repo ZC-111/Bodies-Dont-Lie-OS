@@ -7,7 +7,7 @@
 | Pinyin | zhǒu liáo |
 | Chinese | 肘髎 |
 | Point class | — |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman p. 114); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

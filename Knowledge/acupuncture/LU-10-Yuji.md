@@ -7,7 +7,7 @@
 | Pinyin | yú jì |
 | Chinese | 魚際 |
 | Point class | Ying-Spring and Fire point of the Lung channel |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman pp. 88–89); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

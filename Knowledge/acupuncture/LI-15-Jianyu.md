@@ -7,7 +7,7 @@
 | Pinyin | jiān yú |
 | Chinese | 肩髃 |
 | Point class | Meeting point of the Large Intestine channel with the Yang Motility vessel (Yangqiao Mai) |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman pp. 116–117); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

@@ -7,7 +7,7 @@
 | Pinyin | piān lì |
 | Chinese | 偏歷 |
 | Point class | Luo-Connecting point of the Large Intestine channel |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman p. 108); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
@@ -32,6 +32,7 @@ Tinnitus, deafness, toothache, tooth decay, cold teeth, redness and pain of the 
 
 - *A Manual of Acupuncture* (Deadman), p. 108 — read directly from source (column-aware)
 - Cross-source: Bencaodian (偏歷 Pianli)
+- Cross-source reconciliation: Bencaodian locates it "3 cun above the wrist crease" on the LI-5–LI-11 line — equivalent to Deadman's "3 cun proximal to Yangxi LI-5" (measurement-convention difference, not a conflict).
 - Validation gate: [large-intestine-channel-validation-v0.1.md](../../Research/acupuncture/large-intestine-channel-validation-v0.1.md)
 
 ## Related

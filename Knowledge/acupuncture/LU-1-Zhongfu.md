@@ -7,7 +7,7 @@
 | Pinyin | zhōng fǔ |
 | Chinese | 中府 |
 | Point class | Front-Mu point of the Lung; Meeting point of the Lung and Spleen channels |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman p. 76); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

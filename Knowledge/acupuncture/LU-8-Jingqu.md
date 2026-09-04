@@ -7,7 +7,7 @@
 | Pinyin | jīng qú |
 | Chinese | 經渠 |
 | Point class | Jing-River and Metal point of the Lung channel |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman p. 86); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

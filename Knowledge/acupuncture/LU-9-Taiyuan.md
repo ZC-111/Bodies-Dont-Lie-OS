@@ -7,7 +7,7 @@
 | Pinyin | tài yuán |
 | Chinese | 太淵 |
 | Point class | Shu-Stream, Yuan-Source and Earth point of the Lung; Hui-Meeting point of the vessels |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman pp. 86–88); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

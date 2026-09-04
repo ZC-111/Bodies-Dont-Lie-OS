@@ -7,7 +7,7 @@
 | Pinyin | xià lián |
 | Chinese | 下廉 |
 | Point class | — |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman p. 110); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

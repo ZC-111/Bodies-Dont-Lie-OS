@@ -7,7 +7,7 @@
 | Pinyin | yáng xī |
 | Chinese | 陽谿 |
 | Point class | Jing-River and Fire point of the Large Intestine channel |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman pp. 106–107); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

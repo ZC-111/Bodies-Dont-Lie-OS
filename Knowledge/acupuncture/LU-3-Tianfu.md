@@ -7,7 +7,7 @@
 | Pinyin | tiān fǔ |
 | Chinese | 天府 |
 | Point class | Window of Heaven point |
-| Confidence | source-verified |
+| Confidence | cross-confirmed |
 | Evidence Level | derived — source-verified (Deadman pp. 78–79); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
