@@ -40,6 +40,33 @@ Graduated after [Lung Channel Validation](../../Research/acupuncture/lung-channe
 | LU-10 | [Yuji 魚際](LU-10-Yuji.md) | Ying-Spring / Fire |
 | LU-11 | [Shaoshang 少商](LU-11-Shaoshang.md) | Jing-Well / Wood |
 
+### Large Intestine channel (LI)
+
+Graduated after [Large Intestine Channel Validation v0.1](../../Research/acupuncture/large-intestine-channel-validation-v0.1.md), source-verified against Deadman pp. 100–120 — **the complete channel (20/20)**:
+
+| Code | Leaf | Point class |
+|------|------|-------------|
+| LI-1 | [Shangyang 商陽](LI-1-Shangyang.md) | Jing-Well / Metal |
+| LI-2 | [Erjian 二間](LI-2-Erjian.md) | Ying-Spring / Water |
+| LI-3 | [Sanjian 三間](LI-3-Sanjian.md) | Shu-Stream / Wood |
+| LI-4 | [Hegu 合谷](LI-4-Hegu.md) | Yuan-Source; command (face/mouth) |
+| LI-5 | [Yangxi 陽谿](LI-5-Yangxi.md) | Jing-River / Fire |
+| LI-6 | [Pianli 偏歷](LI-6-Pianli.md) | Luo-Connecting |
+| LI-7 | [Wenliu 溫溜](LI-7-Wenliu.md) | Xi-Cleft |
+| LI-8 | [Xialian 下廉](LI-8-Xialian.md) | — |
+| LI-9 | [Shanglian 上廉](LI-9-Shanglian.md) | — |
+| LI-10 | [Shousanli 手三里](LI-10-Shousanli.md) | — |
+| LI-11 | [Quchi 曲池](LI-11-Quchi.md) | He-Sea / Earth; Heavenly Star |
+| LI-12 | [Zhouliao 肘髎](LI-12-Zhouliao.md) | — |
+| LI-13 | [Shouwuli 手五里](LI-13-Shouwuli.md) | — |
+| LI-14 | [Binao 臂臑](LI-14-Binao.md) | Meeting (LI/SI/BL) |
+| LI-15 | [Jianyu 肩髃](LI-15-Jianyu.md) | Meeting with Yangqiao Mai |
+| LI-16 | [Jugu 巨骨](LI-16-Jugu.md) | Meeting with Yangqiao Mai |
+| LI-17 | [Tianding 天鼎](LI-17-Tianding.md) | — |
+| LI-18 | [Futu 扶突](LI-18-Futu.md) | Window of Heaven |
+| LI-19 | [Kouheliao 口禾髎](LI-19-Kouheliao.md) | — |
+| LI-20 | [Yingxiang 迎香](LI-20-Yingxiang.md) | Meeting (LI/ST) |
+
 ## Status
 
-Branch **growing**. The full Lung channel (11/11) is confirmed and source-verified. Other channels not yet started.
+Branch **growing**. Two complete channels source-verified: Lung (11/11) and Large Intestine (20/20) — 31 confirmed leaves. Other channels not yet started.
