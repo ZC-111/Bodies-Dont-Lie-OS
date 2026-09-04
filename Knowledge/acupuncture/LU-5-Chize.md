@@ -7,7 +7,7 @@
 | Pinyin | chǐ zé |
 | Chinese | 尺澤 |
 | Point class | He-Sea and Water point of the Lung channel |
-| Evidence Level | derived (cross-source confirmed: Deadman + Bencaodian) |
+| Evidence Level | derived — source-verified (Deadman p. 80); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
 ## Location
@@ -27,15 +27,15 @@ Perpendicular insertion 0.5 to 1 cun.
 
 ## Indications
 
-Principal: cough, dyspnoea, asthma, shortness of breath; heart pain, palpitations, agitation and fullness; spitting/coughing blood; pain of the medial arm and restricted movement of the elbow. (Full indication list in the source extract.)
+Cough, dyspnoea, asthma, shortness of breath; heart pain, palpitations, agitation and fullness, retching; pain in the medial aspect of the arm, purple-white wind blotches (pityriasis versicolor); restricted movement and pain of the elbow; the five types of lumbar pain, crane's-knee swelling and pain.
 
 ## Sources
 
-- *A Manual of Acupuncture* (Deadman), p. 80 — via [deadman-extract-v0.2.json](../../Research/acupuncture/data/deadman-extract-v0.2.json)
+- *A Manual of Acupuncture* (Deadman), p. 80 — read directly from source
 - Cross-source: Bencaodian (尺澤 Chize)
 - Validation gate: [lung-channel-validation-v0.1.md](../../Research/acupuncture/lung-channel-validation-v0.1.md)
 
 ## Related
 
 - Channel index: [Acupuncture Knowledge Branch](README.md)
-- Previous: [LU-1 Zhongfu](LU-1-Zhongfu.md) · Next confirmed: [LU-6 Kongzui](LU-6-Kongzui.md)
+- Previous: [LU-3 Tianfu](LU-3-Tianfu.md) · Next: [LU-6 Kongzui](LU-6-Kongzui.md)

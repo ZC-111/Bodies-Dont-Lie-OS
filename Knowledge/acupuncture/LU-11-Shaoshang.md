@@ -7,7 +7,7 @@
 | Pinyin | shào shāng |
 | Chinese | 少商 |
 | Point class | Jing-Well and Wood point of the Lung channel |
-| Evidence Level | derived (cross-source confirmed: Deadman + Bencaodian) |
+| Evidence Level | derived — source-verified (Deadman pp. 90–91); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
 ## Location
@@ -25,11 +25,11 @@ Perpendicular or oblique insertion directed proximally 0.1 to 0.2 cun, or prick 
 
 ## Indications
 
-Loss of consciousness from windstroke, cold/hot inversion; sore throat, throat painful obstruction, mumps, nosebleed; agitation with cough and dyspnoea, childhood fright wind; pain and contraction of the wrist and thumb, heat of the palms.
+Loss of consciousness from windstroke, cold/hot inversion; sore throat, throat painful obstruction, mumps, nosebleed, dry lips with desire to drink, febrile disease with cold shivering; agitation with cough and dyspnoea, mania, childhood fright wind, vomiting; pain and contraction of the wrist and thumb, heat of the palms.
 
 ## Sources
 
-- *A Manual of Acupuncture* (Deadman), p. 90 — via [deadman-extract-v0.2.json](../../Research/acupuncture/data/deadman-extract-v0.2.json)
+- *A Manual of Acupuncture* (Deadman), pp. 90–91 — read directly from source
 - Cross-source: Bencaodian (少商 Shaoshang)
 - Validation gate: [lung-channel-validation-v0.1.md](../../Research/acupuncture/lung-channel-validation-v0.1.md)
 

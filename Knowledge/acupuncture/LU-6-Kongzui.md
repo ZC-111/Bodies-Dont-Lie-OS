@@ -7,7 +7,7 @@
 | Pinyin | kǒng zuì |
 | Chinese | 孔最 |
 | Point class | Xi-Cleft point of the Lung channel |
-| Evidence Level | derived (cross-source confirmed: Deadman + Bencaodian) |
+| Evidence Level | derived — source-verified (Deadman pp. 82–83); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
 ## Location
@@ -27,15 +27,15 @@ Perpendicular or oblique insertion 0.5 to 1.5 cun.
 
 ## Indications
 
-Cough, asthma, wheezing, dyspnoea, distention and pain of the chest and upper back, sore throat, throat painful obstruction, febrile disease with absence of sweating, febrile disease with breathlessness, heat in the palms. Heart pain with vomiting, wrist pain, malaria.
+Cough, wheezing, asthma, chest pain, swelling and pain of the throat, loss of voice, febrile disease with absence of sweating; coughing blood, spitting blood, vomiting blood, hiccup; severe pain of the elbow and upper arm, inability to raise the arm above the head, difficulty flexing and extending the fingers, epigastric pain, haemorrhoids, headache, clonic spasm.
 
 ## Sources
 
-- *A Manual of Acupuncture* (Deadman), p. 82 — via [deadman-extract-v0.2.json](../../Research/acupuncture/data/deadman-extract-v0.2.json)
+- *A Manual of Acupuncture* (Deadman), pp. 82–83 — read directly from source
 - Cross-source: Bencaodian (孔最 Kongzui)
 - Validation gate: [lung-channel-validation-v0.1.md](../../Research/acupuncture/lung-channel-validation-v0.1.md)
 
 ## Related
 
 - Channel index: [Acupuncture Knowledge Branch](README.md)
-- Previous: [LU-5 Chize](LU-5-Chize.md) · Next confirmed: [LU-10 Yuji](LU-10-Yuji.md)
+- Previous: [LU-5 Chize](LU-5-Chize.md) · Next: [LU-7 Lieque](LU-7-Lieque.md)

@@ -7,7 +7,7 @@
 | Pinyin | yú jì |
 | Chinese | 魚際 |
 | Point class | Ying-Spring and Fire point of the Lung channel |
-| Evidence Level | derived (cross-source confirmed: Deadman + Bencaodian) |
+| Evidence Level | derived — source-verified (Deadman pp. 88–89); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
 ## Location
@@ -27,15 +27,15 @@ Perpendicular insertion 0.5 to 1 cun.
 
 ## Indications
 
-Principal: throat painful obstruction, sore throat, dry throat, loss of voice; cough (with absence of sweating); coughing/vomiting blood; deficiency heat; heat and pain of the palm and thumb. (Full indication list in the source extract.)
+Throat painful obstruction, sore throat, dry throat, loss of voice; cough (with absence of sweating), coughing blood; deficiency heat, heat in the body, aversion to cold; agitation of the Heart, sadness and fear; breast abscess, toothache; heat and pain of the palm and thumb.
 
 ## Sources
 
-- *A Manual of Acupuncture* (Deadman), p. 88 — via [deadman-extract-v0.2.json](../../Research/acupuncture/data/deadman-extract-v0.2.json)
+- *A Manual of Acupuncture* (Deadman), pp. 88–89 — read directly from source
 - Cross-source: Bencaodian (魚際 Yuji)
 - Validation gate: [lung-channel-validation-v0.1.md](../../Research/acupuncture/lung-channel-validation-v0.1.md)
 
 ## Related
 
 - Channel index: [Acupuncture Knowledge Branch](README.md)
-- Previous: [LU-6 Kongzui](LU-6-Kongzui.md) · Next confirmed: [LU-11 Shaoshang](LU-11-Shaoshang.md)
+- Previous: [LU-9 Taiyuan](LU-9-Taiyuan.md) · Next: [LU-11 Shaoshang](LU-11-Shaoshang.md)
