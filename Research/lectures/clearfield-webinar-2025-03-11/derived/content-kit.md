@@ -110,10 +110,10 @@ Educational content from a professional webinar summary. Not personal medical ad
 
 ## 10. Leaf candidates (optional)
 
-- [ ] `Why-SIBO-Relapses-By-Nine-Months.md`  
-- [ ] `Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md`  
-- [ ] `What-Is-Three-Phase-SIBO-Care.md`  
-- [ ] `Why-FODMAP-Is-Not-A-SIBO-Diet.md`
+- [x] [`Why-SIBO-Relapses-By-Nine-Months.md`](../../../../Knowledge/nutrition/Why-SIBO-Relapses-By-Nine-Months.md)  
+- [x] [`Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md`](../../../../Knowledge/nutrition/Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md)  
+- [x] [`What-Is-Three-Phase-SIBO-Care.md`](../../../../Knowledge/nutrition/What-Is-Three-Phase-SIBO-Care.md)  
+- [x] [`Why-FODMAP-Is-Not-A-SIBO-Diet.md`](../../../../Knowledge/nutrition/Why-FODMAP-Is-Not-A-SIBO-Diet.md)
 
 ## 11. Source stamp
 

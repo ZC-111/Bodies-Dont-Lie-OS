@@ -31,6 +31,15 @@ Integrative hub for small-intestinal overgrowth education: Clearfield/Hill biome
 | [`2026-09-04-breath-test-limits`](briefs/2026-09-04-breath-test-limits/) | Negative breath test but still bloated | draft |
 | [`2026-09-04-fodmap-not-sibo-diet`](briefs/2026-09-04-fodmap-not-sibo-diet/) | Is low-FODMAP the SIBO diet? | draft |
 
+## Knowledge leaves
+
+| Leaf | Path |
+|---|---|
+| Why SIBO relapses by nine months | [`../../../Knowledge/nutrition/Why-SIBO-Relapses-By-Nine-Months.md`](../../../Knowledge/nutrition/Why-SIBO-Relapses-By-Nine-Months.md) |
+| What is three-phase SIBO care | [`../../../Knowledge/nutrition/What-Is-Three-Phase-SIBO-Care.md`](../../../Knowledge/nutrition/What-Is-Three-Phase-SIBO-Care.md) |
+| Why glucose breath tests miss distal SIBO | [`../../../Knowledge/nutrition/Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md`](../../../Knowledge/nutrition/Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md) |
+| Why FODMAP is not a SIBO diet | [`../../../Knowledge/nutrition/Why-FODMAP-Is-Not-A-SIBO-Diet.md`](../../../Knowledge/nutrition/Why-FODMAP-Is-Not-A-SIBO-Diet.md) |
+
 ## Disclaimer
 
 Educational study material. Not personal medical advice. Verify with a qualified clinician.

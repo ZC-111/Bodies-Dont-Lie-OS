@@ -72,8 +72,8 @@ SIBO often returns because antimicrobial courses suppress overgrowth without res
 
 ## 9. Leaf candidates (optional)
 
-- [ ] `Knowledge/…/Why-SIBO-Relapses-By-Nine-Months.md`  
-- [ ] `Knowledge/…/What-Is-Three-Phase-SIBO-Care.md`
+- [x] [`Knowledge/nutrition/Why-SIBO-Relapses-By-Nine-Months.md`](../../../../../Knowledge/nutrition/Why-SIBO-Relapses-By-Nine-Months.md)  
+- [x] [`Knowledge/nutrition/What-Is-Three-Phase-SIBO-Care.md`](../../../../../Knowledge/nutrition/What-Is-Three-Phase-SIBO-Care.md)
 
 ## 10. Source stamp
 

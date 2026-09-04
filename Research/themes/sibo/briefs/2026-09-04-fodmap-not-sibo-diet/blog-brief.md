@@ -72,7 +72,7 @@ Low-FODMAP can reduce fermentable load and IBS-like symptoms, but Hill’s teach
 
 ## 9. Leaf candidates (optional)
 
-- [ ] `Knowledge/…/Why-FODMAP-Is-Not-A-SIBO-Diet.md`
+- [x] [`Knowledge/nutrition/Why-FODMAP-Is-Not-A-SIBO-Diet.md`](../../../../../Knowledge/nutrition/Why-FODMAP-Is-Not-A-SIBO-Diet.md)
 
 ## 10. Source stamp
 

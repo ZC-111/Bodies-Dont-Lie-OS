@@ -72,7 +72,7 @@ Breath tests are useful tools with meaningful miss rates — especially for dist
 
 ## 9. Leaf candidates (optional)
 
-- [ ] `Knowledge/…/Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md`
+- [x] [`Knowledge/nutrition/Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md`](../../../../../Knowledge/nutrition/Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md)
 
 ## 10. Source stamp
 
