@@ -7,7 +7,8 @@
 | Pinyin | liè quē |
 | Chinese | 列缺 |
 | Point class | Luo-Connecting point of the Lung; Confluent point of the Conception vessel (Ren Mai); command point of the head and nape |
-| Evidence Level | derived — source-verified (Deadman p. 84); cross-source: Bencaodian |
+| Confidence | source-verified |
+| Evidence Level | derived — source-verified (Deadman pp. 83–84); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
 ## Location
@@ -30,7 +31,7 @@ Chills and fever, nasal congestion and discharge, nasal polyps, throat painful o
 
 ## Sources
 
-- *A Manual of Acupuncture* (Deadman), p. 84 — read directly from source
+- *A Manual of Acupuncture* (Deadman), pp. 83–84 — read directly from source
 - Cross-source: Bencaodian (列缺 Lieque)
 - Validation gate: [lung-channel-validation-v0.1.md](../../Research/acupuncture/lung-channel-validation-v0.1.md)
 

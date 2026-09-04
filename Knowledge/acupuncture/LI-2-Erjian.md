@@ -7,6 +7,7 @@
 | Pinyin | èr jiān |
 | Chinese | 二間 |
 | Point class | Ying-Spring and Water point of the Large Intestine channel |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman p. 101); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

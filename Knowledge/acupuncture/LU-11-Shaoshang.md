@@ -7,6 +7,7 @@
 | Pinyin | shào shāng |
 | Chinese | 少商 |
 | Point class | Jing-Well and Wood point of the Lung channel |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman pp. 90–91); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

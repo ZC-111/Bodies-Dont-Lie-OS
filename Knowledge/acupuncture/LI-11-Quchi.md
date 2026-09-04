@@ -7,6 +7,7 @@
 | Pinyin | qū chí |
 | Chinese | 曲池 |
 | Point class | He-Sea and Earth point of the Large Intestine channel; Ma Dan-yang Heavenly Star point |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman pp. 112–113); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

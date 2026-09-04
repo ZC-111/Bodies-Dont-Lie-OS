@@ -7,6 +7,7 @@
 | Pinyin | sān jiān |
 | Chinese | 三間 |
 | Point class | Shu-Stream and Wood point of the Large Intestine channel |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman p. 102); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

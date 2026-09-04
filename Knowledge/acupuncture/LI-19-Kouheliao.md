@@ -7,6 +7,7 @@
 | Pinyin | kǒu hé liáo |
 | Chinese | 口禾髎 |
 | Point class | — |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman p. 119); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

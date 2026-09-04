@@ -7,6 +7,7 @@
 | Pinyin | yíng xiāng |
 | Chinese | 迎香 |
 | Point class | Meeting point of the Large Intestine and Stomach channels |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman pp. 119–120); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

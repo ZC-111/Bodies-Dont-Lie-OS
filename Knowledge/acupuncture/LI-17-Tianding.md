@@ -7,6 +7,7 @@
 | Pinyin | tiān dǐng |
 | Chinese | 天鼎 |
 | Point class | — |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman p. 118); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

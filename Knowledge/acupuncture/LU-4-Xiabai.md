@@ -7,6 +7,7 @@
 | Pinyin | xiá bái |
 | Chinese | 俠白 |
 | Point class | — |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman p. 80); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

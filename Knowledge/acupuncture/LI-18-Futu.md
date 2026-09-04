@@ -7,6 +7,7 @@
 | Pinyin | fú tú |
 | Chinese | 扶突 |
 | Point class | Window of Heaven point |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman pp. 118–119); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

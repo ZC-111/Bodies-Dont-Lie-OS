@@ -7,7 +7,8 @@
 | Pinyin | tài yuán |
 | Chinese | 太淵 |
 | Point class | Shu-Stream, Yuan-Source and Earth point of the Lung; Hui-Meeting point of the vessels |
-| Evidence Level | derived — source-verified (Deadman p. 87); cross-source: Bencaodian |
+| Confidence | source-verified |
+| Evidence Level | derived — source-verified (Deadman pp. 86–88); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
 ## Location
@@ -35,7 +36,7 @@ Taiyuan LU-9 is the single most important point on the Lung channel to tonify Lu
 
 ## Sources
 
-- *A Manual of Acupuncture* (Deadman), pp. 87–88 — read directly from source
+- *A Manual of Acupuncture* (Deadman), pp. 86–88 — read directly from source
 - Cross-source: Bencaodian (太淵 Taiyuan)
 - Validation gate: [lung-channel-validation-v0.1.md](../../Research/acupuncture/lung-channel-validation-v0.1.md)
 

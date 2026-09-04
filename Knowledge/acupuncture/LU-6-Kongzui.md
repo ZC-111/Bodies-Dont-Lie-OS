@@ -7,6 +7,7 @@
 | Pinyin | kǒng zuì |
 | Chinese | 孔最 |
 | Point class | Xi-Cleft point of the Lung channel |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman pp. 82–83); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 

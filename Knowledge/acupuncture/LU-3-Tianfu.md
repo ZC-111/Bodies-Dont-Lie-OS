@@ -7,7 +7,8 @@
 | Pinyin | tiān fǔ |
 | Chinese | 天府 |
 | Point class | Window of Heaven point |
-| Evidence Level | derived — source-verified (Deadman p. 79); cross-source: Bencaodian |
+| Confidence | source-verified |
+| Evidence Level | derived — source-verified (Deadman pp. 78–79); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
 ## Location
@@ -30,7 +31,7 @@ Wheezing, dyspnoea, cough, asthma, nosebleed, spitting blood, coughing blood, mu
 
 ## Sources
 
-- *A Manual of Acupuncture* (Deadman), p. 79 — read directly from source
+- *A Manual of Acupuncture* (Deadman), pp. 78–79 — read directly from source
 - Cross-source: Bencaodian (天府 Tianfu)
 - Validation gate: [lung-channel-validation-v0.1.md](../../Research/acupuncture/lung-channel-validation-v0.1.md)
 

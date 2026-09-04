@@ -7,6 +7,7 @@
 | Pinyin | piān lì |
 | Chinese | 偏歷 |
 | Point class | Luo-Connecting point of the Large Intestine channel |
+| Confidence | source-verified |
 | Evidence Level | derived — source-verified (Deadman p. 108); cross-source: Bencaodian |
 | Last Verified | 2026-09-04 |
 
