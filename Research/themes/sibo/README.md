@@ -40,6 +40,12 @@ Integrative hub for small-intestinal overgrowth education: Clearfield/Hill biome
 | Why glucose breath tests miss distal SIBO | [`../../../Knowledge/nutrition/Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md`](../../../Knowledge/nutrition/Why-Glucose-Breath-Tests-Miss-Distal-SIBO.md) |
 | Why FODMAP is not a SIBO diet | [`../../../Knowledge/nutrition/Why-FODMAP-Is-Not-A-SIBO-Diet.md`](../../../Knowledge/nutrition/Why-FODMAP-Is-Not-A-SIBO-Diet.md) |
 
+## Partnerships
+
+| Resource | Path |
+|---|---|
+| Affiliate / partner map v0.1 | [`partnerships-v0.1.md`](partnerships-v0.1.md) |
+
 ## Disclaimer
 
 Educational study material. Not personal medical advice. Verify with a qualified clinician.
