@@ -21,6 +21,11 @@
 | `hair_pattern_blood_xu_body.svg` | Blood Xu diffuse thinning |
 | `hair_pattern_ki_jing_body.svg` | KI Jing / vertex-aging |
 | `hair_pattern_lv_qi_body.svg` | Stress telogen / LV Qi |
+| `hair_pattern_ki_yin_heat_body.svg` | KI Yin empty Heat |
+| `hair_pattern_blood_heat_body.svg` | Blood Heat / Wind scalp |
+| `hair_pattern_qi_blood_stasis_body.svg` | Qi & Blood stasis patches |
+| `hair_pattern_damp_heat_scalp_body.svg` | Damp-Heat oily scalp |
+| `hair_pattern_wei_qi_post_illness_body.svg` | Post-illness Wei-qi shed |
 
 ## Design notes
 

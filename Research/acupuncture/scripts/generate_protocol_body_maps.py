@@ -21,6 +21,7 @@ POINTS = {
     "HE-7": (318, 335),
     "P-6": (305, 350),
     "LU-7": (88, 345),
+    "LU-9": (92, 335),
     "TB-6": (320, 360),
     "REN-12": (200, 285),
     "REN-6": (200, 355),
@@ -115,18 +116,30 @@ def main() -> None:
     make_svg("Sleep — HT/SP Deficiency", "Nourish blood & anchor spirit", ["HE-7", "SP-6", "ST-36", "M-HN-3"], "sleep_pattern_ht_sp_xu_body.svg")
     make_svg("Sleep — HT–KI Disharmony", "Nourish KI yin / cool deficiency fire", ["HE-7", "SP-6", "KID-3", "KID-6"], "sleep_pattern_ht_ki_body.svg")
     make_svg("Sleep — Liver Fire", "Drain excess fire & settle LV (+ Anmian)", ["HE-7", "SP-6", "M-HN-34", "BL-18", "BL-19"], "sleep_pattern_lv_fire_body.svg")
+    make_svg("Sleep — Agitation & Oppression", "Nightmares / can't settle; jing-well emphasis", ["SP-1", "ST-45", "LU-9", "SP-4", "BL-13", "SP-9"], "sleep_pattern_agitation_body.svg")
+    make_svg("Sleep — Fright Palpitations", "Firm lower jiao & settle fright", ["SP-6", "ST-27", "REN-6"], "sleep_pattern_fright_palpitations_body.svg")
 
     make_svg("Gut & SIBO — Middle-Jiao Duo", "ST-36 + SP-6 + REN-12", ["ST-36", "SP-6", "REN-12"], "gut_classic_middle_jiao_body.svg", "#3d6b4f")
     make_svg("Gut & SIBO — Anchor Map", "Adjunct points for Hill three-phase pairing", ["ST-36", "SP-6", "REN-12", "ST-25", "ST-37", "SP-9", "LV-13", "LV-3", "P-6", "HE-7"], "gut_anchors_body.svg", "#3d6b4f")
     make_svg("Gut — SP Qi Deficiency", "Tonify SP / Phase 2–3 terrain", ["ST-36", "SP-6", "REN-12", "BL-20", "BL-21"], "gut_pattern_sp_qi_xu_body.svg", "#3d6b4f")
     make_svg("Gut — LV Invading SP", "Stress relapse / sympathetic tone", ["LV-3", "LV-13", "ST-36", "SP-6", "REN-12"], "gut_pattern_lv_sp_body.svg", "#3d6b4f")
     make_svg("Gut — Move the Fu", "Motility / distension adjunct", ["ST-25", "ST-37", "TB-6", "ST-36", "LV-3"], "gut_pattern_move_fu_body.svg", "#3d6b4f")
+    make_svg("Gut — Damp Obstructing Middle", "Heaviness, sticky stools, post-prandial fog", ["SP-9", "REN-12", "ST-36", "SP-6", "ST-40"], "gut_pattern_damp_middle_body.svg", "#3d6b4f")
+    make_svg("Gut — Damp-Heat Intestines", "Urgent foul burning stools (rule out IBD)", ["ST-25", "ST-37", "LI-11", "SP-9", "ST-44"], "gut_pattern_damp_heat_li_body.svg", "#3d6b4f")
+    make_svg("Gut — Food Stagnation", "Early satiety / epigastric oppression", ["REN-12", "ST-36", "ST-21", "P-6", "LI-4"], "gut_pattern_food_stagnation_body.svg", "#3d6b4f")
+    make_svg("Gut — Cold in the Middle", "Cramping better with warmth", ["REN-12", "ST-36", "REN-6", "SP-4"], "gut_pattern_cold_middle_body.svg", "#3d6b4f")
+    make_svg("Gut — Shen–Gut Axis", "Anxiety grazing / IBS-overlap insomnia", ["HE-7", "M-HN-3", "ST-36", "SP-6", "P-6"], "gut_pattern_shen_gut_body.svg", "#3d6b4f")
 
     make_svg("Hair & Scalp — Blood-Nourish Core", "ST-36 + SP-6 + BL-17 + DU-20", ["ST-36", "SP-6", "BL-17", "DU-20"], "hair_classic_blood_nourish_body.svg", "#7a4a6b")
     make_svg("Hair & Scalp — Anchor Map", "Systemic + local vertex focus", ["ST-36", "SP-6", "SP-10", "BL-17", "BL-20", "BL-23", "KID-3", "REN-4", "LV-3", "LI-11", "DU-20", "GB-20"], "hair_anchors_body.svg", "#7a4a6b")
     make_svg("Hair — Blood Deficiency", "Diffuse thinning / pale / fatigue", ["ST-36", "SP-6", "BL-17", "BL-20", "SP-10", "REN-4", "DU-20"], "hair_pattern_blood_xu_body.svg", "#7a4a6b")
     make_svg("Hair — KI Jing Deficiency", "Vertex / aging / postpartum", ["KID-3", "BL-23", "REN-4", "GB-39", "ST-36", "SP-6", "DU-20"], "hair_pattern_ki_jing_body.svg", "#7a4a6b")
     make_svg("Hair — LV Qi Constraint", "Stress telogen", ["LV-3", "LI-4", "GB-20", "SP-6", "HE-7", "DU-20"], "hair_pattern_lv_qi_body.svg", "#7a4a6b")
+    make_svg("Hair — KI Yin Empty Heat", "Night sweat, dry, restless thinning", ["KID-3", "KID-6", "SP-6", "HE-6", "BL-23", "DU-20"], "hair_pattern_ki_yin_heat_body.svg", "#7a4a6b")
+    make_svg("Hair — Blood Heat / Wind", "Itchy red scalp, rapid shed", ["SP-10", "LI-11", "LV-2", "DU-14", "LI-4"], "hair_pattern_blood_heat_body.svg", "#7a4a6b")
+    make_svg("Hair — Qi & Blood Stagnation", "Stubborn local patches / stasis", ["SP-10", "SP-6", "LV-3", "LI-4", "BL-17"], "hair_pattern_qi_blood_stasis_body.svg", "#7a4a6b")
+    make_svg("Hair — Damp-Heat Scalp", "Oily itchy dandruff pattern", ["SP-9", "LI-11", "ST-40", "GB-34", "REN-12"], "hair_pattern_damp_heat_scalp_body.svg", "#7a4a6b")
+    make_svg("Hair — Post-Illness Wei-Qi", "Shed after febrile / postpartum drain", ["LI-4", "LU-7", "ST-36", "SP-6", "BL-13"], "hair_pattern_wei_qi_post_illness_body.svg", "#7a4a6b")
 
 
 if __name__ == "__main__":

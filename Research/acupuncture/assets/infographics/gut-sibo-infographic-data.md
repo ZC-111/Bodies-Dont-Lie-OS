@@ -21,6 +21,11 @@
 | `gut_pattern_sp_qi_xu_body.svg` | SP Qi Xu / Phase 2–3 |
 | `gut_pattern_lv_sp_body.svg` | LV invading SP (stress relapse) |
 | `gut_pattern_move_fu_body.svg` | Motility / distension set |
+| `gut_pattern_damp_middle_body.svg` | Damp obstructing middle |
+| `gut_pattern_damp_heat_li_body.svg` | Damp-Heat intestines |
+| `gut_pattern_food_stagnation_body.svg` | Food stagnation / epigastric oppression |
+| `gut_pattern_cold_middle_body.svg` | Cold in the middle |
+| `gut_pattern_shen_gut_body.svg` | Shen–gut anxiety grazing |
 
 ## Design notes
 

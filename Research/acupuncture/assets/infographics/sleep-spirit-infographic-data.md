@@ -21,6 +21,8 @@
 | `sleep_pattern_ht_sp_xu_body.svg` | HT/SP Xu combination |
 | `sleep_pattern_ht_ki_body.svg` | HT–KI disharmony |
 | `sleep_pattern_lv_fire_body.svg` | Liver Fire (+ Anmian) |
+| `sleep_pattern_agitation_body.svg` | Agitation & oppression / nightmares |
+| `sleep_pattern_fright_palpitations_body.svg` | Fright palpitations insomnia |
 
 ## Design notes
 
