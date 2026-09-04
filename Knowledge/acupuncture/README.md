@@ -23,7 +23,7 @@ Correctness is an evolving property, not a binary (Constitution Article VI). Eve
 |------|---------|
 | `proposed` | Extracted by tooling; not yet checked against a source. |
 | `source-verified` | Each clinical field read directly from a gold-standard source (Deadman) and confirmed present on the cited page; the point also appears in ≥1 comparison source. |
-| `cross-confirmed` | Clinical **content** additionally agrees across ≥2 independent sources. |
+| `cross-confirmed` | Identity and **location** additionally agree with an independent source (Bencaodian); clinical actions/indications remain Deadman-sourced (Bencaodian supplies location, not actions). Low automated overlap requires a documented reconciliation note. |
 | `contested` | Sources are present but disagree; the disagreement is documented rather than hidden. |
 
 Run the audit any time: `python3 Research/acupuncture/scripts/qa_check.py`.

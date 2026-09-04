@@ -37,6 +37,31 @@ _spec.loader.exec_module(dm)
 CONFIDENCE_RUNGS = {"proposed", "source-verified", "cross-confirmed", "contested"}
 REQUIRED_SECTIONS = ("## Location", "## Actions", "## Indications", "## Sources", "## Related")
 
+# Cross-source location agreement (Layer 3b). Bencaodian supplies independent
+# identity + location (not clinical actions), so cross-confirmation here means
+# "identity + location agree across ≥2 sources"; clinical content stays
+# Deadman-sourced. Different manuals use different measurement conventions
+# (Deadman: "N cun proximal to <named point>"; Bencaodian: "N cun above the
+# wrist crease"), so a low automated overlap is not a conflict — it requires a
+# documented reconciliation note in the leaf.
+XSRC_AGREE = 0.50
+_NUMWORD = {"first": "1", "second": "2", "third": "3", "fourth": "4", "fifth": "5",
+            "sixth": "6", "seventh": "7", "eighth": "8", "ninth": "9", "tenth": "10",
+            "1st": "1", "2nd": "2", "3rd": "3"}
+_SYN = {"thorax": "chest", "thoracic": "chest", "palmar": "flexor", "volar": "flexor"}
+
+
+def loc_tokens(s: str) -> set[str]:
+    s = (s or "").lower()
+    s = s.replace("gv-", "du-").replace("cv-", "ren-").replace("gb ", "gb-")
+    out: set[str] = set()
+    for w in re.findall(r"[a-z]+-\d+|[a-z0-9]+", s):
+        w = _NUMWORD.get(w, w)
+        w = _SYN.get(w, w)
+        if len(w) >= 3 or w.isdigit() or "-" in w:
+            out.add(w)
+    return out
+
 # Source-fidelity token-overlap thresholds (fraction of a field's significant
 # words that must appear on the cited source page). Actions are near-verbatim;
 # indications are sometimes condensed, so their bar is lower.
@@ -81,6 +106,7 @@ def parse_leaf(path: Path) -> dict:
         "actions_raw": section("Actions"),
         "indications": section("Indications"),
         "links": [m.group(1) for m in re.finditer(r"\]\(([^)]+)\)", txt)],
+        "has_recon": bool(re.search(r"cross-source reconciliation", txt, re.I)),
     }
 
 
@@ -116,8 +142,10 @@ def main() -> int:
     # ---- Per-leaf checks ----
     filenames = {p.name for p in leaves}
     codes_seen = []
+    parsed = []
     for path in leaves:
         L = parse_leaf(path)
+        parsed.append(L)
         code = L["code"]
         tag = path.name
         # Layer 1: structure
@@ -145,8 +173,26 @@ def main() -> int:
                 flags.append(f"[L1 links] {tag}: broken link -> {link}"); hard += 1
 
         # Layer 3: cross-source presence
+        bencao = (comp.get(code) or {}).get("bencaodian") or {}
         if code not in comp or not comp[code].get("in_bencaodian"):
             flags.append(f"[L3 xsrc] {tag}: {code} not present in Bencaodian comparison")
+
+        # Layer 3b: cross-source location agreement (identity + location)
+        b_loc = bencao.get("location_en") or ""
+        overlap = None
+        if b_loc and L["location"]:
+            bt = loc_tokens(b_loc)
+            overlap = len(bt & loc_tokens(L["location"])) / len(bt) if bt else None
+        L["_xsrc_overlap"] = overlap
+        # Consistency: a leaf may only claim cross-confirmed when location agrees
+        # automatically OR a documented reconciliation note explains the gap.
+        if L["confidence"] == "cross-confirmed":
+            if overlap is None:
+                flags.append(f"[L3b xsrc] {tag}: claims cross-confirmed but no Bencaodian location to compare"); hard += 1
+            elif overlap < XSRC_AGREE and not L["has_recon"]:
+                flags.append(f"[L3b xsrc] {tag}: cross-confirmed but location overlap {overlap:.2f} < {XSRC_AGREE} and no reconciliation note"); hard += 1
+        elif L["confidence"] == "contested" and "conflict" not in L["text"].lower():
+            flags.append(f"[L3b xsrc] {tag}: contested but no documented conflict"); hard += 1
 
         # Layer 2: source fidelity
         if L["pages"]:
@@ -173,6 +219,30 @@ def main() -> int:
     for name in linked:
         if name not in filenames:
             flags.append(f"[L1 index] README links {name} but the leaf file is missing"); hard += 1
+
+    # ---- Optional promotion: source-verified -> cross-confirmed ----
+    if "--promote" in sys.argv:
+        promoted = []
+        for L in parsed:
+            ov = L.get("_xsrc_overlap")
+            eligible = L["confidence"] == "source-verified" and ov is not None and (ov >= XSRC_AGREE or L["has_recon"])
+            if eligible:
+                txt = L["path"].read_text(encoding="utf-8")
+                txt = re.sub(r"^\|\s*Confidence\s*\|\s*source-verified\s*\|",
+                             "| Confidence | cross-confirmed |", txt, count=1, flags=re.M)
+                L["path"].write_text(txt, encoding="utf-8")
+                promoted.append(f"{L['code']} (loc overlap {ov:.2f}{' + recon note' if L['has_recon'] else ''})")
+        print(f"PROMOTED {len(promoted)} leaf(s) source-verified -> cross-confirmed:")
+        for p in promoted:
+            print("  + " + p)
+        print("(re-run without --promote to audit)")
+        return 0
+
+    # ---- Cross-source verdict summary ----
+    weak = [f"{L['code']} ({L['_xsrc_overlap']:.2f})" for L in parsed
+            if L.get("_xsrc_overlap") is not None and L["_xsrc_overlap"] < XSRC_AGREE and not L["has_recon"]]
+    if weak:
+        flags.append(f"[L3b review] weak cross-source location overlap, needs reconciliation note: {', '.join(weak)}")
 
     # ---- Report ----
     print(f"QA acupuncture branch: {len(leaves)} leaves checked")
