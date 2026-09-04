@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 760" width="420" height="760">
+  <rect width="420" height="760" fill="#faf7f2"/>
+  <text x="20" y="28" font-family="Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#2b2118">Gut & SIBO — Middle-Jiao Duo</text>
+  <text x="20" y="46" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b5a4a">ST-36 + SP-6 + REN-12</text>
+  <g transform="translate(0,20)">
+    
+  <!-- head -->
+  <ellipse cx="200" cy="70" rx="42" ry="50" fill="#f3ebe1" stroke="#5c4a3a" stroke-width="2"/>
+  <!-- neck -->
+  <rect x="185" y="115" width="30" height="28" fill="#f3ebe1" stroke="#5c4a3a" stroke-width="2"/>
+  <!-- torso -->
+  <path d="M140 145 L260 145 L275 360 L250 390 L150 390 L125 360 Z" fill="#f3ebe1" stroke="#5c4a3a" stroke-width="2"/>
+  <!-- arms -->
+  <path d="M140 155 L85 300 L95 310 L150 200 Z" fill="#f3ebe1" stroke="#5c4a3a" stroke-width="2"/>
+  <path d="M260 155 L315 300 L305 310 L250 200 Z" fill="#f3ebe1" stroke="#5c4a3a" stroke-width="2"/>
+  <!-- legs -->
+  <path d="M150 390 L145 680 L175 680 L185 390 Z" fill="#f3ebe1" stroke="#5c4a3a" stroke-width="2"/>
+  <path d="M215 390 L225 680 L255 680 L250 390 Z" fill="#f3ebe1" stroke="#5c4a3a" stroke-width="2"/>
+
+    <circle cx="155" cy="455" r="6" fill="#3d6b4f" stroke="#fff" stroke-width="1.5"/><text x="165" y="447" text-anchor="start" font-family="Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="#2b2118">ST-36</text><circle cx="230" cy="520" r="6" fill="#3d6b4f" stroke="#fff" stroke-width="1.5"/><text x="220" y="512" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="#2b2118">SP-6</text><circle cx="200" cy="285" r="6" fill="#3d6b4f" stroke="#fff" stroke-width="1.5"/><text x="190" y="277" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="#2b2118">REN-12</text>
+  </g>
+  <rect x="310" y="55" width="95" height="74" fill="#fff" stroke="#d9cfc3" rx="6"/>
+  <text x="320" y="72" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="700" fill="#6b5a4a">POINTS</text>
+  <g transform="translate(0,40)"><circle cx="330" cy="40" r="5" fill="#c45c26"/>
+<text x="342" y="44" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#2b2118">ST-36</text>
+<circle cx="330" cy="58" r="5" fill="#c45c26"/>
+<text x="342" y="62" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#2b2118">SP-6</text>
+<circle cx="330" cy="76" r="5" fill="#c45c26"/>
+<text x="342" y="80" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#2b2118">REN-12</text></g>
+  <text x="20" y="745" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#8a7a6a">Educational approximation — verify locations in Deadman / atlas before needling.</text>
+</svg>

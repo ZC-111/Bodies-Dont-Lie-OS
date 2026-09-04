@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "version": "0.1",
+    "title": "Acupuncture Point Protocols for Hair and Scalp Patterns",
+    "source_file": null,
+    "system": "clinical_protocol",
+    "topics": [
+      "hair",
+      "scalp",
+      "alopecia",
+      "blood_deficiency",
+      "kidney_jing",
+      "blood_heat",
+      "liver_qi",
+      "telogen"
+    ],
+    "parsed_at": "2026-09-03",
+    "notes": "v0.1 draft for integrative hair theme. Pattern prescriptions + local scalp adjuncts. Not a replacement for ferritin/thyroid/androgen/derm workup. Point codes follow Deadman-style notation.",
+    "pairs_with": [
+      "Research/acupuncture/gut-sibo-protocols.md",
+      "Research/acupuncture/sleep-spirit-protocols.md"
+    ]
+  },
+  "anchor_points": [
+    {
+      "code": "ST-36",
+      "header": "Zusanli",
+      "name_en": "Leg Three Miles",
+      "role": "qi_blood_rebuild",
+      "indications": ["diffuse_thinning", "fatigue", "postpartum"],
+      "notes": "Systemic qi/blood tonification for Blood Xu hair patterns."
+    },
+    {
+      "code": "SP-6",
+      "header": "Sanyinjiao",
+      "name_en": "Three Yin Intersection",
+      "role": "nourish_blood_yin",
+      "indications": ["thinning", "dry_hair", "yin_deficiency"],
+      "notes": "Nourish Blood/Yin; SP/LV/KI meeting."
+    },
+    {
+      "code": "SP-10",
+      "header": "Xuehai",
+      "name_en": "Sea of Blood",
+      "role": "blood_heat_stasis",
+      "indications": ["itchy_scalp", "blood_heat", "stasis"],
+      "notes": "Cool/move Blood; Blood Heat and stasis adjunct."
+    },
+    {
+      "code": "BL-17",
+      "header": "Geshu",
+      "name_en": "Diaphragm Shu",
+      "role": "influential_blood",
+      "indications": ["blood_deficiency"],
+      "notes": "Influential point of Blood."
+    },
+    {
+      "code": "BL-20",
+      "header": "Pishu",
+      "name_en": "Spleen Shu",
+      "role": "generate_blood",
+      "indications": ["blood_deficiency", "fatigue"],
+      "notes": "SP back-shu; generate Blood."
+    },
+    {
+      "code": "BL-23",
+      "header": "Shenshu",
+      "name_en": "Kidney Shu",
+      "role": "jing_root",
+      "indications": ["vertex_thinning", "aging", "postpartum"],
+      "notes": "KI back-shu; Jing / aging patterns."
+    },
+    {
+      "code": "KID-3",
+      "header": "Taixi",
+      "name_en": "Supreme Stream",
+      "role": "kidney_root",
+      "indications": ["jing_deficiency", "yin_deficiency", "greying"],
+      "notes": "Tonify KI root for Jing Xu hair patterns."
+    },
+    {
+      "code": "REN-4",
+      "header": "Guanyuan",
+      "name_en": "Gate of Origin",
+      "role": "root_qi_jing",
+      "indications": ["depletion", "postpartum", "aging"],
+      "notes": "Root qi/Jing; depletion and postpartum contexts."
+    },
+    {
+      "code": "LV-3",
+      "header": "Taichong",
+      "name_en": "Great Rushing",
+      "role": "spread_lv_qi",
+      "indications": ["stress_telogen", "constraint"],
+      "notes": "Stress hair-fall; pair with LI-4 / GB-20."
+    },
+    {
+      "code": "LI-11",
+      "header": "Quchi",
+      "name_en": "Pool at the Crook",
+      "role": "clear_heat",
+      "indications": ["itchy_hot_scalp", "blood_heat"],
+      "notes": "Clear Heat for inflamed itchy scalp patterns."
+    },
+    {
+      "code": "DU-20",
+      "header": "Baihui",
+      "name_en": "Hundred Meetings",
+      "role": "local_vertex",
+      "indications": ["vertex_thinning"],
+      "notes": "Local vertex focus; combine with systemic pattern."
+    },
+    {
+      "code": "GB-20",
+      "header": "Fengchi",
+      "name_en": "Wind Pool",
+      "role": "wind_stress_neck",
+      "indications": ["tension", "stress_telogen"],
+      "notes": "Occipital Wind/stress adjunct for telogen patterns."
+    }
+  ],
+  "classic_combination": {
+    "name": "Blood-nourish core",
+    "points": ["ST-36", "SP-6", "BL-17", "DU-20"],
+    "intent": "nourish Blood systemically while focusing vertex locally"
+  },
+  "local_scalp_adjuncts": [
+    {
+      "name": "Vertex cluster",
+      "points": ["DU-20", "Si Shen Cong"],
+      "notes": "Always combine with a systemic pattern"
+    },
+    {
+      "name": "Temporal adjunct",
+      "points": ["GB-8"],
+      "notes": "Side thinning tracts"
+    },
+    {
+      "name": "Ah-shi tracts",
+      "points": ["Ah-shi"],
+      "notes": "Along thinning zones; depth/stimulation per training"
+    }
+  ],
+  "pattern_combinations": [
+    {
+      "pattern": "Blood Deficiency",
+      "points": ["ST-36", "SP-6", "BL-17", "BL-20", "SP-10", "REN-4", "DU-20"],
+      "intent": "nourish and generate Blood",
+      "integrative_echo": "ferritin / B12 / postpartum"
+    },
+    {
+      "pattern": "Kidney Jing Deficiency",
+      "points": ["KID-3", "BL-23", "REN-4", "GB-39", "ST-36", "SP-6", "DU-20"],
+      "optional_points": ["Si Shen Cong"],
+      "intent": "tonify Jing and marrow; support root of hair",
+      "integrative_echo": "aging / endocrine; still check thyroid"
+    },
+    {
+      "pattern": "Kidney Yin Deficiency with Empty Heat",
+      "points": ["KID-3", "KID-6", "SP-6", "HE-6", "BL-23", "DU-20"],
+      "intent": "nourish Yin and clear empty Heat",
+      "integrative_echo": "peri-menopause / HRT context"
+    },
+    {
+      "pattern": "Blood Heat / Wind in the Skin",
+      "points": ["SP-10", "LI-11", "LV-2", "DU-14", "LI-4"],
+      "intent": "cool Blood, extinguish Wind, clear Heat",
+      "notes": "Gentle local only on inflamed plaques; refer scarring alopecia",
+      "integrative_echo": "inflammatory / seborrheic derm"
+    },
+    {
+      "pattern": "Liver Qi Constraint (Stress Telogen)",
+      "points": ["LV-3", "LI-4", "GB-20", "SP-6", "HE-7", "DU-20"],
+      "optional_points": ["M-HN-3", "GB-8"],
+      "intent": "spread LV qi, settle shen, reduce stress-shed drive",
+      "cross_link": "Research/acupuncture/sleep-spirit-protocols.md"
+    },
+    {
+      "pattern": "Qi and Blood Stagnation",
+      "points": ["SP-10", "SP-6", "LV-3", "LI-4", "BL-17"],
+      "intent": "move Blood and open local luo",
+      "notes": "Coordinate patchy/scarring presentations with dermatology"
+    },
+    {
+      "pattern": "Damp-Heat Scalp",
+      "points": ["SP-9", "LI-11", "ST-40", "GB-34", "REN-12"],
+      "intent": "resolve Damp-Heat",
+      "integrative_echo": "fungal / seborrheic adjunct"
+    },
+    {
+      "pattern": "Lung Wei-Qi / Post-Illness Shed",
+      "points": ["LI-4", "LU-7", "ST-36", "SP-6", "BL-13"],
+      "intent": "regulate Wei-qi and rebuild after febrile illness",
+      "integrative_echo": "post-viral / postpartum / post-antibiotic timelines"
+    }
+  ],
+  "intake_fork": [
+    "red_flags_or_scarring → dermatology",
+    "labs: ferritin, CBC, TSH±Abs, vitamin D, androgens if indicated",
+    "pattern: Blood Xu | KI Jing | Blood Heat | LV Qi | Damp-Heat | mixed",
+    "AP: systemic pattern + local scalp",
+    "parallel: nutrition / endocrine / immune leaves"
+  ],
+  "point_index": [
+    "ST-36", "SP-6", "SP-10", "BL-17", "BL-20", "BL-23", "KID-3", "REN-4",
+    "LV-3", "LI-11", "DU-20", "GB-20", "GB-39", "KID-6", "HE-6", "LV-2",
+    "DU-14", "LI-4", "HE-7", "M-HN-3", "GB-8", "SP-9", "ST-40", "GB-34",
+    "REN-12", "LU-7", "BL-13", "Si Shen Cong"
+  ]
+}

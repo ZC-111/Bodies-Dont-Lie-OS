@@ -66,4 +66,7 @@ See [comparison-summary.md](comparison-summary.md) for latest results.
 | Topic | File |
 |-------|------|
 | Sleep & spirit / insomnia | [sleep-spirit-protocols.md](sleep-spirit-protocols.md) → [data/sleep-spirit-protocols-v0.1.json](data/sleep-spirit-protocols-v0.1.json) |
+| Gut & SIBO (adjunct) | [gut-sibo-protocols.md](gut-sibo-protocols.md) → [data/gut-sibo-protocols-v0.1.json](data/gut-sibo-protocols-v0.1.json) |
+| Hair & scalp | [hair-scalp-protocols.md](hair-scalp-protocols.md) → [data/hair-scalp-protocols-v0.1.json](data/hair-scalp-protocols-v0.1.json) |
+| Body-map infographics | [assets/infographics/](assets/infographics/) (SVG maps + pairing posters) |
 | Infographics & atlases | [assets/infographics/](assets/infographics/) |
