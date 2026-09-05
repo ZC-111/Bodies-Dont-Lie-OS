@@ -16,6 +16,61 @@ BODY_START = 75
 BODY_END = 612
 INDEX_START = 668
 
+# Deadman point entries are laid out in two columns. pypdf's default text
+# extraction reads across both columns, scrambling each point's sections and
+# interleaving neighbouring points. Reconstructing reading order column-by-column
+# keeps each point's LOCATION/ACTIONS/INDICATIONS block contiguous, which is what
+# makes reliable per-point attribution possible.
+COLUMN_SPLIT_X = 290.0          # gutter between the two text columns (PDF units)
+GUTTER_BAND = (258.0, 322.0)    # near-empty vertical band on two-column pages
+
+
+def render_page_columns(page) -> str:
+    """Return page text in true reading order, handling the two-column layout.
+
+    Single-column pages (channel intros, theory, figures) are detected by a
+    populated central gutter and rendered as-is; two-column pages are split at
+    the gutter and each column is read top-to-bottom, left column first.
+    """
+    tokens: list[tuple[float, float, str]] = []
+
+    def visit(text, cm, tm, font, size):
+        if text and text.strip():
+            tokens.append((tm[5], tm[4], text.strip()))
+
+    page.extract_text(visitor_text=visit)
+    if not tokens:
+        return ""
+
+    def render(items: list[tuple[float, float, str]]) -> str:
+        items = sorted(items, key=lambda t: -t[0])
+        lines: list[list[tuple[float, str]]] = []
+        cur: list[tuple[float, str]] = []
+        cy: Optional[float] = None
+        for y, x, txt in items:
+            if cy is None or abs(y - cy) <= 3:
+                cur.append((x, txt))
+                cy = y if cy is None else cy
+            else:
+                lines.append(cur)
+                cur = [(x, txt)]
+                cy = y
+        if cur:
+            lines.append(cur)
+        return "\n".join(" ".join(t for _, t in sorted(ln)) for ln in lines)
+
+    n = len(tokens)
+    gutter = sum(1 for _, x, _ in tokens if GUTTER_BAND[0] <= x < GUTTER_BAND[1])
+    left = [t for t in tokens if t[1] < COLUMN_SPLIT_X]
+    right = [t for t in tokens if t[1] >= COLUMN_SPLIT_X]
+    two_column = (
+        gutter <= max(6, 0.05 * n)
+        and min(len(left), len(right)) >= 0.2 * n
+    )
+    if two_column:
+        return render(left) + "\n" + render(right)
+    return render(tokens)
+
 CODE_PATTERN = (
     r"(?:LU|LI|L\.I\.|L\.1\.|ST|SP|HE|HT|SI|BL|KI|KID|PC|P|TE|SJ|GB|LIV|LR|REN|DU|"
     r"M-[A-Z]{2}|N-[A-Z]{2}|MN-[A-Z]{2})[\-\s\.]*\d{1,2}[A-Z]?"
@@ -567,15 +622,26 @@ def extract_location_blocks(text: str, page: int, existing: dict[str, dict]) -> 
             ingest_location_match(text, m.start(), end, page, existing)
 
 
+LOCATION_FIELDS = ("location_en", "location_note_en")
+
+
 def propagate_cluster_fields(extracted: dict[str, dict]) -> None:
-    """Copy shared LOCATION-cluster text to points named in a block."""
+    """Share only LOCATION text between points that name each other as landmarks.
+
+    A code appearing in a point's LOCATION prose (e.g. "7 cun proximal to Taiyuan
+    LU-9") is an anatomical landmark, not a shared clinical block. Clinical
+    sections (needling / actions / indications / commentary / combinations) are
+    therefore NEVER copied between points: doing so misattributes one point's
+    text to another (e.g. LU-9 Taiyuan previously inherited LU-6 Kongzui's
+    actions). We only fill a *missing* location from a neighbour that references
+    it, and we record that fill in ``propagated_fields`` so validation can flag
+    it. A point's own parsed section is never overwritten.
+    """
     snapshots = {code: dict(entry) for code, entry in extracted.items()}
     clusters: list[tuple[dict, list[str]]] = []
 
     for entry in snapshots.values():
-        blob = " ".join(
-            entry.get(k, "") or "" for k in ("location_en", "location_note_en", "needling_en", "actions_en", "indications_en")
-        )
+        blob = " ".join(entry.get(k, "") or "" for k in LOCATION_FIELDS)
         codes: list[str] = []
         for cm in CODE_IN_LINE.finditer(blob):
             c = normalize_code(cm.group(1))
@@ -589,11 +655,12 @@ def propagate_cluster_fields(extracted: dict[str, dict]) -> None:
             if code not in extracted:
                 continue
             target = extracted[code]
-            for field in TEXT_FIELDS:
-                if field in ("header", "name_en", "categories"):
-                    continue
+            for field in LOCATION_FIELDS:
                 if not (target.get(field) or "").strip() and (entry.get(field) or "").strip():
                     target[field] = entry[field]
+                    flags = target.setdefault("propagated_fields", [])
+                    if field not in flags:
+                        flags.append(field)
 
     for entry, codes in clusters:
         own = extracted.get(entry["code"])
@@ -716,7 +783,8 @@ def main(pdf_path: str, out_path: str) -> None:
 
     output = {
         "meta": {
-            "version": "0.2",
+            "version": "0.2.1",
+            "revision": "Clinical sections no longer propagated across landmark clusters (fixes cross-point contamination, e.g. LU-9 inheriting LU-6 text).",
             "source": pdf_path,
             "total_extracted": len(extracted),
             "classical_count": len(classical_codes),
@@ -741,7 +809,28 @@ def main(pdf_path: str, out_path: str) -> None:
     print(json.dumps(output["meta"], indent=2))
 
 
+def print_columns(pages: str, pdf_path: str = DEFAULT_PDF) -> None:
+    """Print column-aware page text for a page or range, e.g. `--page 80-86`.
+
+    This exposes the two-column reconstruction used to verify point sections
+    directly against the source, without going through the full extractor.
+    Page numbers are the printed Deadman page numbers.
+    """
+    reader = PdfReader(pdf_path)
+    if "-" in pages:
+        a, b = pages.split("-", 1)
+        rng = range(int(a), int(b) + 1)
+    else:
+        rng = range(int(pages), int(pages) + 1)
+    for p in rng:
+        print(f"\n===== Deadman page {p} =====")
+        print(render_page_columns(reader.pages[p - 1]))
+
+
 if __name__ == "__main__":
-    pdf = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_PDF
-    out = sys.argv[2] if len(sys.argv) > 2 else "Research/acupuncture/data/deadman-extract-v0.2.json"
-    main(pdf, out)
+    if len(sys.argv) > 1 and sys.argv[1] == "--page":
+        print_columns(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else DEFAULT_PDF)
+    else:
+        pdf = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_PDF
+        out = sys.argv[2] if len(sys.argv) > 2 else "Research/acupuncture/data/deadman-extract-v0.2.json"
+        main(pdf, out)

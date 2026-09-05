@@ -60,7 +60,7 @@ See [sources-library.md](sources-library.md) and [data/sources-catalog.json](dat
 |--------|-----|---------|--------|
 | Bencaodian | [bencaodian.org/data/v1/acupoints.json](https://bencaodian.org/data/v1/acupoints.json) | CC BY-SA 4.0 | 208 |
 
-See [comparison-summary.md](comparison-summary.md) for latest results.
+See [comparison-summary.md](comparison-summary.md) for latest results, and [lung-channel-validation-v0.1.md](lung-channel-validation-v0.1.md) for the first Validate gate feeding [Knowledge/acupuncture/](../../Knowledge/acupuncture/README.md).
 
 ## Clinical Protocols
 
