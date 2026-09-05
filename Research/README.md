@@ -16,6 +16,8 @@ See **[BRANCH-TAXONOMY.md](BRANCH-TAXONOMY.md)** for how to sort PPT/PDFs.
 | [materia-medica/](materia-medica/) | Herbals, oils, flower essences, tinctures, homeopathy |
 | [integrative-medicine/](integrative-medicine/) | Multi-domain conference archives |
 | [lectures/](lectures/) | Per-lecture packets (Otter + slides + Gem derived) |
+| [audience-questions/](audience-questions/) | PAA + curated comment intake → content briefs |
+| [themes/](themes/) | Cross-modality hubs (e.g. SIBO) linking pathway + AP + briefs |
 
 ## What Belongs Here
 

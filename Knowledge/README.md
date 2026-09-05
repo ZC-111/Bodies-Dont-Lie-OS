@@ -10,7 +10,7 @@ Store atomic knowledge objects — each file answers exactly one question about 
 |--------|--------|
 | [acupuncture/](acupuncture/) | Points, meridians |
 | [immune/](immune/) | Autoimmune, mold/mycotoxins |
-| [nutrition/](nutrition/) | Food, diet, fasting, vitamins, supplements |
+| [nutrition/](nutrition/) | Food, diet, fasting, vitamins, supplements — includes first SIBO leaves |
 | [materia-medica/](materia-medica/) | Herbals, oils, flower essences, tinctures, homeopathy |
 
 Sorting rules for sources: [Research/BRANCH-TAXONOMY.md](../Research/BRANCH-TAXONOMY.md)
