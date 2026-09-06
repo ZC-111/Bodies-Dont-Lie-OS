@@ -1,0 +1,73 @@
+{
+  "id": "dna-repair-andrews-2026-04",
+  "title": "DNA repair healing with Dr. Bill Andrews",
+  "speaker": "Bill Andrews",
+  "approx_date": "2026-04-28",
+  "primary_branch": "integrative-medicine",
+  "related_branches": [
+    "nutrition"
+  ],
+  "branches": [
+    "Research/integrative-medicine/",
+    "Research/nutrition/"
+  ],
+  "themes": [
+    "longevity",
+    "regenerative",
+    "dna_repair"
+  ],
+  "medical_terms": [
+    "regenerative",
+    "longevity"
+  ],
+  "research_priority": "normal",
+  "sync": "screenshots_only",
+  "gem_status": "raw",
+  "local_downloads_id": "dna-repair-andrews-2026-04",
+  "paths": {
+    "packet": "Research/lectures/dna-repair-andrews-2026-04/",
+    "raw": "Research/lectures/dna-repair-andrews-2026-04/raw/",
+    "slides": "Research/lectures/dna-repair-andrews-2026-04/slides/",
+    "derived": "Research/lectures/dna-repair-andrews-2026-04/derived/",
+    "screenshot_manifest": "Research/lectures/dna-repair-andrews-2026-04/slides/screenshot-manifest.json"
+  },
+  "otter": {
+    "transcript": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/DNA repair healing with Dr. Bill Andrews 4 28 2026.txt",
+    "audio": null,
+    "source_root": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026"
+  },
+  "slides": {
+    "status": "screenshots_in_downloads",
+    "screenshot_count": 90,
+    "slides_root": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026",
+    "first": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.20.55 PM.png",
+    "last": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.31.55 PM.png",
+    "manifest": "Research/lectures/dna-repair-andrews-2026-04/slides/screenshot-manifest.json"
+  },
+  "documents": [
+    {
+      "filename": "DNA repair healing with Dr. Bill Andrews 4 28 2026.pdf",
+      "relative_path": "DNA repair healing with Dr. Bill Andrews 4 28 2026.pdf",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/DNA repair healing with Dr. Bill Andrews 4 28 2026.pdf",
+      "size_bytes": 60500918,
+      "format": "pdf",
+      "kind": "document"
+    },
+    {
+      "filename": "DNA repair healing with Dr. Bill Andrews 4 28 2026.txt",
+      "relative_path": "DNA repair healing with Dr. Bill Andrews 4 28 2026.txt",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/DNA repair healing with Dr. Bill Andrews 4 28 2026.txt",
+      "size_bytes": 149009,
+      "format": "txt",
+      "kind": "transcript"
+    }
+  ],
+  "derived": {
+    "gem_cleanup": false,
+    "study_guide": false,
+    "teach_outline": false
+  },
+  "knowledge_leaves": [],
+  "notes": "Otter transcript + PDF + 90 slide screenshots coordinated with lecture.",
+  "cataloged_at": "2026-09-03"
+}

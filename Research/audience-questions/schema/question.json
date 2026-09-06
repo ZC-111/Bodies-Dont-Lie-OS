@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "Research/audience-questions/schema/question.json",
+  "title": "AudienceQuestion",
+  "description": "Anonymized, paraphrase-only audience question for the BDL content engine. Never store raw usernames or verbatim personal medical stories.",
+  "type": "object",
+  "required": [
+    "id",
+    "paraphrase",
+    "theme",
+    "source_type",
+    "status",
+    "collected_at"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^aq-[a-z0-9-]+$",
+      "description": "Stable id, e.g. aq-sibo-paa-001"
+    },
+    "paraphrase": {
+      "type": "string",
+      "minLength": 8,
+      "description": "Neutral rephrase of the ask — not a quote"
+    },
+    "theme": {
+      "type": "string",
+      "enum": ["sibo", "sleep", "hair", "lipids", "immune", "other"]
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "paa",
+        "youtube_comment",
+        "reddit",
+        "quora",
+        "inbox",
+        "manual"
+      ]
+    },
+    "source_ref": {
+      "type": "string",
+      "description": "Seed query (PAA) or video/page URL. No usernames."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "inbox",
+        "clustered",
+        "matched",
+        "briefed",
+        "published",
+        "deferred",
+        "rejected"
+      ]
+    },
+    "cluster_id": {
+      "type": ["string", "null"],
+      "description": "Optional cluster slug, e.g. sibo-relapse"
+    },
+    "asset_coverage": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["pathway", "kit", "ap", "infographic", "gap"]
+      },
+      "uniqueItems": true
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "collected_at": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

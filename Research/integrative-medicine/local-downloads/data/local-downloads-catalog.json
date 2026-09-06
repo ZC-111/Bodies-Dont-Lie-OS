@@ -1,0 +1,1200 @@
+{
+  "meta": {
+    "version": "0.1",
+    "cataloged_at": "2026-09-03",
+    "source": "/Users/nuu/Downloads",
+    "machine_user": "nuu",
+    "catalog_script": "Research/integrative-medicine/local-downloads/scripts/build_local_downloads_catalog.py",
+    "local_path": "Research/integrative-medicine/local-downloads/data/local-downloads-catalog.json",
+    "notes": "Local Downloads medical lecture packs (not external-drive archives). Screenshots summarized by count; documents/audio/zips listed. Branch tags follow Research/BRANCH-TAXONOMY.md. Catalog only — no file moves.",
+    "branch_taxonomy": {
+      "immune": "autoimmune, mold/mycotoxins, infection, immuno",
+      "nutrition": "peptides, nutraceuticals, gut barrier, vitamins",
+      "acupuncture": "Deadman, Kiiko, channel/point materials",
+      "integrative-medicine": "multi-topic / longevity / cardio / hormones / practice",
+      "materia-medica": "Ayurveda-adjacent cross-link only when herbal focus"
+    }
+  },
+  "summary": {
+    "packs": 19,
+    "expected_packs": 19,
+    "missing": [],
+    "documents": 53,
+    "screenshots": 336,
+    "by_primary_branch": {
+      "acupuncture": 4,
+      "immune": 6,
+      "integrative-medicine": 8,
+      "nutrition": 1
+    },
+    "by_theme": {
+      "acupuncture": 4,
+      "autoimmune": 2,
+      "ayurveda": 1,
+      "cancer_onco": 1,
+      "cardiometabolic": 2,
+      "case_study": 1,
+      "chronic_infection": 1,
+      "derm": 2,
+      "dna_repair": 1,
+      "endocrine_hormone": 2,
+      "gi_metabolic": 1,
+      "immune": 2,
+      "infection": 2,
+      "inflammation": 3,
+      "integrative-medicine": 1,
+      "longevity": 2,
+      "mold_mycotoxin": 2,
+      "neuro": 2,
+      "nutraceutical": 1,
+      "nutrition": 2,
+      "peptides": 1,
+      "practice_systems": 1,
+      "regenerative": 2,
+      "sleep": 1
+    }
+  },
+  "lectures": [
+    {
+      "id": "deadman-purple-cover",
+      "title": "A Manual of Acupuncture (purple cover)",
+      "speaker": "Peter Deadman",
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/a-manual-of-acupuncture-purple cover.pdf",
+      "kind": "file",
+      "primary_branch": "acupuncture",
+      "branches": [
+        "Research/acupuncture/"
+      ],
+      "themes": [
+        "acupuncture"
+      ],
+      "medical_terms": [
+        "acupuncture",
+        "deadman"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Small PDF; fuller Deadman PDF lives in Acupuncture resource folder.",
+      "primary_file": "a-manual-of-acupuncture-purple cover.pdf",
+      "formats": [
+        "pdf"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 1,
+      "screenshot_count": 0,
+      "total_bytes": 99211,
+      "files": [
+        {
+          "filename": "a-manual-of-acupuncture-purple cover.pdf",
+          "relative_path": "a-manual-of-acupuncture-purple cover.pdf",
+          "source_path": "/Users/nuu/Downloads/a-manual-of-acupuncture-purple cover.pdf",
+          "size_bytes": 99211,
+          "format": "pdf",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "acu-resource",
+      "title": "Acupuncture resource",
+      "speaker": null,
+      "approx_date": "2026-09",
+      "source_root": "/Users/nuu/Downloads/Acupuncture resource",
+      "kind": "folder",
+      "primary_branch": "acupuncture",
+      "branches": [
+        "Research/acupuncture/"
+      ],
+      "themes": [
+        "acupuncture"
+      ],
+      "medical_terms": [
+        "acupuncture",
+        "kiiko",
+        "deadman",
+        "microsystems",
+        "ear_ap"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": true,
+      "notes": "Deadman/Kiiko books + NotebookLM exports; many items already imported under Research/acupuncture/.",
+      "primary_file": "The_hidden_geography_of_acupuncture_channels.m4a",
+      "formats": [
+        "json",
+        "m4a",
+        "pdf",
+        "rtf",
+        "xlsx"
+      ],
+      "kinds": [
+        "audio",
+        "document"
+      ],
+      "document_count": 22,
+      "screenshot_count": 4,
+      "total_bytes": 212305062,
+      "files": [
+        {
+          "filename": "The_hidden_geography_of_acupuncture_channels.m4a",
+          "relative_path": "The_hidden_geography_of_acupuncture_channels.m4a",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/The_hidden_geography_of_acupuncture_channels.m4a",
+          "size_bytes": 88834869,
+          "format": "m4a",
+          "kind": "audio"
+        },
+        {
+          "filename": "A-manual-of-acupuncture-peter-deadman.pdf",
+          "relative_path": "A-manual-of-acupuncture-peter-deadman.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/A-manual-of-acupuncture-peter-deadman.pdf",
+          "size_bytes": 46757152,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "kiiko_matsumoto_david_euler_kiiko_matsumotos_clinical_strategy vol 1.pdf",
+          "relative_path": "kiiko_matsumoto_david_euler_kiiko_matsumotos_clinical_strategy vol 1.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/kiiko_matsumoto_david_euler_kiiko_matsumotos_clinical_strategy vol 1.pdf",
+          "size_bytes": 28197314,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "Kikko Matsumoto & David Euler clinical-strategies-in-the-spirit-of-master-nagano-volume-2.pdf",
+          "relative_path": "Kikko Matsumoto & David Euler clinical-strategies-in-the-spirit-of-master-nagano-volume-2.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/Kikko Matsumoto & David Euler clinical-strategies-in-the-spirit-of-master-nagano-volume-2.pdf",
+          "size_bytes": 22472944,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "hecker_hansulrich_peuker_elmar_steveling_angelika_microsyste.pdf",
+          "relative_path": "hecker_hansulrich_peuker_elmar_steveling_angelika_microsyste.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/hecker_hansulrich_peuker_elmar_steveling_angelika_microsyste.pdf",
+          "size_bytes": 16783173,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "ear_acupuncture_a_precise_pocket_atlas_based_on_the_works_of.pdf",
+          "relative_path": "ear_acupuncture_a_precise_pocket_atlas_based_on_the_works_of.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/ear_acupuncture_a_precise_pocket_atlas_based_on_the_works_of.pdf",
+          "size_bytes": 4237551,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "The Map Within_ 5 Surprising Truths About Acupuncture (That Aren’t on the Wall Chart) - Google Docs.pdf",
+          "relative_path": "The Map Within_ 5 Surprising Truths About Acupuncture (That Aren’t on the Wall Chart) - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/The Map Within_ 5 Surprising Truths About Acupuncture (That Aren’t on the Wall Chart) - Google Docs.pdf",
+          "size_bytes": 130972,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "acupuncture_comparative_database.json",
+          "relative_path": "acupuncture_comparative_database.json",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/acupuncture_comparative_database.json",
+          "size_bytes": 129926,
+          "format": "json",
+          "kind": "document"
+        },
+        {
+          "filename": "Clinical Selection Framework_ Strategic Integration of Channel Theory and Point Functional Logic - Google Docs.pdf",
+          "relative_path": "Clinical Selection Framework_ Strategic Integration of Channel Theory and Point Functional Logic - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/Clinical Selection Framework_ Strategic Integration of Channel Theory and Point Functional Logic - Google Docs.pdf",
+          "size_bytes": 126474,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "Strategic Clinical Selection Framework_ Integrating Classical Theory and Empirical Precision - Google Docs.pdf",
+          "relative_path": "Strategic Clinical Selection Framework_ Integrating Classical Theory and Empirical Precision - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/Strategic Clinical Selection Framework_ Integrating Classical Theory and Empirical Precision - Google Docs.pdf",
+          "size_bytes": 126369,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "The River of Qi_ A Functional Comparison of the Five Shu-Points - Google Docs.pdf",
+          "relative_path": "The River of Qi_ A Functional Comparison of the Five Shu-Points - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/The River of Qi_ A Functional Comparison of the Five Shu-Points - Google Docs.pdf",
+          "size_bytes": 124047,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "A Manual of Acupuncture_ Systemic Theory and Clinical Application - Google Docs.pdf",
+          "relative_path": "A Manual of Acupuncture_ Systemic Theory and Clinical Application - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/A Manual of Acupuncture_ Systemic Theory and Clinical Application - Google Docs.pdf",
+          "size_bytes": 122981,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "Study Guide_ Foundations of Acupuncture and the Lung Channel - Google Docs.pdf",
+          "relative_path": "Study Guide_ Foundations of Acupuncture and the Lung Channel - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/Study Guide_ Foundations of Acupuncture and the Lung Channel - Google Docs.pdf",
+          "size_bytes": 121253,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "Atlas of Extraordinary Acupuncture Points - Google Docs.pdf",
+          "relative_path": "Atlas of Extraordinary Acupuncture Points - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/Atlas of Extraordinary Acupuncture Points - Google Docs.pdf",
+          "size_bytes": 120491,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "The Living Tree_ A Student’s Guide to the Human Channel System (Jingluo) - Google Docs.pdf",
+          "relative_path": "The Living Tree_ A Student’s Guide to the Human Channel System (Jingluo) - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/The Living Tree_ A Student’s Guide to the Human Channel System (Jingluo) - Google Docs.pdf",
+          "size_bytes": 115611,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "Pathophysiological Reference Guide_ Mapping Channel Pathways to Clinical Manifestation - Google Docs.pdf",
+          "relative_path": "Pathophysiological Reference Guide_ Mapping Channel Pathways to Clinical Manifestation - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/Pathophysiological Reference Guide_ Mapping Channel Pathways to Clinical Manifestation - Google Docs.pdf",
+          "size_bytes": 109253,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "Clinical Actions of Extraordinary Head and Face Points - Google Docs.pdf",
+          "relative_path": "Clinical Actions of Extraordinary Head and Face Points - Google Docs.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/Clinical Actions of Extraordinary Head and Face Points - Google Docs.pdf",
+          "size_bytes": 87723,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "insomnia_reference_guide.pdf",
+          "relative_path": "insomnia_reference_guide.pdf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/insomnia_reference_guide.pdf",
+          "size_bytes": 85102,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "acupuncture_points_atlas.xlsx",
+          "relative_path": "acupuncture_points_atlas.xlsx",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/acupuncture_points_atlas.xlsx",
+          "size_bytes": 40839,
+          "format": "xlsx",
+          "kind": "document"
+        },
+        {
+          "filename": "acupuncture_comparative_sheet (1).xlsx",
+          "relative_path": "acupuncture_comparative_sheet (1).xlsx",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/acupuncture_comparative_sheet (1).xlsx",
+          "size_bytes": 38085,
+          "format": "xlsx",
+          "kind": "document"
+        },
+        {
+          "filename": "acupuncture_comparative_sheet.xlsx",
+          "relative_path": "acupuncture_comparative_sheet.xlsx",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/acupuncture_comparative_sheet.xlsx",
+          "size_bytes": 38085,
+          "format": "xlsx",
+          "kind": "document"
+        },
+        {
+          "filename": "Acupuncture Point Protocols for Restoring Sleep and Spirit quick reference.rtf",
+          "relative_path": "Acupuncture Point Protocols for Restoring Sleep and Spirit quick reference.rtf",
+          "source_path": "/Users/nuu/Downloads/Acupuncture resource/Acupuncture Point Protocols for Restoring Sleep and Spirit quick reference.rtf",
+          "size_bytes": 7299,
+          "format": "rtf",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "insomnia-reference-guide",
+      "title": "Insomnia reference guide",
+      "speaker": null,
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/insomnia_reference_guide.pdf",
+      "kind": "file",
+      "primary_branch": "acupuncture",
+      "branches": [
+        "Research/acupuncture/"
+      ],
+      "themes": [
+        "acupuncture",
+        "sleep"
+      ],
+      "medical_terms": [
+        "acupuncture",
+        "psych_behavioral"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Also present under Acupuncture resource.",
+      "primary_file": "insomnia_reference_guide.pdf",
+      "formats": [
+        "pdf"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 1,
+      "screenshot_count": 0,
+      "total_bytes": 85102,
+      "files": [
+        {
+          "filename": "insomnia_reference_guide.pdf",
+          "relative_path": "insomnia_reference_guide.pdf",
+          "source_path": "/Users/nuu/Downloads/insomnia_reference_guide.pdf",
+          "size_bytes": 85102,
+          "format": "pdf",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "hidden-geography-channels-m4a",
+      "title": "The hidden geography of acupuncture channels (audio)",
+      "speaker": null,
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/The_hidden_geography_of_acupuncture_channels.m4a",
+      "kind": "file",
+      "primary_branch": "acupuncture",
+      "branches": [
+        "Research/acupuncture/"
+      ],
+      "themes": [
+        "acupuncture"
+      ],
+      "medical_terms": [
+        "acupuncture"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Duplicate of file inside Acupuncture resource.",
+      "primary_file": "The_hidden_geography_of_acupuncture_channels.m4a",
+      "formats": [
+        "m4a"
+      ],
+      "kinds": [
+        "audio"
+      ],
+      "document_count": 1,
+      "screenshot_count": 0,
+      "total_bytes": 88834869,
+      "files": [
+        {
+          "filename": "The_hidden_geography_of_acupuncture_channels.m4a",
+          "relative_path": "The_hidden_geography_of_acupuncture_channels.m4a",
+          "source_path": "/Users/nuu/Downloads/The_hidden_geography_of_acupuncture_channels.m4a",
+          "size_bytes": 88834869,
+          "format": "m4a",
+          "kind": "audio"
+        }
+      ]
+    },
+    {
+      "id": "brain-and-mycotoxins",
+      "title": "Brain and Mycotoxins",
+      "speaker": null,
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/BrainandMycotoxins.pdf",
+      "kind": "file",
+      "primary_branch": "immune",
+      "branches": [
+        "Research/immune/"
+      ],
+      "themes": [
+        "mold_mycotoxin",
+        "neuro"
+      ],
+      "medical_terms": [
+        "mold_mycotoxin",
+        "neuro"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": null,
+      "primary_file": "BrainandMycotoxins.pdf",
+      "formats": [
+        "pdf"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 1,
+      "screenshot_count": 0,
+      "total_bytes": 77415,
+      "files": [
+        {
+          "filename": "BrainandMycotoxins.pdf",
+          "relative_path": "BrainandMycotoxins.pdf",
+          "source_path": "/Users/nuu/Downloads/BrainandMycotoxins.pdf",
+          "size_bytes": 77415,
+          "format": "pdf",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "campbell-mold-aosrd-2021",
+      "title": "Dr Andrew Campbell — Mold and Mycotoxins (AOSRD 2021)",
+      "speaker": "Andrew Campbell",
+      "approx_date": "2021",
+      "source_root": "/Users/nuu/Downloads/DR andrew Campbell Mold-and-Mycotoxins-AOSRD 2021.pdf",
+      "kind": "file",
+      "primary_branch": "immune",
+      "branches": [
+        "Research/immune/",
+        "Research/integrative-medicine/"
+      ],
+      "themes": [
+        "mold_mycotoxin",
+        "immune"
+      ],
+      "medical_terms": [
+        "mold_mycotoxin",
+        "immune"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "AOSRD 2021 mold lecture PDF (local copy; 2022 AOSRD pack is on external drive).",
+      "primary_file": "DR andrew Campbell Mold-and-Mycotoxins-AOSRD 2021.pdf",
+      "formats": [
+        "pdf"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 1,
+      "screenshot_count": 0,
+      "total_bytes": 441992,
+      "files": [
+        {
+          "filename": "DR andrew Campbell Mold-and-Mycotoxins-AOSRD 2021.pdf",
+          "relative_path": "DR andrew Campbell Mold-and-Mycotoxins-AOSRD 2021.pdf",
+          "source_path": "/Users/nuu/Downloads/DR andrew Campbell Mold-and-Mycotoxins-AOSRD 2021.pdf",
+          "size_bytes": 441992,
+          "format": "pdf",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "hashimoto-tano",
+      "title": "Hashimoto thyroiditis with Dr Benoit Tano",
+      "speaker": "Benoit Tano",
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/Hashimoto thyroididtis with Dr Benoit Tano ",
+      "kind": "folder",
+      "primary_branch": "immune",
+      "branches": [
+        "Research/immune/",
+        "Research/nutrition/"
+      ],
+      "themes": [
+        "autoimmune",
+        "endocrine_hormone"
+      ],
+      "medical_terms": [
+        "autoimmune",
+        "endocrine_hormone",
+        "immune"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Zip + mp3 + transcript. Filename typo: thyroididtis.",
+      "primary_file": "Hashimoto thyroididtis with Dr Benoit Tano.zip",
+      "formats": [
+        "mp3",
+        "txt",
+        "zip"
+      ],
+      "kinds": [
+        "archive",
+        "audio",
+        "document"
+      ],
+      "document_count": 3,
+      "screenshot_count": 0,
+      "total_bytes": 55516570,
+      "files": [
+        {
+          "filename": "Hashimoto thyroididtis with Dr Benoit Tano.zip",
+          "relative_path": "Hashimoto thyroididtis with Dr Benoit Tano.zip",
+          "source_path": "/Users/nuu/Downloads/Hashimoto thyroididtis with Dr Benoit Tano /Hashimoto thyroididtis with Dr Benoit Tano.zip",
+          "size_bytes": 27758459,
+          "format": "zip",
+          "kind": "archive"
+        },
+        {
+          "filename": "Hashimoto thyroididtis with Dr Benoit Tano.mp3",
+          "relative_path": "Hashimoto thyroididtis with Dr Benoit Tano.mp3",
+          "source_path": "/Users/nuu/Downloads/Hashimoto thyroididtis with Dr Benoit Tano /Hashimoto thyroididtis with Dr Benoit Tano.mp3",
+          "size_bytes": 27634221,
+          "format": "mp3",
+          "kind": "audio"
+        },
+        {
+          "filename": "Hashimoto thyroididtis with Dr Benoit Tano.txt",
+          "relative_path": "Hashimoto thyroididtis with Dr Benoit Tano.txt",
+          "source_path": "/Users/nuu/Downloads/Hashimoto thyroididtis with Dr Benoit Tano /Hashimoto thyroididtis with Dr Benoit Tano.txt",
+          "size_bytes": 123890,
+          "format": "txt",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "emily-autoimmune-2026-04",
+      "title": "Insights On Emily — a case of Autoimmune Origin",
+      "speaker": null,
+      "approx_date": "2026-04",
+      "source_root": "/Users/nuu/Downloads/Insights On Emily:a case of Autoimmune Origin 4 2026",
+      "kind": "folder",
+      "primary_branch": "immune",
+      "branches": [
+        "Research/immune/"
+      ],
+      "themes": [
+        "autoimmune",
+        "case_study"
+      ],
+      "medical_terms": [
+        "autoimmune",
+        "immune"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Case-based autoimmune lecture PDF + transcript + screenshots.",
+      "primary_file": "Insights On Emily-a case of Autoimmune Origin 4 2026 copy.pdf",
+      "formats": [
+        "pdf",
+        "txt"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 2,
+      "screenshot_count": 78,
+      "total_bytes": 284152275,
+      "files": [
+        {
+          "filename": "Insights On Emily-a case of Autoimmune Origin 4 2026 copy.pdf",
+          "relative_path": "Insights On Emily-a case of Autoimmune Origin 4 2026 copy.pdf",
+          "source_path": "/Users/nuu/Downloads/Insights On Emily:a case of Autoimmune Origin 4 2026/Insights On Emily-a case of Autoimmune Origin 4 2026 copy.pdf",
+          "size_bytes": 64173222,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "Insights On Emily:a case of Autoimmune Origin 4 2026.txt",
+          "relative_path": "Insights On Emily:a case of Autoimmune Origin 4 2026.txt",
+          "source_path": "/Users/nuu/Downloads/Insights On Emily:a case of Autoimmune Origin 4 2026/Insights On Emily:a case of Autoimmune Origin 4 2026.txt",
+          "size_bytes": 101765,
+          "format": "txt",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "integrative-immuno-carbon60",
+      "title": "Integrative Immunology — Nutritional Cofactors / Carbon60",
+      "speaker": null,
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon60",
+      "kind": "folder",
+      "primary_branch": "immune",
+      "branches": [
+        "Research/immune/",
+        "Research/nutrition/"
+      ],
+      "themes": [
+        "immune",
+        "nutrition",
+        "nutraceutical"
+      ],
+      "medical_terms": [
+        "immune",
+        "vitamin_supplement",
+        "regenerative"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Zip + mp3 + transcript.",
+      "primary_file": "Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon60.zip",
+      "formats": [
+        "mp3",
+        "txt",
+        "zip"
+      ],
+      "kinds": [
+        "archive",
+        "audio",
+        "document"
+      ],
+      "document_count": 3,
+      "screenshot_count": 1,
+      "total_bytes": 50758453,
+      "files": [
+        {
+          "filename": "Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon60.zip",
+          "relative_path": "Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon60.zip",
+          "source_path": "/Users/nuu/Downloads/Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon60/Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon60.zip",
+          "size_bytes": 25286009,
+          "format": "zip",
+          "kind": "archive"
+        },
+        {
+          "filename": "Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon 60.mp3",
+          "relative_path": "Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon 60.mp3",
+          "source_path": "/Users/nuu/Downloads/Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon60/Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon 60.mp3",
+          "size_bytes": 25161993,
+          "format": "mp3",
+          "kind": "audio"
+        },
+        {
+          "filename": "Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon 60.txt",
+          "relative_path": "Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon 60.txt",
+          "source_path": "/Users/nuu/Downloads/Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon60/Integrative Immunology Nutritional Cofactors in Tissue Using Repair Carbon 60.txt",
+          "size_bytes": 123668,
+          "format": "txt",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "morgellons-lyme-syphilis",
+      "title": "Overlap between Morgellons, Lyme disease, and syphilis",
+      "speaker": null,
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/overlap between Morgellons Lyme disease and syphilis",
+      "kind": "folder",
+      "primary_branch": "immune",
+      "branches": [
+        "Research/immune/"
+      ],
+      "themes": [
+        "infection",
+        "derm",
+        "chronic_infection"
+      ],
+      "medical_terms": [
+        "infection_covid",
+        "derm",
+        "immune"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Zip + mp3 + transcript.",
+      "primary_file": "overlap between Morgellons Lyme disease and syphilis.zip",
+      "formats": [
+        "mp3",
+        "txt",
+        "zip"
+      ],
+      "kinds": [
+        "archive",
+        "audio",
+        "document"
+      ],
+      "document_count": 3,
+      "screenshot_count": 0,
+      "total_bytes": 48988190,
+      "files": [
+        {
+          "filename": "overlap between Morgellons Lyme disease and syphilis.zip",
+          "relative_path": "overlap between Morgellons Lyme disease and syphilis.zip",
+          "source_path": "/Users/nuu/Downloads/overlap between Morgellons Lyme disease and syphilis/overlap between Morgellons Lyme disease and syphilis.zip",
+          "size_bytes": 24494269,
+          "format": "zip",
+          "kind": "archive"
+        },
+        {
+          "filename": "overlap between Morgellons, Lyme disease, and syphilis.mp3",
+          "relative_path": "overlap between Morgellons, Lyme disease, and syphilis.mp3",
+          "source_path": "/Users/nuu/Downloads/overlap between Morgellons Lyme disease and syphilis/overlap between Morgellons, Lyme disease, and syphilis.mp3",
+          "size_bytes": 24378669,
+          "format": "mp3",
+          "kind": "audio"
+        },
+        {
+          "filename": "overlap between Morgellons, Lyme disease, and syphilis.txt",
+          "relative_path": "overlap between Morgellons, Lyme disease, and syphilis.txt",
+          "source_path": "/Users/nuu/Downloads/overlap between Morgellons Lyme disease and syphilis/overlap between Morgellons, Lyme disease, and syphilis.txt",
+          "size_bytes": 115252,
+          "format": "txt",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "colchicine-uses",
+      "title": "Colchicine uses",
+      "speaker": null,
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/Colchicine uses.pdf",
+      "kind": "file",
+      "primary_branch": "integrative-medicine",
+      "branches": [
+        "Research/integrative-medicine/",
+        "Research/immune/"
+      ],
+      "themes": [
+        "cardiometabolic",
+        "inflammation"
+      ],
+      "medical_terms": [
+        "cardio",
+        "inflammation"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Companion to low-dose colchicine pack.",
+      "primary_file": "Colchicine uses.pdf",
+      "formats": [
+        "pdf"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 1,
+      "screenshot_count": 0,
+      "total_bytes": 234295,
+      "files": [
+        {
+          "filename": "Colchicine uses.pdf",
+          "relative_path": "Colchicine uses.pdf",
+          "source_path": "/Users/nuu/Downloads/Colchicine uses.pdf",
+          "size_bytes": 234295,
+          "format": "pdf",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "dna-repair-andrews-2026-04",
+      "title": "DNA repair healing with Dr. Bill Andrews",
+      "speaker": "Bill Andrews",
+      "approx_date": "2026-04-28",
+      "source_root": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026",
+      "kind": "folder",
+      "primary_branch": "integrative-medicine",
+      "branches": [
+        "Research/integrative-medicine/",
+        "Research/nutrition/"
+      ],
+      "themes": [
+        "longevity",
+        "regenerative",
+        "dna_repair"
+      ],
+      "medical_terms": [
+        "regenerative",
+        "longevity"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Large PDF + transcript + screenshots.",
+      "primary_file": "DNA repair healing with Dr. Bill Andrews 4 28 2026.pdf",
+      "formats": [
+        "pdf",
+        "txt"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 2,
+      "screenshot_count": 90,
+      "total_bytes": 295529188,
+      "files": [
+        {
+          "filename": "DNA repair healing with Dr. Bill Andrews 4 28 2026.pdf",
+          "relative_path": "DNA repair healing with Dr. Bill Andrews 4 28 2026.pdf",
+          "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/DNA repair healing with Dr. Bill Andrews 4 28 2026.pdf",
+          "size_bytes": 60500918,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "DNA repair healing with Dr. Bill Andrews 4 28 2026.txt",
+          "relative_path": "DNA repair healing with Dr. Bill Andrews 4 28 2026.txt",
+          "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/DNA repair healing with Dr. Bill Andrews 4 28 2026.txt",
+          "size_bytes": 149009,
+          "format": "txt",
+          "kind": "document"
+        }
+      ],
+      "lecture_packet": "Research/lectures/dna-repair-andrews-2026-04/",
+      "sync": "screenshots_only"
+    },
+    {
+      "id": "burton-hormones-2026-04",
+      "title": "Dr Lindsay Burton — everything hormones lecture",
+      "speaker": "Lindsay Burton",
+      "approx_date": "2026-04",
+      "source_root": "/Users/nuu/Downloads/Dr Lindsay Burton everything hormones lecture 4 2026.txt",
+      "kind": "file",
+      "primary_branch": "integrative-medicine",
+      "branches": [
+        "Research/integrative-medicine/",
+        "Research/nutrition/"
+      ],
+      "themes": [
+        "endocrine_hormone"
+      ],
+      "medical_terms": [
+        "endocrine_hormone"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Transcript only in Downloads.",
+      "primary_file": "Dr Lindsay Burton everything hormones lecture 4 2026.txt",
+      "formats": [
+        "txt"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 1,
+      "screenshot_count": 0,
+      "total_bytes": 125604,
+      "files": [
+        {
+          "filename": "Dr Lindsay Burton everything hormones lecture 4 2026.txt",
+          "relative_path": "Dr Lindsay Burton everything hormones lecture 4 2026.txt",
+          "source_path": "/Users/nuu/Downloads/Dr Lindsay Burton everything hormones lecture 4 2026.txt",
+          "size_bytes": 125604,
+          "format": "txt",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "hair-follicle-optimization",
+      "title": "Hair Follicle Optimization Master Research v0.2",
+      "speaker": null,
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+      "kind": "file",
+      "primary_branch": "integrative-medicine",
+      "branches": [
+        "Research/integrative-medicine/",
+        "Research/nutrition/"
+      ],
+      "themes": [
+        "derm",
+        "regenerative"
+      ],
+      "medical_terms": [
+        "derm",
+        "regenerative"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": null,
+      "primary_file": "Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+      "formats": [
+        "docx"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 1,
+      "screenshot_count": 0,
+      "total_bytes": 44343,
+      "files": [
+        {
+          "filename": "Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+          "relative_path": "Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+          "source_path": "/Users/nuu/Downloads/Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+          "size_bytes": 44343,
+          "format": "docx",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "integrative-medicine-lecture-notes",
+      "title": "Integrative medicine lecture notes",
+      "speaker": null,
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/integrative_medicine_lecture_notes.docx",
+      "kind": "file",
+      "primary_branch": "integrative-medicine",
+      "branches": [
+        "Research/integrative-medicine/"
+      ],
+      "themes": [
+        "integrative-medicine"
+      ],
+      "medical_terms": [],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": null,
+      "primary_file": "integrative_medicine_lecture_notes.docx",
+      "formats": [
+        "docx"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 1,
+      "screenshot_count": 0,
+      "total_bytes": 33830,
+      "files": [
+        {
+          "filename": "integrative_medicine_lecture_notes.docx",
+          "relative_path": "integrative_medicine_lecture_notes.docx",
+          "source_path": "/Users/nuu/Downloads/integrative_medicine_lecture_notes.docx",
+          "size_bytes": 33830,
+          "format": "docx",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "ivermectin-ayurveda-2026-05",
+      "title": "Ivermectin for longevity, cancer, neurodegeneration & quantum Ayurveda",
+      "speaker": null,
+      "approx_date": "2026-05-19",
+      "source_root": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026",
+      "kind": "folder",
+      "primary_branch": "integrative-medicine",
+      "branches": [
+        "Research/integrative-medicine/",
+        "Research/immune/",
+        "Research/materia-medica/"
+      ],
+      "themes": [
+        "longevity",
+        "cancer_onco",
+        "neuro",
+        "infection",
+        "ayurveda"
+      ],
+      "medical_terms": [
+        "cancer_onco",
+        "neuro",
+        "infection_covid",
+        "herbal_botanical",
+        "longevity"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Audio + zip + transcript; ~99 slide screenshots in nested slides folder.",
+      "primary_file": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.zip",
+      "formats": [
+        "mp3",
+        "txt",
+        "zip"
+      ],
+      "kinds": [
+        "archive",
+        "audio",
+        "document"
+      ],
+      "document_count": 3,
+      "screenshot_count": 99,
+      "total_bytes": 293981958,
+      "files": [
+        {
+          "filename": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.zip",
+          "relative_path": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.zip",
+          "source_path": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.zip",
+          "size_bytes": 20423577,
+          "format": "zip",
+          "kind": "archive"
+        },
+        {
+          "filename": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.mp3",
+          "relative_path": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.mp3",
+          "source_path": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.mp3",
+          "size_bytes": 20317221,
+          "format": "mp3",
+          "kind": "audio"
+        },
+        {
+          "filename": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.txt",
+          "relative_path": "Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.txt",
+          "source_path": "/Users/nuu/Downloads/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026/Ivermectin for longevity, cancer, neurodegenerative diseases, & potential of quantum Ayurveda technology 5 19 2026.txt",
+          "size_bytes": 106008,
+          "format": "txt",
+          "kind": "document"
+        }
+      ],
+      "lecture_packet": "Research/lectures/ivermectin-ayurveda-2026-05/",
+      "sync": "screenshots_only"
+    },
+    {
+      "id": "colchicine-cv-prevention",
+      "title": "Low-dose colchicine — CV prevention / anti-inflammatory",
+      "speaker": null,
+      "approx_date": null,
+      "source_root": "/Users/nuu/Downloads/low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention",
+      "kind": "folder",
+      "primary_branch": "integrative-medicine",
+      "branches": [
+        "Research/integrative-medicine/",
+        "Research/immune/"
+      ],
+      "themes": [
+        "cardiometabolic",
+        "inflammation"
+      ],
+      "medical_terms": [
+        "cardio",
+        "inflammation"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Zip + mp3 + transcript. Related single: Colchicine uses.pdf.",
+      "primary_file": "low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.zip",
+      "formats": [
+        "mp3",
+        "txt",
+        "zip"
+      ],
+      "kinds": [
+        "archive",
+        "audio",
+        "document"
+      ],
+      "document_count": 3,
+      "screenshot_count": 0,
+      "total_bytes": 33746836,
+      "files": [
+        {
+          "filename": "low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.zip",
+          "relative_path": "low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.zip",
+          "source_path": "/Users/nuu/Downloads/low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention/low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.zip",
+          "size_bytes": 16873592,
+          "format": "zip",
+          "kind": "archive"
+        },
+        {
+          "filename": "low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.mp3",
+          "relative_path": "low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.mp3",
+          "source_path": "/Users/nuu/Downloads/low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention/low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.mp3",
+          "size_bytes": 16790265,
+          "format": "mp3",
+          "kind": "audio"
+        },
+        {
+          "filename": "low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.txt",
+          "relative_path": "low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.txt",
+          "source_path": "/Users/nuu/Downloads/low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention/low-dose colchicine as a cost-effective anti-inflammatory therapy for cardiovascular prevention.txt",
+          "size_bytes": 82979,
+          "format": "txt",
+          "kind": "document"
+        }
+      ]
+    },
+    {
+      "id": "dpc-hartman-2026-05",
+      "title": "Stefan Hartman — starting a DPC practice (LLC / S-corp)",
+      "speaker": "Stefan Hartman",
+      "approx_date": "2026-05-12",
+      "source_root": "/Users/nuu/Downloads/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC, S corporation 512 2026",
+      "kind": "folder",
+      "primary_branch": "integrative-medicine",
+      "branches": [
+        "Research/integrative-medicine/"
+      ],
+      "themes": [
+        "practice_systems"
+      ],
+      "medical_terms": [
+        "ethics_systems"
+      ],
+      "research_priority": "low",
+      "already_in_repo": false,
+      "notes": "Practice/business ops — keep for context; low priority for clinical Research leaves.",
+      "primary_file": "Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC S corporation 5 12 2026.txt",
+      "formats": [
+        "txt"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 1,
+      "screenshot_count": 20,
+      "total_bytes": 64977115,
+      "files": [
+        {
+          "filename": "Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC S corporation 5 12 2026.txt",
+          "relative_path": "Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC S corporation 5 12 2026.txt",
+          "source_path": "/Users/nuu/Downloads/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC, S corporation 512 2026/Stefan Hartman presented on starting a DPC practice, emphasizing the benefits of an LLC S corporation 5 12 2026.txt",
+          "size_bytes": 117886,
+          "format": "txt",
+          "kind": "document"
+        }
+      ],
+      "lecture_packet": "Research/lectures/dpc-hartman-2026-05/",
+      "sync": "screenshots_only"
+    },
+    {
+      "id": "peptides-bpc-kpv-2026-05",
+      "title": "Peptides BPC-157, KPV, and lorazotide — gut repair / barrier",
+      "speaker": null,
+      "approx_date": "2026-05-05",
+      "source_root": "/Users/nuu/Downloads/ peptides BPC 157, KPV, and lorazotide for gut repair, inflammation, and barrier control slides 5 5 2026",
+      "kind": "folder",
+      "primary_branch": "nutrition",
+      "branches": [
+        "Research/nutrition/",
+        "Research/immune/"
+      ],
+      "themes": [
+        "nutrition",
+        "gi_metabolic",
+        "peptides",
+        "inflammation"
+      ],
+      "medical_terms": [
+        "peptides",
+        "gi_metabolic",
+        "inflammation",
+        "vitamin_supplement"
+      ],
+      "research_priority": "normal",
+      "already_in_repo": false,
+      "notes": "Slide deck PDF + transcript + screenshot sequence.",
+      "primary_file": "Peptides BPC 157, KPV, and lorazotide for gut repair inflammation barrier control 5 5 2026.pdf",
+      "formats": [
+        "pdf",
+        "txt"
+      ],
+      "kinds": [
+        "document"
+      ],
+      "document_count": 2,
+      "screenshot_count": 44,
+      "total_bytes": 145816692,
+      "files": [
+        {
+          "filename": "Peptides BPC 157, KPV, and lorazotide for gut repair inflammation barrier control 5 5 2026.pdf",
+          "relative_path": "Peptides BPC 157, KPV, and lorazotide for gut repair inflammation barrier control 5 5 2026.pdf",
+          "source_path": "/Users/nuu/Downloads/ peptides BPC 157, KPV, and lorazotide for gut repair, inflammation, and barrier control slides 5 5 2026/Peptides BPC 157, KPV, and lorazotide for gut repair inflammation barrier control 5 5 2026.pdf",
+          "size_bytes": 31534681,
+          "format": "pdf",
+          "kind": "document"
+        },
+        {
+          "filename": "Peptides BPC 157, KPV, and lorazotide for gut repair inflammation barrier control 5 5 2026.txt",
+          "relative_path": "Peptides BPC 157, KPV, and lorazotide for gut repair inflammation barrier control 5 5 2026.txt",
+          "source_path": "/Users/nuu/Downloads/ peptides BPC 157, KPV, and lorazotide for gut repair, inflammation, and barrier control slides 5 5 2026/Peptides BPC 157, KPV, and lorazotide for gut repair inflammation barrier control 5 5 2026.txt",
+          "size_bytes": 138735,
+          "format": "txt",
+          "kind": "document"
+        }
+      ]
+    }
+  ]
+}

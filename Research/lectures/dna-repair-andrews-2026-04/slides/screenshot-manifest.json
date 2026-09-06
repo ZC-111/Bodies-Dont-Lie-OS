@@ -1,0 +1,732 @@
+{
+  "version": "0.1",
+  "cataloged_at": "2026-09-03",
+  "source_root": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026",
+  "slides_root": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026",
+  "sync": "screenshots_only",
+  "screenshot_count": 90,
+  "naming": "Ordered by Screenshot timestamp in filename; mapped to slide-001…",
+  "screenshots": [
+    {
+      "index": 1,
+      "filename": "Screenshot 2026-06-23 at 4.20.55 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.20.55 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.20.55 PM.png",
+      "size_bytes": 1923053,
+      "slide_id": "slide-001"
+    },
+    {
+      "index": 2,
+      "filename": "Screenshot 2026-06-23 at 4.20.58 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.20.58 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.20.58 PM.png",
+      "size_bytes": 1597319,
+      "slide_id": "slide-002"
+    },
+    {
+      "index": 3,
+      "filename": "Screenshot 2026-06-23 at 4.21.16 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.21.16 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.21.16 PM.png",
+      "size_bytes": 2174700,
+      "slide_id": "slide-003"
+    },
+    {
+      "index": 4,
+      "filename": "Screenshot 2026-06-23 at 4.21.33 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.21.33 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.21.33 PM.png",
+      "size_bytes": 1984801,
+      "slide_id": "slide-004"
+    },
+    {
+      "index": 5,
+      "filename": "Screenshot 2026-06-23 at 4.21.39 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.21.39 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.21.39 PM.png",
+      "size_bytes": 1377619,
+      "slide_id": "slide-005"
+    },
+    {
+      "index": 6,
+      "filename": "Screenshot 2026-06-23 at 4.21.44 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.21.44 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.21.44 PM.png",
+      "size_bytes": 2586365,
+      "slide_id": "slide-006"
+    },
+    {
+      "index": 7,
+      "filename": "Screenshot 2026-06-23 at 4.22.32 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.22.32 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.22.32 PM.png",
+      "size_bytes": 1652248,
+      "slide_id": "slide-007"
+    },
+    {
+      "index": 8,
+      "filename": "Screenshot 2026-06-23 at 4.22.37 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.22.37 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.22.37 PM.png",
+      "size_bytes": 3511685,
+      "slide_id": "slide-008"
+    },
+    {
+      "index": 9,
+      "filename": "Screenshot 2026-06-23 at 4.22.43 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.22.43 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.22.43 PM.png",
+      "size_bytes": 1371240,
+      "slide_id": "slide-009"
+    },
+    {
+      "index": 10,
+      "filename": "Screenshot 2026-06-23 at 4.22.48 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.22.48 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.22.48 PM.png",
+      "size_bytes": 1733339,
+      "slide_id": "slide-010"
+    },
+    {
+      "index": 11,
+      "filename": "Screenshot 2026-06-23 at 4.22.52 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.22.52 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.22.52 PM.png",
+      "size_bytes": 1536681,
+      "slide_id": "slide-011"
+    },
+    {
+      "index": 12,
+      "filename": "Screenshot 2026-06-23 at 4.22.55 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.22.55 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.22.55 PM.png",
+      "size_bytes": 1593064,
+      "slide_id": "slide-012"
+    },
+    {
+      "index": 13,
+      "filename": "Screenshot 2026-06-23 at 4.22.59 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.22.59 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.22.59 PM.png",
+      "size_bytes": 3228432,
+      "slide_id": "slide-013"
+    },
+    {
+      "index": 14,
+      "filename": "Screenshot 2026-06-23 at 4.23.03 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.03 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.03 PM.png",
+      "size_bytes": 2582900,
+      "slide_id": "slide-014"
+    },
+    {
+      "index": 15,
+      "filename": "Screenshot 2026-06-23 at 4.23.08 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.08 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.08 PM.png",
+      "size_bytes": 1673547,
+      "slide_id": "slide-015"
+    },
+    {
+      "index": 16,
+      "filename": "Screenshot 2026-06-23 at 4.23.12 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.12 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.12 PM.png",
+      "size_bytes": 2648465,
+      "slide_id": "slide-016"
+    },
+    {
+      "index": 17,
+      "filename": "Screenshot 2026-06-23 at 4.23.15 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.15 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.15 PM.png",
+      "size_bytes": 2109074,
+      "slide_id": "slide-017"
+    },
+    {
+      "index": 18,
+      "filename": "Screenshot 2026-06-23 at 4.23.19 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.19 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.19 PM.png",
+      "size_bytes": 2397712,
+      "slide_id": "slide-018"
+    },
+    {
+      "index": 19,
+      "filename": "Screenshot 2026-06-23 at 4.23.24 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.24 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.24 PM.png",
+      "size_bytes": 2134930,
+      "slide_id": "slide-019"
+    },
+    {
+      "index": 20,
+      "filename": "Screenshot 2026-06-23 at 4.23.31 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.31 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.31 PM.png",
+      "size_bytes": 1589844,
+      "slide_id": "slide-020"
+    },
+    {
+      "index": 21,
+      "filename": "Screenshot 2026-06-23 at 4.23.35 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.35 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.35 PM.png",
+      "size_bytes": 1324521,
+      "slide_id": "slide-021"
+    },
+    {
+      "index": 22,
+      "filename": "Screenshot 2026-06-23 at 4.23.38 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.38 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.38 PM.png",
+      "size_bytes": 2256878,
+      "slide_id": "slide-022"
+    },
+    {
+      "index": 23,
+      "filename": "Screenshot 2026-06-23 at 4.23.41 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.41 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.41 PM.png",
+      "size_bytes": 1981476,
+      "slide_id": "slide-023"
+    },
+    {
+      "index": 24,
+      "filename": "Screenshot 2026-06-23 at 4.23.44 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.44 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.44 PM.png",
+      "size_bytes": 3597078,
+      "slide_id": "slide-024"
+    },
+    {
+      "index": 25,
+      "filename": "Screenshot 2026-06-23 at 4.23.48 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.48 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.48 PM.png",
+      "size_bytes": 3480519,
+      "slide_id": "slide-025"
+    },
+    {
+      "index": 26,
+      "filename": "Screenshot 2026-06-23 at 4.23.51 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.51 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.51 PM.png",
+      "size_bytes": 2334722,
+      "slide_id": "slide-026"
+    },
+    {
+      "index": 27,
+      "filename": "Screenshot 2026-06-23 at 4.23.54 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.23.54 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.23.54 PM.png",
+      "size_bytes": 1273902,
+      "slide_id": "slide-027"
+    },
+    {
+      "index": 28,
+      "filename": "Screenshot 2026-06-23 at 4.24.03 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.03 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.03 PM.png",
+      "size_bytes": 1676762,
+      "slide_id": "slide-028"
+    },
+    {
+      "index": 29,
+      "filename": "Screenshot 2026-06-23 at 4.24.08 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.08 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.08 PM.png",
+      "size_bytes": 2137121,
+      "slide_id": "slide-029"
+    },
+    {
+      "index": 30,
+      "filename": "Screenshot 2026-06-23 at 4.24.12 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.12 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.12 PM.png",
+      "size_bytes": 2251112,
+      "slide_id": "slide-030"
+    },
+    {
+      "index": 31,
+      "filename": "Screenshot 2026-06-23 at 4.24.26 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.26 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.26 PM.png",
+      "size_bytes": 1888750,
+      "slide_id": "slide-031"
+    },
+    {
+      "index": 32,
+      "filename": "Screenshot 2026-06-23 at 4.24.29 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.29 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.29 PM.png",
+      "size_bytes": 1686476,
+      "slide_id": "slide-032"
+    },
+    {
+      "index": 33,
+      "filename": "Screenshot 2026-06-23 at 4.24.33 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.33 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.33 PM.png",
+      "size_bytes": 2371684,
+      "slide_id": "slide-033"
+    },
+    {
+      "index": 34,
+      "filename": "Screenshot 2026-06-23 at 4.24.36 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.36 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.36 PM.png",
+      "size_bytes": 2396989,
+      "slide_id": "slide-034"
+    },
+    {
+      "index": 35,
+      "filename": "Screenshot 2026-06-23 at 4.24.48 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.48 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.48 PM.png",
+      "size_bytes": 1483288,
+      "slide_id": "slide-035"
+    },
+    {
+      "index": 36,
+      "filename": "Screenshot 2026-06-23 at 4.24.52 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.52 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.52 PM.png",
+      "size_bytes": 2113352,
+      "slide_id": "slide-036"
+    },
+    {
+      "index": 37,
+      "filename": "Screenshot 2026-06-23 at 4.24.55 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.55 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.55 PM.png",
+      "size_bytes": 1710290,
+      "slide_id": "slide-037"
+    },
+    {
+      "index": 38,
+      "filename": "Screenshot 2026-06-23 at 4.24.58 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.24.58 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.24.58 PM.png",
+      "size_bytes": 2321293,
+      "slide_id": "slide-038"
+    },
+    {
+      "index": 39,
+      "filename": "Screenshot 2026-06-23 at 4.25.02 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.02 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.02 PM.png",
+      "size_bytes": 2064510,
+      "slide_id": "slide-039"
+    },
+    {
+      "index": 40,
+      "filename": "Screenshot 2026-06-23 at 4.25.05 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.05 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.05 PM.png",
+      "size_bytes": 1514334,
+      "slide_id": "slide-040"
+    },
+    {
+      "index": 41,
+      "filename": "Screenshot 2026-06-23 at 4.25.08 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.08 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.08 PM.png",
+      "size_bytes": 2190364,
+      "slide_id": "slide-041"
+    },
+    {
+      "index": 42,
+      "filename": "Screenshot 2026-06-23 at 4.25.11 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.11 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.11 PM.png",
+      "size_bytes": 1868216,
+      "slide_id": "slide-042"
+    },
+    {
+      "index": 43,
+      "filename": "Screenshot 2026-06-23 at 4.25.14 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.14 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.14 PM.png",
+      "size_bytes": 1266012,
+      "slide_id": "slide-043"
+    },
+    {
+      "index": 44,
+      "filename": "Screenshot 2026-06-23 at 4.25.18 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.18 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.18 PM.png",
+      "size_bytes": 1732776,
+      "slide_id": "slide-044"
+    },
+    {
+      "index": 45,
+      "filename": "Screenshot 2026-06-23 at 4.25.21 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.21 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.21 PM.png",
+      "size_bytes": 2065378,
+      "slide_id": "slide-045"
+    },
+    {
+      "index": 46,
+      "filename": "Screenshot 2026-06-23 at 4.25.24 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.24 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.24 PM.png",
+      "size_bytes": 1805929,
+      "slide_id": "slide-046"
+    },
+    {
+      "index": 47,
+      "filename": "Screenshot 2026-06-23 at 4.25.27 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.27 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.27 PM.png",
+      "size_bytes": 2037920,
+      "slide_id": "slide-047"
+    },
+    {
+      "index": 48,
+      "filename": "Screenshot 2026-06-23 at 4.25.33 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.33 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.33 PM.png",
+      "size_bytes": 2203801,
+      "slide_id": "slide-048"
+    },
+    {
+      "index": 49,
+      "filename": "Screenshot 2026-06-23 at 4.25.37 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.37 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.37 PM.png",
+      "size_bytes": 1999765,
+      "slide_id": "slide-049"
+    },
+    {
+      "index": 50,
+      "filename": "Screenshot 2026-06-23 at 4.25.41 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.41 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.41 PM.png",
+      "size_bytes": 2338448,
+      "slide_id": "slide-050"
+    },
+    {
+      "index": 51,
+      "filename": "Screenshot 2026-06-23 at 4.25.44 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.44 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.44 PM.png",
+      "size_bytes": 2033435,
+      "slide_id": "slide-051"
+    },
+    {
+      "index": 52,
+      "filename": "Screenshot 2026-06-23 at 4.25.47 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.25.47 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.25.47 PM.png",
+      "size_bytes": 2143697,
+      "slide_id": "slide-052"
+    },
+    {
+      "index": 53,
+      "filename": "Screenshot 2026-06-23 at 4.26.27 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.26.27 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.26.27 PM.png",
+      "size_bytes": 1993371,
+      "slide_id": "slide-053"
+    },
+    {
+      "index": 54,
+      "filename": "Screenshot 2026-06-23 at 4.26.31 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.26.31 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.26.31 PM.png",
+      "size_bytes": 4612421,
+      "slide_id": "slide-054"
+    },
+    {
+      "index": 55,
+      "filename": "Screenshot 2026-06-23 at 4.26.34 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.26.34 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.26.34 PM.png",
+      "size_bytes": 3651416,
+      "slide_id": "slide-055"
+    },
+    {
+      "index": 56,
+      "filename": "Screenshot 2026-06-23 at 4.26.50 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.26.50 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.26.50 PM.png",
+      "size_bytes": 3053450,
+      "slide_id": "slide-056"
+    },
+    {
+      "index": 57,
+      "filename": "Screenshot 2026-06-23 at 4.26.53 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.26.53 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.26.53 PM.png",
+      "size_bytes": 3832866,
+      "slide_id": "slide-057"
+    },
+    {
+      "index": 58,
+      "filename": "Screenshot 2026-06-23 at 4.26.58 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.26.58 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.26.58 PM.png",
+      "size_bytes": 2863277,
+      "slide_id": "slide-058"
+    },
+    {
+      "index": 59,
+      "filename": "Screenshot 2026-06-23 at 4.27.03 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.03 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.03 PM.png",
+      "size_bytes": 3100136,
+      "slide_id": "slide-059"
+    },
+    {
+      "index": 60,
+      "filename": "Screenshot 2026-06-23 at 4.27.07 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.07 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.07 PM.png",
+      "size_bytes": 3308888,
+      "slide_id": "slide-060"
+    },
+    {
+      "index": 61,
+      "filename": "Screenshot 2026-06-23 at 4.27.11 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.11 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.11 PM.png",
+      "size_bytes": 3341894,
+      "slide_id": "slide-061"
+    },
+    {
+      "index": 62,
+      "filename": "Screenshot 2026-06-23 at 4.27.21 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.21 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.21 PM.png",
+      "size_bytes": 2977270,
+      "slide_id": "slide-062"
+    },
+    {
+      "index": 63,
+      "filename": "Screenshot 2026-06-23 at 4.27.25 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.25 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.25 PM.png",
+      "size_bytes": 3157239,
+      "slide_id": "slide-063"
+    },
+    {
+      "index": 64,
+      "filename": "Screenshot 2026-06-23 at 4.27.30 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.30 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.30 PM.png",
+      "size_bytes": 4007596,
+      "slide_id": "slide-064"
+    },
+    {
+      "index": 65,
+      "filename": "Screenshot 2026-06-23 at 4.27.39 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.39 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.39 PM.png",
+      "size_bytes": 3862697,
+      "slide_id": "slide-065"
+    },
+    {
+      "index": 66,
+      "filename": "Screenshot 2026-06-23 at 4.27.43 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.43 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.43 PM.png",
+      "size_bytes": 4838267,
+      "slide_id": "slide-066"
+    },
+    {
+      "index": 67,
+      "filename": "Screenshot 2026-06-23 at 4.27.46 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.46 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.46 PM.png",
+      "size_bytes": 3064972,
+      "slide_id": "slide-067"
+    },
+    {
+      "index": 68,
+      "filename": "Screenshot 2026-06-23 at 4.27.54 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.27.54 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.27.54 PM.png",
+      "size_bytes": 3512417,
+      "slide_id": "slide-068"
+    },
+    {
+      "index": 69,
+      "filename": "Screenshot 2026-06-23 at 4.28.12 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.28.12 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.28.12 PM.png",
+      "size_bytes": 3452155,
+      "slide_id": "slide-069"
+    },
+    {
+      "index": 70,
+      "filename": "Screenshot 2026-06-23 at 4.28.22 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.28.22 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.28.22 PM.png",
+      "size_bytes": 3774168,
+      "slide_id": "slide-070"
+    },
+    {
+      "index": 71,
+      "filename": "Screenshot 2026-06-23 at 4.28.38 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.28.38 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.28.38 PM.png",
+      "size_bytes": 3655555,
+      "slide_id": "slide-071"
+    },
+    {
+      "index": 72,
+      "filename": "Screenshot 2026-06-23 at 4.28.44 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.28.44 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.28.44 PM.png",
+      "size_bytes": 4290618,
+      "slide_id": "slide-072"
+    },
+    {
+      "index": 73,
+      "filename": "Screenshot 2026-06-23 at 4.28.54 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.28.54 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.28.54 PM.png",
+      "size_bytes": 4166111,
+      "slide_id": "slide-073"
+    },
+    {
+      "index": 74,
+      "filename": "Screenshot 2026-06-23 at 4.28.57 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.28.57 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.28.57 PM.png",
+      "size_bytes": 4194579,
+      "slide_id": "slide-074"
+    },
+    {
+      "index": 75,
+      "filename": "Screenshot 2026-06-23 at 4.29.04 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.29.04 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.29.04 PM.png",
+      "size_bytes": 3699836,
+      "slide_id": "slide-075"
+    },
+    {
+      "index": 76,
+      "filename": "Screenshot 2026-06-23 at 4.29.09 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.29.09 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.29.09 PM.png",
+      "size_bytes": 3497673,
+      "slide_id": "slide-076"
+    },
+    {
+      "index": 77,
+      "filename": "Screenshot 2026-06-23 at 4.29.12 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.29.12 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.29.12 PM.png",
+      "size_bytes": 3492352,
+      "slide_id": "slide-077"
+    },
+    {
+      "index": 78,
+      "filename": "Screenshot 2026-06-23 at 4.29.23 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.29.23 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.29.23 PM.png",
+      "size_bytes": 2819621,
+      "slide_id": "slide-078"
+    },
+    {
+      "index": 79,
+      "filename": "Screenshot 2026-06-23 at 4.29.38 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.29.38 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.29.38 PM.png",
+      "size_bytes": 3004918,
+      "slide_id": "slide-079"
+    },
+    {
+      "index": 80,
+      "filename": "Screenshot 2026-06-23 at 4.29.47 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.29.47 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.29.47 PM.png",
+      "size_bytes": 3263978,
+      "slide_id": "slide-080"
+    },
+    {
+      "index": 81,
+      "filename": "Screenshot 2026-06-23 at 4.30.03 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.30.03 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.30.03 PM.png",
+      "size_bytes": 2862700,
+      "slide_id": "slide-081"
+    },
+    {
+      "index": 82,
+      "filename": "Screenshot 2026-06-23 at 4.30.15 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.30.15 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.30.15 PM.png",
+      "size_bytes": 2369153,
+      "slide_id": "slide-082"
+    },
+    {
+      "index": 83,
+      "filename": "Screenshot 2026-06-23 at 4.30.21 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.30.21 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.30.21 PM.png",
+      "size_bytes": 2319817,
+      "slide_id": "slide-083"
+    },
+    {
+      "index": 84,
+      "filename": "Screenshot 2026-06-23 at 4.30.30 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.30.30 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.30.30 PM.png",
+      "size_bytes": 2739514,
+      "slide_id": "slide-084"
+    },
+    {
+      "index": 85,
+      "filename": "Screenshot 2026-06-23 at 4.30.47 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.30.47 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.30.47 PM.png",
+      "size_bytes": 2637306,
+      "slide_id": "slide-085"
+    },
+    {
+      "index": 86,
+      "filename": "Screenshot 2026-06-23 at 4.30.57 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.30.57 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.30.57 PM.png",
+      "size_bytes": 3030526,
+      "slide_id": "slide-086"
+    },
+    {
+      "index": 87,
+      "filename": "Screenshot 2026-06-23 at 4.31.07 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.31.07 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.31.07 PM.png",
+      "size_bytes": 3354025,
+      "slide_id": "slide-087"
+    },
+    {
+      "index": 88,
+      "filename": "Screenshot 2026-06-23 at 4.31.15 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.31.15 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.31.15 PM.png",
+      "size_bytes": 4046433,
+      "slide_id": "slide-088"
+    },
+    {
+      "index": 89,
+      "filename": "Screenshot 2026-06-23 at 4.31.44 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.31.44 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.31.44 PM.png",
+      "size_bytes": 2609177,
+      "slide_id": "slide-089"
+    },
+    {
+      "index": 90,
+      "filename": "Screenshot 2026-06-23 at 4.31.55 PM.png",
+      "relative_path": "Screenshot 2026-06-23 at 4.31.55 PM.png",
+      "source_path": "/Users/nuu/Downloads/DNA repair healing with Dr. Bill Andrews 4 28 2026/Screenshot 2026-06-23 at 4.31.55 PM.png",
+      "size_bytes": 3463053,
+      "slide_id": "slide-090"
+    }
+  ],
+  "note": "Images remain in Downloads. Use this manifest to coordinate with Otter transcript timestamps."
+}

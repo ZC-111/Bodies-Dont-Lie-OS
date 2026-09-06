@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "version": "0.1",
+    "title": "Acupuncture Point Protocols for Gut Terrain and SIBO Adjunct Care",
+    "source_file": null,
+    "system": "clinical_protocol",
+    "topics": [
+      "sibo",
+      "digestion",
+      "spleen",
+      "stomach",
+      "damp",
+      "motility",
+      "bloating",
+      "relapse"
+    ],
+    "parsed_at": "2026-09-03",
+    "notes": "v0.1 adjunct draft for pairing with biomed SIBO pathways (e.g. Clearfield 2025-03-11 Hill three-phase). Not parsed from a single external quick-reference; classical pattern prescriptions for integrative use. Point codes follow Deadman-style notation.",
+    "pairs_with": [
+      "Research/lectures/clearfield-webinar-2025-03-11/derived/protocol-pathway.md",
+      "Research/acupuncture/sleep-spirit-protocols.md"
+    ]
+  },
+  "anchor_points": [
+    {
+      "code": "ST-36",
+      "header": "Zusanli",
+      "name_en": "Leg Three Miles",
+      "role": "primary_digestive_tonification",
+      "indications": ["fatigue", "poor appetite", "bloating", "post-illness weakness"],
+      "notes": "Primary middle-jiao tonification; raises clear qi; Phase 2–3 rebuild adjunct."
+    },
+    {
+      "code": "SP-6",
+      "header": "Sanyinjiao",
+      "name_en": "Three Yin Intersection",
+      "role": "core_combination",
+      "indications": ["bloating", "loose stools", "damp", "insomnia_overlap"],
+      "notes": "Tonifies SP, resolves Damp, harmonizes LV/KI; classic pair with ST-36."
+    },
+    {
+      "code": "REN-12",
+      "header": "Zhongwan",
+      "name_en": "Middle Cavity",
+      "role": "middle_jiao_pivot",
+      "indications": ["epigastric fullness", "damp", "food stagnation"],
+      "notes": "Front-mu of Stomach; gathers middle jiao."
+    },
+    {
+      "code": "ST-25",
+      "header": "Tianshu",
+      "name_en": "Heavenly Pivot",
+      "role": "move_fu",
+      "indications": ["bloating", "constipation", "diarrhea", "abdominal distension"],
+      "notes": "Front-mu of Large Intestine; regulate fu qi."
+    },
+    {
+      "code": "ST-37",
+      "header": "Shangjuxu",
+      "name_en": "Upper Great Void",
+      "role": "lower_he_li",
+      "indications": ["intestinal dysregulation", "dysbiosis_symptoms"],
+      "notes": "Lower he-sea of LI; distal intestinal regulation."
+    },
+    {
+      "code": "SP-9",
+      "header": "Yinlingquan",
+      "name_en": "Yin Mound Spring",
+      "role": "resolve_damp",
+      "indications": ["heaviness", "sticky stools", "edema_tendency"],
+      "notes": "Key Damp-resolution point for middle/lower jiao."
+    },
+    {
+      "code": "LV-13",
+      "header": "Zhangmen",
+      "name_en": "Completion Gate",
+      "role": "lv_sp_interface",
+      "indications": ["stress_bloating", "liver_spleen_disharmony"],
+      "notes": "Front-mu of Spleen; LV invading SP patterns."
+    },
+    {
+      "code": "LV-3",
+      "header": "Taichong",
+      "name_en": "Great Rushing",
+      "role": "spread_lv_qi",
+      "indications": ["constraint", "irritability", "stress_gut"],
+      "notes": "Often paired with LI-4 for constraint."
+    },
+    {
+      "code": "P-6",
+      "code_aliases": ["PC-6"],
+      "header": "Neiguan",
+      "name_en": "Inner Pass",
+      "role": "nausea_shen_gut",
+      "indications": ["nausea", "epigastric_oppression", "anxiety"],
+      "notes": "Shen–gut axis; nausea and chest/epigastric oppression."
+    },
+    {
+      "code": "HE-7",
+      "header": "Shenmen",
+      "name_en": "Spirit Gate",
+      "role": "shen_compliance",
+      "indications": ["anxiety", "grazing", "insomnia_with_ibs"],
+      "notes": "Settle spirit; support stop-grazing / MMC lifestyle counseling."
+    }
+  ],
+  "classic_combination": {
+    "name": "Middle-jiao duo",
+    "points": ["ST-36", "SP-6", "REN-12"],
+    "intent": "strengthen SP/ST terrain and support digestive motility context"
+  },
+  "pattern_combinations": [
+    {
+      "pattern": "Spleen Qi Deficiency",
+      "points": ["ST-36", "SP-6", "REN-12", "BL-20", "BL-21"],
+      "intent": "tonify SP qi and strengthen transformation/transportation",
+      "biomed_echo": "hypochlorhydria / enzyme insufficiency terrain; Phase 2–3"
+    },
+    {
+      "pattern": "Dampness Obstructing the Middle",
+      "points": ["SP-9", "REN-12", "ST-36", "SP-6", "ST-40"],
+      "intent": "resolve Damp and restore middle-jiao clarity",
+      "biomed_echo": "bloating, sticky stools, post-prandial fog"
+    },
+    {
+      "pattern": "Damp-Heat in the Intestines",
+      "points": ["ST-25", "ST-37", "LI-11", "SP-9", "ST-44"],
+      "intent": "clear Heat, resolve Damp, move the fu",
+      "biomed_echo": "urgent foul burning stools — rule out IBD red flags"
+    },
+    {
+      "pattern": "Liver Invading Spleen",
+      "points": ["LV-3", "LV-13", "ST-36", "SP-6", "REN-12"],
+      "optional_points": ["LI-4", "GB-34"],
+      "intent": "spread LV qi and protect SP from constraint",
+      "biomed_echo": "stress-triggered relapse; sympathetic tone"
+    },
+    {
+      "pattern": "Food Stagnation / Epigastric Oppression",
+      "points": ["REN-12", "ST-36", "ST-21", "P-6", "LI-4"],
+      "intent": "promote digestion and descend ST qi",
+      "biomed_echo": "early satiety; enzyme/bile Phase 2 context"
+    },
+    {
+      "pattern": "Cold in the Middle",
+      "points": ["REN-12", "ST-36", "REN-6", "SP-4"],
+      "intent": "warm the middle and stop cold pain/diarrhea",
+      "notes": "Moxa-friendly where trained; avoid heavy warming in Damp-Heat"
+    },
+    {
+      "pattern": "Motility / Move the Fu",
+      "points": ["ST-25", "ST-37", "TB-6", "ST-36", "LV-3"],
+      "intent": "move intestinal qi and reduce distension",
+      "biomed_echo": "MMC support adjunct — not a standalone laxative protocol"
+    },
+    {
+      "pattern": "Shen–Gut (Anxiety Grazing / IBS-overlap)",
+      "points": ["HE-7", "M-HN-3", "ST-36", "SP-6", "P-6"],
+      "intent": "settle spirit, support SP, reduce all-day snacking drive",
+      "cross_link": "Research/acupuncture/sleep-spirit-protocols.md"
+    }
+  ],
+  "phase_pairing": {
+    "antimicrobial": ["ST-36", "SP-6", "REN-12"],
+    "motility_secretions": ["ST-36", "SP-6", "REN-12", "ST-25", "ST-37", "LV-3", "LV-13"],
+    "nutrient_rebuild": ["ST-36", "SP-6", "BL-20", "BL-21", "REN-12"],
+    "relapse": "re-pattern; do not only re-kill"
+  },
+  "point_index": [
+    "ST-36", "SP-6", "REN-12", "ST-25", "ST-37", "SP-9", "LV-13", "LV-3",
+    "P-6", "HE-7", "BL-20", "BL-21", "ST-40", "LI-11", "ST-44", "ST-21",
+    "LI-4", "GB-34", "REN-6", "SP-4", "TB-6", "M-HN-3"
+  ]
+}

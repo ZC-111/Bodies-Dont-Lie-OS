@@ -1,0 +1,143 @@
+Tuesday Integrative Health Webinar
+February 05, 2025
+
+Overview
+
+Dr. Evangelica Papasterio presented her research on uveal melanoma, highlighting its unique characteristics and therapeutic challenges. She discussed the molecular mechanisms involving LKB1 and SLC8A1, which drive proliferation and metastasis in uveal melanoma. Her team used CRISPR-Cas9 screening to identify these targets. They found that inhibiting these pathways significantly reduced tumor growth in vitro and in vivo. Dr. Papasterio emphasized the need for new therapies, noting the limited efficacy of current treatments. She also discussed the challenges of biotech entrepreneurship for rare cancers and the potential of integrating novel therapies with existing treatments. The Tuesday Integrative Health Webinar discussed various cancer treatment strategies, including telomere shortening's link to cancer, superior omegle nucleotide therapy as a cancer vaccine, and CRISPR technology. Only 9% of patients respond to FISP, highlighting the need for better treatments. Calcium channel blockers like nefe de bean and Verapamil were mentioned as potential treatments for melanoma. Nanotechnology was proposed to reduce drug side effects on healthy cells. A study linked vitamin D receptors to uveal melanoma. The meeting concluded with discussions on international collaboration, integrative medicine techniques, and the importance of practical, FDA-approved drug repurposing.
+
+Action Items
+
+- Connect the presenter with the clinicians treating uveal melanoma patients to discuss potential collaborations.
+- Explore opportunities for the presenter to participate in the group's Monday webinar or a future in-person meeting to further discuss the research.
+- Provide the presenter's contact information to the clinicians to facilitate direct communication and coordination.
+- Investigate the potential use of calcium channel blockers, such as nifedipine or verapamil, as a treatment approach for uveal melanoma.
+
+Outline
+
+Introduction and Initial Greetings
+
+- Bill Clearfield welcomes participants and acknowledges the time difference, noting it's 3 AM for some.
+- Speaker 2 expresses enthusiasm and thanks for the invitation.
+- Bill Clearfield mentions the usual topics of anti-aging and wellness but notes this session will be different.
+- Bill Clearfield introduces his fiancée, Evangelica Papasterio, who recently obtained her PhD in molecular biology.
+
+Overview of Evangelica's Research
+
+- Evangelica explains her PhD research on identifying therapeutic vulnerabilities in cancer.
+- She mentions her current work on a successful research example published by her lab.
+- Evangelica describes the three layers of the eye: sclera, uvea (iris, ciliary body, and choroid), and retina.
+- She highlights the differences between cutaneous melanoma and uveal melanoma, emphasizing their distinct genetic and therapeutic responses.
+
+Key Statistics and Risk Factors of Uveal Melanoma
+
+- Evangelica provides key statistics, noting uveal melanoma affects 3-5% of total melanomas and occurs in 5-7 cases per million per year.
+- She identifies risk factors such as light-colored eyes, fair skin, older age, and certain genetic predispositions.
+- Evangelica argues the importance of studying rare cancers due to their impact on quality of life and survival.
+- She emphasizes the critical need for efficient therapies for uveal melanoma, given its high metastatic risk and poor response to current treatments.
+
+Genetic and Molecular Drivers of Uveal Melanoma
+
+- Evangelica explains the genetic drivers of uveal melanoma, including GNAQ and GNA11 mutations.
+- She describes the tumor mutational burden and the importance of chromosome 3 status and BAP1 loss in predicting metastatic risk.
+- Evangelica discusses the prognostic tool developed by Harbour et al. to predict metastatic risk based on a 15-gene signature.
+- She outlines the molecular pathways involved in uveal melanoma, including the MAPK, PI3K, and mTOR pathways.
+
+Current Therapies and Clinical Trials
+
+- Evangelica reviews current therapies for uveal melanoma, including radiotherapy and surgical approaches.
+- She highlights the lack of standard treatments for metastatic disease and the ongoing clinical trials for targeted and immunotherapies.
+- Evangelica introduces the first FDA-approved therapy, Tebentafusp (Kimtrak), and its limited efficacy due to specific HLA allele requirements.
+- She emphasizes the critical need for new therapies that can benefit all patients with uveal melanoma.
+
+Research Strategy and CRISPR-Cas9 Screening
+
+- Evangelica describes the use of cellular models and CRISPR-Cas9 screening to identify genes essential for uveal melanoma proliferation.
+- She explains the workflow of CRISPR-Cas9 screening, including the use of single guide RNAs and next-generation sequencing.
+- Evangelica highlights the identification of LKB1 and SLC8A1 as key drivers of uveal melanoma proliferation.
+- She discusses the validation of these findings through rescue experiments and in vivo studies using mice.
+
+Mechanisms and Potential Therapeutic Targets
+
+- Evangelica explains the molecular cascade involving LKB1, SLC8A1, and mitochondrial ROS.
+- She describes the experimental validation of these targets and their potential as therapeutic options.
+- Evangelica discusses the preclinical implications of these findings and the need for further research to develop effective therapies.
+- She emphasizes the importance of translating research results into clinical applications for patient benefit.
+
+Entrepreneurship and Biotech Challenges
+
+- Evangelica outlines the challenges of biotech entrepreneurship for rare cancers, including scientific and financial hurdles.
+- She suggests potential solutions such as collaborating with academic institutes, joining rare disease consortiums, and leveraging orphan drug incentives.
+- Evangelica highlights the importance of mission-driven investors and the role of incubators and accelerators in maturing biotech companies.
+- She introduces Roca Therapeutics, a biotech focused on developing therapies for uveal melanoma, and discusses their strategies and challenges.
+
+Case Discussion and Clinical Applications
+
+- Dr. Halas introduces a case involving a patient with uveal melanoma and discusses the use of immunotherapy and photodynamic therapy.
+- Evangelica provides insights into the potential benefits and limitations of these treatments.
+- Dr. Joseph James joins the discussion, emphasizing the importance of integrative therapies and the need for collaboration with medical practitioners.
+- The participants discuss the importance of clinical trials and the role of biomarkers in monitoring patient progress.
+
+Q&A and Closing Remarks
+
+- Participants ask questions about vitamin D levels, environmental factors, and the effectiveness of melatonin in suppressing micro metastasis.
+- Evangelica clarifies her research focus and the limitations of her findings in addressing these questions.
+- Dr. Joseph James and Dr. Halas discuss the importance of clinical management and the role of circulating tumor cells in monitoring cancer progression.
+- The meeting concludes with a commitment to further collaboration and the potential for future research and clinical applications.
+
+Discussion on Telomere Shortening and Cancer
+
+- Speaker 6 discusses the relationship between telomere shortening and cancer, emphasizing that shorter telomeres increase the risk of cancer, including melanoma.
+- Speaker 6 introduces superior omegle nucleotide therapy, a cancer vaccine that produces messenger RNA from cancer cells to prevent proliferation without affecting normal cells.
+- Speaker 6 compares CRISPR technology to superior omegle nucleotide therapy, noting their similarities in cancer treatment.
+- Speaker 6 inquires about chemotherapy and immunotherapy's effectiveness in treating melanoma.
+
+Clinical Trials and Treatment Effectiveness
+
+- Speaker 2 mentions that only 9% of patients respond to FISP, highlighting the lethality of the disease due to its rapid progression and lack of effective treatments.
+- Speaker 8 asks about the use of calcium channel blockers like nefe de bean or Verapamil in treating melanoma.
+- Speaker 2 explains the uncertainty regarding the exact mechanism of calcium addiction in melanoma and the lack of clinical trials showing the effectiveness of calcium channel blockers.
+- Speaker 8 suggests repurposing FDA-approved drugs for faster clinical application, emphasizing the practicality of using existing drugs rather than developing new ones.
+
+Nanotechnology and Drug Delivery
+
+- Speaker 8 introduces the concept of using nanotechnology to load drugs inside nanoparticles, reducing their impact on healthy tissue and improving their effectiveness on cancer tissue.
+- Speaker 2 agrees on the potential benefits of nanotechnology and expresses interest in collaborating with integrative oncology teams.
+- Speaker 8 suggests adding each other on LinkedIn for future communication and collaboration.
+- Bill Clearfield and others discuss the importance of practical applications and the potential for international collaboration.
+
+Vitamin D and Melanoma Link
+
+- Bill Clearfield mentions a study linking vitamin D receptor hydroxylases to uveal melanoma, highlighting the importance of vitamin D in cancer treatment.
+- Speaker 2 appreciates the additional information and acknowledges the importance of considering all relevant research.
+- Bill Clearfield emphasizes the interdisciplinary approach to cancer research and the collective goal of improving patient outcomes.
+- Speaker 6 thanks Speaker 2 for staying up late and participating in the webinar, expressing gratitude for the new insights gained.
+
+Personal Anecdotes and Cultural Exchange
+
+- Bill Clearfield shares a personal story about communicating with a Korean grandmother at a wedding, highlighting the importance of cultural exchange and understanding.
+- Bill Clearfield praises Speaker 2's efforts in staying up late for the presentation and expresses appreciation for the valuable information shared.
+- Speaker 2 and others discuss the importance of collaboration and the potential for future research and clinical applications.
+- Bill Clearfield and others express excitement about the potential for international collaboration and the impact of new research on cancer treatment.
+
+Future Collaboration and Research Opportunities
+
+- Speaker 8 suggests traveling to France to meet with doctors and researchers, emphasizing the potential for collaboration and funding opportunities.
+- Speaker 2 provides details about the laboratory in Paris and the team leaders involved in melanoma research, expressing interest in future collaborations.
+- Speaker 8 and others discuss the potential for educational conferences and CME credits, highlighting the importance of continuous learning and professional development.
+- Bill Clearfield and others express enthusiasm for future research and the potential for new breakthroughs in cancer treatment.
+
+Motivational Interviewing and Patient Care
+
+- Speaker 6 discusses the importance of motivational interviewing in integrative medicine, emphasizing the need for a more assistive approach to patient care.
+- Bill Clearfield humorously reflects on his decades of clinical practice and the potential for new approaches to patient care.
+- Speaker 6 acknowledges the ongoing training and refinement of skills in integrative medicine, expressing openness to new techniques and approaches.
+- Bill Clearfield and others express appreciation for the insights and the potential for improving patient care through new methodologies.
+
+Final Remarks and Next Steps
+
+- Bill Clearfield thanks everyone for their participation and expresses gratitude for the valuable information shared.
+- Speaker 2 and others discuss the importance of staying connected and continuing the conversation about cancer research and treatment.
+- Bill Clearfield announces the next week's topic on light therapy and invites others to present or participate in future webinars.
+- Speaker 6 and others express excitement for future collaborations and the potential for new breakthroughs in cancer research and treatment.
+
+Generated by https://otter.ai

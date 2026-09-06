@@ -70,6 +70,6 @@ Structured data: [data/sleep-spirit-protocols-v0.1.json](data/sleep-spirit-proto
 
 ## Related Files
 
+- [hair-scalp-protocols.md](hair-scalp-protocols.md) — Blood Xu / stress telogen overlap
+- [gut-sibo-protocols.md](gut-sibo-protocols.md) — shen–gut when insomnia overlaps IBS
 - [deadman-extract-v0.2.json](data/deadman-extract-v0.2.json) — gold-standard point text
-- [acupuncture-comparative-database.json](data/acupuncture-comparative-database.json) — naming cross-reference
-- [sources-catalog.json](data/sources-catalog.json) — source registry
