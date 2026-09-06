@@ -33,6 +33,7 @@ Wheezing, dyspnoea, cough, asthma, nosebleed, spitting blood, coughing blood, mu
 
 - *A Manual of Acupuncture* (Deadman), pp. 78–79 — read directly from source
 - Cross-source: Bencaodian (天府 Tianfu)
+- Cross-source reconciliation: Bencaodian locates it "on the medial aspect of the upper arm, 3 cun below the axillary fold, on the radial side of the biceps brachii" — the same biceps/humerus interval as Deadman's "antero-lateral aspect of the upper arm, 3 cun inferior to the axillary fold, in the depression between the lateral border of biceps brachii and the shaft of the humerus" (medial vs antero-lateral naming; both place it on the radial side of biceps, not a conflict).
 - Validation gate: [lung-channel-validation-v0.1.md](../../Research/acupuncture/lung-channel-validation-v0.1.md)
 
 ## Related

@@ -33,6 +33,7 @@ Pain, numbness and painful obstruction of the upper arm and shoulder, wasting an
 
 - *A Manual of Acupuncture* (Deadman), pp. 115–116 — read directly from source (column-aware)
 - Cross-source: Bencaodian (臂臑 Binao)
+- Cross-source reconciliation: Bencaodian locates it "at the lower end of the deltoid muscle, 7 cun above LI-11" — the same deltoid insertion as Deadman's "tender depression between the distal insertion of the deltoid and brachialis, approximately three fifths of the distance along the line from Quchi LI-11 to Jianyu LI-15" (proportional vs cun-count difference, not a conflict).
 - Validation gate: [large-intestine-channel-validation-v0.1.md](../../Research/acupuncture/large-intestine-channel-validation-v0.1.md)
 
 ## Related

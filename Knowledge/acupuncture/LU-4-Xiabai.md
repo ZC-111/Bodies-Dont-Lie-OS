@@ -32,6 +32,7 @@ Cough, dyspnoea, asthma, shortness of breath; heart pain, palpitations, agitatio
 
 - *A Manual of Acupuncture* (Deadman), p. 80 — read directly from source (column-aware)
 - Cross-source: Bencaodian (俠白 Xiabai)
+- Cross-source reconciliation: Bencaodian locates it "on the medial aspect of the upper arm, 4 cun below the axillary fold, on the radial side of the biceps brachii" — the same biceps/humerus interval as Deadman's "antero-lateral aspect of the upper arm, 4 cun inferior to the axillary fold and 5 cun superior to Chize LU-5" (medial vs antero-lateral naming; both place it on the radial side of biceps, not a conflict).
 - Validation gate: [lung-channel-validation-v0.1.md](../../Research/acupuncture/lung-channel-validation-v0.1.md)
 
 ## Related
