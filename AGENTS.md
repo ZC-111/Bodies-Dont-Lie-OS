@@ -8,7 +8,9 @@ Python 3.12 on the default base image; dependencies from [requirements.txt](requ
 
 ## The one executable
 
-The only runnable component is the acupuncture pipeline. To run or verify it, follow [Research/acupuncture/pipeline-usage.md](Research/acupuncture/pipeline-usage.md).
+The only **required** runnable component is the acupuncture pipeline. To run or verify it, follow [Research/acupuncture/pipeline-usage.md](Research/acupuncture/pipeline-usage.md).
+
+Optional (not in default cloud install): AOSRD webinars hybrid processor — [Research/integrative-medicine/aosrd-webinars/README.md](Research/integrative-medicine/aosrd-webinars/README.md).
 
 ## Cursor Cloud specific instructions
 
