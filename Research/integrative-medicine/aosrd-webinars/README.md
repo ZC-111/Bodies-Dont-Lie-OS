@@ -31,13 +31,22 @@ export AOSRD_WHISPER_MODEL=medium   # or turbo / large-v3
 # Catalog only (network)
 python3 Research/integrative-medicine/aosrd-webinars/scripts/aosrd_hybrid_processor.py --list
 
-# One lecture (download + whisper + frames) — heavy
+# One lecture (download + whisper + frames) — heavy; needs yt-dlp access
 python3 Research/integrative-medicine/aosrd-webinars/scripts/aosrd_hybrid_processor.py --process 0
 
 # Force scene detection instead of PDF pages
 python3 Research/integrative-medicine/aosrd-webinars/scripts/aosrd_hybrid_processor.py --process 12 --force-scene
+
+# Cloud / bot-blocked YouTube: use a local file + optional transcript
+python3 Research/integrative-medicine/aosrd-webinars/scripts/aosrd_hybrid_processor.py \
+  --process 68 --local-video /path/to/file.mp4 --skip-transcribe
 ```
 
+**Note:** Cursor Cloud VMs often get YouTube/Vimeo “sign in / bot” blocks. PDFs from `aosrd.org` still download. Use `--local-video` / `--local-transcript` / `--skip-transcribe` when video extractors fail.
+
+## Pilot run (2026-09-09)
+
+Processed catalog **#68** — *The Laboratory Functional Medicine* (Clearfield) — PDF pages → frames + `visual-transcript.md` (Whisper skipped; YouTube blocked). Frames/PDF stay gitignored; markdown + meta are tracked.
 ## Output layout
 
 ```text

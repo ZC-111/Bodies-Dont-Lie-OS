@@ -277,7 +277,28 @@ def build_lean_markdown(
     return md_path
 
 
-def process_one(item: dict, force_scene: bool = False):
+def load_local_transcript(path: Path, duration: float) -> list[dict]:
+    """Split a plain-text transcript into timed pseudo-segments for Markdown pairing."""
+    text = path.read_text(encoding="utf-8", errors="replace")
+    chunks = [c.strip() for c in re.split(r"\n\s*\n+", text) if c.strip()]
+    if not chunks:
+        chunks = [ln.strip() for ln in text.splitlines() if ln.strip()]
+    if not chunks:
+        return []
+    step = duration / max(len(chunks), 1)
+    return [
+        {"start": i * step, "end": (i + 1) * step, "text": chunk[:2000]}
+        for i, chunk in enumerate(chunks)
+    ]
+
+
+def process_one(
+    item: dict,
+    force_scene: bool = False,
+    local_video: Path | None = None,
+    local_transcript: Path | None = None,
+    skip_transcribe: bool = False,
+):
     safe_name = re.sub(r"[^\w\s-]", "", item["title"])[:60].strip().replace(" ", "_")
     out_dir = BASE_OUTPUT / safe_name
     frames_dir = out_dir / "frames"
@@ -286,13 +307,18 @@ def process_one(item: dict, force_scene: bool = False):
     print(f"\nProcessing: {item['title'][:70]}...")
     print(f"  Has PDF: {item['has_pdf']}")
 
-    video_path = download_video(item["video_url"], out_dir)
-    segments, duration = transcribe(video_path)
+    if local_video:
+        video_path = Path(local_video)
+        if not video_path.is_file():
+            raise FileNotFoundError(f"local video not found: {video_path}")
+        print(f"  Using local video: {video_path}")
+    else:
+        video_path = download_video(item["video_url"], out_dir)
 
     frame_files = []
     source = "scene"
 
-    if item["has_pdf"] and not force_scene and USE_PDF_PAGES:
+    if item["has_pdf"] and not force_scene and USE_PDF_PAGES and item.get("pdf_url"):
         pdf_path = out_dir / "slides.pdf"
         download_file(item["pdf_url"], pdf_path)
         try:
@@ -304,6 +330,25 @@ def process_one(item: dict, force_scene: bool = False):
 
     if not frame_files or force_scene:
         scenes = detect_scenes(video_path, SCENE_THRESHOLD)
+        if not scenes:
+            # even spacing fallback for short/local clips
+            probe = subprocess.run(
+                [
+                    "ffprobe",
+                    "-v",
+                    "error",
+                    "-show_entries",
+                    "format=duration",
+                    "-of",
+                    "default=nw=1:nk=1",
+                    str(video_path),
+                ],
+                capture_output=True,
+                text=True,
+            )
+            dur = float(probe.stdout.strip() or "0") or 1.0
+            n = min(MAX_FRAMES, max(1, int(dur)))
+            scenes = [dur * i / n for i in range(n)]
         if len(scenes) > MAX_FRAMES:
             step = len(scenes) / MAX_FRAMES
             scenes = [scenes[int(i * step)] for i in range(MAX_FRAMES)]
@@ -312,6 +357,34 @@ def process_one(item: dict, force_scene: bool = False):
             extract_frame(video_path, t, frames_dir / name)
             frame_files.append(name)
         source = "scene"
+
+    # duration for markdown
+    probe = subprocess.run(
+        [
+            "ffprobe",
+            "-v",
+            "error",
+            "-show_entries",
+            "format=duration",
+            "-of",
+            "default=nw=1:nk=1",
+            str(video_path),
+        ],
+        capture_output=True,
+        text=True,
+    )
+    duration = float(probe.stdout.strip() or "0") or float(len(frame_files) * 30)
+
+    if local_transcript:
+        print(f"  Using local transcript: {local_transcript}")
+        segments = load_local_transcript(Path(local_transcript), duration)
+    elif skip_transcribe:
+        print("  Skipping Whisper transcription")
+        segments = []
+    else:
+        segments, whisper_duration = transcribe(video_path)
+        if whisper_duration:
+            duration = whisper_duration
 
     build_lean_markdown(
         out_dir,
@@ -323,8 +396,16 @@ def process_one(item: dict, force_scene: bool = False):
         source,
     )
 
+    meta = dict(item)
+    meta["processor"] = {
+        "local_video": str(local_video) if local_video else None,
+        "local_transcript": str(local_transcript) if local_transcript else None,
+        "skip_transcribe": skip_transcribe,
+        "frames": source,
+        "frame_count": len(frame_files),
+    }
     with open(out_dir / "meta.json", "w", encoding="utf-8") as f:
-        json.dump(item, f, indent=2)
+        json.dump(meta, f, indent=2)
 
     print("  Done.")
     return out_dir
@@ -339,6 +420,21 @@ def main(argv: list[str] | None = None) -> int:
         "--force-scene",
         action="store_true",
         help="Ignore PDFs and always use scene detection",
+    )
+    parser.add_argument(
+        "--local-video",
+        type=Path,
+        help="Skip yt-dlp; use this video/audio file (cloud YouTube often bot-blocks)",
+    )
+    parser.add_argument(
+        "--local-transcript",
+        type=Path,
+        help="Skip Whisper; pair frames with this plain-text transcript",
+    )
+    parser.add_argument(
+        "--skip-transcribe",
+        action="store_true",
+        help="Skip Whisper even without a local transcript",
     )
     args = parser.parse_args(argv)
 
@@ -360,7 +456,13 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.process is not None:
-        process_one(catalog[args.process], force_scene=args.force_scene)
+        process_one(
+            catalog[args.process],
+            force_scene=args.force_scene,
+            local_video=args.local_video,
+            local_transcript=args.local_transcript,
+            skip_transcribe=args.skip_transcribe,
+        )
         return 0
 
     if args.process_all:
@@ -376,6 +478,10 @@ def main(argv: list[str] | None = None) -> int:
     print(f"  python3 {rel} --list")
     print(f"  python3 {rel} --process 0")
     print(f"  python3 {rel} --process 12 --force-scene")
+    print(f"  python3 {rel} --process 68 --skip-transcribe   # PDF lecture without YouTube")
+    print(
+        f"  python3 {rel} --process 70 --local-transcript path/to.txt --local-video path/to.mp4"
+    )
     return 0
 
 
