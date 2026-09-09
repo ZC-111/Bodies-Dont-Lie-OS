@@ -1,3 +1,4 @@
-# Generated / downloaded AOSRD hybrid outputs (keep local)
+# Keep catalog; ignore heavy per-lecture outputs
 *
 !.gitignore
+!catalog.json
