@@ -212,7 +212,7 @@ Recommendation: prefer **`next_evidence_action`** over overloaded “acquire.”
 | `HUMAN_IDENTITY_REVIEW` | possible/variant/multi-candidate; no cheap auto discriminator |
 | `RECOVER_LOCAL_REPRESENTATION` | Pass 2 `claimed_present_elsewhere` (Otter slides, local-downloads) when human authorizes machine access |
 | `RECOVER_EXTERNAL_MACHINE_REPRESENTATION` | AOSRD 2022 `/Volumes/...` claims |
-| `DEFER` | Cheaper path exists, identity blocked, or expensive video |
+| `DEFER` | *(discouraged as action token)* Prefer `decision=DEFER` with deferred candidate in `next_evidence_action` — see §20.2 |
 | `NO_ACTION` | Sufficient local evidence or no opportunity |
 
 **Not** included yet: `DOWNLOAD_VIDEO`, `FETCH_CAPTIONS`, `RUN_WHISPER`, `OCR_PDF` — these are later processing actions, not Pass 4.5 authorization primitives. A future pass may add them only after Pass 4.5 shows a named evidence question that requires them.
@@ -378,9 +378,12 @@ Implementation must preserve:
 10. Acquisition/recovery does not promote Knowledge Objects.
 11. `still_unresolved` is a valid terminal state for an ERC cycle.
 12. A cheaper discriminating representation must not be bypassed without `why_this_action` naming the reason.
-13. Existing sufficient local representation may yield `NO_ACTION` / `DEFER` + `EXISTING_REPRESENTATION_SUFFICIENT`.
+13. Existing sufficient local representation may yield `decision=NO_ACTION` / `decision=DEFER` with `decision_reason=EXISTING_REPRESENTATION_SUFFICIENT`.
 14. Pass 1–4 frozen outputs are not rewritten by Pass 4.5.
 15. Candidate multiplicity ≥ 2 remains expressible alongside `strong` or `possible`.
+16. `authorization_state=authorized` iff `decision=AUTHORIZE_ACTION` and `human_authorization_record` is present.
+17. Shared representation URLs are not independent evidence.
+18. Pass 4.5 MVP performs no network acquisition and writes audit outputs only.
 
 ---
 
@@ -391,7 +394,7 @@ For each case: **know / ask / act / must not infer**.
 ### 1. Colchicine uses vs low-dose colchicine CV prevention
 - **Know:** Two local-download catalog rows; no public URL; Pass 4 `NOT_ENOUGH_INFORMATION`.
 - **Ask:** Same representation/session, variant, or distinct?
-- **Act:** `COMPARE_REPRESENTATIONS` after `RECOVER_LOCAL_REPRESENTATION` (authorized), or `DEFER` until custody exists.
+- **Act:** Propose `RECOVER_LOCAL_REPRESENTATION` then `COMPARE_REPRESENTATIONS` (authorized in later execution), or `decision=DEFER` until custody exists.
 - **Must not:** Merge/delete; count as two independent evidences; call either a new Knowledge lecture.
 
 ### 2. Same YouTube ID under two conflicting titles
@@ -403,7 +406,7 @@ For each case: **know / ask / act / must not infer**.
 ### 3. Muscle Centric Medicine PDF/title mismatch
 - **Know:** PDF + YouTube rows; `possible` identity; PDF conditional, video deferred.
 - **Ask:** Does PDF content match candidate Otter / video title?
-- **Act:** Prefer `DOWNLOAD_PDF` under identity_resolution ceiling, then compare; keep video `DEFER`.
+- **Act:** Prefer `DOWNLOAD_PDF` under `identity_resolution` purpose + epistemic ceiling, then compare; keep video `decision=DEFER`.
 - **Must not:** Treat title string as session proof.
 
 ### 4. Same AOSRD PDF linked by multiple catalog records
@@ -421,19 +424,19 @@ For each case: **know / ask / act / must not infer**.
 ### 6. Possible with five Otter candidates
 - **Know:** High identity uncertainty.
 - **Ask:** Can any cheap representation discriminate?
-- **Act:** `HUMAN_IDENTITY_REVIEW` or conditional PDF; else `DEFER` + `IDENTITY_UNRESOLVED`.
+- **Act:** `HUMAN_IDENTITY_REVIEW` or conditional PDF; else `decision=DEFER` with `decision_reason=IDENTITY_UNRESOLVED`.
 - **Must not:** Average candidates into a fake identity.
 
 ### 7. Variant/derivative with multiple candidate sessions
 - **Know:** Different question than 1:1 identity.
 - **Ask:** Segment/brief/related-to which parent representation/session?
-- **Act:** `variant_or_derivative_characterization` purpose; compare; often `DEFER`.
+- **Act:** `evidence_purpose=variant_or_derivative_characterization`; compare; often `decision=DEFER`.
 - **Must not:** Force one-to-one identity model.
 
 ### 8. 2022 conference record claimed on external machine
 - **Know:** `catalog_only` + `/Volumes/...`; availability not publicly verified.
 - **Ask:** Can we access custody path? Worth recovering for which question?
-- **Act:** `RECOVER_EXTERNAL_MACHINE_REPRESENTATION` only with authorization; else `DEFER` + access uncertainty.
+- **Act:** `RECOVER_EXTERNAL_MACHINE_REPRESENTATION` only with authorization; else `decision=DEFER` + access uncertainty.
 - **Must not:** Treat as public `DOWNLOAD_*` candidate.
 
 ### 9. Local download with unknown representation type
@@ -445,7 +448,7 @@ For each case: **know / ask / act / must not infer**.
 ### 10. Historical 2021/22 item only `possible` to later Otter
 - **Know:** Temporal offset may be large; Pass 1 possible only.
 - **Ask:** Same session, topical reuse, or unrelated?
-- **Act:** `DEFER` or human review; temporal_relation = large_offset/unknown as context only.
+- **Act:** `decision=DEFER` or `HUMAN_IDENTITY_REVIEW`; temporal_relation = large_offset/unknown as context only.
 - **Must not:** Date proximity ⇒ identity.
 
 ### 11. Candidate Otter packet contains a pathway
@@ -463,25 +466,25 @@ For each case: **know / ask / act / must not infer**.
 ### 13. PDF available; YouTube captions unverified
 - **Know:** Classic Pass 4 pattern.
 - **Ask:** What does the PDF add relative to Otter/text need?
-- **Act:** Prefer PDF action; video `DEFER` + `CHEAPER_REPRESENTATION_AVAILABLE` / `COST_EXCEEDS_EXPECTED_GAIN`.
+- **Act:** Prefer `DOWNLOAD_PDF`; video `decision=DEFER` with `decision_reason=CHEAPER_REPRESENTATION_AVAILABLE` / `COST_EXCEEDS_EXPECTED_GAIN`.
 - **Must not:** Equate video availability with transcript availability.
 
 ### 14. YouTube unavailable; identity still unresolved
 - **Know:** oEmbed 404 / unavailable.
 - **Ask:** Identity still open; video not a path.
-- **Act:** `NO_ACTION` on video; pursue PDF/human review if any; residual identity uncertainty remains.
+- **Act:** `decision=NO_ACTION` on video; pursue PDF/`HUMAN_IDENTITY_REVIEW` if any; residual identity uncertainty remains.
 - **Must not:** Infer identity from unavailability.
 
 ### 15. Vimeo/Rumble with thin relationship context
 - **Know:** Few rows; Rumble often `not_checked` access.
 - **Ask:** Availability/access first, then identity.
-- **Act:** `VERIFY_AVAILABILITY` then likely `DEFER` / human review.
+- **Act:** `VERIFY_AVAILABILITY` then likely `decision=DEFER` / `HUMAN_IDENTITY_REVIEW`.
 - **Must not:** Broad-scrape replacements.
 
 ### 16. Strong Otter exists; another video adds little
 - **Know:** Text stack local; captions unknown.
 - **Ask:** Is there a specific AV-only evidence need?
-- **Act:** `NO_ACTION` or `DEFER` + `EXISTING_REPRESENTATION_SUFFICIENT` / expensive video.
+- **Act:** `decision=NO_ACTION` or `decision=DEFER` with `decision_reason=EXISTING_REPRESENTATION_SUFFICIENT` / `COST_EXCEEDS_EXPECTED_GAIN`.
 - **Must not:** Acquire “because video exists.”
 
 ### 17. Still unresolved after cheapest action
@@ -505,9 +508,11 @@ Map directly to §13 invariants. Minimum automated checks when Pass 4.5 is imple
 - Reject ERC authorization rows with empty `evidence_question`.
 - Reject actions that set session identity or Knowledge promotion in `authorized_to_establish` without an explicit future-pass type (default deny).
 - Preserve `candidate_multiplicity` and full candidate list on write.
-- Flag ERCs that choose `DOWNLOAD_VIDEO`-class work while an available PDF alternative exists without `why_this_action`.
+- Flag ERCs that choose video-class work while an available PDF alternative exists without `why_this_action`.
 - Flag any write that mutates Pass 1–4 files.
 - Accept `residual_uncertainty=still_unresolved` as successful case completion.
+- Reject `decision=AUTHORIZE_ACTION` without `human_authorization_record`.
+- Reject bare Pass 4 `record_id` as the only provenance when representation type is needed; require `pass4_row_id` / row key.
 
 ---
 
@@ -559,3 +564,112 @@ Implementation must still:
 - leave video, Whisper, OCR, and Knowledge promotion for later authorized passes.
 
 Residual open questions in §16 are non-blocking for a minimal ERC + authorization MVP.
+
+---
+
+## 20. Implementation clarifications (minimal; no redesign)
+
+These pin ambiguities discovered in a pre-implementation review. They do **not** change Pass 4.5 purpose or scope.
+
+### 20.1 Canonical tokens
+
+- **`next_evidence_action` vocabulary in §7.2 is canonical.** §14 walkthroughs must use those exact tokens (`DOWNLOAD_PDF`, `VERIFY_AVAILABILITY`, `COMPARE_REPRESENTATIONS`, `INSPECT_METADATA`, `RECOVER_LOCAL_REPRESENTATION`, `RECOVER_EXTERNAL_MACHINE_REPRESENTATION`, `HUMAN_IDENTITY_REVIEW`, `DEFER` is **not** used as an action when the gate decision is defer — see §20.2).
+- Field name for preferability note is **`why_this_action`** everywhere (including invariants).
+- Residual value for unresolved is **`still_unresolved`** (not a synonym).
+
+### 20.2 `decision` vs `next_evidence_action`
+
+| Field | Role |
+|---|---|
+| `decision` | Gate outcome: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NO_ACTION` / `NEEDS_HUMAN_SCOPING` |
+| `next_evidence_action` | The concrete candidate action under consideration (from §7.2), including `NO_ACTION` when none |
+
+Rules:
+
+- If `decision=DEFER`, set `next_evidence_action` to the **deferred candidate action** (e.g. `DOWNLOAD_PDF`) or `NO_ACTION` if none; do not set action=`DEFER`.
+- If `decision=NO_ACTION`, set `next_evidence_action=NO_ACTION`.
+- If `decision=AUTHORIZE_ACTION`, `next_evidence_action` must be a concrete side-effecting or review action from §7.2 other than `NO_ACTION`.
+- `authorization_state=authorized` **iff** `decision=AUTHORIZE_ACTION` **and** `human_authorization_record` is present.
+- `authorization_state=denied` iff `decision=DENY_ACTION` with human record; `deferred` iff `decision=DEFER` with human record (or system defer awaiting human); `pending` while awaiting human gate.
+
+### 20.3 Pass 4 join key
+
+Pass 4 `record_id` identifies the **catalog record**, not the representation row. It is **not unique** across Pass 4 rows (PDF + video share one `record_id`).
+
+**Pass 4 row key** = `(record_id, external_representation_type)`  
+Optional synthetic: `pass4_row_id = "{record_id}::{external_representation_type}"`
+
+`pass4_row_ids` on an ERC must reference that row key (or synthetic id), not bare `record_id` alone.
+
+Shared `external_url` across catalog records is allowed. Same URL ⇒ shared representation object / custody; **not** independent evidence.
+
+### 20.4 `candidate_session_refs` parsing
+
+From Pass 4 `otter_id`: split on `;`, trim whitespace, drop empties, preserve order.  
+`candidate_multiplicity = len(candidate_session_refs)`.
+
+Blank Pass 4 `pass1_match_class` is allowed → store blank/unknown; **do not** coerce to `no_match`.
+
+### 20.5 MVP grain and first batch
+
+For the first implementation batch:
+
+1. Select Pass 4 rows where `external_representation_type=AOSRD_PDF` and `acquisition_decision ∈ {ACQUIRE_CANDIDATE, CONDITIONAL_ACQUIRE}` (66 rows: 31 + 35).
+2. Emit **one ERC per selected Pass 4 row** (1:1 grain).
+3. Do **not** group PDF+video in this batch.
+4. Pass 4.5 performs **no network I/O and no downloads**.
+
+### 20.6 Seeding rules (PDF batch)
+
+| Pass 4 `acquisition_decision` | Seed `evidence_purpose` | Seed `next_evidence_action` | Seed `decision` / `authorization_state` |
+|---|---|---|---|
+| `ACQUIRE_CANDIDATE` + `pass1_match_class=no_match` | `unlinked_source_investigation` | `DOWNLOAD_PDF` | `NEEDS_HUMAN_SCOPING` or leave pending human gate (`authorization_state=pending`) — **never auto-authorize** |
+| `ACQUIRE_CANDIDATE` + `pass1_match_class=strong` (or `likely`) | `representation_enrichment` | `DOWNLOAD_PDF` | pending (as above) |
+| `CONDITIONAL_ACQUIRE` | `identity_resolution` | `DOWNLOAD_PDF` | pending (as above) |
+
+Default `authorized_to_establish` proposal for all of the above:
+
+`bytes_in_custody` + `explicitly_not_session_identity` + `explicitly_not_knowledge_object`
+
+Every seeded ERC must include a non-empty `evidence_question` before `AUTHORIZE_ACTION` is legal.
+
+### 20.7 `residual_uncertainty` lifecycle
+
+| When | `residual_uncertainty` |
+|---|---|
+| ERC created, awaiting human | `not_applicable` |
+| `decision=DEFER` / `DENY_ACTION` / `NO_ACTION` | set now (`still_unresolved` or `not_applicable` as appropriate) |
+| `decision=AUTHORIZE_ACTION` | `not_applicable` until a **later execution/reassessment** pass runs |
+| After later execution | `still_unresolved` / `reduced` / `resolved` |
+
+Pass 4.5 still **ends at authorization**; it only reserves the residual field and fills it for non-authorize outcomes.
+
+### 20.8 Minimal output columns for `evidence-resolution-cases-pass-4.5.csv`
+
+Use §7.1 field names as columns. MVP stable order:
+
+`erc_id, catalog_record_id, pass4_row_id, pass4_row_ids, primary_representation_ref, primary_representation_type, primary_representation_url, alternate_representation_refs, uncertainty_class, evidence_question, evidence_purpose, pass1_match_class_frozen, candidate_session_refs, candidate_multiplicity, temporal_relation, local_representation_state, external_availability_state, access_state, authorization_state, next_evidence_action, action_cost_class, why_this_action, decision, decision_reason, authorized_to_establish, residual_uncertainty, human_authorization_record, notes`
+
+Notes:
+
+- `pass4_row_id` is the synthetic key from §20.3 (`{record_id}::{external_representation_type}`).
+- `primary_representation_type` / `primary_representation_url` denormalize `primary_representation_ref` for join convenience.
+- `primary_representation_ref` may also be serialized as `type|url`.
+
+### 20.9 Authorization log (`evidence-resolution-authorization-pass-4.5.md`)
+
+For each ERC that leaves `pending`, record a subsection:
+
+- `erc_id`, catalog title, representation URL
+- evidence question + purpose
+- proposed action + epistemic ceiling
+- human decision (`AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`)
+- actor + timestamp + caveat
+
+Until a human acts, the log may list the batch as **pending authorization** (proposal inventory), which is still a valid Pass 4.5 output.
+
+### 20.10 Additional invariants
+
+16. `authorization_state=authorized` iff `decision=AUTHORIZE_ACTION` and `human_authorization_record` is present.  
+17. Identical `primary_representation_url` across ERCs does not create independent evidence; note shared representation in `notes` or alternate refs.  
+18. Pass 4.5 MVP writes audit outputs only; it does not mutate Pass 1–4 files or source packets and performs no network acquisition.
