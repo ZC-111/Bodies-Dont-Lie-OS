@@ -1,20 +1,23 @@
 # Pass 4.5 Evidence Resolution — Authorization Log (PDF MVP)
 
-- Generated: 2026-09-10T21:31:12Z
+- Updated: 2026-09-10T22:02:36Z
 - Batch: Pass 4 `AOSRD_PDF` ∩ (`ACQUIRE_CANDIDATE` ∪ `CONDITIONAL_ACQUIRE`)
 - ERC count: 66
-- Status: **pending human authorization** (no downloads performed)
-- Epistemic ceiling (proposed): `bytes_in_custody` + `explicitly_not_session_identity` + `explicitly_not_knowledge_object`
+- Status: **human authorization ledger materialized** (no downloads performed)
+- Authoritative ledger: `Research/lectures/audit/evidence-resolution-human-authorization-pass-4.5.csv`
+- Epistemic ceiling (unchanged): `bytes_in_custody` + `explicitly_not_session_identity` + `explicitly_not_knowledge_object`
 
-## Decision matrix (this batch)
+## Decision matrix (human authorization)
 
-| decision | count |
-|---|---:|
-| NEEDS_HUMAN_SCOPING (pending gate) | 66 |
-| AUTHORIZE_ACTION | 0 |
-| DENY_ACTION | 0 |
-| DEFER | 0 |
-| NO_ACTION | 0 |
+| human_decision | authorization_state | decision | count |
+|---|---|---|---:|
+| AUTHORIZE | authorized | AUTHORIZE_ACTION | 54 |
+| DEFER | deferred | DEFER | 10 |
+| DENY | denied | DENY_ACTION | 2 |
+| pending / NEEDS_HUMAN_SCOPING | — | — | 0 |
+
+> Authorization decision only. Does not establish session identity, lecture novelty,
+> evidence independence, clinical truth, or Knowledge Object status.
 
 ## Purpose breakdown
 
@@ -24,9 +27,10 @@
 | unlinked_source_investigation | 28 |
 | representation_enrichment | 3 |
 
-## Pending authorization inventory
 
-Each item below requires a human decision before any `DOWNLOAD_PDF` side effect.
+## Authorization inventory (materialized)
+
+Each item below records the materialized human authorization decision. No downloads performed in this pass.
 
 ### erc-4.5-pdf-001-aosrd-webinars-008-w5yTm2FVNFg
 
@@ -42,13 +46,13 @@ Each item below requires a human decision before any `DOWNLOAD_PDF` side effect.
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_001;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/w5yTm2FVNFg|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-002-aosrd-webinars-071-zKxcCQelKT4
 
@@ -64,13 +68,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_002;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/zKxcCQelKT4|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-003-aosrd-webinars-089-YGd1siNfdVc
 
@@ -86,13 +90,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_003;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/YGd1siNfdVc|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-004-aosrd-webinars-091-EC0ajS7U0yQ
 
@@ -108,13 +112,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_004;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/EC0ajS7U0yQ|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-005-aosrd-webinars-095-DiZKcMJiLs8
 
@@ -130,13 +134,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_005;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/DiZKcMJiLs8|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=4; preserve all candidates; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-006-aosrd-webinars-141-sqvJDTzrtDc
 
@@ -152,13 +156,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_006;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/sqvJDTzrtDc|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-007-aosrd-webinars-152-rAUra-Qha5M
 
@@ -174,13 +178,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_007;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/rAUra-Qha5M|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-008-aosrd-webinars-153-xF0qI-tdmWo
 
@@ -196,13 +200,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_008;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/xF0qI-tdmWo|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-009-aosrd-webinars-154-S62qYOwRkRs
 
@@ -218,13 +222,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_009;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/S62qYOwRkRs|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-010-aosrd-webinars-155-acTTjJWf9rk
 
@@ -240,13 +244,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_010;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/acTTjJWf9rk|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-011-aosrd-webinars-156-rNvF48yMEag
 
@@ -262,13 +266,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_011;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/rNvF48yMEag|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-012-aosrd-webinars-158-BcMb7ZimIEo
 
@@ -284,13 +288,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_012;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/BcMb7ZimIEo|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-013-aosrd-webinars-159-5DmzZRupogw
 
@@ -306,13 +310,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_013;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/5DmzZRupogw|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-014-aosrd-webinars-163--JGUhnhLGrQ
 
@@ -328,13 +332,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_014;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/-JGUhnhLGrQ|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-015-aosrd-webinars-166-RM39JRpthTg
 
@@ -350,13 +354,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_015;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/RM39JRpthTg|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-016-aosrd-webinars-169-xIY-4j04zh0
 
@@ -372,13 +376,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_016;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/xIY-4j04zh0|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-017-aosrd-webinars-170-hj4CXKqCtkg
 
@@ -394,13 +398,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_017;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/hj4CXKqCtkg|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-018-aosrd-webinars-171-wSFbd7D8Lpw
 
@@ -416,13 +420,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_018;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/wSFbd7D8Lpw|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=5; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-019-aosrd-webinars-172-aPPCKg2l-eQ
 
@@ -438,13 +442,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_019;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/aPPCKg2l-eQ|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-020-aosrd-webinars-173-yAA5qJFYPgg
 
@@ -460,13 +464,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_020;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/yAA5qJFYPgg|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-021-aosrd-webinars-174-LcK7emnFeVk
 
@@ -482,13 +486,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_021;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/LcK7emnFeVk|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-022-aosrd-webinars-175-wTPrdOyALx0
 
@@ -504,13 +508,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_022;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/wTPrdOyALx0|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-023-aosrd-webinars-178-D7o1Fdgy42o
 
@@ -526,13 +530,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_023;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/D7o1Fdgy42o|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-024-aosrd-webinars-179-9suZ_6zVHEM
 
@@ -548,13 +552,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_024;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/9suZ_6zVHEM|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-025-aosrd-webinars-180-XS22Ub34U-o
 
@@ -570,13 +574,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_025;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/XS22Ub34U-o|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-026-aosrd-webinars-182-FsuYMzPyjWE
 
@@ -592,13 +596,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_026;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/FsuYMzPyjWE|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-027-aosrd-webinars-183-CW3op9BkNI8
 
@@ -614,13 +618,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_027;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/CW3op9BkNI8|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-028-aosrd-webinars-184-4nZN4zvp_Uk
 
@@ -636,13 +640,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_028;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/4nZN4zvp_Uk|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-029-aosrd-webinars-185-AZvxTJWqeBA
 
@@ -658,13 +662,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_029;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/AZvxTJWqeBA|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-030-aosrd-webinars-186-hUswEBL-LBc
 
@@ -680,13 +684,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_030;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/hUswEBL-LBc|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=4; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-031-aosrd-webinars-189-bMobTwHmWhM
 
@@ -702,13 +706,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_031;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/bMobTwHmWhM|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=3; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-032-aosrd-webinars-190-5hQ-anaFGIU
 
@@ -724,13 +728,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_032;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/5hQ-anaFGIU|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-033-aosrd-webinars-191-ZrOMyfW29og
 
@@ -746,13 +750,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_033;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/ZrOMyfW29og|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=5; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-034-aosrd-webinars-193-3HKa-GZK_Qw
 
@@ -768,13 +772,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_034;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/3HKa-GZK_Qw|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-035-aosrd-webinars-195-i-q4BtUNVuI
 
@@ -790,13 +794,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_035;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/i-q4BtUNVuI|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-036-aosrd-webinars-196-Td9ybE_W-wU
 
@@ -812,13 +816,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_036;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/Td9ybE_W-wU|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-037-aosrd-webinars-197-92sBrfKcyfE
 
@@ -834,13 +838,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_037;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/92sBrfKcyfE|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** shared_pdf_url_catalog_ids=aosrd-webinars-197-92sBrfKcyfE;aosrd-webinars-202-x6BIrL8qmzk; not independent evidence; cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=5; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-038-aosrd-webinars-198-fwLHIoDOipY
 
@@ -856,13 +860,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_038;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/fwLHIoDOipY|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-039-aosrd-webinars-199-GpYX1_vmLFI
 
@@ -878,13 +882,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_039;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/GpYX1_vmLFI|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-040-aosrd-webinars-200-8vtxAVALprY
 
@@ -900,13 +904,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_040;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/8vtxAVALprY|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-041-aosrd-webinars-201-8blzjFv9r8I
 
@@ -922,13 +926,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_041;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/8blzjFv9r8I|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-042-aosrd-webinars-202-x6BIrL8qmzk
 
@@ -944,13 +948,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_042;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/x6BIrL8qmzk|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** shared_pdf_url_catalog_ids=aosrd-webinars-197-92sBrfKcyfE;aosrd-webinars-202-x6BIrL8qmzk; not independent evidence; cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-043-aosrd-webinars-203-4u_3c_lFUzs
 
@@ -966,13 +970,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_043;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/4u_3c_lFUzs|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-044-aosrd-webinars-204-Qy2mrgSpVNg
 
@@ -988,13 +992,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_044;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/Qy2mrgSpVNg|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=3; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-045-aosrd-webinars-207-0cBElywMkUY
 
@@ -1010,13 +1014,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_045;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/0cBElywMkUY|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=3; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-046-aosrd-webinars-209-728P3vA7hsU
 
@@ -1032,13 +1036,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_046;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/728P3vA7hsU|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-047-aosrd-webinars-214-Zf7hlrZ7Ljo
 
@@ -1054,13 +1058,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_047;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/Zf7hlrZ7Ljo|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-048-aosrd-webinars-224-qORv5ARtglk
 
@@ -1076,13 +1080,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_048;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/qORv5ARtglk|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** shared_pdf_url_catalog_ids=aosrd-webinars-224-qORv5ARtglk;aosrd-webinars-241-nqr6cW4Gw_A; not independent evidence; cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-049-aosrd-webinars-230-P7DyhMvm0SA
 
@@ -1098,13 +1102,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_049;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/P7DyhMvm0SA|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-050-aosrd-webinars-232-rqFCphSMW1o
 
@@ -1120,13 +1124,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_050;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/rqFCphSMW1o|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-051-aosrd-webinars-233-GFCg9tySvGI
 
@@ -1142,13 +1146,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_051;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/GFCg9tySvGI|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-052-aosrd-webinars-234-5xpAcQ8J7hE
 
@@ -1164,13 +1168,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_052;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/5xpAcQ8J7hE|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-053-aosrd-webinars-235-4ErgdNqYbRc
 
@@ -1186,13 +1190,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_053;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/4ErgdNqYbRc|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** shared_pdf_url_catalog_ids=aosrd-webinars-235-4ErgdNqYbRc;aosrd-webinars-237-p59K6kGBP-Y; not independent evidence; cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=3; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-054-aosrd-webinars-236-JdOL-00shnA
 
@@ -1208,13 +1212,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_054;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/JdOL-00shnA|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-055-aosrd-webinars-237-p59K6kGBP-Y
 
@@ -1230,13 +1234,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_055;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/p59K6kGBP-Y|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** shared_pdf_url_catalog_ids=aosrd-webinars-235-4ErgdNqYbRc;aosrd-webinars-237-p59K6kGBP-Y; not independent evidence; cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-056-aosrd-webinars-238-oMjTc20O6Ps
 
@@ -1252,13 +1256,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_056;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://youtu.be/oMjTc20O6Ps|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-057-aosrd-webinars-241-nqr6cW4Gw_A
 
@@ -1274,13 +1278,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_057;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=nqr6cW4Gw_A|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** shared_pdf_url_catalog_ids=aosrd-webinars-224-qORv5ARtglk;aosrd-webinars-241-nqr6cW4Gw_A; not independent evidence; cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-058-aosrd-webinars-242-tiIDS69FRkQ
 
@@ -1296,13 +1300,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_058;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=tiIDS69FRkQ|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-059-aosrd-webinars-244-DwiLCdt69H4
 
@@ -1318,13 +1322,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_059;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=DwiLCdt69H4|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-060-aosrd-webinars-245-y3Fz32zWP10
 
@@ -1340,13 +1344,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_060;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=y3Fz32zWP10|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-061-aosrd-webinars-249-3mTLksPwJyo
 
@@ -1362,13 +1366,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_061;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=3mTLksPwJyo|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-062-aosrd-webinars-261-qVX_h6blAQw
 
@@ -1384,13 +1388,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_062;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=qVX_h6blAQw|pass4_decision=DEFER_EXPENSIVE_VIDEO
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-063-aosrd-webinars-263-lCzuTx9LKnQ
 
@@ -1406,13 +1410,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `authorized`
+- **Decision:** `AUTHORIZE_ACTION` — human_decision=AUTHORIZE
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_063;human_decision=AUTHORIZE;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=lCzuTx9LKnQ|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `AUTHORIZE` (materialized).
 
 ### erc-4.5-pdf-064-aosrd-webinars-268-2cecK4Jk2vw
 
@@ -1428,13 +1432,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `denied`
+- **Decision:** `DENY_ACTION` — human_decision=DENY
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_064;human_decision=DENY;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=2cecK4Jk2vw|pass4_decision=NO_ACQUISITION_INDICATED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=2; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DENY` (materialized).
 
 ### erc-4.5-pdf-065-aosrd-webinars-280-gLzMZA_eM5g
 
@@ -1450,13 +1454,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `deferred`
+- **Decision:** `DEFER` — human_decision=DEFER
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_065;human_decision=DEFER;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=gLzMZA_eM5g|pass4_decision=DEFER_IDENTITY_UNRESOLVED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; candidate_multiplicity=5; preserve all candidates; pass4_acquisition_decision=CONDITIONAL_ACQUIRE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DEFER` (materialized).
 
 ### erc-4.5-pdf-066-aosrd-webinars-283-cxoIpMhdeJw
 
@@ -1472,13 +1476,13 @@ Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_
 - **Proposed action:** `DOWNLOAD_PDF` (cost `low`)
 - **Why this action:** AOSRD PDF is finite, text/visual-bearing, and Pass 3 marked available_external; cheapest discriminating representation for this evidence question. Video alternatives remain deferred under Pass 4.
 - **Authorized to establish (proposed):** `bytes_in_custody;explicitly_not_session_identity;explicitly_not_knowledge_object`
-- **Authorization state:** `pending`
-- **Decision:** `NEEDS_HUMAN_SCOPING` — awaiting human
-- **Human authorization record:** _(empty — pending)_
+- **Authorization state:** `denied`
+- **Decision:** `DENY_ACTION` — human_decision=DENY
+- **Human authorization record:** `actor=human_reviewer;timestamp=2026-09-10T22:02:36Z;scope=pass_4.5_pdf_mvp_erc_066;human_decision=DENY;source=authoritative_human_decision_ledger`
 - **Alternates:** YouTube_video|https://www.youtube.com/watch?v=cxoIpMhdeJw|pass4_decision=NO_ACQUISITION_INDICATED
 - **Notes:** cheaper_or_peer_alternatives_listed_in_alternate_representation_refs; pass4_acquisition_decision=ACQUIRE_CANDIDATE; pass4_5_mvp=pdf_batch_pending_authorization; no_download_performed; awaiting_human_authorization_gate
 
-Human gate options: `AUTHORIZE_ACTION` / `DENY_ACTION` / `DEFER` / `NEEDS_HUMAN_SCOPING`.
+Human gate closed: `DENY` (materialized).
 
 ## STOP
 
@@ -1493,3 +1497,76 @@ NO PASS 1–4 RECORDS MODIFIED.
 HUMAN AUTHORIZATION REQUIRED BEFORE ANY DOWNLOAD_PDF.
 ```
 
+
+## Human authorization ledger (materialized)
+
+| ERC | erc_id | human_decision | authorization_state | decision |
+|---|---|---|---|---|
+| ERC-001 | `erc-4.5-pdf-001-aosrd-webinars-008-w5yTm2FVNFg` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-002 | `erc-4.5-pdf-002-aosrd-webinars-071-zKxcCQelKT4` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-003 | `erc-4.5-pdf-003-aosrd-webinars-089-YGd1siNfdVc` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-004 | `erc-4.5-pdf-004-aosrd-webinars-091-EC0ajS7U0yQ` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-005 | `erc-4.5-pdf-005-aosrd-webinars-095-DiZKcMJiLs8` | DEFER | deferred | DEFER |
+| ERC-006 | `erc-4.5-pdf-006-aosrd-webinars-141-sqvJDTzrtDc` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-007 | `erc-4.5-pdf-007-aosrd-webinars-152-rAUra-Qha5M` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-008 | `erc-4.5-pdf-008-aosrd-webinars-153-xF0qI-tdmWo` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-009 | `erc-4.5-pdf-009-aosrd-webinars-154-S62qYOwRkRs` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-010 | `erc-4.5-pdf-010-aosrd-webinars-155-acTTjJWf9rk` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-011 | `erc-4.5-pdf-011-aosrd-webinars-156-rNvF48yMEag` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-012 | `erc-4.5-pdf-012-aosrd-webinars-158-BcMb7ZimIEo` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-013 | `erc-4.5-pdf-013-aosrd-webinars-159-5DmzZRupogw` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-014 | `erc-4.5-pdf-014-aosrd-webinars-163--JGUhnhLGrQ` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-015 | `erc-4.5-pdf-015-aosrd-webinars-166-RM39JRpthTg` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-016 | `erc-4.5-pdf-016-aosrd-webinars-169-xIY-4j04zh0` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-017 | `erc-4.5-pdf-017-aosrd-webinars-170-hj4CXKqCtkg` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-018 | `erc-4.5-pdf-018-aosrd-webinars-171-wSFbd7D8Lpw` | DEFER | deferred | DEFER |
+| ERC-019 | `erc-4.5-pdf-019-aosrd-webinars-172-aPPCKg2l-eQ` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-020 | `erc-4.5-pdf-020-aosrd-webinars-173-yAA5qJFYPgg` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-021 | `erc-4.5-pdf-021-aosrd-webinars-174-LcK7emnFeVk` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-022 | `erc-4.5-pdf-022-aosrd-webinars-175-wTPrdOyALx0` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-023 | `erc-4.5-pdf-023-aosrd-webinars-178-D7o1Fdgy42o` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-024 | `erc-4.5-pdf-024-aosrd-webinars-179-9suZ_6zVHEM` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-025 | `erc-4.5-pdf-025-aosrd-webinars-180-XS22Ub34U-o` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-026 | `erc-4.5-pdf-026-aosrd-webinars-182-FsuYMzPyjWE` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-027 | `erc-4.5-pdf-027-aosrd-webinars-183-CW3op9BkNI8` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-028 | `erc-4.5-pdf-028-aosrd-webinars-184-4nZN4zvp_Uk` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-029 | `erc-4.5-pdf-029-aosrd-webinars-185-AZvxTJWqeBA` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-030 | `erc-4.5-pdf-030-aosrd-webinars-186-hUswEBL-LBc` | DEFER | deferred | DEFER |
+| ERC-031 | `erc-4.5-pdf-031-aosrd-webinars-189-bMobTwHmWhM` | DEFER | deferred | DEFER |
+| ERC-032 | `erc-4.5-pdf-032-aosrd-webinars-190-5hQ-anaFGIU` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-033 | `erc-4.5-pdf-033-aosrd-webinars-191-ZrOMyfW29og` | DEFER | deferred | DEFER |
+| ERC-034 | `erc-4.5-pdf-034-aosrd-webinars-193-3HKa-GZK_Qw` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-035 | `erc-4.5-pdf-035-aosrd-webinars-195-i-q4BtUNVuI` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-036 | `erc-4.5-pdf-036-aosrd-webinars-196-Td9ybE_W-wU` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-037 | `erc-4.5-pdf-037-aosrd-webinars-197-92sBrfKcyfE` | DEFER | deferred | DEFER |
+| ERC-038 | `erc-4.5-pdf-038-aosrd-webinars-198-fwLHIoDOipY` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-039 | `erc-4.5-pdf-039-aosrd-webinars-199-GpYX1_vmLFI` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-040 | `erc-4.5-pdf-040-aosrd-webinars-200-8vtxAVALprY` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-041 | `erc-4.5-pdf-041-aosrd-webinars-201-8blzjFv9r8I` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-042 | `erc-4.5-pdf-042-aosrd-webinars-202-x6BIrL8qmzk` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-043 | `erc-4.5-pdf-043-aosrd-webinars-203-4u_3c_lFUzs` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-044 | `erc-4.5-pdf-044-aosrd-webinars-204-Qy2mrgSpVNg` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-045 | `erc-4.5-pdf-045-aosrd-webinars-207-0cBElywMkUY` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-046 | `erc-4.5-pdf-046-aosrd-webinars-209-728P3vA7hsU` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-047 | `erc-4.5-pdf-047-aosrd-webinars-214-Zf7hlrZ7Ljo` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-048 | `erc-4.5-pdf-048-aosrd-webinars-224-qORv5ARtglk` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-049 | `erc-4.5-pdf-049-aosrd-webinars-230-P7DyhMvm0SA` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-050 | `erc-4.5-pdf-050-aosrd-webinars-232-rqFCphSMW1o` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-051 | `erc-4.5-pdf-051-aosrd-webinars-233-GFCg9tySvGI` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-052 | `erc-4.5-pdf-052-aosrd-webinars-234-5xpAcQ8J7hE` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-053 | `erc-4.5-pdf-053-aosrd-webinars-235-4ErgdNqYbRc` | DEFER | deferred | DEFER |
+| ERC-054 | `erc-4.5-pdf-054-aosrd-webinars-236-JdOL-00shnA` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-055 | `erc-4.5-pdf-055-aosrd-webinars-237-p59K6kGBP-Y` | DEFER | deferred | DEFER |
+| ERC-056 | `erc-4.5-pdf-056-aosrd-webinars-238-oMjTc20O6Ps` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-057 | `erc-4.5-pdf-057-aosrd-webinars-241-nqr6cW4Gw_A` | DEFER | deferred | DEFER |
+| ERC-058 | `erc-4.5-pdf-058-aosrd-webinars-242-tiIDS69FRkQ` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-059 | `erc-4.5-pdf-059-aosrd-webinars-244-DwiLCdt69H4` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-060 | `erc-4.5-pdf-060-aosrd-webinars-245-y3Fz32zWP10` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-061 | `erc-4.5-pdf-061-aosrd-webinars-249-3mTLksPwJyo` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-062 | `erc-4.5-pdf-062-aosrd-webinars-261-qVX_h6blAQw` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-063 | `erc-4.5-pdf-063-aosrd-webinars-263-lCzuTx9LKnQ` | AUTHORIZE | authorized | AUTHORIZE_ACTION |
+| ERC-064 | `erc-4.5-pdf-064-aosrd-webinars-268-2cecK4Jk2vw` | DENY | denied | DENY_ACTION |
+| ERC-065 | `erc-4.5-pdf-065-aosrd-webinars-280-gLzMZA_eM5g` | DEFER | deferred | DEFER |
+| ERC-066 | `erc-4.5-pdf-066-aosrd-webinars-283-cxoIpMhdeJw` | DENY | denied | DENY_ACTION |
+
+Full machine-readable ledger: `evidence-resolution-human-authorization-pass-4.5.csv`.
