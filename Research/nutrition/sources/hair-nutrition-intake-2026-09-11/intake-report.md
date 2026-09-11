@@ -3,7 +3,27 @@
 - Intake ID: `INTAKE-HN-2026-09-11`
 - Updated: 2026-09-11T14:56:05Z
 - Pass: **first_pass_intake_only**
-- Status: **COMPLETE — originals preserved; statements extracted; no promotion**
+- Status: **PASS 1 COMPLETE — CLOSED**
+- Checkpoint commit: `2e0199a`
+- PR: https://github.com/ZC-111/Bodies-Dont-Lie-OS/pull/16
+
+## Checkpoint
+
+```text
+PR #16
+   ↓
+2e0199a
+   ↓
+PASS 1 COMPLETE
+   ↓
+514 candidate statements
+   ↓
+0 promoted
+   ↓
+READY FOR PASS 2
+```
+
+Intake audit is closed. No further Pass 1 extraction or custody work required unless new originals are supplied.
 
 ## BDS principle
 

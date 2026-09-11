@@ -5,7 +5,7 @@
     "updated_at": "2026-09-11T14:56:05Z",
     "operator": "cursor_cloud_agent",
     "scope": "hair/nutrition historical BDS source artifacts",
-    "status": "complete_custody_with_extractions",
+    "status": "pass_1_complete_closed",
     "non_goals": [
       "interpret",
       "improve",
@@ -18,7 +18,16 @@
       "merge_duplicate_statements",
       "assign_evidence_strength_from_repetition"
     ],
-    "bds_principle": "Historical research material is evidence about what was previously researched; it is not automatically evidence that the underlying claim is true."
+    "bds_principle": "Historical research material is evidence about what was previously researched; it is not automatically evidence that the underlying claim is true.",
+    "checkpoint": {
+      "pr": 16,
+      "commit": "2e0199a",
+      "pass": "PASS 1 COMPLETE",
+      "candidate_statements": 514,
+      "promoted": 0,
+      "next": "READY FOR PASS 2",
+      "closed_at": "2026-09-11T15:39:49Z"
+    }
   },
   "artifacts": [
     {
