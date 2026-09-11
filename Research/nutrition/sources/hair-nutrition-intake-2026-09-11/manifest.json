@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "intake_id": "INTAKE-HN-2026-09-11",
+    "intake_pass": "first_pass_intake_only",
+    "updated_at": "2026-09-11T16:01:15Z",
+    "operator": "cursor_cloud_agent",
+    "scope": "hair/nutrition historical BDS source artifacts",
+    "status": "pass_2_classification_complete",
+    "non_goals": [
+      "interpret",
+      "improve",
+      "consolidate",
+      "validate_claims",
+      "promote_to_knowledge_objects",
+      "create_pathways",
+      "clinical_recommendations",
+      "patient_facing_content",
+      "merge_duplicate_statements",
+      "assign_evidence_strength_from_repetition"
+    ],
+    "bds_principle": "Historical research material is evidence about what was previously researched; it is not automatically evidence that the underlying claim is true.",
+    "checkpoint": {
+      "pr": 16,
+      "pass1_commit": "2e0199a",
+      "pass": "PASS 2 COMPLETE",
+      "candidate_statements": 514,
+      "classified_statements": 514,
+      "pilot_statements": 30,
+      "remaining_classified": 484,
+      "promoted": 0,
+      "next": "READY FOR LATER EVIDENCE / PROMOTION PASSES (not authorized)",
+      "pass1_closed_at": "2026-09-11T15:39:49Z",
+      "pass2_completed_at": "2026-09-11T16:01:15Z"
+    },
+    "pass2": {
+      "status": "pass_2_classification_complete",
+      "classified_at": "2026-09-11T16:01:15Z",
+      "classified_count": 514,
+      "pilot_reconfirmed": 30,
+      "remaining_newly_classified": 484,
+      "pilot_consistency": "PASS",
+      "output_json": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/statements/pass2-classified-statements.json",
+      "output_csv": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/statements/pass2-classified-statements.csv",
+      "report": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/pass2-classification-report.md",
+      "promoted_knowledge_objects": 0,
+      "promoted_pathways": 0,
+      "claim_validations": 0
+    }
+  },
+  "artifacts": [
+    {
+      "source_artifact_id": "SRC-HN-002",
+      "stable_id": "src-hn-002-hair-follicle-wnt-beta-catenin-nutrition",
+      "catalog_id": "unknown",
+      "filename_original": "Hair_Follicle_Wnt_Beta_Catenin_Nutrition_Research_Document.docx",
+      "filename_upload": "Hair_Follicle_Wnt_Beta_Catenin_Nutrition_Research_Document_6048.docx",
+      "format": "docx",
+      "byte_size": 42952,
+      "sha256": "f9cc7968ec5284fde56f0412a712e1d15c4414b56f7269b7b3b598c8841da031",
+      "hash_status": "computed",
+      "local_path": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/raw/Hair_Follicle_Wnt_Beta_Catenin_Nutrition_Research_Document.docx",
+      "dates": {
+        "document_created": "2013-12-23T23:15:00+00:00",
+        "document_modified": "2013-12-23T23:15:00+00:00",
+        "document_date": "2013-12-23",
+        "intake_preserved_at": "2026-09-11T14:56:05Z",
+        "document_date_source": "docx_core_properties.modified"
+      },
+      "provenance": {
+        "upload_path": "/home/ubuntu/.cursor/projects/workspace/uploads/Hair_Follicle_Wnt_Beta_Catenin_Nutrition_Research_Document_6048.docx",
+        "catalog_record": "none",
+        "custody_state": "preserved_locally",
+        "accessible_local_file": true,
+        "preserved_representation": true,
+        "author_core_properties": "python-docx",
+        "title_core_properties": "unknown",
+        "notes": "Uploaded as Hair_Follicle_Wnt_Beta_Catenin_Nutrition_Research_Document.docx"
+      },
+      "source_representation_id": "SREP-HN-002",
+      "statement_count": 184,
+      "intake_status": "preserved_and_extracted",
+      "epistemic_status": "historical_research_material;not_evidence_of_claim_truth"
+    },
+    {
+      "source_artifact_id": "SRC-HN-003",
+      "stable_id": "src-hn-003-hair-follicle-optimization-research-document",
+      "catalog_id": "unknown",
+      "filename_original": "Hair_Follicle_Optimization_Research_Document.docx",
+      "filename_upload": "Hair_Follicle_Optimization_Research_Document_f8c4.docx",
+      "format": "docx",
+      "byte_size": 41881,
+      "sha256": "ec86b1cec0a84f3bbeb91f25df2706b6938588d46598900cd59f5076ac8e1522",
+      "hash_status": "computed",
+      "local_path": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/raw/Hair_Follicle_Optimization_Research_Document.docx",
+      "dates": {
+        "document_created": "2013-12-23T23:15:00+00:00",
+        "document_modified": "2013-12-23T23:15:00+00:00",
+        "document_date": "2013-12-23",
+        "intake_preserved_at": "2026-09-11T14:56:05Z",
+        "document_date_source": "docx_core_properties.modified"
+      },
+      "provenance": {
+        "upload_path": "/home/ubuntu/.cursor/projects/workspace/uploads/Hair_Follicle_Optimization_Research_Document_f8c4.docx",
+        "catalog_record": "none",
+        "custody_state": "preserved_locally",
+        "accessible_local_file": true,
+        "preserved_representation": true,
+        "author_core_properties": "python-docx",
+        "title_core_properties": "unknown",
+        "notes": "Uploaded as Hair_Follicle_Optimization_Research_Document.docx"
+      },
+      "source_representation_id": "SREP-HN-003",
+      "statement_count": 141,
+      "intake_status": "preserved_and_extracted",
+      "epistemic_status": "historical_research_material;not_evidence_of_claim_truth"
+    },
+    {
+      "source_artifact_id": "SRC-HN-001",
+      "stable_id": "src-hn-001-hair-follicle-optimization-v0.2",
+      "catalog_id": "hair-follicle-optimization",
+      "filename_original": "Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+      "filename_upload": "Hair_Follicle_Optimization_Master_Research_v0.2__1__6622.docx",
+      "format": "docx",
+      "byte_size": 44343,
+      "sha256": "8125eae3388b2601bfe750198fab280e297c402a37ba232e4e9be9df45800556",
+      "hash_status": "computed",
+      "local_path": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/raw/Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+      "dates": {
+        "document_created": "2013-12-23T23:15:00+00:00",
+        "document_modified": "2013-12-23T23:15:00+00:00",
+        "document_date": "2013-12-23",
+        "intake_preserved_at": "2026-09-11T14:56:05Z",
+        "document_date_source": "docx_core_properties.modified"
+      },
+      "provenance": {
+        "upload_path": "/home/ubuntu/.cursor/projects/workspace/uploads/Hair_Follicle_Optimization_Master_Research_v0.2__1__6622.docx",
+        "catalog_record": "Research/integrative-medicine/local-downloads/data/local-downloads-catalog.json",
+        "custody_state": "preserved_locally",
+        "accessible_local_file": true,
+        "preserved_representation": true,
+        "author_core_properties": "python-docx",
+        "title_core_properties": "unknown",
+        "notes": "Uploaded as Hair_Follicle_Optimization_Master_Research_v0.2 (1).docx; matches catalog hair-follicle-optimization"
+      },
+      "source_representation_id": "SREP-HN-001",
+      "statement_count": 189,
+      "intake_status": "preserved_and_extracted",
+      "epistemic_status": "historical_research_material;not_evidence_of_claim_truth"
+    }
+  ],
+  "same_bytes_groups": [],
+  "counts": {
+    "artifacts_declared": 3,
+    "artifacts_in_custody": 3,
+    "source_representationsations_complete": 3,
+    "statements_extracted": 514,
+    "statements_requires_classification": 514,
+    "statements_merged": 0,
+    "evidence_strength_assigned": 0,
+    "same_bytes_groups": 0
+  }
+}

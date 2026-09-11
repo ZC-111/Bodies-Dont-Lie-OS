@@ -1,0 +1,32 @@
+{
+  "source_representation_id": "SREP-HN-001",
+  "source_artifact_id": "SRC-HN-001",
+  "representation_type": "docx_paragraph_table_text_extract",
+  "original_local_path": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/raw/Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+  "extract_local_path": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/representationsations/SREP-HN-001.txt",
+  "filename_original": "Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+  "filename_upload": "Hair_Follicle_Optimization_Master_Research_v0.2__1__6622.docx",
+  "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "sha256": "8125eae3388b2601bfe750198fab280e297c402a37ba232e4e9be9df45800556",
+  "byte_size": 44343,
+  "custody_state": "preserved_locally",
+  "paragraph_count": 103,
+  "table_cell_count": 87,
+  "dates": {
+    "document_created": "2013-12-23T23:15:00+00:00",
+    "document_modified": "2013-12-23T23:15:00+00:00",
+    "document_date": "2013-12-23",
+    "intake_preserved_at": "2026-09-11T14:56:05Z",
+    "document_date_source": "docx_core_properties.modified"
+  },
+  "core_properties": {
+    "author": "python-docx",
+    "title": "unknown",
+    "subject": "unknown",
+    "last_modified_by": "unknown",
+    "revision": 1
+  },
+  "created_at": "2026-09-11T14:56:05Z",
+  "notes": "Text extract is a derived representation for intake location/wording capture. Original docx bytes remain authoritative. No claim validation performed.",
+  "epistemic_ceiling": "source_representation_only;explicitly_not_knowledge_object;explicitly_not_clinical_truth"
+}

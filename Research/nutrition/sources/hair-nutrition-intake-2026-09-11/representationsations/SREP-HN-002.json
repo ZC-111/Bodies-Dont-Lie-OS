@@ -1,0 +1,32 @@
+{
+  "source_representation_id": "SREP-HN-002",
+  "source_artifact_id": "SRC-HN-002",
+  "representation_type": "docx_paragraph_table_text_extract",
+  "original_local_path": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/raw/Hair_Follicle_Wnt_Beta_Catenin_Nutrition_Research_Document.docx",
+  "extract_local_path": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/representationsations/SREP-HN-002.txt",
+  "filename_original": "Hair_Follicle_Wnt_Beta_Catenin_Nutrition_Research_Document.docx",
+  "filename_upload": "Hair_Follicle_Wnt_Beta_Catenin_Nutrition_Research_Document_6048.docx",
+  "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "sha256": "f9cc7968ec5284fde56f0412a712e1d15c4414b56f7269b7b3b598c8841da031",
+  "byte_size": 42952,
+  "custody_state": "preserved_locally",
+  "paragraph_count": 47,
+  "table_cell_count": 137,
+  "dates": {
+    "document_created": "2013-12-23T23:15:00+00:00",
+    "document_modified": "2013-12-23T23:15:00+00:00",
+    "document_date": "2013-12-23",
+    "intake_preserved_at": "2026-09-11T14:56:05Z",
+    "document_date_source": "docx_core_properties.modified"
+  },
+  "core_properties": {
+    "author": "python-docx",
+    "title": "unknown",
+    "subject": "unknown",
+    "last_modified_by": "unknown",
+    "revision": 1
+  },
+  "created_at": "2026-09-11T14:56:05Z",
+  "notes": "Text extract is a derived representation for intake location/wording capture. Original docx bytes remain authoritative. No claim validation performed.",
+  "epistemic_ceiling": "source_representation_only;explicitly_not_knowledge_object;explicitly_not_clinical_truth"
+}
