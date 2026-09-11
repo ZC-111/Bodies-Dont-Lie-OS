@@ -1,0 +1,7 @@
+# Keep catalog + lean study-guide text; ignore heavy binaries
+*
+!.gitignore
+!catalog.json
+!*/
+!*/visual-transcript.md
+!*/meta.json

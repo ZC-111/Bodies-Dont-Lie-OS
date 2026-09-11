@@ -14,3 +14,8 @@ Research/acupuncture/tools/ffmpeg
 # Otter meeting screenshots (binary, stay local)
 Research/lectures/*/slides/*.jpeg
 Research/lectures/_staging/
+
+# AOSRD hybrid study-guide binaries (see folder .gitignore too)
+Research/integrative-medicine/aosrd-webinars/study-guide/**/video.*
+Research/integrative-medicine/aosrd-webinars/study-guide/**/frames/
+Research/integrative-medicine/aosrd-webinars/study-guide/**/slides.pdf

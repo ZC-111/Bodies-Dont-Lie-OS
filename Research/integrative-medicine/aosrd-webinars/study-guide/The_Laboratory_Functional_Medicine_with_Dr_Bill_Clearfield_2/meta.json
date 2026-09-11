@@ -1,0 +1,14 @@
+{
+  "title": "The Laboratory Functional Medicine with Dr. Bill Clearfield 25-Mar-2025 (Video)",
+  "video_url": "https://youtu.be/vS6aw3GkcRI",
+  "pdf_url": "https://aosrd.org/wp-content/uploads/2025/03/Copy-of-8.-The-Laboratory-of-Functional-Medicine.pdf",
+  "has_pdf": true,
+  "match_score": 1.0,
+  "processor": {
+    "local_video": "/tmp/bbb.mp4",
+    "local_transcript": null,
+    "skip_transcribe": true,
+    "frames": "pdf",
+    "frame_count": 30
+  }
+}
