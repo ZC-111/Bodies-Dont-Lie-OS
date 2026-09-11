@@ -1,18 +1,11 @@
 # raw/ — original artifact custody
 
-This directory holds **unchanged original bytes** for hair/nutrition intake.
+Preserved **unchanged** originals for intake `2026-09-11T14:56:05Z`.
 
-## Status
+| Artifact ID | Filename | SHA-256 |
+|---|---|---|
+| SRC-HN-002 | `Hair_Follicle_Wnt_Beta_Catenin_Nutrition_Research_Document.docx` | `f9cc7968ec5284fde56f0412a712e1d15c4414b56f7269b7b3b598c8841da031` |
+| SRC-HN-003 | `Hair_Follicle_Optimization_Research_Document.docx` | `ec86b1cec0a84f3bbeb91f25df2706b6938588d46598900cd59f5076ac8e1522` |
+| SRC-HN-001 | `Hair_Follicle_Optimization_Master_Research_v0.2.docx` | `8125eae3388b2601bfe750198fab280e297c402a37ba232e4e9be9df45800556` |
 
-**Empty.** No supplied original files were present in this workspace at intake time.
-
-Expected (cataloged, not in custody):
-
-- `Hair_Follicle_Optimization_Master_Research_v0.2.docx`
-  - catalog id: `hair-follicle-optimization`
-  - claimed path: `/Users/nuu/Downloads/Hair_Follicle_Optimization_Master_Research_v0.2.docx`
-  - claimed size: 44343 bytes
-  - sha256: unknown until bytes are preserved here
-
-Do not invent or reconstruct file contents.
-When originals are supplied, place them here unchanged and re-run intake hashing only.
+Do not edit, recompress, or OCR these files in place. Derived extracts live under `../representationsations/`.
