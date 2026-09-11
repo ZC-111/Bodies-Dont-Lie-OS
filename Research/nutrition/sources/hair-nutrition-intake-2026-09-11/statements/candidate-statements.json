@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "intake_id": "INTAKE-HN-2026-09-11",
+    "created_at": "2026-09-11T14:53:18Z",
+    "policy": "Extract candidate statements only from preserved original wording+location. No bytes \u21d2 no statements."
+  },
+  "statements": [],
+  "counts": {
+    "extracted": 0,
+    "requires_classification": 0,
+    "merged": 0,
+    "evidence_strength_assigned": 0
+  },
+  "blockers": [
+    {
+      "source_artifact_id": "SRC-HN-001",
+      "blocker": "bytes_not_in_custody",
+      "effect": "statement_extraction_not_performed"
+    }
+  ]
+}

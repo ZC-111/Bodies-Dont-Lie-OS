@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "intake_id": "INTAKE-HN-2026-09-11",
+    "intake_pass": "first_pass_intake_only",
+    "created_at": "2026-09-11T14:53:18Z",
+    "operator": "cursor_cloud_agent",
+    "scope": "hair/nutrition historical BDS source artifacts",
+    "non_goals": [
+      "interpret",
+      "improve",
+      "consolidate",
+      "validate_claims",
+      "promote_to_knowledge_objects",
+      "create_pathways",
+      "clinical_recommendations",
+      "patient_facing_content",
+      "merge_duplicate_statements",
+      "assign_evidence_strength_from_repetition"
+    ],
+    "bds_principle": "Historical research material is evidence about what was previously researched; it is not automatically evidence that the underlying claim is true.",
+    "custody_scan": {
+      "workspace_docx_count": 0,
+      "attachments_in_run": 0,
+      "raw_dir_files": 0,
+      "present_candidate_paths": []
+    }
+  },
+  "artifacts": [
+    {
+      "source_artifact_id": "SRC-HN-001",
+      "stable_id": "src-hn-001-hair-follicle-optimization-v0.2",
+      "catalog_id": "hair-follicle-optimization",
+      "filename_original": "Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+      "format": "docx",
+      "claimed_size_bytes": 44343,
+      "sha256": "unknown",
+      "hash_status": "not_computable_bytes_not_in_custody",
+      "dates": {
+        "document_date": "unknown",
+        "approx_date_catalog": null,
+        "catalog_observed_on_host": "2026-08-25",
+        "intake_attempted_at": "2026-09-11T14:53:18Z",
+        "date_confidence": "low_catalog_and_host_listing_only"
+      },
+      "provenance": {
+        "claimed_source_path": "/Users/nuu/Downloads/Hair_Follicle_Optimization_Master_Research_v0.2.docx",
+        "catalog_record": "Research/integrative-medicine/local-downloads/data/local-downloads-catalog.json",
+        "catalog_already_in_repo": false,
+        "custody_state": "claimed_present_elsewhere",
+        "accessible_local_file": false,
+        "preserved_representation": false,
+        "speaker": null,
+        "primary_branch_tags": [
+          "integrative-medicine",
+          "nutrition"
+        ],
+        "themes": [
+          "derm",
+          "regenerative"
+        ],
+        "notes": "Cataloged in local-downloads catalog; binary not present in this cloud workspace. Do not infer content."
+      },
+      "intake_status": "blocked_awaiting_original_bytes",
+      "epistemic_status": "historical_research_material_cataloged_only; not_evidence_of_claim_truth"
+    }
+  ],
+  "observed_related_not_intake": [
+    {
+      "path": "Research/acupuncture/hair-scalp-protocols.md",
+      "role": "observed_related_not_intake_subject",
+      "reason": "In-repo acupuncture protocol pack; source_file null; not a supplied hair/nutrition historical research binary.",
+      "included_in_this_intake": false
+    },
+    {
+      "path": "Research/acupuncture/data/hair-scalp-protocols-v0.1.json",
+      "role": "observed_related_not_intake_subject",
+      "reason": "Derived protocol JSON companion; not supplied historical nutrition research artifact.",
+      "included_in_this_intake": false
+    }
+  ],
+  "counts": {
+    "artifacts_declared": 1,
+    "artifacts_in_custody": 0,
+    "source_representationsations_complete": 0,
+    "statements_extracted": 0,
+    "statements_requires_classification": 0,
+    "unresolved_provenance": 1
+  }
+}
