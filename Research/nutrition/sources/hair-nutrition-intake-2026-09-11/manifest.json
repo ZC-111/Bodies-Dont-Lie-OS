@@ -2,10 +2,10 @@
   "meta": {
     "intake_id": "INTAKE-HN-2026-09-11",
     "intake_pass": "first_pass_intake_only",
-    "updated_at": "2026-09-11T14:56:05Z",
+    "updated_at": "2026-09-11T16:01:15Z",
     "operator": "cursor_cloud_agent",
     "scope": "hair/nutrition historical BDS source artifacts",
-    "status": "pass_1_complete_closed",
+    "status": "pass_2_classification_complete",
     "non_goals": [
       "interpret",
       "improve",
@@ -21,12 +21,30 @@
     "bds_principle": "Historical research material is evidence about what was previously researched; it is not automatically evidence that the underlying claim is true.",
     "checkpoint": {
       "pr": 16,
-      "commit": "2e0199a",
-      "pass": "PASS 1 COMPLETE",
+      "pass1_commit": "2e0199a",
+      "pass": "PASS 2 COMPLETE",
       "candidate_statements": 514,
+      "classified_statements": 514,
+      "pilot_statements": 30,
+      "remaining_classified": 484,
       "promoted": 0,
-      "next": "READY FOR PASS 2",
-      "closed_at": "2026-09-11T15:39:49Z"
+      "next": "READY FOR LATER EVIDENCE / PROMOTION PASSES (not authorized)",
+      "pass1_closed_at": "2026-09-11T15:39:49Z",
+      "pass2_completed_at": "2026-09-11T16:01:15Z"
+    },
+    "pass2": {
+      "status": "pass_2_classification_complete",
+      "classified_at": "2026-09-11T16:01:15Z",
+      "classified_count": 514,
+      "pilot_reconfirmed": 30,
+      "remaining_newly_classified": 484,
+      "pilot_consistency": "PASS",
+      "output_json": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/statements/pass2-classified-statements.json",
+      "output_csv": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/statements/pass2-classified-statements.csv",
+      "report": "Research/nutrition/sources/hair-nutrition-intake-2026-09-11/pass2-classification-report.md",
+      "promoted_knowledge_objects": 0,
+      "promoted_pathways": 0,
+      "claim_validations": 0
     }
   },
   "artifacts": [
