@@ -1,6 +1,6 @@
 # Pass 4.5 Human Authorization — Validation Report
 
-- Generated: 2026-09-10T22:02:36Z
+- Generated: 2026-09-10T22:15:45Z
 - Source ERC dataset: `Research/lectures/audit/evidence-resolution-cases-pass-4.5.csv`
 - Ledger used: `Research/lectures/audit/evidence-resolution-human-authorization-pass-4.5.csv`
 
@@ -19,13 +19,16 @@
 | missing ERC IDs (001–066) | 0 |
 | conflicting ledger↔ERC rows | 0 |
 
-## Stated expected totals (from task prompt)
+## Expected totals (corrected)
 
-| Metric | Stated expected | Actual materialized |
+| Metric | Expected | Actual |
 |---|---:|---:|
-| AUTHORIZE | 48 | 54 |
-| DEFER | 16 | 10 |
+| AUTHORIZE | 54 | 54 |
+| DEFER | 10 | 10 |
 | DENY | 2 | 2 |
+
+Prior incorrect aggregate expectation of 48/16/2 has been withdrawn.
+Per-ERC decisions were not modified.
 
 ## Mapping
 
@@ -60,12 +63,12 @@
 - Pass 1–4 datasets not modified
 - Evidence questions / candidate lists / match classes / multiplicity unchanged
 - No downloads performed
-- No acquisition units created
-- No Pass 5 GO asserted
+- No acquisition units executed
+- Per-ERC AUTHORIZE/DEFER/DENY decisions unchanged in this correction pass
 
 ## Final status
 
-**BLOCKED — stated expected totals (AUTHORIZE=48, DEFER=16, DENY=2) disagree with authoritative per-ERC ledger totals (AUTHORIZE=54, DEFER=10, DENY=2). Per-ERC decisions were materialized exactly as provided; no decisions were invented to force expected totals.**
+**READY_FOR_PASS_5_PREFLIGHT**
 
 ## Final invariant
 

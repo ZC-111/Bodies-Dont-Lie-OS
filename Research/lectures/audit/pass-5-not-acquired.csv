@@ -1,0 +1,13 @@
+erc_id,catalog_record_id,external_url,pass4_decision,pass4_5_human_decision,reason_or_defer_state,candidate_multiplicity,identity_uncertainty
+erc-4.5-pdf-005-aosrd-webinars-095-DiZKcMJiLs8,aosrd-webinars-095-DiZKcMJiLs8,https://aosrd.org/wp-content/uploads/2024/08/Speaking-Engagement-Osteopathic-Conference.pdf,unknown,DEFER,HUMAN_DEFER,4,representation_uncertainty
+erc-4.5-pdf-018-aosrd-webinars-171-wSFbd7D8Lpw,aosrd-webinars-171-wSFbd7D8Lpw,https://aosrd.org/integrative-imunity-part-2-dr-benoit-tano/,unknown,DEFER,HUMAN_DEFER,5,identity_uncertainty
+erc-4.5-pdf-030-aosrd-webinars-186-hUswEBL-LBc,aosrd-webinars-186-hUswEBL-LBc,https://aosrd.org/update-on-glutathione-therapy-with-dr-nayan-patel/,unknown,DEFER,HUMAN_DEFER,4,identity_uncertainty
+erc-4.5-pdf-031-aosrd-webinars-189-bMobTwHmWhM,aosrd-webinars-189-bMobTwHmWhM,https://aosrd.org/integrative-immunology-with-dr-benoit-tano/,unknown,DEFER,HUMAN_DEFER,3,identity_uncertainty
+erc-4.5-pdf-033-aosrd-webinars-191-ZrOMyfW29og,aosrd-webinars-191-ZrOMyfW29og,https://aosrd.org/wp-content/uploads/2023/01/Interpretation-of-test-results-.pdf,unknown,DEFER,HUMAN_DEFER,5,identity_uncertainty
+erc-4.5-pdf-037-aosrd-webinars-197-92sBrfKcyfE,aosrd-webinars-197-92sBrfKcyfE,https://aosrd.org/oxytocin-utilization-in-chronic-disease-management-with-dr-salaheldin-halasa/,unknown,DEFER,HUMAN_DEFER,5,identity_uncertainty
+erc-4.5-pdf-053-aosrd-webinars-235-4ErgdNqYbRc,aosrd-webinars-235-4ErgdNqYbRc,https://aosrd.org/integrative-immuno-oncology-salaheldin-halasa-md/,unknown,DEFER,HUMAN_DEFER,3,identity_uncertainty
+erc-4.5-pdf-055-aosrd-webinars-237-p59K6kGBP-Y,aosrd-webinars-237-p59K6kGBP-Y,https://aosrd.org/integrative-immuno-oncology-salaheldin-halasa-md/,unknown,DEFER,HUMAN_DEFER,2,identity_uncertainty
+erc-4.5-pdf-057-aosrd-webinars-241-nqr6cW4Gw_A,aosrd-webinars-241-nqr6cW4Gw_A,https://aosrd.org/wp-content/uploads/2022/06/The-Future-of-Biological-Dentistry-by-Dr-Scott-Chandler.pdf,unknown,DEFER,HUMAN_DEFER,0,identity_uncertainty
+erc-4.5-pdf-064-aosrd-webinars-268-2cecK4Jk2vw,aosrd-webinars-268-2cecK4Jk2vw,https://aosrd.org/wp-content/uploads/2021/07/Genetic-Snips-and-COVID-19-Severity-7.6.21.pdf,unknown,DENY,HUMAN_DENY,2,identity_uncertainty
+erc-4.5-pdf-065-aosrd-webinars-280-gLzMZA_eM5g,aosrd-webinars-280-gLzMZA_eM5g,https://aosrd.org/wp-content/uploads/2021/06/Immune-Peptides-w-Intro.pdf,unknown,DEFER,HUMAN_DEFER,5,identity_uncertainty
+erc-4.5-pdf-066-aosrd-webinars-283-cxoIpMhdeJw,aosrd-webinars-283-cxoIpMhdeJw,https://aosrd.org/wp-content/uploads/2021/04/Post-Covid-19-Vaccine-Toxic-Syndrome.pdf,unknown,DENY,HUMAN_DENY,0,identity_uncertainty
